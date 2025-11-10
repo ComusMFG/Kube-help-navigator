@@ -1,0 +1,739 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>labeling</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+img_whs4 { border:none; width:32px; height:32px; float:none; border-style:none; }
+img_whs5 { border:none; width:912px; height:685px; float:none; border-style:none; }
+table.whs6 { width:70.077%; margin-left:24px; border-spacing:0px; }
+col.whs7 { width:15.295%; }
+col.whs8 { width:18.084%; }
+col.whs9 { width:54.144%; }
+col.whs10 { width:12.477%; }
+tr.whs11 {  }
+td.whs12 { width:15.295%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+p.whs13 { text-align:center; font-weight:bold; margin-left:0px; }
+td.whs14 { width:18.084%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+p.whs15 { font-weight:bold; text-align:center; margin-left:0px; }
+td.whs16 { width:54.144%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+td.whs17 { width:12.477%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+td.whs18 { width:100%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+p.whs19 { margin-left:0px; }
+td.whs20 { width:15.295%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+td.whs21 { width:18.084%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs22 { width:54.144%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs23 { width:12.477%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs24 { width:100%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+p.whs25 { font-weight:bold; margin-left:0px; }
+img_whs26 { border:none; width:22px; height:26px; float:none; border-style:none; }
+img_whs27 { border:none; width:217px; height:253px; float:none; border-style:none; }
+p.whs28 { font-weight:normal; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs13 {margin-left:1pt; }";
+  strNSS += "p.whs15 {margin-left:1pt; }";
+  strNSS += "p.whs19 {margin-left:1pt; }";
+  strNSS += "p.whs25 {margin-left:1pt; }";
+  strNSS +="<\/style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nWorking with Data\nMeasurements\nLabeling");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>labeling</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p><span lang="EN-GB">T</span><span lang="EN-US">he</span> <span lang="EN-US" class="Command">Labeling</span> <span class="Command">mode</span> <span lang="EN-US">command is accessible from</span> <b><i style="font-style:normal;"><span class="Path" style="font-weight:bold;"><b>Measure &gt; Labeling</b></span></i></b> <span lang="EN-US">or by pressing</span> <b><i style="font-weight:normal; font-style:normal;"><span class="Button" style="font-weight:bold;"><b>Labeling mode</b></span> <span lang="EN-US">button</span></i> in the toolbar.</b></p>
+<p class="Description"><span lang="EN-US" style="font-weight:bold;"><b>Description:</b></span> <span lang="EN-US">This command switches the mode for creating and editing labels for datums and points of compound entities. In this mode a <u><a href="../User_Interface/Measure_Context_Menus.htm#Viewport_Labels">context menu</a></u> appears when pointing on a label with the RMB, offering all functions associated to the label editing.</span></p>
+<p class="bullet"><span lang="EN-US">The cursor changes to label tool <img src="../Measure/images/label_mode_cursor.gif" width="32px" height="32px" border="0" class="img_whs4" alt="">. Click on a datum or a point from compound entity (scan data, mesh, point cloud, probe points, polyline), in which you're interested, and move the mouse cursor to the position where you want to create a label. On the picture below there are labels, where all available information for the particular entity/point is shown.</span></p>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a4" style="text-decoration:underline;">Labels example</a></span></p>
+<div class="droptext" id="POPUP170229595" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="../Measure/images/Labels.gif" width="912px" height="685px" border="0" class="img_whs5" alt=""></p>
+</div>
+<p class="bullet"><span lang="EN-US">Labels consist of the name of the entity assigned to it and the properties of that entity. Labels picked from points that belong to compound entities have only their co-ordinates, i.e. no name appears on top.</span></p>
+<p class="bullet"><span lang="EN-US">Labels have background colour same as the colour of the picked entity. For points from compound entities the background is always white. The information displayed on the labels depends on the particular entity.</span></p>
+<p class="bullet"><span lang="EN-US"><a name="Label_fields"></a>The following table describes all fields displayed in the labels.</span></p>
+<table cellspacing="0" width="70.077%" class="whs6">
+<col class="whs7">
+<col class="whs8">
+<col class="whs9">
+<col class="whs10">
+<tr valign="top" class="whs11">
+<td bgcolor="#EAE8D6" width="15.295%" class="whs12">
+<p align="center" class="whs13">Field</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="18.084%" class="whs14">
+<p align="center" class="whs15">Values</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="54.144%" class="whs16">
+<p align="center" class="whs13">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="12.477%" class="whs17">
+<p align="center" class="whs13">Default</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td rowspan="1" colspan="4" width="100%" class="whs18">
+<p class="whs19"><span class="Command">Vertex (from compound entity - scan data, mesh, point cloud, probe points set, polyline)</span></p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">&#160;</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">X, Y, Z</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Co-ordinates of the point.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="4" rowspan="1" width="100%" class="whs24">
+<p class="whs25">Datum point</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Point</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">X, Y, Z</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Co-ordinates of the datum point.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="4" rowspan="1" width="100%" class="whs24">
+<p class="whs25">Datum line</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Point 1</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">X, Y, Z</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Co-ordinates of the start point.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Point 2</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">X, Y, Z</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Co-ordinates of the end point.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Axis</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">aX, aY, aZ</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Normal of the line.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">no</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Length</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">L</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Length of the line.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="4" rowspan="1" width="100%" class="whs24">
+<p class="whs25">Datum plane</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Point</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">X, Y, Z</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Center point of the plane.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Normal</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">nX, nY, nZ</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Normal of the plane.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="4" rowspan="1" width="100%" class="whs24">
+<p class="whs25">Datum sphere</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Centre</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">cX, cY, cZ</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Co-ordinates of the sphere centre.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Radius</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">R</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Radius of the sphere.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="4" rowspan="1" width="100%" class="whs24">
+<p class="whs25">Datum cylinder</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Centre1</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">cX, cY, cZ</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Co-ordinates of the centre of the first base.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Centre2</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">cX, cY, cZ</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Co-ordinates of the centre of the second base.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Axis</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">aX, aY, aZ</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Axis of the cylinder.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">no</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Radius</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">R</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Radius of the cylinder.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Length</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">L</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Length of the cylinder.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">no</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="4" rowspan="1" width="100%" class="whs24">
+<p class="whs25">Datum circle</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Centre</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">cX, cY, cZ</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Co-ordinates of the circle centre.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Normal</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">nX, nY, nZ</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Normal of the plane, where circle lies.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">no</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Radius</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">R</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Radius of the circle.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="4" rowspan="1" width="100%" class="whs24">
+<p class="whs25">Datum cone</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Centre</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">cX, cY, cZ</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Co-ordinates of the base centre.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Axis</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">aX, aY, aZ</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Axis of the cone.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">no</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Apex</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">X, Y, Z</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Co-ordinates of the apex.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">no</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Radius</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">R</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Radius of the cone.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Length</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">L</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Height of the cone.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="4" rowspan="1" width="100%" class="whs24">
+<p class="whs25">Datum rectangular slot</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Centre</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">cX, cY, cZ</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Co-ordinates of the rectangular slot centre.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Point 1</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">X, Y, Z</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Co-ordinates of the first corner point.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">no</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Point 2</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">X, Y, Z</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Co-ordinates of the second corner point.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">no</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Point 3</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">X, Y, Z</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Co-ordinates of the third corner point.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">no</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Point 4</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">X, Y, Z</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Co-ordinates of the fourth corner point.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">no</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Width</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">W</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Width of the rectangular slot.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Length</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">L</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Length of the rectangular slot.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="4" rowspan="1" width="100%" class="whs24">
+<p class="whs25">Datum round slot</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Centre1</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">cX, cY, cZ</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Co-ordinates of the round slot centre.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Centre2</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">cX, cY, cZ</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Co-ordinates of the centre of the first semicircle.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">no</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Centre3</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">cX, cY, cZ</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Co-ordinates of the centre of the first semicircle.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">no</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Radius</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">R</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Radius of the round slot.</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td colspan="1" rowspan="1" width="15.295%" class="whs20">
+<p class="whs19">Length</p>
+</td>
+<td colspan="1" rowspan="1" width="18.084%" class="whs21">
+<p class="whs19">L</p>
+</td>
+<td colspan="1" rowspan="1" width="54.144%" class="whs22">
+<p class="whs19">Length of the round slot (full length).</p>
+</td>
+<td colspan="1" rowspan="1" width="12.477%" class="whs23">
+<p class="whs19">yes</p>
+</td>
+</tr>
+</table>
+<p class="bullet" style="font-weight:normal;"><span lang="EN-US">Labels can be created for datum entities from the Entities tree. Mark one or more (using</span> <span lang="EN-US" style="font-weight:bold;"><b>Ctrl</b></span> <span lang="EN-US">or</span> <span lang="EN-US" style="font-weight:bold;"><b>Shift</b></span> <span lang="EN-US">buttons) entities. Right-click and from the context menu select <a href="Put_Label.htm">Put Label</a> command. Labels are automatically created for the marked entities. If you call this command from the context menu of the Datuming group labels will be created for all datum entities in the scene.</span></p>
+<p class="bullet" style="font-weight:normal;"><span lang="EN-US">When you pass over an existing label the cursor changes its shape to <img src="../Measure/images/hand_cursor.gif" width="22px" height="26px" border="0" class="img_whs26" alt=""> To modify label's position, just click on it and drag the label to the position you want.</span></p>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2" style="text-decoration:underline;">Move label example</a></span></p>
+<div class="droptext" id="POPUP169542513" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="../Measure/images/move_label.gif" width="217px" height="253px" border="0" class="img_whs27" alt=""></p>
+</div>
+<p class="bullet" style="font-weight:normal;"><b style="font-weight:normal;"><span class="Command" style="font-weight:normal;">Labels can be formatted individually or all at once. To format individual label right-click on it and from the context menu select <a href="format_(labels).htm">Format</a> command. To format all labels go to</span> <span style="font-style:italic;"><i><a href="Preferences_-_Display_-_Labels.htm">Preferences &gt; Display &gt; Labels</a></i></span> <span class="Command" style="font-weight:normal;">dialog.</span></b></p>
+<p class="bullet" style="font-weight:normal;"><b style="font-weight:bold;"><span class="Command" style="font-weight:normal;">Labels can be deleted individually or all at once. To delete individual label right-click on it and from the context menu select <a href="Delete_Label.htm">Delete Label</a> command. To delete all labels in the s</span><span class="Command" style="font-weight:normal;">cene</span></b> <b><span class="Command" style="font-weight:normal;">right-click on a label and from the context menu select</span> <span class="Command"><a href="Delete_All_Labels.htm" style="font-weight:bold;">Delete All Labels</a></span></b> command or <b style="font-weight:normal;">go to Measure menu and select the same command from there. To delete labels from the Entities tree, mark the desired datum entities, right-click and from the context menu select <a href="remove_label.htm">Remove Label</a> command.</b></p>
+<p class="bullet" style="font-weight:normal;"><span class="Command"><b style="font-weight:normal;">When rotate the scene labels are always orientated parallel to the viewport plane and the distance between the entity and the label remains the same.</b></span></p>
+<p class="Note" id="P1"><span style="font-weight:bold;"><b>Note 1</b></span>: More that one label can be created for an entity.<span style="font-weight:bold;"><b><br>
+Note 2:</b></span> When a labeled entity is hid then all labels assigned to it are also hid.</p>
+<p class="Warning">Labels and their positions are stored in the sab2 file so next time you open it all created labels appear. Formatting is not stored so when you open the file, the labels will be formatted with their default settings.</p>
+<p class="whs28"><b><i style="font-style:italic; font-weight:normal;"><span lang="EN-GB"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Delete All Labels','Delete_All_Labels.htm','Delete Label','Delete_Label.htm','Measure Context Menus','../User_Interface/Measure_Context_Menus.htm','Put Label','Put_Label.htm','Remove Label','remove_label.htm');return false;" title=""><img src="../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></span></i></b></p>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a4','POPUP170229595');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a2','POPUP169542513');
+//-->
+</script><script type="text/javascript" language="JavaScript">
+<!--
+if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
+  WritePopupMenuLayer();
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B02080000004C6162656C696E670C02080000004C6162656C696E670D02080000004C6162656C696E6711020C0000004D6561737572656D656E74731202080000004C6162656C696E671302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

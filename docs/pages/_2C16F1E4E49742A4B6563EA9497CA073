@@ -1,0 +1,504 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Basic Scanning Rules and Useful Tips</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { float:alignleft; width:101.057%; height:5px; }
+table.whs4 { border-spacing:0px; }
+tr.whs5 {  }
+td.whs6 { padding-right:10px; padding-left:10px; border-bottom-style:None; border-right-style:None; border-left-style:None; border-top-style:None; }
+img_whs7 { border:none; width:183px; height:400px; float:none; border-style:none; }
+td.whs8 { padding-right:10px; padding-left:10px; border-bottom-style:None; border-right-style:None; border-top-style:None; }
+td.whs9 { padding-right:10px; padding-left:10px; border-bottom-style:None; border-top-style:None; border-right-style:None; }
+td.whs10 { padding-right:10px; padding-left:10px; border-right-style:None; border-left-style:None; border-bottom-style:None; }
+td.whs11 { padding-right:10px; padding-left:10px; border-right-style:None; border-bottom-style:None; }
+td.whs12 { padding-right:10px; padding-left:10px; border-bottom-style:None; border-right-style:None; }
+ul.whs13 { margin-top:0mm; }
+table.whs14 { width:100%; border-spacing:0px; }
+col.whs15 { width:21.646%; }
+col.whs16 { width:78.354%; }
+td.whs17 { width:21.646%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs18 { width:78.354%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+td.whs19 { width:21.646%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs20 { width:78.354%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs21 { padding-right:10px; padding-left:10px; border-right-style:None; border-left-style:None; border-top-style:None; border-bottom-style:None; }
+img_whs22 { width:178px; height:174px; border-style:none; }
+td.whs23 { padding-right:10px; padding-left:10px; }
+img_whs24 { border:none; width:929px; height:28px; float:none; }
+img_whs25 { border:none; width:421px; height:307px; border-style:none; }
+td.whs26 { padding-right:10px; padding-left:10px; border-left-style:None; border-top-style:None; border-bottom-style:None; border-right-style:None; }
+img_whs27 { width:315px; height:277px; border-style:none; }
+img_whs28 { width:109px; height:109px; border-style:none; }
+img_whs29 { width:190px; height:118px; border-style:none; }
+img_whs30 { width:99px; height:94px; border-style:none; }
+img_whs31 { width:99px; height:97px; border-style:none; }
+img_whs32 { width:127px; height:127px; border-style:none; }
+td.whs33 { width:21.646%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+img_whs34 { border:none; width:77px; height:51px; border-style:none; }
+img_whs35 { border:none; width:76px; height:51px; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "ul.whs13 {margin-top:1pt; }";
+  strNSS +="<\/style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nScanning\nScanning Process\nBasic Scanning Rules and Useful Tips");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1><span lang="EN-GB">Basic Scanning Rules and Useful Tips</span></h1>
+<hr align="left" width="101.057%" size="5" class="whs3">
+<p><span lang="EN-GB">While in 'S</span>can' <span lang="EN-GB">mode, to start and stop scanning press</span> <span lang="EN-GB" style="font-weight:bold;"><b>'</b></span><span style="font-weight:bold;"><b>B'</b></span> <span lang="EN-GB">button on the remote control. Patch is a sequence of stripes captured between two consecutive pressings of the</span> <span lang="EN-GB" style="font-weight:bold;"><b>'</b></span><span style="font-weight:bold;"><b>B'</b></span> <span lang="EN-GB">button.</span></p>
+<table cellspacing="0" class="whs4">
+<col>
+<col>
+<col>
+<col>
+<tr valign="top" class="whs5">
+<td class="whs6">
+<p class="normal-table"><img src="images/rules_and_tips.gif" width="183px" height="400px" border="0" class="img_whs7" alt=""></p>
+</td>
+<td class="whs8">
+<p class="normal-table"><img src="images/rules_and_tips_2.gif" width="183px" height="400px" border="0" class="img_whs7" alt=""></p>
+</td>
+<td class="whs8">
+<p class="normal-table"><img src="images/rules_and_tips_3.gif" width="183px" height="400px" border="0" class="img_whs7" alt=""></p>
+</td>
+<td class="whs9">
+<p class="normal-table"><img src="images/rules_and_tips_4.gif" width="183px" height="400px" border="0" class="img_whs7" alt=""></p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td class="whs10">
+<p class="caption" style="font-size:12pt;">1</p>
+</td>
+<td class="whs11">
+<p class="caption" style="font-size:12pt;">2</p>
+</td>
+<td class="whs11">
+<p class="caption" style="font-size:12pt;">3</p>
+</td>
+<td class="whs12">
+<p class="caption" style="font-size:12pt;">4</p>
+</td>
+</tr>
+</table>
+<ul class="whs13">
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-US">Press</span> <span lang="EN-US" style="font-weight:bold;"><b>'</b></span><span style="font-weight:bold;"><b>A'</b></span> <span lang="EN-US">button to enter '</span>Scan' <span lang="EN-US">mode.</span></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-US">KUBE will be in '</span>Pause' <span lang="EN-US">mode. Press</span> <span lang="EN-US" style="font-weight:bold;"><b>'</b></span><span style="font-weight:bold;"><b>B'</b></span> <span lang="EN-US">button to start scanning.</span></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet" style="font-size:10.0pt;"><span lang="EN-US">As scanning is started, a patch is generated.</span></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-US">Press</span> <span lang="EN-US" style="font-weight:bold;"><b>'</b></span><span style="font-weight:bold;"><b>B'</b></span> <span lang="EN-US">button to enter '</span>Pause' <span lang="EN-US">mode. Patch is complete.</span></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Press and hold '<span style="font-weight:bold;"><b>A</b></span>' button to delete last scanned patch</p>
+</li>
+</ul>
+<table cellspacing="0" width="100%" class="whs14">
+<col class="whs15">
+<col class="whs16">
+<tr valign="top" class="whs5">
+<td bgcolor="#EAE8D6" width="21.646%" class="whs17">
+<p class="caption">Rule/Tip</p>
+</td>
+<td bgcolor="#EAE8D6" width="78.354%" class="whs18">
+<p class="caption">Explanation</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td width="21.646%" class="whs19">
+<p class="normal-table-func"><span lang="EN-GB">Rigidity</span></p>
+</td>
+<td width="78.354%" class="whs20">
+<p class="normal-table"><span lang="EN-GB">During scanning the object and localiser base must not move relative to each other.</span></p>
+<ul>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB">Use a strong bench.</span></p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB">Attach the object to the bench</span></p>
+</li>
+</ul>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td width="21.646%" class="whs19">
+<p class="normal-table-func"><span lang="EN-GB">Laser Reflection or Absorption</span></p>
+</td>
+<td width="78.354%" class="whs20">
+<p class="normal-table"><span lang="EN-GB">Shiny, glass, unpainted plastic or matt black objects do not scan well due to laser reflection or absorption.</span></p>
+<ul>
+<li style="margin-left:-20px;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB">Use</span> <span class="Command"><a href="../../User_Interface/Scan_Pane_(Arm_Menu).htm#Autoset_Laser_power" target="_self">Autoset Laser</a></span> <span lang="EN-GB">command to detect the correct laser power level.</span></p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB">Try lower</span> <span lang="EN-GB" style="font-weight:bold;"><b>Ambient Thresholds</b></span> <span lang="EN-GB">(In Hardware settings/Sensor tab).</span></p>
+</li>
+</ul>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td width="21.646%" class="whs19">
+<p class="normal-table-func"><span lang="EN-GB">How Should I Scan with ModelMaker?</span></p>
+</td>
+<td width="78.354%" class="whs20">
+<p class="normal-table"><span lang="EN-GB">Strip scanning is the most efficient</span></p>
+<p class="normal-table"><span lang="EN-GB">Like using a paint spray can:</span></p>
+<ul>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB">Creating a number of strips by scanning in passes.</span></p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB">One passover for each area of the model with a small overlap.</span></p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB">Always move the sensor smoothly and consistently.</span></p>
+</li>
+</ul>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td width="21.646%" class="whs19">
+<p class="normal-table-func"><span lang="EN-GB">Scanning Speed</span></p>
+</td>
+<td width="78.354%" class="whs20">
+<p class="normal-table"><span lang="EN-GB">Scanning speed is set by changing Point Spacing parameters.</span></p>
+<p class="normal-table"><span lang="EN-GB">How SLOWLY can I scan?</span></p>
+<ul>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB">If scanning very slowly, too much data will be recorded and the resulting point cloud will be very large. &#160;</span></p>
+</li>
+</ul>
+<p class="normal-table"><span lang="EN-GB">How FAST can I scan?</span></p>
+<ul>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB">If scanning too quickly, the data is less accurate and details on the object may be missed out.</span></p>
+</li>
+</ul>
+<p class="normal-table"><span lang="EN-GB">For more details see &#160;</span><span class="Path">Hardware Settings &gt; Real Time Processing</span><span class="Path" style="font-weight:normal; font-style:normal;">.</span></p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td width="21.646%" class="whs19">
+<p class="normal-table-func"><span lang="EN-GB">Scanning for Maximum Detail</span></p>
+</td>
+<td width="78.354%" class="whs20">
+<p class="normal-table">The sampling is set to 1 in sensor settings so that every point on the laser stripe is recorded.</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td width="21.646%" class="whs19">
+<p class="normal-table-func"><span lang="EN-GB">Scanning for Optimum Information</span></p>
+</td>
+<td width="78.354%" class="whs20">
+<p class="normal-table"><span lang="EN-GB">Collect very dense data on features and sparse data in between.</span></p>
+<p class="normal-table"><span lang="EN-GB">Orientate the stripe across a feature line or an edge and follow along the line.</span></p>
+<table cellspacing="0" class="whs4">
+<col>
+<col>
+<tr valign="top" class="whs5">
+<td class="whs21">
+<p class="normal-table"><img src="Scanning_tips_files/image002.gif" width="178px" height="174px" border="0" class="img_whs22" alt=""></p>
+</td>
+<td valign="middle" class="whs23">
+<p class="normal-table"><span lang="EN-GB">Stripe at 90 degrees across a style line and across an edge.&#160;</span></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" width="21.646%" class="whs19">
+<p class="normal-table-func"><span lang="EN-GB">Scanning Memory Limit</span></p>
+</td>
+<td colspan="1" rowspan="1" width="78.354%" class="whs20">
+<p class="normal-table"><span lang="EN-GB">If you are scanning a large and/or very detailed object:</span></p>
+<ul>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB">Save the data frequently.</span></p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB">Divide the object up into several areas and create one scan file for each area.</span></p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB">Set the Point Sampling to 2 or 4.</span></p>
+</li>
+</ul>
+<p class="Note"><span lang="EN-GB">(For the detailed areas such as edges, set it back again to 1).</span></p>
+<ul>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB">Regularly check the status bar information about number of captured points and memory usage</span></p>
+</li>
+</ul>
+<p><span lang="EN-GB"><img src="../Images/status.gif" width="929px" height="28px" border="0" class="img_whs24" alt=""></span></p>
+<ul>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB">Use the properties box</span></p>
+</li>
+</ul>
+<p><span lang="EN-US"><img src="images/rules_and_tips_5.gif" width="421px" height="307px" border="0" class="img_whs25" alt=""></span></p>
+<p>&#160;</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" width="21.646%" class="whs19">
+<p class="normal-table-func"><span lang="EN-GB">Positioning -</span></p>
+<p class="normal-table-func"><span lang="EN-GB">Angle</span></p>
+<p class="normal-table-func">&#160;</p>
+</td>
+<td colspan="1" rowspan="1" width="78.354%" class="whs20">
+<p class="normal-table"><span lang="EN-GB">In general keep the laser directed approximately 90 degrees to the surface.</span></p>
+<table cellspacing="0" class="whs4">
+<col>
+<col>
+<tr valign="top" class="whs5">
+<td class="whs26">
+<p class="normal-table"><img src="Scanning_tips_files/image005.jpg" width="315px" height="277px" border="0" class="img_whs27" alt=""></p>
+</td>
+<td valign="middle" class="whs23">
+<p class="normal-table"><span lang="EN-GB">Image of stripe normal to an object’s surface (annotated with an arrow).</span></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td width="21.646%" class="whs19">
+<p class="normal-table-func"><span lang="EN-GB">Positioning -</span></p>
+<p class="normal-table-func"><span lang="EN-GB">Stand-off</span></p>
+</td>
+<td width="78.354%" class="whs20">
+<p class="normal-table"><span lang="EN-GB">The sensor stand-off from the object depends on sensor type being used.</span></p>
+<p class="normal-table"><span lang="EN-GB">The very best results are obtained when the laser is at its sharpest focus (this is set in the middle of the range).</span></p>
+<p class="normal-table"><span lang="EN-GB">The following indicators can help you determine correct distance:</span></p>
+<ul>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB">Stand-off bar - on the screen.</span></p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB">Stand-off laser - on the scanning object.</span></p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB">Stand-off LED - on the sensor (MM W range only).</span></p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB">Stand-off probes - accessories (MM W range only).</span></p>
+</li>
+</ul>
+<p>&#160;</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" width="21.646%" class="whs19">
+<p class="normal-table-func"><span lang="EN-GB">Positioning -</span></p>
+<p class="normal-table-func"><span lang="EN-GB">Stand-off LED and Stand-off Probe</span></p>
+</td>
+<td colspan="1" rowspan="1" width="78.354%" class="whs20">
+<table cellspacing="0" class="whs4">
+<col>
+<col>
+<tr valign="top" class="whs5">
+<td class="whs6">
+<p class="normal-table"><img src="Scanning_tips_files/image007.gif" width="109px" height="109px" border="0" class="img_whs28" alt=""></p>
+</td>
+<td valign="middle" class="whs23">
+<p class="normal-table"><span lang="EN-GB">Stand-off LED will stay lit while the sensor is within calibrated range.</span></p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td class="whs10">
+<p class="normal-table"><span lang="EN-GB"><img src="Scanning_tips_files/image009.gif" width="190px" height="118px" border="0" class="img_whs29" alt=""></span></p>
+</td>
+<td valign="middle" class="whs23">
+<p class="normal-table"><span lang="EN-GB">Probe is a mechanical way of keeping the sensor at the right Stand-off.</span></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" width="21.646%" class="whs19">
+<p class="normal-table-func"><span lang="EN-GB">Positioning -</span></p>
+<p class="normal-table-func"><span lang="EN-GB">Stand-off Laser</span></p>
+</td>
+<td colspan="1" rowspan="1" width="78.354%" class="whs20">
+<p class="normal-table"><span lang="EN-GB">Represents the distance between the sensor and the object, by using another laser.&#160;</span></p>
+<table cellspacing="0" class="whs4">
+<col>
+<col>
+<col>
+<tr valign="top" class="whs5">
+<td class="whs6">
+<p class="normal-table"><img src="Scanning_tips_files/image011.gif" width="99px" height="94px" border="0" class="img_whs30" alt=""></p>
+</td>
+<td class="whs8">
+<p class="normal-table"><img src="Scanning_tips_files/image013.gif" width="99px" height="97px" border="0" class="img_whs31" alt=""></p>
+</td>
+<td class="whs9">
+<p class="normal-table"><img src="Scanning_tips_files/image015.gif" width="99px" height="94px" border="0" class="img_whs30" alt=""></p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td class="whs10">
+<p class="normal-table"><span lang="EN-GB">Too far away</span></p>
+</td>
+<td class="whs11">
+<p class="normal-table"><span lang="EN-GB">Capturing data</span></p>
+</td>
+<td class="whs12">
+<p class="normal-table"><span lang="EN-GB">Too near</span></p>
+<p class="normal-table">&#160;</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" width="21.646%" class="whs19">
+<p class="normal-table-func"><span lang="EN-GB">Positioning -</span></p>
+<p class="normal-table-func"><span lang="EN-GB">Stand-off Bar</span></p>
+</td>
+<td colspan="1" rowspan="1" width="78.354%" class="whs20">
+<p class="normal-table"><span lang="EN-GB">'Indicator' graphically represents the distance between the sensor and the object.</span></p>
+<table cellspacing="0" class="whs4">
+<col>
+<col>
+<col>
+<tr valign="top" class="whs5">
+<td class="whs6">
+<p class="normal-table"><img src="Scanning_tips_files/image017.jpg" width="127px" height="127px" border="0" class="img_whs32" alt=""></p>
+</td>
+<td class="whs8">
+<p class="normal-table"><img src="Scanning_tips_files/image019.jpg" width="127px" height="127px" border="0" class="img_whs32" alt=""></p>
+</td>
+<td class="whs9">
+<p class="normal-table"><img src="Scanning_tips_files/image021.jpg" width="127px" height="127px" border="0" class="img_whs32" alt=""></p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td class="whs10">
+<p class="normal-table"><span lang="EN-GB">Too far away</span></p>
+</td>
+<td class="whs11">
+<p class="normal-table"><span lang="EN-GB">Capturing data</span></p>
+</td>
+<td class="whs12">
+<p class="normal-table"><span lang="EN-GB">Too near</span></p>
+<p class="normal-table">&#160;</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td width="21.646%" class="whs33">
+<p class="normal-table-func"><span lang="EN-GB">Scanning Into Selected Area</span></p>
+</td>
+<td width="78.354%" class="whs20">
+<p class="normal-table"><span lang="EN-GB">If a selection is made and scanning is started, data will be clipped to the selection, i.e. data from all scan patches will be clipped. &#160;&#160;</span></p>
+<p class="normal-table"><span lang="EN-GB">The selection icons <img src="images/rules_and_tips_6.gif" width="77px" height="51px" border="0" class="img_whs34" alt="">, <img src="images/rules_and_tips_7.gif" width="77px" height="51px" border="0" class="img_whs34" alt="">, <img src="images/rules_and_tips_8.gif" width="76px" height="51px" border="0" class="img_whs35" alt=""> now appears in the scan menu automatically whilst a selection is active.</span></p>
+<p class="normal-table"><span lang="EN-GB">After scanning is cancelled the selection is AUTOMATICALLY CANCELLED (this gives the option to cancel the selection without having to use the keyboard).</span></p>
+</td>
+</tr>
+</table>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0C02560100004163636573736F726965730A416D6269656E74205468726573686F6C640A417265610A4261636B0A4261736963205363616E6E696E672052756C65730A426F780A436170747572650A4372656174650A44656C6574650A47656E65726174650A48617264776172650A48656C700A4C617365720A4C6173657220506F7765720A4C696E650A6C6F63616C697365720A4D6F64656C4D616B65720A506172616D65746572730A50617463680A50726F62650A50726F63657373696E670A50726F706572746965730A5265616C2054696D652050726F63657373696E670A52696768740A53616D706C696E670A536176650A5363616E0A5363616E204D6F64650A5363616E6E696E6720496E746F2053656C656374656420417265610A5363616E6E696E672053706565640A53656C6563740A53656C656374696F6E0A53656E736F720A53656E736F7220547970650A53657474696E67730D02240000004261736963205363616E6E696E672052756C657320616E642055736566756C20546970731102100000005363616E6E696E672050726F636573731202240000004261736963205363616E6E696E672052756C657320616E642055736566756C20546970731302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

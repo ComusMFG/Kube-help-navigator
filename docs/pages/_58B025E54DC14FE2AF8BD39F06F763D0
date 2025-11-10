@@ -1,0 +1,170 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Optimise Meshes</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+img_whs4 { border:none; width:441px; height:439px; float:none; border-style:none; }
+img_whs5 { border:none; width:218px; height:296px; float:none; border-style:none; }
+tr.whs6 {  }
+td.whs7 { padding:0mm 5.4pt 0mm 5.4pt; padding-left:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; }
+img_whs8 { border:none; width:499px; height:152px; float:none; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Optimise Meshes</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p><span lang="EN-GB">This command is accessible from</span> <span lang="EN-GB" class="Path" style="font-weight:bold;"><b>Mesh</b></span><span class="Path" style="font-weight:bold;"><b>&gt; Optimise Meshes</b></span><span lang="EN-GB">.</span></p>
+<p class="description"><span style="font-weight:bold;"><b>Description:</b></span> <span class="Command">Optimise Meshes</span> <span lang="EN-GB">command reduces the noise in mesh data by aligning patches. Noise introduced by the arm, poor alignment, or synchronisation problems may lead to bad overlapping of the patches. Sometimes patches are detached each other at significant distance, sometimes they cross each other. Such scans later will produce poor meshes – areas with bad patch overlapping will be treated as features.</span></p>
+<p><span lang="EN-GB">This command is grayed if there is no selection or all selections are hidden. It works on wholly selected scan data entities as well as on partial selection.</span></p>
+<p><span lang="EN-GB">When you enter</span> <span class="Mode">Optimise</span> <span lang="EN-GB">mode the meshes become coloured as each mesh entity (patch) has its own colour. When you see a clear colour at the patch boundaries, in most cases this means,</span> that the neighbouring patches are not well overlapped. When patches are overlapped, their colours are dithered each other.</p>
+<p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Example</a></p>
+<div class="droptext" id="POPUP171885522" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="../Mesh/images/optimise.gif" width="441px" height="439px" border="0" class="img_whs4" alt=""></p>
+</div>
+<p class="parameterstitle">Optimise parameters:</p>
+<p><img src="../Mesh/images/optimise_mode.gif" width="218px" height="296px" border="0" class="img_whs5" alt=""></p>
+<p class="parameterstitle"><span lang="EN-GB" style="font-weight:bold;"><b>Sample 1 in every</b></span></p>
+<p class="parameterdescription"><span lang="EN-GB">Number of points to be skipped for processing. Increase the number if you don’t have enough memory. Default value is 1 point, i.e. every point will be used in optimisation process.</span></p>
+<p class="parameterstitle"><span lang="EN-GB" style="font-weight:bold;"><b>Maximum distance</b></span></p>
+<p class="parameterdescription"><span lang="EN-GB">Limit of the mesh patches offset from their original position. Default value is 1mm.</span></p>
+<p class="parameterstitle"><span lang="EN-GB" style="font-weight:bold;"><b>Number of iterations</b></span></p>
+<p class="parameterdescription"><span lang="EN-GB">Number times the algorithm should be applied. Larger values increase the quality of the selected scan. Default value is 1.</span></p>
+<p class="parameterstitle"><span lang="EN-GB" style="font-weight:bold;"><b>Redraw during processing</b></span></p>
+<p class="parameterdescription"><span lang="EN-GB">Enable this option to display the current result of optimisation procedure after each iteration.</span></p>
+<p class="parameterstitle"><span lang="EN-GB" style="font-weight:bold;"><b>Ignore submeshes with up to: ... triangles</b></span></p>
+<p class="parameterdescription"><span lang="EN-GB">Check this option to ignore any submesh areas (islands) that have less triangles that the given value. This means that these areas will not be used in the calculations but they will be moved together with the entity/entities that they belong to. Default value is 20 triangles.</span></p>
+<p class="Example" style="text-decoration:underline;"><span lang="EN-GB"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP170630042" style="display:'none'; x-ss-type:dropdown;">
+<table class="TableGrid" style="border-collapse:collapse; border-spacing:5px;" cellspacing="5">
+<tr valign="middle" class="whs6">
+<td valign="top" class="whs7">
+<p class="Normal" style="text-align:justify;"><span lang="EN-GB"><img src="../Mesh/images/optimise1.gif" width="499px" height="152px" border="0" class="img_whs8" alt="">&#160;</span></p>
+</td>
+<td valign="top" class="whs7">
+<p class="Normal" style="text-align:justify;"><span lang="EN-GB"><img src="../Mesh/images/optimise1a.gif" width="499px" height="152px" border="0" class="img_whs8" alt="">&#160;</span></p>
+</td>
+</tr>
+<tr valign="middle" class="whs6">
+<td colspan="2" valign="top" class="whs7">
+<p><span lang="EN-GB">Mesh patches do not overlap (Smooth Shaded and Wireframe render modes)</span></p>
+</td>
+</tr>
+<tr valign="middle" class="whs6">
+<td valign="top" class="whs7">
+<p class="Normal" style="text-align:justify;"><img src="../Mesh/images/optimise2.gif" width="499px" height="152px" border="0" class="img_whs8" alt=""></p>
+</td>
+<td valign="top" class="whs7">
+<p class="Normal" style="text-align:justify;"><img src="../Mesh/images/optimise2a.gif" width="499px" height="152px" border="0" class="img_whs8" alt=""></p>
+</td>
+</tr>
+<tr valign="middle" class="whs6">
+<td colspan="2" valign="top" class="whs7">
+<p><span lang="EN-GB">Meshes optimised – mesh patches overlap (Smooth Shaded and Wireframe render modes)</span></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+</div>
+<p class="Use"><span lang="EN-GB" style="font-weight:bold;"><b>Use</b></span> <span class="Command">Optimise Meshes</span> <span lang="EN-GB">to align mesh patches produced by the MMD sensor before any other point processing – exporting, merge, inspection, registration, etc.</span> <span class="Command">Optimise Meshes</span> <span lang="EN-GB">is also used as internal algorithm in</span> <span class="Command">Merge</span> <span lang="EN-GB">and it is trying to resolve this problem by aligning patches. Another usage of this process is in</span> <u style="font-weight:bold;"><span lang="EN-GB" style="font-weight:bold; text-decoration:none;"><b>Inspection</b></span></u> <span lang="EN-GB">and</span> <u style="font-weight:bold;"><span lang="EN-GB" style="font-weight:bold; text-decoration:none;"><b>Registration</b></span></u> <span lang="EN-GB">facilities of KUBE.</span></p>
+<p class="Normal" style="text-align:justify;">&#160;</p>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a1','POPUP171885522');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a2','POPUP170630042');
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B020F0000004F7074696D697365204D65736865730C02FD000000416C69676E0A416C69676E6D656E740A4170706C790A417265610A426F756E6461726965730A436C6561720A636F6C6F75720A43726F73730A446973706C61790A456E7469746965730A4578706F72740A46617374205363616E6E696E670A4D657267650A4D6573680A4D4D440A4E6F6973650A4F7074696D6973650A4F7074696D697365204D65736865730A506172616D65746572730A50617463680A50617463686573204F7665726C61700A526567697374726174696F6E0A5363616E0A5363616E20446174610A53656C6563740A53656C656374696F6E0A53656E736F720A5368616465640A536D6F6F74680A536D6F6F7468205368616465640D020F0000004F7074696D697365204D65736865731102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

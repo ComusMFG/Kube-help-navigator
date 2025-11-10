@@ -1,0 +1,1561 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Appendix A</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; width:100.526%; height:5px; float:alignleft; }
+p.whs4 { text-autospace:none; text-align:left; }
+table.whs5 { width:100%; float:alignleft; border-left-style:Outset; border-left-width:1px; border-top-style:Outset; border-top-width:1px; border-right-style:Outset; border-right-width:1px; border-bottom-style:Outset; border-bottom-width:1px; border-left-color:#c0c0c0; border-right-color:#c0c0c0; border-top-color:#c0c0c0; border-bottom-color:#c0c0c0; }
+col.whs6 { width:9.328%; }
+col.whs7 { width:14.923%; }
+col.whs8 { width:54.989%; }
+col.whs9 { width:20.76%; }
+tr.whs10 { height:10px; }
+td.whs11 { width:9.328%; border-left-width:1px; border-left-style:Inset; border-left-color:#808080; border-top-color:#808080; border-top-style:Inset; border-top-width:1px; border-right-width:1px; border-right-style:Inset; border-right-color:#808080; border-bottom-color:#808080; border-bottom-style:Inset; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#808080; }
+p.whs12 { font-weight:bold; text-align:center; color:#ffffff; margin-left:2px; }
+td.whs13 { width:14.923%; border-left-width:1px; border-left-style:Inset; border-left-color:#808080; border-top-color:#808080; border-top-style:Inset; border-top-width:1px; border-right-width:1px; border-right-style:Inset; border-right-color:#808080; border-bottom-color:#808080; border-bottom-style:Inset; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#808080; }
+td.whs14 { width:54.989%; border-left-width:1px; border-left-style:Inset; border-left-color:#808080; border-top-color:#808080; border-top-style:Inset; border-top-width:1px; border-right-width:1px; border-right-style:Inset; border-right-color:#808080; border-bottom-color:#808080; border-bottom-style:Inset; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#808080; }
+td.whs15 { width:20.76%; border-left-width:1px; border-left-style:Inset; border-left-color:#808080; border-top-color:#808080; border-top-style:Inset; border-top-width:1px; border-right-width:1px; border-right-style:Inset; border-right-color:#808080; border-bottom-color:#808080; border-bottom-style:Inset; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#808080; }
+tr.whs16 { height:33px; }
+td.whs17 { width:100%; border-left-width:1px; border-left-style:Inset; border-left-color:#808080; border-top-color:#808080; border-top-style:Inset; border-top-width:1px; border-right-width:1px; border-right-style:Inset; border-right-color:#808080; border-bottom-color:#808080; border-bottom-style:Inset; border-bottom-width:1px; padding-right:10px; padding-left:10px; }
+p.whs18 { font-weight:bold; text-align:center; font-size:12pt; margin-left:2px; }
+td.whs19 { width:9.328%; border-left-width:1px; border-left-style:Inset; border-left-color:#808080; border-top-color:#808080; border-top-style:Inset; border-top-width:1px; border-right-width:1px; border-right-style:Inset; border-right-color:#808080; border-bottom-color:#808080; border-bottom-style:Inset; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#ffffcb; }
+p.whs20 { margin-left:2px; }
+td.whs21 { width:14.923%; border-left-width:1px; border-left-style:Inset; border-left-color:#808080; border-top-color:#808080; border-top-style:Inset; border-top-width:1px; border-right-width:1px; border-right-style:Inset; border-right-color:#808080; border-bottom-color:#808080; border-bottom-style:Inset; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#ffffcb; }
+td.whs22 { width:54.989%; border-left-width:1px; border-left-style:Inset; border-left-color:#808080; border-top-color:#808080; border-top-style:Inset; border-top-width:1px; border-right-width:1px; border-right-style:Inset; border-right-color:#808080; border-bottom-color:#808080; border-bottom-style:Inset; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#ffffcb; }
+td.whs23 { width:20.76%; border-left-width:1px; border-left-style:Inset; border-left-color:#808080; border-top-color:#808080; border-top-style:Inset; border-top-width:1px; border-right-width:1px; border-right-style:Inset; border-right-color:#808080; border-bottom-color:#808080; border-bottom-style:Inset; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#ffffcb; }
+p.whs24 { font-family:'Courier New'  , monospace; margin-left:2px; }
+td.whs25 { width:9.328%; border-left-width:1px; border-left-style:Inset; border-left-color:#808080; border-top-color:#808080; border-top-style:Inset; border-top-width:1px; border-right-width:1px; border-right-style:Inset; border-right-color:#808080; border-bottom-color:#808080; border-bottom-style:Inset; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#cbffcb; }
+td.whs26 { width:14.923%; border-left-width:1px; border-left-style:Inset; border-left-color:#808080; border-top-color:#808080; border-top-style:Inset; border-top-width:1px; border-right-width:1px; border-right-style:Inset; border-right-color:#808080; border-bottom-color:#808080; border-bottom-style:Inset; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#cbffcb; }
+td.whs27 { width:54.989%; border-left-width:1px; border-left-style:Inset; border-left-color:#808080; border-top-color:#808080; border-top-style:Inset; border-top-width:1px; border-right-width:1px; border-right-style:Inset; border-right-color:#808080; border-bottom-color:#808080; border-bottom-style:Inset; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#cbffcb; }
+td.whs28 { width:20.76%; border-left-width:1px; border-left-style:Inset; border-left-color:#808080; border-top-color:#808080; border-top-style:Inset; border-top-width:1px; border-right-width:1px; border-right-style:Inset; border-right-color:#808080; border-bottom-color:#808080; border-bottom-style:Inset; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#cbffcb; }
+td.whs29 { width:9.328%; border-left-width:1px; border-left-style:Inset; border-left-color:#808080; border-top-color:#808080; border-top-style:Inset; border-top-width:1px; border-right-width:1px; border-right-style:Inset; border-right-color:#808080; border-bottom-color:#808080; border-bottom-style:Inset; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#cbffff; }
+td.whs30 { width:14.923%; border-left-width:1px; border-left-style:Inset; border-left-color:#808080; border-top-color:#808080; border-top-style:Inset; border-top-width:1px; border-right-width:1px; border-right-style:Inset; border-right-color:#808080; border-bottom-color:#808080; border-bottom-style:Inset; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#cbffff; }
+td.whs31 { width:54.989%; border-left-width:1px; border-left-style:Inset; border-left-color:#808080; border-top-color:#808080; border-top-style:Inset; border-top-width:1px; border-right-width:1px; border-right-style:Inset; border-right-color:#808080; border-bottom-color:#808080; border-bottom-style:Inset; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#cbffff; }
+td.whs32 { width:20.76%; border-left-width:1px; border-left-style:Inset; border-left-color:#808080; border-top-color:#808080; border-top-style:Inset; border-top-width:1px; border-right-width:1px; border-right-style:Inset; border-right-color:#808080; border-bottom-color:#808080; border-bottom-style:Inset; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#cbffff; }
+td.whs33 { width:9.328%; border-left-width:1px; border-left-style:Inset; border-left-color:#808080; border-top-color:#808080; border-top-style:Inset; border-top-width:1px; border-right-width:1px; border-right-style:Inset; border-right-color:#808080; border-bottom-color:#808080; border-bottom-style:Inset; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#ffcee5; }
+td.whs34 { width:14.923%; border-left-width:1px; border-left-style:Inset; border-left-color:#808080; border-top-color:#808080; border-top-style:Inset; border-top-width:1px; border-right-width:1px; border-right-style:Inset; border-right-color:#808080; border-bottom-color:#808080; border-bottom-style:Inset; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#ffcee5; }
+td.whs35 { width:54.989%; border-left-width:1px; border-left-style:Inset; border-left-color:#808080; border-top-color:#808080; border-top-style:Inset; border-top-width:1px; border-right-width:1px; border-right-style:Inset; border-right-color:#808080; border-bottom-color:#808080; border-bottom-style:Inset; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#ffcee5; }
+td.whs36 { width:20.76%; border-left-width:1px; border-left-style:Inset; border-left-color:#808080; border-top-color:#808080; border-top-style:Inset; border-top-width:1px; border-right-width:1px; border-right-style:Inset; border-right-color:#808080; border-bottom-color:#808080; border-bottom-style:Inset; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#ffcee5; }
+p.whs37 { color:#00ff00; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Appendix A</h1>
+<hr width="100.526%" size="5" align="left" class="whs3">
+<p align="left" class="whs4">&#160;</p>
+<p class="sub-head"><b style="font-weight:bold;"><span lang="EN-US" style="font-size:14.0pt; font-family:Times New Roman Cyr;"><font size="4" style="font-size:14pt;">Pipe Inspection Text Template (.ptt) File Specification</font></span></b></p>
+<p><span style="text-autospace:none;">The Pipe Inspection Text Template file is used for setting different options (measurement units, location of Header and Footer, etc.) and for localising the report in different languages.</span></p>
+<p align="left" class="whs4">The following table describes each line from the .ppt file.</p>
+<div align="left">
+<table width="100%" class="whs5">
+<col class="whs6">
+<col class="whs7">
+<col class="whs8">
+<col class="whs9">
+<tr valign="middle" class="whs10">
+<td bgcolor="#808080" width="9.328%" class="whs11">
+<p align="center" class="whs12">Value Type</p>
+</td>
+<td bgcolor="#808080" width="14.923%" class="whs13">
+<p align="center" class="whs12">Parameter Type</p>
+</td>
+<td bgcolor="#808080" width="54.989%" class="whs14">
+<p align="center" class="whs12">Description</p>
+</td>
+<td bgcolor="#808080" width="20.76%" class="whs15">
+<p align="center" class="whs12">Default Value<br>
+(in 3DS_v10.ptt)</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td rowspan="1" colspan="4" width="100%" class="whs17">
+<p align="center" class="whs18">Version</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFFFCB" width="9.328%" class="whs19">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFFFCB" width="14.923%" class="whs21">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFFFCB" width="54.989%" class="whs22">
+<p class="whs20">Version of .ptt file.</p>
+</td>
+<td bgcolor="#FFFFCB" width="20.76%" class="whs23">
+<p class="whs24">10</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td rowspan="1" colspan="4" width="100%" class="whs17">
+<p align="center" class="whs18">Units</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFCB" width="9.328%" class="whs25">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#CBFFCB" width="14.923%" class="whs26">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#CBFFCB" width="54.989%" class="whs27">
+<p class="whs20">Units of measurement used in the report:<span><br>
+1 - millimetres;</span><span style="text-align:left;"><br>
+2 - inches.</span></p>
+</td>
+<td bgcolor="#CBFFCB" width="20.76%" class="whs28">
+<p class="whs24">1</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td rowspan="1" colspan="4" width="100%" class="whs17">
+<p align="center" class="whs18">Logo</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Logo position on the pages:<span style="text-align:left;"><br>
+1 - top left;<br>
+2 - top centre;<br>
+3 - top right;<br>
+4 - bottom left;<br>
+5 - bottom centre;<br>
+6 - bottom right.</span></p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">2</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">File name</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Logo file name and path.<span style="text-align:left;"><br>
+Note: if no path is specified the file should be in the same folder where the .ptt file is.</span></p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">logo.gif</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td rowspan="1" colspan="4" width="100%" class="whs17">
+<p align="center" class="whs18">Header</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Header position on the pages:<span style="text-align:left;"><br>
+1 - top left;<br>
+2 - top centre;<br>
+3 - top right.</span></p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">2</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text of the Header.</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">Header</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td rowspan="1" colspan="4" width="100%" class="whs17">
+<p align="center" class="whs18">Footer</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFFFCB" width="9.328%" class="whs19">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFFFCB" width="14.923%" class="whs21">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFFFCB" width="54.989%" class="whs22">
+<p class="whs20">Footer position on the pages:<span style="text-align:left;"><br>
+4 - bottom left;<br>
+5 - bottom centre;<br>
+6 - bottom right.</span></p>
+</td>
+<td bgcolor="#FFFFCB" width="20.76%" class="whs23">
+<p class="whs24">5</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFFFCB" width="9.328%" class="whs19">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFFFCB" width="14.923%" class="whs21">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#FFFFCB" width="54.989%" class="whs22">
+<p class="whs20">Text of the Footer.</p>
+</td>
+<td bgcolor="#FFFFCB" width="20.76%" class="whs23">
+<p class="whs24">Footer</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td rowspan="1" colspan="4" width="100%" class="whs17">
+<p align="center" class="whs18">Page Numbers</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFCB" width="9.328%" class="whs25">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#CBFFCB" width="14.923%" class="whs26">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#CBFFCB" width="54.989%" class="whs27">
+<p class="whs20">Page counter position:<span style="text-align:left;"><br>
+0 - no page counter;<br>
+1 - top left;<br>
+2 - top centre;<br>
+3 - top right;<br>
+4 - bottom left;<br>
+5 - bottom centre;<br>
+6 - bottom right.<br>
+Page enumeration is in the form X/Y, e.g.</span> <span style="text-align:left; font-weight:bold;"><b>1/10</b></span><span style="text-align:left;">.</span></p>
+</td>
+<td bgcolor="#CBFFCB" width="20.76%" class="whs28">
+<p class="whs24">6</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td rowspan="1" colspan="4" width="100%" class="whs17">
+<p align="center" class="whs18">Section Titles</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Title of '<span style="font-style:italic;"><i>Global Information</i></span>' section.</p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">Global Information</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Title of '<span style="font-style:italic;"><i>Summary</i></span>' section.</p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">Summary</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Title of '<span style="font-style:italic;"><i>Scandata Overview</i></span>' section.</p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">Scandata Overview</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Title of '<span style="font-style:italic;"><i>Merging Quality Assessment</i></span>' section.<span style="text-align:left;"><br>
+If empty line is specified this section will not be output.</span></p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">Merging Quality Assessment</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Title of '<span style="font-style:italic;"><i>Surface Analysis</i></span>' section.<span style="text-align:left;"><br>
+If empty line is specified this section will not be output.</span></p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">Surface Analysis</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Title of '<span style="font-style:italic;"><i>Transformation to a flat surface</i></span>' section.</p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">Transformation to a flat surface</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Title of '<span style="font-style:italic;"><i>Determination of corrosion zones</i></span>' section.</p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">Determination of corrosion zones</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td rowspan="1" colspan="4" width="100%" class="whs17">
+<p align="center" class="whs18">Global Information Text</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Number of text lines for 'Global Information' section.<span style="text-align:left;"><br>
+This number determines that the following N lines belongs to 'Global Information' section description.</span></p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">10</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Free text</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text line 1.</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">Units are in mm unless otherwise mentioned.</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Free text</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text line 2.</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs20">(empty line)</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Free text</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text line 3.</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">Pipeline number:</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Free text</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text line 4.</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">Date of scanning:</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Free text</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text line 5.</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">Place of scanning:</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Free text</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text line 6.</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">Reference point of scaning:</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Free text</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text line 7.</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">Drawing number:</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Free text</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text line 8.</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">Nominal diameter:</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Free text</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text line 9.</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">Tested by:</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Free text</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text line 10.</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">Procedure:</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Wall Thickness</i></span>' parameter.<span style="text-align:left;"><br>
+Printed at the end of 'Global Information' description followed by the wall thickness value and 'mm'/'inches', e.g.</span> <span style="text-align:left; font-weight:bold;"><b>Wall Thickness: 12 mm</b></span><span style="text-align:left;">.</span></p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">Wall Thickness:</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Corrosion Threshold</i></span>' parameter.<span style="text-align:left;"><br>
+Printed wall thickness line followed by the corrosion threshold value, 'mm'/'inches', and % of wall thickness in brackets, e.g.</span> <span style="text-align:left; font-weight:bold;"><b>Corrosion Threshold: 5 mm (10%)</b></span><span style="text-align:left;">.</span></p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">Corrosion Threshold:</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Rules of Interaction Used</i></span>' parameter.<span style="text-align:left;"><br>
+Printed after corrosion threshold line followed by the rules of interaction value, e.g.</span> <span style="text-align:left; font-weight:bold;"><b>Rules of Interaction Used: ASME RSTRENG</b></span><span style="text-align:left;">.</span></p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">Rules of Interaction Used:</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Route (start-end)</i></span>' parameter.<span style="text-align:left;"><br>
+Printed after rules of interaction line followed by route start and route end values, separated by dash, e.g.</span> <span style="text-align:left; font-weight:bold;"><b>Route (start-end): Amsterdam - Rotterdam</b></span><span style="text-align:left;">.</span></p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">Route (start-end):</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Equipment: Localiser</i></span>' parameter.<span style="text-align:left;"><br>
+Printed after route (start-end) line followed by the localiser type and serial number, e.g.</span> <span style="text-align:left; font-weight:bold;"><b>Equipment: Localiser: FARO Gold ser.nr: G08-05-98-01042</b></span><span style="text-align:left;">.</span></p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">Equipment: Localiser:</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Equipment: Lasersensor</i></span>' parameter.<span style="text-align:left;"><br>
+Printed after equipment (localiser) line followed by the sensor type and serial number, e.g.</span> <span style="text-align:left; font-weight:bold;"><b>Equipment: Lasersensor: MM X70 ser.nr: 23024</b></span><span style="text-align:left;">.</span></p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">Equipment: Lasersensor:</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Equipment: Software</i></span>' parameter.<span style="text-align:left;"><br>
+Printed after equipment (lasersensor) line followed by KUBE version, e.g.</span> <span style="text-align:left; font-weight:bold;"><b>Equipment: Software: 10.0.1 Build 90 SP1</b></span><span style="text-align:left;">.</span></p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">Equipment: Software:</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td rowspan="1" colspan="4" width="100%" class="whs17">
+<p align="center" class="whs18">Figure</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFFFCB" width="9.328%" class="whs19">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFFFCB" width="14.923%" class="whs21">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#FFFFCB" width="54.989%" class="whs22">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Figure</i></span>' label.<span style="text-align:left;"><br>
+After that description the figure number and colon sign are printed, e.g.</span> <span style="text-align:left; font-weight:bold;"><b>Figure 2</b></span><span style="text-align:left;">:</span></p>
+</td>
+<td bgcolor="#FFFFCB" width="20.76%" class="whs23">
+<p class="whs24">Figure</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td rowspan="1" colspan="4" width="100%" class="whs17">
+<p align="center" class="whs18">Material Loss as percentage of Wall Thickness</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFCB" width="9.328%" class="whs25">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFCB" width="14.923%" class="whs26">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFCB" width="54.989%" class="whs27">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Material Loss as percentage of Wall Thickness</i></span>' label.</p>
+</td>
+<td bgcolor="#CBFFCB" width="20.76%" class="whs28">
+<p class="whs24">Material Loss as percentage of Wall Thickness</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td rowspan="1" colspan="4" width="100%" class="whs17">
+<p align="center" class="whs18">Corrosion Zones</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Zone</i></span>' label.<span style="text-align:left;"><br>
+Corrosion zone number is printed at the end of the label, e.g.</span> <span style="text-align:left; font-weight:bold;"><b>Zone 1</b></span><span style="text-align:left;">.</span></p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">Zone</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>X,Y pos of Top Left Corner</i></span>' label.<span style="text-align:left;"><br>
+After that description the absolute X pos, absolute Y pos, and clock Y position are printed, e.g.</span> <span style="text-align:left; font-weight:bold;"><b>X pos and Y pos of Top Left Corner &#160;&#160;12.30 &#160;64.20 (3:15)</b></span><span style="text-align:left;">.</span></p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">X,Y pos of Top Left Corner</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>X,Y,Z of Deepest Point</i></span>' label.<span style="text-align:left;"><br>
+After that description the absolute X pos, absolute Y pos, clock Y position, and Z value of the deepest point are printed, e.g.</span> <span style="text-align:left; font-weight:bold;"><b>X,Y,Z of Deepest Point &#160;&#160;57.50, 44.00 (2:35), -1.63</b></span><span style="text-align:left;">.</span></p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">X,Y,Z of Deepest Point</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Deepest Point offset from Top Left Corner</i></span>' label.<span style="text-align:left;"><br>
+After that description the offset X pos and offset Y pos are printed, e.g.</span> <span style="text-align:left; font-weight:bold;"><b>Deepest Point offset from Top Left Corner &#160;&#160;1.50 &#160;1.20</b></span><span style="text-align:left;">.</span></p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">Deepest Point offset from Top Left Corner</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Length, Width</i></span>' label.<span style="text-align:left;"><br>
+After that description the length and width are printed, e.g.</span> <span style="text-align:left; font-weight:bold;"><b>Length, Width &#160;&#160;3.50 &#160;4.00</b></span><span style="text-align:left;">.</span></p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">Length, Width</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>X-Y plot Worst Case X-profile</i></span>' label.<span style="text-align:left;"><br>
+Zone enumeration after this description is printed, e.g.</span> <span style="text-align:left; font-weight:bold;"><b>X-Y plot Worst Case X-profile Zone 1</b></span><span style="text-align:left;">.</span></p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">X-Y plot Worst Case X-profile</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Worst Case X-profile zone</i></span>' label.<span style="text-align:left;"><br>
+Zone enumeration after this description is printed, e.g.</span> <span style="text-align:left; font-weight:bold;"><b>Worst Case X-profile Zone 1</b></span><span style="text-align:left;">.</span></p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">Worst Case X-profile</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>X-Y plot Worst Case Y-profile</i></span>' label.<span style="text-align:left;"><br>
+Zone enumeration after this description is printed, e.g.</span> <span style="text-align:left; font-weight:bold;"><b>X-Y plot Worst Case Y-profile Zone 2</b></span><span style="text-align:left;">.</span></p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">X-Y plot Worst Case Y-profile</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Worst Case Y-profile zone</i></span>' label.<span style="text-align:left;"><br>
+Zone enumeration after this desription is printed, e.g.</span> <span style="text-align:left; font-weight:bold;"><b>Worst Case Y-profile Zone 2</b></span><span style="text-align:left;">.</span></p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">Worst Case Y-profile</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Colour plot of corrosion area (customised scale)</i></span>' label.</p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">Colour plot of corrosion area (customised scale)</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Colour plot of local reference surface (auto scale)</i></span>' label.</p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">Colour plot of local reference surface (auto scale)</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Shaded view of local reference surface</i></span>' label.</p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">Shaded view of local reference surface</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td rowspan="1" colspan="4" width="100%" class="whs17">
+<p align="center" class="whs18">Scandata Overview</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Max distance between merged mesh and scan patches</i></span>' label.</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">Max distance between merged mesh and scan patches</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Max distance between overlapping scan patches</i></span>' label.</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">Max distance between overlapping scan patches</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Overview merged scandata</i></span>' label.</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">Overview merged scandata</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Scandata detail</i></span>' label.<span style="text-align:left;"><br>
+After that description the enumeration of detail view is printed if &gt; 1, e.g.</span> <span style="text-align:left; font-weight:bold;"><b>Scandata detail 3</b></span><span style="text-align:left;">.</span></p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">Scandata detail</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td rowspan="1" colspan="4" width="100%" class="whs17">
+<p align="center" class="whs18">Surface Analysis</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFFFCB" width="9.328%" class="whs19">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFFFCB" width="14.923%" class="whs21">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#FFFFCB" width="54.989%" class="whs22">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Overview of areas of interest</i></span>' label.</p>
+</td>
+<td bgcolor="#FFFFCB" width="20.76%" class="whs23">
+<p class="whs24">Overview of areas of interest</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFFFCB" width="9.328%" class="whs19">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFFFCB" width="14.923%" class="whs21">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#FFFFCB" width="54.989%" class="whs22">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Overview of surface subdivision</i></span>' label.</p>
+</td>
+<td bgcolor="#FFFFCB" width="20.76%" class="whs23">
+<p class="whs24">Overview of surface subdivision</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFFFCB" width="9.328%" class="whs19">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFFFCB" width="14.923%" class="whs21">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#FFFFCB" width="54.989%" class="whs22">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Colour plot overview of reference surface (autorange scale)</i></span>' label.</p>
+</td>
+<td bgcolor="#FFFFCB" width="20.76%" class="whs23">
+<p class="whs24">Colour plot overview of reference surface (autorange scale)</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFFFCB" width="9.328%" class="whs19">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFFFCB" width="14.923%" class="whs21">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#FFFFCB" width="54.989%" class="whs22">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Shaded overview of reference surface</i></span>' label.</p>
+</td>
+<td bgcolor="#FFFFCB" width="20.76%" class="whs23">
+<p class="whs24">Shaded overview of reference surface</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFFFCB" width="9.328%" class="whs19">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFFFCB" width="14.923%" class="whs21">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#FFFFCB" width="54.989%" class="whs22">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Surface to reference comparison (customised scale -0.1;+0.1)</i></span>' label.</p>
+</td>
+<td bgcolor="#FFFFCB" width="20.76%" class="whs23">
+<p class="whs24">Surface to reference comparison (customised scale -0.1;+0.1)</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFFFCB" width="9.328%" class="whs19">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#FFFFCB" width="14.923%" class="whs21">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#FFFFCB" width="54.989%" class="whs22">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Surface to reference comparison (customised scale -0.2;+0.2)</i></span>' label.</p>
+</td>
+<td bgcolor="#FFFFCB" width="20.76%" class="whs23">
+<p class="whs24">Surface to reference comparison (customised scale -0.2;+0.2)</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td rowspan="1" colspan="4" width="100%" class="whs17">
+<p align="center" class="whs18">Colour plot of scandata after transformation to a flat surface (autorange scale)</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFCB" width="9.328%" class="whs25">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFCB" width="14.923%" class="whs26">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFCB" width="54.989%" class="whs27">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Colour plot of scandata after transformation to a flat surface (autorange scale)</i></span>' label.</p>
+</td>
+<td bgcolor="#CBFFCB" width="20.76%" class="whs28">
+<p class="whs24">Colour plot of scandata after transformation to a flat surface (autorange scale)</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td rowspan="1" colspan="4" width="100%" class="whs17">
+<p align="center" class="whs18">Determination of Corrosion Zones</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Colour plot of surface analysis</i></span>' label.</p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">Colour plot of surface analysis</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#CBFFFF" width="9.328%" class="whs29">
+<p class="whs20">Text</p>
+</td>
+<td bgcolor="#CBFFFF" width="14.923%" class="whs30">
+<p class="whs20">Language localisation</p>
+</td>
+<td bgcolor="#CBFFFF" width="54.989%" class="whs31">
+<p class="whs20">Text of '<span style="font-style:italic;"><i>Defects based on interaction rules&amp;</i></span>' label.</p>
+</td>
+<td bgcolor="#CBFFFF" width="20.76%" class="whs32">
+<p class="whs24">Defects based on interaction rules&amp;</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td rowspan="1" colspan="4" width="100%" class="whs17">
+<p align="center" class="whs18">Colour Plot Customisation</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="Numbered" style="margin-left:2px;">Blending colours of colour plots:<span style="text-align:left;"><br>
+0 - blended;<br>
+1 - discrete.</span></p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">0</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Number of equal sections from the positive side of the colour plot.</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">4</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Number of equal sections from the negative side of the colour plot.<span style="text-align:left;"><br>
+This and previous numbers determines that the following 3 x (N1 + N2) lines belong to RGB colour definition of the colour plot sections.</span></p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">5</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 5 (lowest) of negative side of the colour plot - Red component</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">128</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 5 (lowest) of negative side of the colour plot - Green component</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">0</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 5 (lowest) of negative side of the colour plot - Blue component</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">0</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 4 of negative side of the colour plot - Red component</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">255</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 4 of negative side of the colour plot - Green component</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">0</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 4 of negative side of the colour plot - Blue component</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">0</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 3 of negative side of the colour plot - Red component</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">255</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 3 of negative side of the colour plot - Green component</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">128</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 3 of negative side of the colour plot - Blue component</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">32</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 2 of negative side of the colour plot - Red component</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">250</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 2 of negative side of the colour plot - Green component</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">200</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 2 of negative side of the colour plot - Blue component</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">40</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 1 of negative side of the colour plot - Red component</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">0</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 1 of negative side of the colour plot - Green component</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">255</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 1 of negative side of the colour plot - Blue component</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">0</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 1 (zero range) of positive side of the colour plot - Red component</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">232</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 1 (zero range) of positive side of the colour plot - Green component</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">232</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 1 (zero range) of positive side of the colour plot - Blue component</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">232</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 2 of positive side of the colour plot - Red component</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">0</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 2 of positive side of the colour plot - Green component</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">255</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 2 of positive side of the colour plot - Blue component</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">255</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 3 of positive side of the colour plot - Red component</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">0</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 3 of positive side of the colour plot - Green component</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">175</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 3 of positive side of the colour plot - Blue component</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">255</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 4 (highest) of positive side of the colour plot - Red component</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">0</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 4 (highest) of positive side of the colour plot - Green component</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">0</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td bgcolor="#FFCEE5" width="9.328%" class="whs33">
+<p class="whs20">Number</p>
+</td>
+<td bgcolor="#FFCEE5" width="14.923%" class="whs34">
+<p class="whs20">Setting</p>
+</td>
+<td bgcolor="#FFCEE5" width="54.989%" class="whs35">
+<p class="whs20">Section 4 (highest) of positive side of the colour plot - Blue component</p>
+</td>
+<td bgcolor="#FFCEE5" width="20.76%" class="whs36">
+<p class="whs24">255</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="whs37">&#160;</p>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0C02DA000000416E616C797369730A417265610A41534D452052535452454E470A4175746F0A636F6C6F75720A436F6D70617269736F6E0A436F72726F73696F6E0A447261770A4641524F0A466C61740A4C6162656C730A4C6566740A4C696E650A6C6F63616C697365720A4D6174657269616C0A4D6174657269616C094D6174657269616C204C6F73730A4D657267650A4D6573680A506172616D65746572730A50617463680A52696768740A5363616E0A53656E736F720A53656E736F7220547970650A5368616465640A54656D706C617465730A546F700A556E6974730D020A000000417070656E64697820411102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

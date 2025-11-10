@@ -1,0 +1,416 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Measure Menu</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+table.whs4 { border-spacing:0px; margin-left:24px; }
+col.whs5 { width:193px; }
+col.whs6 { width:494px; }
+tr.whs7 {  }
+td.whs8 { width:193px; padding-right:10px; padding-left:10px; border-left-style:None; border-top-style:None; border-bottom-style:None; border-right-style:None; }
+img_whs9 { border:none; width:207px; height:248px; float:none; border-style:none; }
+td.whs10 { width:494px; padding-right:10px; padding-left:10px; }
+table.whs11 { width:100%; border-spacing:0px; }
+col.whs12 { width:100%; }
+tr.whs13 { height:91px; }
+td.whs14 { width:100%; padding-right:10px; padding-left:10px; }
+tr.whs15 { height:25px; }
+tr.whs16 { height:141px; }
+table.whs17 { border-spacing:0px; margin-left:24px; left:0px; top:405px; width:807px; }
+col.whs18 { width:20.109%; }
+col.whs19 { width:70.516%; }
+col.whs20 { width:9.375%; }
+tr.whs21 { height:34px; }
+td.whs22 { width:20.109%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs23 { width:70.516%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+td.whs24 { width:9.375%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+tr.whs25 { height:36px; }
+td.whs26 { width:20.109%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs27 { width:70.516%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs28 { width:9.375%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs29 { border:none; float:none; width:23px; height:16px; border-style:none; }
+td.whs30 { width:20.109%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+table.whs31 { border-spacing:5px; margin-left:24px; }
+td.whs32 { padding-right:10px; padding-left:10px; border-right-style:None; border-left-style:None; border-top-style:None; border-bottom-style:None; }
+img_whs33 { border:none; width:301px; height:249px; float:none; border-style:none; }
+table.whs34 { border-spacing:0px; margin-left:24px; left:0px; top:893px; width:811px; }
+col.whs35 { width:23.428%; }
+col.whs36 { width:67.197%; }
+td.whs37 { padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs38 { padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+td.whs39 { padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs40 { padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs41 { padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+table.whs42 { border-spacing:0px; margin-left:24px; left:0px; top:1200px; width:812px; }
+col.whs43 { width:23.536%; }
+col.whs44 { width:67.089%; }
+td.whs45 { width:23.536%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs46 { width:67.089%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+td.whs47 { width:23.536%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs48 { width:67.089%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs49 { width:23.536%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nUser Interface\nMenus\nMeasure Menu");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Measure Menu</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p>Measure Menu is divided into following sections:</p>
+<table cellspacing="0" class="whs4">
+<col class="whs5">
+<col class="whs6">
+<tr valign="top" class="whs7">
+<td width="193px" class="whs8">
+<p class="normal-table"><img src="../Measure/Measure_Menu_files/Measure.gif" width="207px" height="248px" border="0" class="img_whs9" alt=""></p>
+</td>
+<td valign="middle" width="494px" class="whs10">
+<table cellspacing="0" width="100%" class="whs11">
+<col class="whs12">
+<tr valign="top" class="whs13">
+<td valign="middle" width="100%" class="whs14">
+<p class="normal-table"><a href="#Pick">Pick Section</a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td valign="middle" width="100%" class="whs14">
+<p class="normal-table"><a href="#Geometry">Geometry Section</a></p>
+</td>
+</tr>
+<tr valign="top" class="whs16">
+<td valign="middle" width="100%" class="whs14">
+<p class="normal-table"><a href="#Labels_Dimensions">Labeling, Measuring, and Gap and Flush Section</a></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p class="sub-head"><a name="Pick"></a>Pick Section</p>
+<table cellspacing="0" width="807" class="whs17">
+<col class="whs18">
+<col class="whs19">
+<col class="whs20">
+<tr valign="top" class="whs21">
+<td bgcolor="#EAE8D6" width="20.109%" class="whs22">
+<p class="caption">Command</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="70.516%" class="whs23">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="9.375%" class="whs24">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="20.109%" class="whs26">
+<p class="normal-table-func"><span class="Command">Pick Single Point</span></p>
+</td>
+<td colspan="1" rowspan="1" width="70.516%" class="whs27">
+<p class="normal-table">Displays the <span style="font-weight:bold;"><b>X</b></span>, <span style="font-weight:bold;"><b>Y</b></span> and <span style="font-weight:bold;"><b>Z</b></span> co-ordinates of the clicked point.</p>
+</td>
+<td width="9.375%" class="whs28">
+<p class="normal-table"><a href="../References/pick_single_point.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs29" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="20.109%" class="whs30">
+<p class="normal-table-func"><span class="Command">Pick Pair of Points</span></p>
+</td>
+<td colspan="1" rowspan="1" width="70.516%" class="whs27">
+<p class="normal-table">Will measure the on-screen distances between points.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs28">
+<p class="normal-table"><a href="../References/pick_pair_of_points.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs29" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="20.109%" class="whs30">
+<p class="normal-table-func">Pick Pair of Planes</p>
+</td>
+<td colspan="1" rowspan="1" width="70.516%" class="whs27">
+<p class="normal-table">Will measure the on-screen distances between planes.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs28">
+<p class="normal-table"><a href="../References/pick_pair_of_planes.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs29" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<p class="sub-head"><a name="Geometry"></a>Geometry Section</p>
+<p>This section provides Points-to-Datuming Operations.</p>
+<table cellspacing="5" class="whs31">
+<col>
+<tr valign="top" class="whs7">
+<td class="whs32">
+<p class="normal-table"><img src="../Measure/Measure_Menu_files/Measure_menu.gif" width="301px" height="249px" border="0" class="img_whs33" alt=""></p>
+<p class="normal-table">&#160;</p>
+</td>
+</tr>
+</table>
+<table width="811" cellspacing="0" class="whs34">
+<col class="whs35">
+<col class="whs36">
+<col class="whs20">
+<tr valign="top" class="whs7">
+<td bgcolor="#EAE8D6" width="23.428%" class="whs37">
+<p class="caption">Command</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="67.197%" class="whs38">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="9.375%" class="whs24">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="23.428%" class="whs39">
+<p class="normal-table-func"><span class="Command">Point</span></p>
+</td>
+<td colspan="1" rowspan="1" width="67.197%" class="whs40">
+<p class="normal-table">Fits a datum point to the selected points</p>
+</td>
+<td width="9.375%" class="whs28">
+<p class="normal-table"><a href="../References/fit_point.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs29" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="23.428%" class="whs41">
+<p class="normal-table-func"><span class="Command">Line</span></p>
+</td>
+<td colspan="1" rowspan="1" width="67.197%" class="whs40">
+<p class="normal-table">Fits a datum line to the selected points.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs28">
+<p class="normal-table"><a href="../References/fit_line.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs29" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="23.428%" class="whs41">
+<p class="normal-table-func"><span class="Command">Plane</span></p>
+</td>
+<td colspan="1" rowspan="1" width="67.197%" class="whs40">
+<p class="normal-table">Fits a datum plane to the selected points.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs28">
+<p class="normal-table"><a href="../References/fit_plane.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs29" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="23.428%" class="whs41">
+<p class="normal-table-func"><span class="Command">Sphere</span></p>
+</td>
+<td colspan="1" rowspan="1" width="67.197%" class="whs40">
+<p class="normal-table">Fits a datum sphere to the selected points</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs28">
+<p class="normal-table"><a href="../References/fit_sphere.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs29" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="23.428%" class="whs41">
+<p class="normal-table-func"><span class="Command">Cylinder</span></p>
+</td>
+<td colspan="1" rowspan="1" width="67.197%" class="whs40">
+<p class="normal-table">Fits a datum cylinder to the selected points.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs28">
+<p class="normal-table"><a href="../References/fit_cylinder.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs29" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="23.428%" class="whs41">
+<p class="normal-table-func"><span class="Command">Circle</span></p>
+</td>
+<td colspan="1" rowspan="1" width="67.197%" class="whs40">
+<p class="normal-table">Fits a datum circle to the selected points.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs28">
+<p class="normal-table"><a href="../References/fit_circle.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs29" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="23.428%" class="whs41">
+<p class="normal-table-func"><span class="Command">Cone</span></p>
+</td>
+<td colspan="1" rowspan="1" width="67.197%" class="whs40">
+<p class="normal-table">Fits a datum cone to the selected points..</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs28">
+<p class="normal-table"><a href="../References/fit_cone.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs29" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p>Use <span style="font-weight:bold;"><b>Measure &gt; Geometry</b></span> submenu to fit data sets, like <span style="font-weight:bold;"><b>scan data</b></span>, <span style="font-weight:bold;"><b>meshes</b></span>, <span style="font-weight:bold;"><b>point clouds</b></span>, <span style="font-weight:bold;"><b>datum points</b></span> and <span style="font-weight:bold;"><b>polylines</b></span>, against different datum entities.</p>
+<p>&#160;</p>
+<p class="sub-head"><a name="Labels_Dimensions"></a>Labeling, Dimensioning, and Gap and Flush section</p>
+<table width="812" cellspacing="0" class="whs42">
+<col class="whs43">
+<col class="whs44">
+<col class="whs20">
+<tr valign="top" class="whs7">
+<td bgcolor="#EAE8D6" width="23.536%" class="whs45">
+<p class="caption">Command</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="67.089%" class="whs46">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="9.375%" class="whs24">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="23.536%" class="whs47">
+<p class="normal-table-func">Labeling</p>
+</td>
+<td colspan="1" rowspan="1" width="67.089%" class="whs48">
+<p class="normal-table">Enables Labeling mode.</p>
+</td>
+<td width="9.375%" class="whs28">
+<p class="normal-table"><a href="../References/labeling.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs29" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="23.536%" class="whs49">
+<p class="normal-table-func">Delete All Labels</p>
+</td>
+<td colspan="1" rowspan="1" width="67.089%" class="whs48">
+<p class="normal-table">Deletes all labels in the scene.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs28">
+<p class="normal-table"><a href="../References/Delete_All_Labels.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs29" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="23.536%" class="whs49">
+<p class="normal-table-func">Dimensioning</p>
+</td>
+<td colspan="1" rowspan="1" width="67.089%" class="whs48">
+<p class="normal-table">Enables Dimensioning mode.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs28">
+<p class="normal-table"><a href="../References/dimensioning.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs29" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="23.536%" class="whs49">
+<p class="normal-table-func"><span style="font-weight:bold;"><b>Delete All Dimensions</b></span></p>
+</td>
+<td colspan="1" rowspan="1" width="67.089%" class="whs48">
+<p class="normal-table">Deletes all dimensions in the scene.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs28">
+<p class="normal-table"><a href="../References/delete_all_dimensions.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs29" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="23.536%" class="whs49">
+<p class="normal-table-func">Gap and Flush</p>
+</td>
+<td colspan="1" rowspan="1" width="67.089%" class="whs48">
+<p class="normal-table">Enables Gap and Flush mode.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs28">
+<p class="normal-table"><a href="../References/gap_and_flush.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs29" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="23.536%" class="whs49">
+<p class="normal-table-func">Delete All Gap and Flush</p>
+</td>
+<td colspan="1" rowspan="1" width="67.089%" class="whs48">
+<p class="normal-table">Deletes all Gap and Flush dimensions in the scene.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs28">
+<p class="normal-table"><a href="../References/delete_all_gap_and_flush.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs29" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p><span style="font-weight:bold;"><b>Related topic:</b></span> <a href="Measure_Context_Menus.htm">Measure Context Menus</a></p>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0C02140000004D6561737572650A4D656173757265206D656E750D020C0000004D656173757265204D656E751102050000004D656E757312020C0000004D656173757265204D656E751302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

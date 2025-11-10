@@ -1,0 +1,646 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Special Symbols and Abbreviations</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+p.whs4 { font-family:Arial; font-size:10pt; }
+table.whs5 { border-spacing:0px; }
+tr.whs6 {  }
+td.whs7 { border-left-width:1px; border-left-color:#000000; border-left-style:Solid; border-top-style:Solid; border-top-color:#000000; border-top-width:1px; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; }
+td.whs8 { border-top-style:Solid; border-top-color:#000000; border-top-width:1px; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; }
+td.whs9 { border-left-width:1px; border-left-color:#000000; border-left-style:Solid; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; }
+p.whs10 { font-family:'Courier New'  , monospace; margin-left:0px; text-align:center; }
+td.whs11 { border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; }
+p.whs12 { font-weight:bold; text-align:center; font-size:8pt; margin-left:0px; }
+p.whs13 { font-family:'Courier New'  , monospace; text-align:center; font-size:8pt; margin-left:0px; }
+p.whs14 { font-size:8pt; margin-left:0px; }
+p.whs15 { text-align:center; font-size:8pt; margin-left:0px; }
+p.whs16 { font-size:10pt; }
+p.whs17 { font-weight:bold; margin-left:0px; text-align:center; }
+td.whs18 { padding-right:10px; padding-left:10px; border-left-style:Solid; border-left-color:#000000; border-left-width:1px; border-right-style:Solid; border-right-color:#000000; border-right-width:1px; border-bottom-width:1px; border-bottom-color:#000000; border-bottom-style:Solid; }
+p.whs19 { margin-left:0px; text-align:center; }
+td.whs20 { padding-right:10px; padding-left:10px; border-right-style:Solid; border-right-color:#000000; border-right-width:1px; border-bottom-width:1px; border-bottom-color:#000000; border-bottom-style:Solid; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs10 {margin-left:1pt; }";
+  strNSS += "p.whs12 {margin-left:1pt; }";
+  strNSS += "p.whs13 {margin-left:1pt; }";
+  strNSS += "p.whs14 {margin-left:1pt; }";
+  strNSS += "p.whs15 {margin-left:1pt; }";
+  strNSS += "p.whs17 {margin-left:1pt; }";
+  strNSS += "p.whs19 {margin-left:1pt; }";
+  strNSS +="<\/style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" src="../ehlpdhtm.js">
+</script>
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nMacros Module\nSpecial Symbols and Abbreviations");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Special Symbols and Abbreviations</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p class="whs4">A macro command has name very close or identical to the real KUBE command. The command may or may not include parameters. In both cases some rules for writing commands in scripts should be kept.</p>
+<ul>
+<li style="font-family:Arial; font-size:10pt;" class="kadov-p-Cbullet">
+<p class="bullet">If a command has parameters they should be enclosed in brackets.</p>
+</li>
+<li style="font-family:Arial; font-size:10pt;" class="kadov-p-Cbullet">
+<p class="bullet">Parameters are separated by commas and the correct parameter format should be kept.</p>
+</li>
+<li style="font-family:Arial; font-size:10pt;" class="kadov-p-Cbullet">
+<p class="bullet">The order of parameters in a single command can be changed, it doesn't affect the command execution.</p>
+</li>
+<li style="font-family:Arial; font-size:10pt;" class="kadov-p-Cbullet">
+<p class="bullet">Every parameter has name and value divided by the equal sign (<span style="font-family:'Courier New' , monospace;">=</span>).</p>
+</li>
+<li style="font-family:Arial; font-size:10pt;" class="kadov-p-Cbullet">
+<p class="bullet">Values for some of the parameters-strings (like file names) should be enclosed in quotes.</p>
+</li>
+<li style="font-family:Arial; font-size:10pt;" class="kadov-p-Cbullet">
+<p class="bullet">If a line begins with <span style="font-family:'Courier New' , monospace;">//</span> it is assumed to be a comment and is omitted by the interpreter.</p>
+</li>
+</ul>
+<p class="whs4">Here follows a list of all symbols and abbreviations used in the script language:</p>
+<h2>Special symbols</h2>
+<table cellspacing="0" class="whs5">
+<col>
+<col>
+<tr valign="top" class="whs6">
+<td class="whs7">
+<p class="normal-table-func" style="text-align:center;" align="center">Character</p>
+</td>
+<td class="whs8">
+<p class="normal-table-func" style="text-align:center;" align="center">Meaning in script</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs10">//</p>
+</td>
+<td class="whs11">
+<p class="normal-table"><span style="font-weight:bold;"><b>Comment</b></span><br>
+Line beginning with // is not interpreted as command during script execution.</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs10">()</p>
+</td>
+<td class="whs11">
+<p class="normal-table"><span style="font-weight:bold;"><b>Parameter list</b></span><br>
+All parameters for a single command are enclosed in brackets.</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs10">""</p>
+</td>
+<td class="whs11">
+<p class="normal-table"><span style="font-weight:bold;"><b>Parameter value</b></span><br>
+Each parameter value is enclosed in quotation marks. Note that only characters with decimal code 34 (hex - 0022) are accepted as enclosing symbols. Other characters like in the table below cannot be used to enclose strings and are treated as regular characters.</p>
+<table cellspacing="0" class="whs5">
+<col>
+<col>
+<col>
+<col>
+<tr valign="top" class="whs6">
+<td class="whs7">
+<p align="center" class="whs12">Character</p>
+</td>
+<td colspan="1" rowspan="1" class="whs8">
+<p align="center" class="whs12">Unicode Name</p>
+</td>
+<td class="whs8">
+<p align="center" class="whs12">Decimal Code</p>
+</td>
+<td class="whs8">
+<p align="center" class="whs12">Hexadecimal Code</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs13">«</p>
+</td>
+<td colspan="1" rowspan="1" class="whs11">
+<p class="whs14">Left-Pointing Double Angle Quotation Mark</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs15">171</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs15">00AB</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs13">»</p>
+</td>
+<td colspan="1" rowspan="1" class="whs11">
+<p class="whs14">Right-Pointing Double Angle Quotation Mark</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs15">187</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs15">00BB</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs13"></p>
+</td>
+<td colspan="1" rowspan="1" class="whs11">
+<p class="whs14">Double Acute Accent</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs15">733</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs15">02DD</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs13">“</p>
+</td>
+<td colspan="1" rowspan="1" class="whs11">
+<p class="whs14">Left Double Quotation Mark</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs15">8220</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs15">201C</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs13">”</p>
+</td>
+<td colspan="1" rowspan="1" class="whs11">
+<p class="whs14">Right Double Quotation Mark</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs15">8221</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs15">201D</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td colspan="1" rowspan="1" class="whs9">
+<p align="center" class="whs13">„</p>
+</td>
+<td colspan="1" rowspan="1" class="whs11">
+<p class="whs14">Double Low-9 Quotation Mark</p>
+</td>
+<td colspan="1" rowspan="1" class="whs11">
+<p align="center" class="whs15">8222</p>
+</td>
+<td colspan="1" rowspan="1" class="whs11">
+<p align="center" class="whs15">201E</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs13"></p>
+</td>
+<td colspan="1" rowspan="1" class="whs11">
+<p class="whs14">Double Prime</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs15">8243</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs15">2033</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs10">,</p>
+</td>
+<td class="whs11">
+<p class="normal-table"><span style="font-weight:bold;"><b>Parameter separator</b></span><br>
+If more than one parameters are set for a command, then they are separated by comma.</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs10">=</p>
+</td>
+<td class="whs11">
+<p class="normal-table"><span style="font-weight:bold;"><b>Sign of equality</b></span><br>
+The parameter values are set using the sign of equality</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td colspan="1" rowspan="1" class="whs9">
+<p align="center" class="whs10">&amp;</p>
+</td>
+<td colspan="1" rowspan="1" class="whs11">
+<p class="normal-table"><span style="font-weight:bold;"><b>Ampersand</b></span><br>
+<a href="Parameter_Types.htm">Temporary parameters</a> are preceded by ampersand.</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs10">%%</p>
+</td>
+<td class="whs11">
+<p class="normal-table"><span style="font-weight:bold;"><b>Percent</b></span><br>
+Predefined or <a href="Parameter_Types.htm">custom defined parameters</a> are enclosed in percents.</p>
+</td>
+</tr>
+</table>
+<p class="whs16">&#160;</p>
+<h2>Abbreviations in commands</h2>
+<table cellspacing="0" class="whs5">
+<col>
+<col>
+<tr valign="top" class="whs6">
+<td colspan="1" rowspan="1" class="whs7">
+<p align="center" class="whs17">Abbreviation</p>
+</td>
+<td colspan="1" rowspan="1" class="whs8">
+<p align="center" class="whs17">Meaning in script</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs18">
+<p align="center" class="whs19">Avg</p>
+</td>
+<td class="whs20">
+<p align="center" class="whs19">Average</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Bnd</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Boundary</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Crv</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Curve(ture)</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Dist</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Distance</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Dupl</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Duplicated</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Elp</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Ellipse</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Excl</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Exclude</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Gen</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Generate</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Incl</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Include</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Inv</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Invert</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Iter</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Iteration</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Msh</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Mesh</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Multi</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Multiple</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Opt</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Optimise</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Pcent</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Percentage</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Pt</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Point</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Rect</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Rectangle</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Red</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Reduce</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Ref</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Reference</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Rm</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Remove</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Reorg</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Reorganize</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Repl</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Replace</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Rot</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Rotation</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Smp</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Sampling</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Sel</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Selection</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Spc</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Space</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Tpt</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Template</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Tr</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Translate</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Tri</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Triangle</p>
+</td>
+</tr>
+<tr valign="top" class="whs6">
+<td class="whs9">
+<p align="center" class="whs19">Vol</p>
+</td>
+<td class="whs11">
+<p align="center" class="whs19">Volume</p>
+</td>
+</tr>
+</table>
+<p class="ExampleCode">The following is an example script:</p>
+<p class="ExampleCode">// Example script</p>
+<p class="ExampleCode">// Author: John Smith</p>
+<p class="ExampleCode">// Date: June 17, 2006</p>
+<p class="ExampleCode">SelAll</p>
+<p class="ExampleCode">// Data will be merged</p>
+<p class="ExampleCode">Merge( PtSpc=0.500, AreaSmp=Yes, AreaSmpDist=0.500, OptScan=Yes, OptScanDist=1.000, OptScanPtSmp=2, PolygonRed=Yes, PolygonRedSpc=2.500, InclBndPt=No, EnhanceFeatures=Yes, Sensor="MM Z70" )</p>
+<p class="ExampleCode">SelAll</p>
+<p class="ExampleCode">SelByCrv( Neighbours=2, Flatness=8.000, MinTri=200 )</p>
+<p class="ExampleCode">SelInv</p>
+<p class="ExampleCode">MshRedNoiseAvg( Strength=40 )</p>
+<p class="ExampleCode">SelAll</p>
+<p class="ExampleCode">FillHoles( Method="FlatFill", LimitEdges=Yes, MaxEdges=25 )</p>
+<p class="ExampleCode">SmoothBnd</p>
+<p class="ExampleCode">EnhanceFeatures( Strength=1 )</p>
+<p class="ExampleCode">// Average noise reduction</p>
+<p class="ExampleCode">MshRedNoiseAvg( Strength=20 )</p>
+<p class="ExampleCode">SelPolygon( X=-5.35654, Y=-348.73920, Action="Begin", SelType="Repl" )</p>
+<p class="ExampleCode">SelPolygon( X=-4.68021, Y=-351.10635, Action="GoTo", SelType="Repl" )</p>
+<p class="ExampleCode">SelPolygon( X=-4.68021, Y=-350.93726, Action="End", SelType="Repl" )</p>
+<p class="ExampleCode">FillHoles( Method="FlatFill", LimitEdges=Yes, MaxEdges=25 )</p>
+<p class="ExampleCode">SelPolygon( X=-20.23573, Y=-332.16919, Action="Begin", SelType="Repl" )</p>
+<p class="ExampleCode">SelPolygon( X=-21.41930, Y=-332.84552, Action="GoTo", SelType="Repl" )</p>
+<p class="ExampleCode">SelPolygon( X=-21.41930, Y=-332.67645, Action="End", SelType="Repl" )</p>
+<p class="ExampleCode">FillHoles( Method="FlatFill", LimitEdges=Yes, MaxEdges=25 )</p>
+<p class="ExampleCode">SelAll</p>
+<p class="ExampleCode">RmFloatingMsh( MinTri=1000 )</p>
+<p class="ExampleCode">UnselAll</p>
+<p class="ExampleCode">SelPolygon( X=-11.56816, Y=-427.30209, Action="Begin", SelType="Repl" )</p>
+<p class="ExampleCode">SelPolygon( X=-6.64990, Y=-434.31665, Action="GoTo", SelType="Repl" )</p>
+<p class="ExampleCode">SelPolygon( X=-16.00265, Y=-440.36368, Action="GoTo", SelType="Repl" )</p>
+<p class="ExampleCode">SelPolygon( X=-21.56593, Y=-434.55853, Action="End", SelType="Repl" )</p>
+<p class="ExampleCode">Stitch</p>
+<p class="ExampleCode">UnselAll</p>
+<p class="ExampleCode">SetView( RotX=1.05332, RotY=0.11433, RotZ=1.45835, TrX=-474.79340, TrY=-392.87972, TrZ=-220.85417, MinX=-346.57749, MinY=-704.23042, MinZ=-2963.06864, MaxX=164.80739, MaxY=-218.69419, MaxZ=2910.50868, FMinX=-346.57749, FMinY=-704.23042, FMinZ=-2963.06864, FMaxX=164.80739, FMaxY=-218.69419, FMaxZ=2910.50868 )</p>
+<p><span style="font-style:italic;"><i><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Macro Commands','macro_commands.htm','Macro Module','macro_module.htm','Macro Syntax','Macro_Syntax.htm','Parameter Types','Parameter_Types.htm','Script Generation','Script_Generation.htm','Type Conventions','type_conventions.htm');return false;" title=""><img src="../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></i></span> &#160;</p>
+<script type="text/javascript" language="JavaScript">
+<!--
+if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
+  WritePopupMenuLayer();
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B02210000005370656369616C2053796D626F6C7320616E6420416262726576696174696F6E730C0242010000416262726576696174696F6E730A417665726167650A41766572616765204E6F69736520526564756374696F6E0A426F756E6461726965730A436C6F73650A456C6C697073650A46696C6C486F6C65730A466C617446696C6C0A466C61746E6573730A466F726D61740A47656E65726174650A496E636C426E6450740A496E766572740A4C6566740A4C696E650A6D6163726F20636F6D6D616E64730A4D6163726F730A4D657267650A4D6573680A4F7074696D6973650A4F70745363616E0A506172616D65746572730A52696768740A526D466C6F6174696E674D73680A53656C416C6C0A53656C42794372760A53656C656374696F6E0A53656C496E760A53656C506F6C79676F6E0A53656C547970650A53656E736F720A536574566965770A536D6F6F7468426E640A5370656369616C2053796D626F6C730A566F6C756D650D02210000005370656369616C2053796D626F6C7320616E6420416262726576696174696F6E7311020D0000004D6163726F73204D6F64756C651202210000005370656369616C2053796D626F6C7320616E6420416262726576696174696F6E731302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

@@ -1,0 +1,360 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>New Point</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+img_whs4 { border:none; float:none; width:32px; height:29px; border-style:none; }
+img_whs5 { border:none; width:469px; height:547px; float:none; border-style:none; }
+p.whs6 { font-style:normal; }
+img_whs7 { border:none; width:680px; height:549px; float:none; border-style:none; }
+img_whs8 { border:none; width:415px; height:553px; float:none; border-style:none; }
+img_whs9 { border:none; width:626px; height:595px; float:none; border-style:none; }
+img_whs10 { border:none; width:743px; height:620px; float:none; border-style:none; }
+img_whs11 { border:none; width:32px; height:29px; float:none; border-style:none; }
+img_whs12 { border:none; width:273px; height:162px; float:none; border-style:none; }
+img_whs13 { border:none; width:644px; height:555px; float:none; border-style:none; }
+img_whs14 { border:none; width:689px; height:548px; float:none; border-style:none; }
+img_whs15 { border:none; width:556px; height:546px; float:none; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1><span lang="EN-GB">New Point</span></h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p class="bullet"><i style="font-style:normal;"><span lang="EN-US">T</span>his command is accessible from</i> <span class="Path" style="font-weight:bold;"><b>Datuming &gt; Point</b></span><span class="Path">,</span> by using the shortcut <span class="Shortcut" style="font-weight:bold;"><b>Shift + Alt + 1</b></span> <span class="Shortcut">or by choosing the</span> <span class="Shortcut" style="font-weight:bold;"><b>Point tab</b></span> <span class="Shortcut">in the</span> <span class="Shortcut" style="text-decoration:underline;"><u>Datum creation</u></span> <span class="Shortcut">mode (if it is currently active).</span></p>
+<p class="description"><span style="font-weight:bold;"><b>Description</b></span>: New Point command creates new datum point by one of the 7 available methods. Here below these methods are explained followed by examples.</p>
+<h2><i style="font-style:normal;"><span lang="EN-US">M</span></i><i style="font-style:normal;"><span lang="EN-US">ethods:</span></i></h2>
+<p class="sub-head"><i style="font-style:normal;"><span lang="EN-US">Interactive</span></i></p>
+<p><i style="font-style:normal;"><span lang="EN-US"><img src="Images/new_point_interactive.gif" width="32px" height="29px" border="0" class="img_whs4" alt=""></span></i> <i style="font-style:normal;"><span lang="EN-US">: standard point construction using one of the available 4</span></i> <i style="font-style:normal;"><span lang="EN-US">definition</span></i> <i style="font-style:normal;"><span lang="EN-US">methods (pick from viewport is enabled by default). For more details about the define section, see <a href="../Working_with_Data/Descriptions/define_point.htm">Define Point</a>.</span></i></p>
+<p class="Example" style="font-style:normal; text-decoration:underline;"><i style="font-style:normal;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Example</a></span></i></p>
+<div class="droptext" id="POPUP936742772" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/InteractivePoint.gif" width="469px" height="547px" border="0" class="img_whs5" alt=""></p>
+</div>
+<p class="whs6">&#160;</p>
+<p class="sub-head">Intersection of 2 lines</p>
+<p><img src="Images/new_point_2lines.gif" width="32px" height="29px" border="0" class="img_whs4" alt=""> : This method includes definition of 2 construction lines. <i style="font-style:normal;"><span lang="EN-US">For more details about the define section, see <a href="../Working_with_Data/Descriptions/define_line.htm">Define Line</a>.</span></i></p>
+<p id="p4"><i><span lang="EN-US" style="font-style:italic; font-weight:bold;"><i><b>H</b>ow it works</i></span></i>:</p>
+<ol>
+<li class="kadov-p-Csteps-Ip5">
+<p class="steps" id="p5">The user defines two lines one by one.</p>
+</li>
+<li class="kadov-p-Csteps-Ip5">
+<p class="steps" id="p5">Depending on the line positions, the result point can be:</p>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet-Ip5">
+<p class="bullet" id="p5">intersection of the lines (in case both lines lie in a plane)</p>
+</li>
+<li class="kadov-p-Cbullet-Ip5">
+<p class="bullet" id="p5">middle of the transversal (in case of crossed lines)</p>
+</li>
+<li class="kadov-p-CImportant-Ip5">
+<p class="Important" id="p5">In case of parallel lines, no result point can be created.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p id="p18"><i style="font-style:normal;"><span lang="EN-US">C</span></i>hanges of all values can be applied at any time.</p>
+<p id="P1" class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2" style="text-decoration:underline;">Example for point by 2 crossed lines</a></p>
+<div class="droptext" id="POPUP238158298" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/PointByTwoLinesCr.gif" width="680px" height="549px" border="0" class="img_whs7" alt=""></p>
+</div>
+<p>&#160;</p>
+<p class="sub-head">Point on line</p>
+<p><img src="Images/new_point_on_line.gif" width="32px" height="29px" border="0" class="img_whs4" alt=""> : This method includes definition of a line and adjustment of point position on it. <i style="font-style:normal;"><span lang="EN-US">For more details about the define section, see <a href="../Working_with_Data/Descriptions/define_line.htm">Define Line</a>.</span></i></p>
+<p id="p2"><i><span lang="EN-US" style="font-style:italic; font-weight:bold;"><i><b>H</b>ow it works</i></span></i>:</p>
+<ol>
+<li class="kadov-p-Csteps-Ip3">
+<p class="steps" id="p3">The user defines a line.</p>
+</li>
+<li class="kadov-p-Csteps-Ip3">
+<p class="steps" id="p3">The point position on line should be adjusted. There are different possibilities available:</p>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet-Ip3">
+<p class="bullet" id="p3">Button <span style="font-weight:bold;"><b>First point</b></span> enabled - the result point will be the start point of the selected line.</p>
+</li>
+</ul>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet-Ip3">
+<p class="bullet" id="p3">Button <span style="font-weight:bold;"><b>Mid point</b></span> enabled - the result point will be the middle point of the selected line.</p>
+</li>
+</ul>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet-Ip3">
+<p class="bullet" id="p3">Button <span style="font-weight:bold;"><b>Last point</b></span> enabled - the result point will be the end point of the selected line.</p>
+</li>
+</ul>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet-Ip3">
+<p class="bullet" id="p3">Value <span style="font-weight:bold;"><b>X mm from the first point</b></span> - the result point will lie on the line at X mm from the start point in axis direction.</p>
+</li>
+</ul>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet-Ip3">
+<p class="bullet" id="p3">Value <span style="font-weight:bold;"><b>X length ratio from the first point</b></span> - the result point will lie on the line at the X length ratio from the first point in axis direction.</p>
+</li>
+</ul>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet-Ip3">
+<p class="bullet" id="p3">If the checkbox Inverse direction is enabled, then the result point will be created at the given position on the line, but in inverse axis direction.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p id="p12"><i style="font-style:normal;"><span lang="EN-US">C</span></i>hanges of all values can be applied at any time.</p>
+<p id="p3" class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a6" style="text-decoration:underline;">Example</a></p>
+<div class="droptext" id="POPUP237117797" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/PointOnLine.gif" width="415px" height="553px" border="0" class="img_whs8" alt=""></p>
+</div>
+<p class="Use">This method is very useful when needed to create mid point between two circles or two spheres.</p>
+<p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a7" style="text-decoration:underline;">Example for two circles</a></p>
+<div class="droptext" id="POPUP226752658" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/PointBy2Circles.gif" width="626px" height="595px" border="0" class="img_whs9" alt=""></p>
+</div>
+<p>&#160;</p>
+<p class="sub-head">Intersection of 3 planes</p>
+<p><img src="Images/new_point_3planes.gif" width="32px" height="29px" border="0" class="img_whs4" alt=""> : This method includes definition of 3 construction planes. <i style="font-style:normal;"><span lang="EN-US">For more details about the define section, see <a href="../Working_with_Data/Descriptions/define_plane.htm">Define Plane</a>.</span></i></p>
+<p id="p6"><i><span lang="EN-US" style="font-style:italic; font-weight:bold;"><i><b>H</b>ow it works</i></span></i>:</p>
+<ol>
+<li class="kadov-p-Csteps-Ip7">
+<p class="steps" id="p7">The user defines three planes one by one.</p>
+</li>
+<li class="kadov-p-Csteps-Ip7">
+<p class="steps" id="p7">The result point is intersection between the planes.</p>
+</li>
+<li class="kadov-p-Csteps-Ip7">
+<p class="steps" id="p7">If two or three planes are parallel, then result point can not be created.</p>
+</li>
+</ol>
+<p id="p13"><i style="font-style:normal;"><span lang="EN-US">C</span></i>hanges of all values can be applied at any time.</p>
+<p class="Example" id="p14" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a3" style="text-decoration:underline;">Example</a></p>
+<div class="droptext" id="POPUP296380941" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/PointByThreePlanes.gif" width="743px" height="620px" border="0" class="img_whs10" alt=""></p>
+</div>
+<p>&#160;</p>
+<p class="sub-head">Intersection of line and object</p>
+<p><span style="font-weight:bold;"><b><img src="Images/new_point_plane_line.gif" width="32px" height="29px" border="0" class="img_whs11" alt=""></b></span> : This method includes definition of 2 construction entities: line and object (cone, plane, sphere, or cylinder). <i style="font-style:normal;"><span lang="EN-US">For more details about the define section, see <a href="../Working_with_Data/Descriptions/define_line.htm">Define Line</a> for line definition and <a href="../Working_with_Data/Descriptions/define_cone.htm">Define Cone</a>, &#160;<a href="../Working_with_Data/Descriptions/define_plane.htm">Define Plane</a>, <a href="../Working_with_Data/Descriptions/define_sphere.htm">Define Sphere</a>, and <a href="../Working_with_Data/Descriptions/define_cylinder.htm">Define Cylinder</a> for object definition.</span></i></p>
+<p id="p8"><i><span lang="EN-US" style="font-style:italic; font-weight:bold;"><i><b>H</b>ow it works</i></span></i>:</p>
+<ol>
+<li class="kadov-p-Csteps-Ip9">
+<p class="steps" id="p9">The user defines a line and an object. The type of object is selected from the following drop-down list:<br>
+<br>
+<img src="Images/new_point_object_selection.gif" width="273px" height="162px" border="0" class="img_whs12" alt=""></p>
+</li>
+<li class="kadov-p-Csteps-Ip9">
+<p class="steps" id="p9">The result point is intersection between both entities.</p>
+</li>
+<li class="kadov-p-Csteps-Ip9">
+<p class="steps" id="p9">If the line and the object don't intersect (or the line is parallel to the plane/cylinder's axis or the line lies on the plane/cylinder's slant surface/cone's slant surface), then result point can not be created.</p>
+</li>
+<li class="kadov-p-Csteps-Ip9">
+<p class="steps" id="p9">In case of volumetric entities (cone, sphere, and cylinder) and two intersections the result point is the first cross point between the line and the object along the line direction.</p>
+</li>
+</ol>
+<p id="p15"><i style="font-style:normal;"><span lang="EN-US">C</span></i>hanges of all values can be applied at any time.</p>
+<p class="Example" id="p16" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a4" style="text-decoration:underline;">Example for point by line and sphere</a></p>
+<div class="droptext" id="POPUP225404521" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/PointBySphereLine.gif" width="644px" height="555px" border="0" class="img_whs13" alt=""></p>
+</div>
+<p>&#160;</p>
+<p class="sub-head">Point projection</p>
+<p><img src="Images/new_point_projection.gif" width="32px" height="29px" border="0" class="img_whs4" alt=""> : This method includes definition of 2 construction entity types: projection entity (point, circle or sphere) and entity to project on it (line or plane).</p>
+<p id="p10"><span style="font-style:italic; font-weight:bold;"><i><b>How it works</b></i></span>:</p>
+<ol>
+<li class="kadov-p-Csteps-Ip11">
+<p class="steps" id="p11">The user selects entity type for the source (projected) entity using the drop-down list (in the first tab)</p>
+</li>
+<li class="kadov-p-Csteps-Ip17">
+<p class="steps" id="p17">A particular entity of the selected type (plane, circle or sphere for this method) should be defined. For more details about construction entity definitions, see <i><span lang="EN-US"><a href="../Working_with_Data/Descriptions/define_point.htm">Define Point</a>,</span></i> <i style="font-style:normal;"><span lang="EN-US"><a href="../Working_with_Data/Descriptions/define_circle.htm">Define Circle</a>,</span></i> <i style="font-style:normal;"><span lang="EN-US"><a href="../Working_with_Data/Descriptions/define_sphere.htm">Define Sphere</a></span></i><i style="font-style:normal;"><span lang="EN-US">.</span></i></p>
+</li>
+<li class="kadov-p-Csteps-Ip17">
+<p class="steps" id="p17"><i style="font-style:normal;"><span lang="EN-US">Same procedure (steps 1 and 2) to be followed for the target entity (entity to project on it).</span></i> <i><span lang="EN-US" style="font-style:normal;">For more details about the define section, see</span> </i><i style="font-style:normal;"><span lang="EN-US"><a href="../Working_with_Data/Descriptions/define_line.htm">Define Line</a> and</span></i> <i style="font-style:normal;"><span lang="EN-US"><a href="../Working_with_Data/Descriptions/define_plane.htm">Define Plane</a>.</span></i></p>
+</li>
+</ol>
+<p id="p19" class="whs6"><i style="font-style:normal;"><span lang="EN-US">Alternative way of steps 1,2 and 3 is:</span></i></p>
+<ol>
+<li class="kadov-p-Csteps-Ip20">
+<p class="steps" id="p20">Enable the option 'Pick from screen' in the drop-down list (in the first tab)</p>
+</li>
+<li class="kadov-p-Csteps-Ip21">
+<p class="steps" id="p21">Select and define simultaneously the type and values for the construction entity. This procedure is very suitable for quick selection of predefined datums.</p>
+</li>
+<li style="font-style:normal;" class="kadov-p-Csteps-Ip21">
+<p class="steps" id="p21"><i style="font-style:normal;"><span lang="EN-US">Same procedure (steps 1 and 2) to be followed for the target entity.</span></i></p>
+</li>
+</ol>
+<p id="p22">Common for both procedures:</p>
+<ol start="4">
+<li class="kadov-p-Csteps-Ip23">
+<p class="steps" id="p23">The result point represents the projection of the source entity (point, sphere centre or circle centre) on the target entity (line or plane).</p>
+</li>
+<li class="kadov-p-Csteps-Ip23">
+<p class="steps" id="p23">If the source entity lies on the target one, then the result point will be identical to the construction one.</p>
+</li>
+</ol>
+<p id="p24">Changes of all values can be applied at any time.</p>
+<p id="p24" class="Example" style="text-decoration:underline;"><span style="font-style:normal;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a5" style="text-decoration:underline;">Example for circle projection on a line</a></span></p>
+<div class="droptext" id="POPUP171378868" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/PointByProjection.gif" width="689px" height="548px" border="0" class="img_whs14" alt=""></p>
+</div>
+<p>&#160;</p>
+<p class="sub-head">Intersection of 2 circles</p>
+<p><img src="Images/new_point_2circles.gif" width="32px" height="29px" border="0" class="img_whs11" alt=""> : This method includes definition of 2 construction circles. <i style="font-style:normal;"><span lang="EN-US">For more details about the define section, see <a href="../Working_with_Data/Descriptions/define_circle.htm">Define Circle</a>.</span></i></p>
+<p id="p25"><i><span lang="EN-US" style="font-style:italic; font-weight:bold;"><i><b>H</b>ow it works</i></span></i>:</p>
+<ol>
+<li class="kadov-p-Csteps-Ip26">
+<p class="steps" id="p26">The user defines two circles one by one.</p>
+</li>
+<li class="kadov-p-Csteps-Ip27">
+<p class="steps" id="p27">The result point is intersection between the two circles. There are two cross points. Press <span style="font-weight:bold;"><b>Toggle solution</b></span> button to switch between them.</p>
+</li>
+</ol>
+<p class="Warning" id="p30">In case of non-intersected circles, no result point can be created. If the two circles are not co-planar the result is unpredictable.</p>
+<p id="p31"><i style="font-style:normal;"><span lang="EN-US">C</span></i>hanges of all values can be applied at any time.</p>
+<p class="Example" id="p32" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a8" style="text-decoration:underline;">Example for point by 2 crossed circles</a></p>
+<div class="droptext" id="POPUP289373920" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/PointBy2CrossedCircles.gif" width="556px" height="546px" border="0" class="img_whs15" alt=""></p>
+</div>
+<p class="Normal" style="text-align:justify;"><i><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Interactive Datum Interface Description','../User_Interface/Interactive_datum_interface_description.htm','New Circle','New_Circle.htm','New Cone','New_Cone.htm','New Cylinder','New_Cylinder.htm','New Line','New_Line.htm','New Plane','New_Plane.htm','New Rectangular Slot','New_Rectangular_Slot.htm','New Round Slot','New_Round_Slot.htm','New Sphere','New_Sphere.htm');return false;" title=""><img src="../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></i></p>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a1','POPUP936742772');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a2','POPUP238158298');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a6','POPUP237117797');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a7','POPUP226752658');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a3','POPUP296380941');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a4','POPUP225404521');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a5','POPUP171378868');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a8','POPUP289373920');
+//-->
+</script><script type="text/javascript" language="JavaScript">
+<!--
+if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
+  WritePopupMenuLayer();
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B02090000004E657720506F696E740C02AC0000004170706C790A436972636C650A436F6E650A4372656174650A43726F73730A43796C696E6465720A446174756D20706F696E740A446174756D696E670A446566696E650A456E7469746965730A456E7469747920547970650A46726F6D2056696577706F72740A496E76657273650A4C696E650A4E65770A4E657720446174756D730A4E657720506F696E740A506172616C6C656C0A506C616E650A53656C6563740A53656C656374696F6E0D02090000004E657720506F696E741102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

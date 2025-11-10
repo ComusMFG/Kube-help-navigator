@@ -1,0 +1,570 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Printing</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { height:5px; float:alignleft; }
+img_whs4 { border:none; width:368px; height:696px; float:none; border-style:none; }
+p.whs5 { text-align:left; }
+img_whs6 { border:none; width:285px; height:258px; float:none; border-style:none; }
+p.whs7 { margin-left:40px; }
+img_whs8 { border:none; width:502px; height:709px; float:none; border-style:none; }
+p.whs9 { margin-left:67px; }
+img_whs10 { border:none; width:398px; height:148px; float:none; border-style:none; }
+img_whs11 { border:none; width:390px; height:137px; float:none; border-style:none; }
+img_whs12 { border:none; width:399px; height:129px; float:none; border-style:none; }
+ol.whs13 { list-style:decimal; }
+img_whs15 { border:none; width:665px; height:344px; float:none; border-style:none; }
+img_whs16 { border:none; width:308px; height:411px; float:none; border-style:none; }
+ol.whs14 { list-style:decimal; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body lang="BG">
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nCorrosion Module\nPrinting");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1><span lang="EN-US">Printing</span></h1>
+<hr size="5" align="left" class="whs3">
+<p class="description"><i style="font-style:italic;"><span lang="EN-US" style="font-style:normal; font-weight:bold;"><b>Description:</b></span> <span lang="EN-US" style="font-style:normal;">This step outputs the report as either a .PDF file or onto a &#160;printer using a pre-defined template, which customises&#160; the outlay and language of the report.</span></i></p>
+<p class="sub-head">Printing Description and Procedure:</p>
+<p><img src="Images/Print_dialog.gif" width="368px" height="696px" border="0" class="img_whs4" alt=""></p>
+<p class="parameterstitle"><span lang="EN-US">Skip</span></p>
+<p class="parameterdescription"><span lang="EN-US">If this option is enabled the processing will skip this step. If not the corrosion report will be printed in .PDF file format.</span></p>
+<p align="left" class="whs5"><span lang="EN-US">To print a report, specify :</span></p>
+<p class="parameterstitle">Report File</p>
+<p class="parameterdescription">Specifies the .pir file from where the input data is loaded. By default it is the same as generated in step 2, i.e. Inspect.</p>
+<p class="parameterstitle">Template File</p>
+<p class="parameterdescription">Specifies the template file for customising the report. The template files can be manually created/edited in compliance with its specification (see <a href="appendix_a_Corrosion.htm">Appendix A</a>). A default template file (3DS_v10.ptt) is provided with KUBE.</p>
+<p class="parameterstitle">Output File</p>
+<p class="parameterdescription">Specifies the name of the .PDF report that will be generated as a result.</p>
+<p class="parameterstitle">Global Information</p>
+<p class="parameterdescription">Contains the text that will be printed on the first page of the report (under <span style="font-style:italic;"><i>Global Information</i></span> section). This text can be directly edited, including adding, removing, and swapping of whole text lines.</p>
+<p class="parameterstitle">Reset</p>
+<p class="parameterdescription">Press this button to fill <span style="font-style:italic;"><i>Global Information</i></span> section with the default text. Names of parameters are read from the template file, values of some parameters are set by the user and values of some parameters are automatically set depending on the parameters set in previous steps.</p>
+<p class="parameterstitle">Print Options</p>
+<p class="parameterdescription">Press this button to invoke Print Options dialog. This dialog sets which pages to be included in the report and some other options.</p>
+<p class="toolbar"><img src="Images/Print_Options_dialog.gif" width="285px" height="258px" border="0" class="img_whs6" alt=""></p>
+<p class="bullet" style="margin-left:0px; text-align:left;" align="left">&#160;</p>
+<p class="sub-head">Report File:</p>
+<p>Every page contains the following elements:</p>
+<ol>
+<li class="kadov-p-Csteps">
+<p class="steps">Header – optional text that is on the top of the page and could be left-aligned, centered, or right-aligned. Header text and position are defined in the template file.</p>
+</li>
+<li class="kadov-p-Csteps">
+<p class="steps">Logo – custom image file (.GIF .JPG, .BMP, .PNG, or .TIF format), which usually represents the logo of the company that creates the report. It could be immediately below the Header or above the Footer and could be left-aligned, centered, or right-aligned. Logo file and position are defined in the template file.</p>
+</li>
+<li class="kadov-p-Csteps">
+<p class="steps">Page contents – it varies depending on the page.</p>
+</li>
+<li class="kadov-p-Csteps">
+<p class="steps">Footer – optional text that is on the bottom of the page and could be left-aligned, centered, or right-aligned. Footer text and position are defined in the template file.</p>
+</li>
+<li class="kadov-p-Csteps">
+<p class="steps">Page number – it is optional and is set in Print Options dialog (<span style="font-style:italic;"><i>Page Numbers</i></span> option). Page numbers could be on the top or on the bottom of a page and could be left-aligned, centered, or right-aligned. Position of page numbers is defined in the template file.</p>
+</li>
+</ol>
+<p>The following is description of the pages in the corrosion report.</p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>Global Information</b></span> - This page contains global information for the report. The text is taken from the <span style="font-style:italic;"><i>Global Information</i></span> field in Print section. This page always appears in the report.</p>
+</li>
+</ul>
+<p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Example</a></p>
+<div class="droptext" id="POPUP259593412" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/1_Global_Information.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet" style="font-weight:bold;">Summary – <span style="font-weight:normal;">This page contains summary information for the corrosion zones in tabular form. A corrosion zone is represented by rectangle defined by the XY extents of the corrosion area. Every corrosion zone is separately described by:</span></p>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet">XY position of the top left corner (Y position is also given in clock units.)</p>
+</li>
+</ul>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet">XYZ coordinates of the deepest point (Y position is also given in clock units), where Z is the depth.</p>
+</li>
+</ul>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet">XY offset of the deepest point from the top left corner.</p>
+</li>
+</ul>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Length (along X-axis) and width (along Y-axis) of the corrosion zone.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p class="whs9">This page is included in the report if corrosion areas are detected.</p>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP162622728" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/2_Summary.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>Scandata Overview</b></span> – This page contains shaded orthogonal view of the pipe (as scan data.) with the direction of the gas flow along the pipe. Labels for gas flow start and end points are taken from <span style="font-style:italic;"><i>Gas Flow from … to …</i></span> parameters in Inspect section.</p>
+</li>
+</ul>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a3" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP261989758" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/3_Scandata_Overview.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<p class="whs9">There could be optional zoomed in views of all corrosion zones. Their appearance is controlled by <span style="font-style:italic;"><i>Scandata Detailed Views</i></span> option from the Print Options dialog.</p>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a4" style="text-decoration:underline;">Example 1</a></span></p>
+<div class="droptext" id="POPUP261348176" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/3_1_Scandata_detail_1.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a26" style="text-decoration:underline;">Example 2</a></span></p>
+<div class="droptext" id="POPUP240951978" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/3_2_Scandata_detail_2.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a27" style="text-decoration:underline;">Example 3</a></span></p>
+<div class="droptext" id="POPUP260615841" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/3_3_Scandata_detail_3.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>Merging Quality Assessment</b></span> – These pages contain unfolded views of the:</p>
+</li>
+</ul>
+<ul>
+<li style="list-style:none; display:inline;">
+<ol>
+<li class="kadov-p-Csteps">
+<p class="steps">Comparison of the scan data against the merged pipe.</p>
+</li>
+</ol>
+</li>
+</ul>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a5" style="text-decoration:underline;">Schematic</a></span></p>
+<div class="droptext" id="POPUP167058587" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/MQA1.gif" width="398px" height="148px" border="0" class="img_whs10" alt=""><br>
+Green colours represent scan data below the mesh, gray colours represent scan data close to the mesh, and blue colours represent scan data above the mesh.</p>
+</div>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a6" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP160650982" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/4_Merging_Quality_Assesment_1.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<ul>
+<li style="list-style:none; display:inline;">
+<ol start="2">
+<li class="kadov-p-Csteps">
+<p class="steps">Comparison between the overlapping scan patches.</p>
+</li>
+</ol>
+</li>
+</ul>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a7" style="text-decoration:underline;">Schematic</a></span></p>
+<div class="droptext" id="POPUP221540772" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/MQA2.gif" width="390px" height="137px" border="0" class="img_whs11" alt=""><br>
+Blue colours represent non-overlapped areas of scan patches and gray colours represent overlapped areas of scan patches.</p>
+</div>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a8" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP162385518" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/4_Merging_Quality_Assesment_2.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<p class="whs9">Merging Quality Assessment pages give an idea of how good the pipe is presented as mesh.</p>
+<p class="whs9">These pages also contain the direction of the gas flow along the pipe. Their appearance is controlled by <span style="font-style:italic;"><i>Merging Quality Assessment</i></span> option from the Print Options dialog.</p>
+<ul>
+<li style="font-weight:bold;" class="kadov-p-Cbullet">
+<p class="bullet">Transformation to a flat surface – <span style="font-weight:normal;">This page contains unfolded view of the pipe merged mesh compared to a plane. It also contains the direction of the gas flow along the pipe.</span></p>
+</li>
+</ul>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a9" style="text-decoration:underline;">Schematic</a></span></p>
+<div class="droptext" id="POPUP237626775" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/Transformation_to_a_flat_surface.gif" width="399px" height="129px" border="0" class="img_whs12" alt=""><br>
+Red colours represent scan data closer the plane and blue colours represent scan data further to the plane.</p>
+</div>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a10" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP226321770" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/5_Transformation_to_a_flat_surface.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>Surface Analysis</b></span> – These pages contain unfolded views of the:</p>
+</li>
+<li style="list-style:none; display:inline;">
+<ol>
+<li class="kadov-p-Csteps">
+<p class="steps">Overview of areas of interest – Pipe presented as unfolded merged mesh. Normal surface is coloured in gray, potential corrosion is coloured in pink, and potential welding is coloured in violet.</p>
+</li>
+</ol>
+</li>
+</ul>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a11" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP240809003" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/6_Surface_Analysis_1.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<ol>
+<li style="list-style:none; display:inline;">
+<ol start="2" type="1" class="whs13">
+<li class="kadov-p-Csteps">
+<p class="steps">Overview of surface subdivision – Pipe presented as unfolded merged mesh. Surface is split in subdivisions by the potential welding(s). These subdivisions are painted in different colours.</p>
+</li>
+</ol>
+</li>
+</ol>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a12" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP260602358" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/6_Surface_Analysis_2.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<p class="whs9">These two pages always exist in the report.</p>
+<ul>
+<li style="list-style:none; display:inline;">
+<ol start="3">
+<li class="kadov-p-Csteps">
+<p class="steps">Colour plot overview of reference surface – Unfolded view of the reference surface compared to a plane. Red colours represent surface closer the plane and blue colours represent surface further to the plane (see <span style="font-style:italic;"><i>Transformation to a flat surface</i></span> page.)</p>
+</li>
+</ol>
+</li>
+</ul>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a13" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP168042181" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/6_Surface_Analysis_3.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<ul>
+<li style="list-style:none; display:inline;">
+<ol start="4" type="1" class="whs13">
+<li class="kadov-p-Csteps">
+<p class="steps">Shaded overview of the reference surface – Unfolded view of the reference surface.</p>
+</li>
+</ol>
+</li>
+</ul>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a14" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP167690664" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/6_Surface_Analysis_4.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<p class="whs9">Appearance of these two pages is controlled by <span style="font-style:italic;"><i>Reference Surface Views</i></span> option from the Print Options dialog.</p>
+<ul>
+<li style="list-style:none; display:inline;">
+<ol start="5">
+<li class="kadov-p-Csteps">
+<p class="steps">Surface to reference comparison (customised scale -0.1;+0.1) – Comparison of the pipe surface to the reference surface within -0.1…+0.1 range. Red colours represent pipe surface below the reference, green colours represent pipe surface close to the reference, and blue colours represent pipe surface above the reference. Grey colours represent pipe surface distanced to the reference more than 0.1 in both directions (see <span style="font-style:italic;"><i>Transformation to a flat surface</i></span> page.)</p>
+</li>
+</ol>
+</li>
+</ul>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a15" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP263084659" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/6_Surface_Analysis_5.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<ul>
+<li style="list-style:none; display:inline;">
+<ol start="6">
+<li class="kadov-p-Csteps">
+<p class="steps">Surface to reference comparison (customised scale -0.2;+0.2) – Same as previous page but the scale is from -0.2 to +0.2.</p>
+</li>
+</ol>
+</li>
+</ul>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a16" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP231604412" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/6_Surface_Analysis_6.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<p class="whs9">Appearance of these two pages is controlled by <span style="font-style:italic;"><i>+0.1/-0.1 and +0.2/-0.2 error maps</i></span> option from the Print Options dialog.</p>
+<p class="whs9">All pages from <span style="font-weight:bold;"><b>Surface Analysis</b></span> section also contain the direction of the gas flow along the pipe.</p>
+<ul>
+<li style="font-weight:bold;" class="kadov-p-Cbullet">
+<p class="bullet">Determination of corrosion zones – <span style="font-weight:normal;">These pages contain unfolded views of the:</span></p>
+</li>
+<li style="list-style:none; display:inline;">
+<ol>
+<li class="kadov-p-Csteps">
+<p class="steps">Colour plot of surface analysis – Comparison of the pipe surface to the reference surface. Red colours represent pipe surface below the reference, gray colours represent pipe surface close to the reference, and blue colours represent pipe surface above the reference (see <span style="font-style:italic;"><i>Surface to reference comparison</i></span> page.)</p>
+</li>
+</ol>
+</li>
+</ul>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a17" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP167066976" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/7_Determination_of_corrosion_zones_1.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<p class="whs9">According to this colour scheme usually potential welding is coloured from light to dark blue, potential corrosion is in green, corrosion areas are coloured from yellow to red, and normal surface is gray.</p>
+<p class="whs9">Deepest point of every corrosion zone is labeled with distinct colour. The labels contain the XYZ coordinates of the corresponding point (Y position is also given in clock units.)</p>
+<ol type="1" class="whs14">
+<li style="list-style:none; display:inline;">
+<ol start="2">
+<li class="kadov-p-Csteps">
+<p class="steps">Defects based on interaction rules – Comparison of the pipe surface to the reference surface. Green, yellow, orange, red, and brown colours represent pipe surface below the reference, gray colours represent pipe surface exactly lying on the reference, and blue colours represent pipe surface above the reference (see <span style="font-style:italic;"><i>Surface to reference comparison</i></span> page.)</p>
+</li>
+</ol>
+</li>
+</ol>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a18" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP227428616" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/7_Determination_of_corrosion_zones_2.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<p class="whs9">Every corrosion zone is labeled by its number and Y position (in clock units.)</p>
+<p class="whs9">There is a <span style="font-style:italic;"><i>Material Loss as percentage of Wall Thickness</i></span> colour diagram in the bottom of the page. This diagram represents the amount of material loss in percents according to colour plot scale for the unfolded view.</p>
+<p class="whs9">These two pages also contain the direction of the gas flow along the pipe. They always exist in the report.</p>
+<p class="whs9">The following pages are always generated for every corrosion zone (if any). Please note that all views are unfolded zoomed in areas containing the corresponding zones.</p>
+<ul>
+<li style="font-weight:normal;" class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>Colour plot of corrosion area</b></span> – This page contains summary information for the corresponding corrosion zone in tabular form (see <span style="font-style:italic;"><i>Summary</i></span> page) on the top and comparison of the pipe surface area (that contains the corresponding corrosion zone) to the reference surface. Red colours represent pipe surface below the reference, gray colours represent pipe surface close to the reference, and blue colours represent pipe surface above the reference (see <span style="font-style:italic;"><i>Colour plot of surface analysis</i></span> page.)</p>
+</li>
+</ul>
+<p class="Example" style="text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a19" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP226708457" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/Zone1_1.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<p class="whs9">Corrosion zone is bounded by red rectangle and its deepest point is labeled with distinct colour. The label contains the XYZ coordinates of the point (Y position is also given in clock units.)</p>
+<ul>
+<li style="font-weight:normal;" class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>Colour plot of local reference surface</b></span> – Comparison of the reference surface (that contains the corresponding corrosion zone) to a plane (see <span style="font-style:italic;"><i>Colour plot overview of reference surface</i></span> page.)</p>
+</li>
+</ul>
+<p class="Example" style="text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a20" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP260693497" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/Zone1_2.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<ul>
+<li style="font-weight:normal;" class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>Shaded view of local reference surface</b></span> – shaded view of the reference surface that contains the corresponding corrosion zone (see Shaded overview of the reference surface page.)</p>
+</li>
+</ul>
+<p class="Example" style="text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a21" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP165327300" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/Zone1_3.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<ul>
+<li style="font-weight:normal;" class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>Worst Case X-profile</b></span> – This page represents the Worst Case X-profile on the pipe surface area that contains the corresponding corrosion zone. Every point is coloured according to the colour plot on the right hand side. Red colours represent points below the reference, gray colours represent points to the reference, and blue colours represent points above the reference (see <span style="font-style:italic;"><i>Colour plot of surface analysis</i></span> page.)</p>
+</li>
+</ul>
+<p class="whs9">The deepest point is labeled with distinct colour. The label contains the XYZ coordinates of the point (Y position is also given in clock units.)</p>
+<p class="whs9">Worst Case X-profile (or Y-profile) is a set of points containing the deepest point along each parallel to X-axis (or Y-axis.) line within the corrosion zone. The step is defined by the X resolution (or Y resolution) parameter in Merge section.</p>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a22" style="text-decoration:underline;">Schematic in 3D</a></span></p>
+<div class="droptext" id="POPUP160091132" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/WCP1.gif" width="665px" height="344px" border="0" class="img_whs15" alt=""><br>
+Example of Worst Case X-profile (blue line) – 3D view</p>
+</div>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a23" style="text-decoration:underline;">Schematic in 2D</a></span></p>
+<div class="droptext" id="POPUP161365895" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/WCP.gif" width="308px" height="411px" border="0" class="img_whs16" alt=""><br>
+Example of Worst Case X-profile (blue line) – top view</p>
+</div>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a24" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP160667672" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/Zone1_4.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<p class="whs9">A chart representing Z coordinates or depth (on the vertical axis) and X coordinates (on the horizontal axis) of every point from the Worst Case X-profile is placed on the bottom of the page. Please note that in some charts the step may be different – this is due to more even distribution of the vertical gridlines.</p>
+<ul>
+<li style="font-weight:normal;" class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>Worst Case Y-profile</b></span> – This page represents the Worst Case Y-profile on the pipe surface area that contains the corresponding corrosion zone. See <span style="font-style:italic;"><i>Worst Case X-profile</i></span> for description.</p>
+</li>
+</ul>
+<p class="Example" style="text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a25" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP223177661" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><img src="Images/Zone1_5.gif" width="502px" height="709px" border="0" class="img_whs8" alt=""></p>
+</div>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a1','POPUP259593412');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a2','POPUP162622728');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a3','POPUP261989758');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a4','POPUP261348176');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a26','POPUP240951978');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a27','POPUP260615841');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a5','POPUP167058587');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a6','POPUP160650982');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a7','POPUP221540772');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a8','POPUP162385518');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a9','POPUP237626775');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a10','POPUP226321770');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a11','POPUP240809003');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a12','POPUP260602358');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a13','POPUP168042181');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a14','POPUP167690664');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a15','POPUP263084659');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a16','POPUP231604412');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a17','POPUP167066976');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a18','POPUP227428616');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a19','POPUP226708457');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a20','POPUP260693497');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a21','POPUP165327300');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a22','POPUP160091132');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a23','POPUP161365895');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a24','POPUP160667672');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a25','POPUP223177661');
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0C0204010000416E616C797369730A417265610A436C6F73650A636F6C6F75720A436F6D706172650A436F6D70617269736F6E0A436F72726F73696F6E0A4372656174650A446566696E650A456469740A46696C6C0A466C61740A466F726D61740A47656E65726174650A496E73706563740A4C6162656C730A4C6566740A4C696768740A4C696E650A4D6174657269616C0A4D6174657269616C094D6174657269616C204C6F73730A4D657267650A4D6573680A4E6F726D616C20537572666163650A506172616C6C656C0A506172616D65746572730A50617463680A506C616E650A52696768740A5363616E0A5363616E20446174610A5368616465640A556E6974730A5A6F6F6D0D02080000005072696E74696E67110210000000436F72726F73696F6E204D6F64756C651202080000005072696E74696E671302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Special Commands</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+table.whs4 { border-spacing:0px; margin-left:24px; left:0px; top:142px; height:407px; width:798px; }
+col.whs5 { width:22.306%; }
+col.whs6 { width:77.694%; }
+tr.whs7 {  }
+td.whs8 { width:22.306%; border-left-width:1px; border-left-color:#000000; border-left-style:Solid; border-top-style:Solid; border-top-color:#000000; border-top-width:1px; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; }
+td.whs9 { width:77.694%; border-top-style:Solid; border-top-color:#000000; border-top-width:1px; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; }
+td.whs10 { width:22.306%; border-left-width:1px; border-left-color:#000000; border-left-style:Solid; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; }
+td.whs11 { width:77.694%; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; }
+img_whs12 { border:none; width:23px; height:16px; float:none; border-style:none; }
+p.whs13 { font-style:italic; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript" src="../ehlpdhtm.js">
+</script>
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nReferences\nIndex of COM client Commands");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Special Commands (COM Interface)</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p class="Description"><span style="font-weight:bold;"><b>Description:</b></span> These commands are not available for execution via the command line. They are passed to KUBE through the COM interface.</p>
+<p>The following table lists all available special commands:</p>
+<table cellspacing="0" width="798" class="whs4">
+<col class="whs5">
+<col class="whs6">
+<tr valign="top" class="whs7">
+<td width="22.306%" class="whs8">
+<p class="parameterstitle">ScanPrescan</p>
+</td>
+<td width="77.694%" class="whs9">
+<p class="normal-table">Enters Prescan mode of KUBE (same as selecting the PreScan command from localiser driven menu).</p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="22.306%" class="whs10">
+<p class="parameterstitle">ScanPause</p>
+</td>
+<td width="77.694%" class="whs11">
+<p class="normal-table">Enters Scan mode of KUBE (if not) in pause (same as selecting the Scan command from localiser driven menu or entering pause mode if scanning).</p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="22.306%" class="whs10">
+<p class="parameterstitle">ScanCapture</p>
+</td>
+<td width="77.694%" class="whs11">
+<p class="normal-table">Enters Scan mode of KUBE (if not) in pause (same as start scanning if in Scan mode).</p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="22.306%" class="whs10">
+<p class="parameterstitle">ScanView</p>
+</td>
+<td width="77.694%" class="whs11">
+<p class="normal-table">Enters View mode (same as selecting View command from localiser driven menu).</p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="22.306%" class="whs10">
+<p class="parameterstitle">ScanIdle</p>
+</td>
+<td colspan="1" rowspan="1" width="77.694%" class="whs11">
+<p class="normal-table">Exits Prescan, Scan, or View mode.</p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="22.306%" class="whs10">
+<p class="parameterstitle">PressA</p>
+</td>
+<td width="77.694%" class="whs11">
+<p class="normal-table">Command for pressing '<span style="font-weight:bold;"><b>A</b></span>' button.</p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="22.306%" class="whs10">
+<p class="parameterstitle">ReleaseA</p>
+</td>
+<td width="77.694%" class="whs11">
+<p class="normal-table">Command for releasing '<span style="font-weight:bold;"><b>A</b></span>' button.</p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="22.306%" class="whs10">
+<p class="parameterstitle">PressB</p>
+</td>
+<td width="77.694%" class="whs11">
+<p class="normal-table">Command for pressing '<span style="font-weight:bold;"><b>B</b></span>' button.</p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="22.306%" class="whs10">
+<p class="parameterstitle">ReleaseB</p>
+</td>
+<td width="77.694%" class="whs11">
+<p class="normal-table">Command for releasing '<span style="font-weight:bold;"><b>B</b></span>' button.</p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="22.306%" class="whs10">
+<p class="parameterstitle">GetEndEffector</p>
+</td>
+<td colspan="1" rowspan="1" width="77.694%" class="whs11">
+<p class="normal-table">Returns position and orientation matrix of End Effector (Oxyz coordinate system of the sensor).</p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="22.306%" class="whs10">
+<p class="parameterstitle">SetProfile(<span style="font-weight:normal; font-style:italic;"><i>"ProfileName"</i></span>)</p>
+</td>
+<td colspan="1" rowspan="1" width="77.694%" class="whs11">
+<p class="normal-table">Sets the designated profile. This command can be called even in pause mode.</p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="22.306%" class="whs10">
+<p class="parameterstitle">GetProfile</p>
+</td>
+<td colspan="1" rowspan="1" width="77.694%" class="whs11">
+<p class="normal-table">Returns current profile.</p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="22.306%" class="whs10">
+<p class="parameterstitle">Dospherequalification()</p>
+</td>
+<td colspan="1" rowspan="1" width="77.694%" class="whs11">
+<p class="normal-table">Launches the sphere alignment wizard <span><a href="Commands/Dospherequalification.htm" style="font-style:italic; color:#ff0000;"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs12" alt=""></a></span></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="22.306%" class="whs10">
+<p class="parameterstitle">ScanCalculate()</p>
+</td>
+<td width="77.694%" class="whs11">
+<p class="normal-table">Calculate alignment results at the end of sphere qualification wizard (when all data are captured)</p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<p class="Warning">SetProfile and AutoView macro commands can be executed in <span style="text-decoration:underline;"><u>Pause</u></span> mode as well as in <span style="text-decoration:underline;"><u>Idle</u></span> mode when called via COM interface. When called from KUBE Command Window they can be only executed in <span style="text-decoration:underline;"><u>Idle</u></span> mode.</p>
+<p class="Use"><span style="font-weight:bold;"><b>Use:</b></span> Special commands are used for communication with the hardware - sensor and localiser and they can automate scanning and probe capture jobs.</p>
+<p class="whs13"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Macro Commands','macro_commands.htm','Macro Module','macro_module.htm');return false;" title=""><img src="../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></p>
+<script type="text/javascript" language="JavaScript">
+<!--
+if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
+  WritePopupMenuLayer();
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B02100000005370656369616C20436F6D6D616E64730C02C9000000416C69676E6D656E740A436170747572650A434F4D0A436F6D6D616E64730A446F7370686572657175616C696669636174696F6E0A457869740A476574456E644566666563746F720A47657450726F66696C650A48617264776172650A4C696E650A6C6F63616C697365720A4D6163726F730A5072655363616E0A50726F62650A50726F66696C65730A5363616E0A5363616E204D6F64650A53656C6563740A53656E736F720A53657450726F66696C650A5370656369616C20436F6D6D616E64730A53797374656D0D02100000005370656369616C20436F6D6D616E647311020A0000005265666572656E63657312021C000000496E646578206F6620434F4D20636C69656E7420436F6D6D616E64731302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Align Entities</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+img_whs4 { border:none; width:220px; height:451px; float:none; border-style:none; }
+img_whs5 { border:none; width:512px; height:160px; float:none; border-style:none; }
+table.whs6 { border-spacing:0px; }
+tr.whs7 {  }
+td.whs8 { padding-right:10px; padding-left:10px; border-left-style:None; border-top-style:None; border-bottom-style:None; border-right-style:None; }
+img_whs9 { border:none; width:280px; height:141px; float:none; border-style:none; }
+img_whs10 { border:none; width:280px; height:136px; float:none; border-style:none; }
+img_whs11 { border:none; width:268px; height:163px; float:none; border-style:none; }
+img_whs12 { border:none; width:293px; height:121px; float:none; border-style:none; }
+table.whs13 { width:100%; border-spacing:0px; }
+col.whs14 { width:100%; }
+td.whs15 { width:100%; border-left-width:1px; border-left-color:#000000; border-left-style:Solid; border-top-style:Solid; border-top-color:#000000; border-top-width:1px; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; }
+img_whs16 { border:none; width:956px; height:687px; float:none; border-style:none; }
+td.whs17 { width:100%; border-left-width:1px; border-left-color:#000000; border-left-style:Solid; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Align Entities</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p><span lang="EN-GB">This command is accessible from</span> <span class="Path">Registration <i style="font-weight:bold;">&gt; Align Entities</i> <span lang="EN-GB" style="font-style:normal; font-weight:normal;">or it will be automatically launched as third step of the registration process (right after</span> <span class="Command">Pick Points</span> <span lang="EN-GB" style="font-style:normal; font-weight:normal;">and</span> <span class="Command">Register</span> <span lang="EN-GB" style="font-style:normal; font-weight:normal;">commands)</span></span><span lang="EN-GB">.</span></p>
+<p class="Description"><b><span lang="EN-GB" style="font-weight:bold;"><b>Description:</b></span></b> <span class="Command">Align Entities</span> command uses best fit algorithm to move one entity in space&#160;so to get maximum overlapping of the reference entity and entity moved. Reference entities can be mesh, scan data and point clouds. After every apply of <span style="font-weight:bold;"><b>Align Entities</b></span> KUBE automatically updates the Current CS by adding the produced transformation matrix to the one of CCS. This is useful for example, <span lang="EN-GB">when source scanned data is aligned with the target scanned data and later you intend to add more scan data to it – the co-ordinates of this additional scan data will be converted to the new position of the source data.</span></p>
+<p class="Note" id="p1"><b style="font-weight:bold;">Note 1</b><span style="font-weight:bold;"><b>:</b></span> Align entities algorithm uses only selected points. <span lang="EN-GB">You can select a subset of a particular entity to speed up the process. For example, just select the overlapping areas of a part. As a result, the alignment may additionally change the position and/or orientation of the whole entity, so that the surfaces overlap better.</span> <b><span style="font-weight:bold;"><b><br>
+Note 2</b>:</span></b> Align Entities algorithm applies to non-locked entities only. This restriction is not applicable to the reference entity <span lang="EN-GB">– it</span> may or may not be locked.</p>
+<p><span lang="EN-GB">Select the entities to be used in registration (the entities that will move to closer registration – these can include reference points that define a co-ordinate system). Call</span> <span class="Command">Align Entities</span> <span lang="EN-GB">command and the following dialog will appear:</span></p>
+<p><img src="Images/align_entities.gif" width="220px" height="451px" border="0" class="img_whs4" alt=""></p>
+<p class="sub-head"><span style="font-weight:bold;"><b>Input parameters group</b></span>:</p>
+<p class="parameterstitle"><b style="font-weight:bold;">Sample 1 in every</b></p>
+<p class="parameterdescription">How many points to be used for processing. This is a trade-off between speed and quality. Default value is 1 point (i.e. all selected points will be used for processing).</p>
+<p class="parameterstitle"><b style="font-weight:bold;">Maximum distance</b></p>
+<p class="parameterdescription">Maximum offset of selected points to their positions after transformation. Where there is little overlap and long parts, the registration could cause unacceptable large movement in non-overlap areas. Default value is 3mm</p>
+<p class="Example" style="font-weight:normal; text-decoration:underline;"><b><span lang="EN-GB" style="font-weight:normal;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Schematic</a></span></b></p>
+<div class="droptext" id="POPUP167966581" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Registration_files/image25.gif" width="512px" height="160px" border="0" class="img_whs5" alt=""></p>
+</div>
+<p class="parameterstitle"><b style="font-weight:bold;">Number of iterations</b></p>
+<p class="parameterdescription">How many times the algorithm to be applied in order to receive best results. Default value is 10 iterations.</p>
+<p class="parameterstitle"><span style="font-weight:bold;"><b>Reference</b></span> listbox</p>
+<p class="parameterdescription">C<span lang="EN-GB">hoose which entity to be used as reference. Other entities will align to it.</span></p>
+<p class="Note" id="p2"><span style="font-weight:bold;"><b>Note</b></span><span lang="EN-GB" style="font-weight:bold;"><b>:</b></span> <span lang="EN-GB">Only entities that are visible and non-selected are available in the list. If the list is empty, check whether the reference mesh is selected.</span></p>
+<p class="sub-head"><span style="font-weight:bold;"><b>Selected entities section</b></span>:</p>
+<p class="parameterdescription"><span lang="EN-GB">Select the entities to be used during the alignment process (<b>Align and Move</b>) and the entities to be moved only (<b>Move</b>). By default all available and unlocked entities will appear in the 'Align and Move' window.</span></p>
+<p class="Note"><span lang="EN-GB" style="font-weight:bold;"><b>Note</b></span><span lang="EN-GB">: If you want to remove one entity form the Move section, then go to the Entity tree and Lock the entity to be excluded.</span></p>
+<p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2" style="text-decoration:underline;">Schematic</a></p>
+<div class="droptext" id="POPUP168031149" style="display:'none'; x-ss-type:dropdown;">
+<table cellspacing="0" class="whs6">
+<col>
+<tr valign="top" class="whs7">
+<td class="whs8">
+<p class="Normal">Consider the figures below. There are Three entities and the CAD model for one of them. This CAD model is used as a reference during the alignment. The entities are: Front Seat, Rear Seat, Car Floor. On the figure 1 there is the starting situation. Entities are not aligned.</p>
+<p><img src="Registration_files/image23.gif" width="280px" height="141px" border="0" class="img_whs9" alt=""></p>
+<p>On the second Figure all three entities are in the <span style="font-weight:bold;"><b>Align and Move</b></span> list. The KUBE tried to align all of them and here's the result - the Rear Seat is aligned, but its relative position to the other two entities is changed.</p>
+<p><img src="Registration_files/image22.gif" width="280px" height="136px" border="0" class="img_whs10" alt=""></p>
+<p>On the third figure, only the Rear Seat entity is in the Align and Move list. The other two entities - Front Seat and Car Floor are in the Move list. The KUBE will not try to align them and will move them according to the position of the aligned entity. Thus the relative position is preserved.</p>
+<p><img src="Registration_files/image21.gif" width="268px" height="163px" border="0" class="img_whs11" alt=""></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+</div>
+<p class="parameterstitle"><b style="font-weight:bold;">Translation only</b></p>
+<p class="parameterdescription">Check the box to use translation only i.e. no rotation during registration. Unchecked by default.</p>
+<p class="parameterstitle"><span lang="EN-GB" style="font-weight:bold;"><b>Redraw during processing</b></span> <span lang="EN-GB">checkbox</span></p>
+<p class="parameterdescription"><span lang="EN-GB">Enable this option to display the current result of align entities procedure after each iteration.</span></p>
+<p class="parameterstitle"><span lang="EN-GB">Buttons:</span></p>
+<ul>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Apply</b></span> <span lang="EN-GB">– aligns the selected entities using current settings of the dialog. If there are locked entities in the selection the following warning appears:</span></p>
+</li>
+</ul>
+<p class="bullet" style="margin-left:40px;"><span lang="EN-GB"><img src="Images/align_warning.gif" width="293px" height="121px" border="0" class="img_whs12" alt=""></span></p>
+<ul>
+<li style="list-style:circle;" type="circle" class="kadov-p">
+<p><span lang="EN-GB" style="font-weight:bold;"><b>Unlock</b></span> <span lang="EN-GB">– unlocks the locked entities where they are (does not put them to World CS) and starts align entities process.</span></p>
+</li>
+<li style="list-style:circle;" type="circle" class="kadov-p">
+<p><span lang="EN-GB" style="font-weight:bold;"><b>Exclude locked</b></span> <span lang="EN-GB">– starts align entities process without applying it to the locked entities. This button is inactive if all selected entities are locked.</span></p>
+</li>
+<li style="list-style:circle;" type="circle" class="kadov-p">
+<p><span lang="EN-GB" style="font-weight:bold;"><b>Cancel</b></span> <span lang="EN-GB">– does not start align entities process.</span></p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Close</b></span> <span lang="EN-GB">– closes</span> <span lang="EN-GB" style="font-weight:bold;"><b>Align Entities</b></span> <span lang="EN-GB">dialog.</span></p>
+</li>
+</ul>
+<p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a3" style="text-decoration:underline;">Example</a></p>
+<div class="droptext" id="POPUP167556836" style="display:'none'; x-ss-type:dropdown;">
+<table cellspacing="0" width="100%" class="whs13">
+<col class="whs14">
+<tr valign="top" class="whs7">
+<td width="100%" class="whs15">
+<p><img src="Images/align_entities1.gif" width="956px" height="687px" border="0" class="img_whs16" alt=""></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="100%" class="whs17">
+<p>Two data sets before Align Entities applied</p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="100%" class="whs17">
+<p><img src="Images/align_entities2.gif" width="956px" height="687px" border="0" class="img_whs16" alt=""></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="100%" class="whs17">
+<p>Two data sets after Align Entities applied</p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+</div>
+<p>&#160; <a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'_self','Pick Feature Points','Pick_Feature_Points.htm','Register','Register.htm','Rotate and Translate','Rotate_and_Translate.htm');return false;" title=""><img src="../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></p>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a1','POPUP167966581');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a2','POPUP168031149');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a3','POPUP167556836');
+//-->
+</script><script type="text/javascript" language="JavaScript">
+<!--
+if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
+  WritePopupMenuLayer();
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B020E000000416C69676E20456E7469746965730C02E4000000416C69676E0A416C69676E6D656E740A4170706C790A417265610A426F780A4341440A436C6F73650A43757272656E742043530A446566696E650A446973706C61790A456E7469746965730A46726F6E740A4C6F636B0A4D6573680A4E65770A506172616D65746572730A526567697374726174696F6E0A52696768740A5363616E0A5363616E20446174610A53656C6563740A53656C656374696F6E0A53657474696E67730A53797374656D0A5472616E73666F726D6174696F6E206D61747269780A5472616E736C6174696F6E0A547265650A556E6C6F636B0A576F726C642043530D020E000000416C69676E20456E7469746965731102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

@@ -1,0 +1,254 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Capture Circle</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { float:alignleft; width:98.974%; height:6px; }
+p.whs4 { margin-left:40px; }
+img_whs5 { border:none; width:766px; height:150px; float:none; border-style:none; }
+img_whs6 { border:none; border-style:none; float:none; width:766px; height:128px; }
+img_whs7 { border:none; width:1152px; height:834px; float:none; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nScanning\nDatum Capture\nCapture Circle");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Capture Circle</h1>
+<hr align="left" width="98.974%" size="6" class="whs3">
+<p class="description"><span class="Command" style="font-weight:bold;"><b>Description:</b></span> <span class="Command">Capture Circle</span> <span lang="EN-GB">allows a datum circle to be captured using the localiser probe or to be extracted by scanning using the sensor. In case of tactile measurement a plane is necessary where the circle will lie. It is used to measure circular objects such as holes, rings, etc. This command is accessible from the</span> <span lang="EN-GB" class="Path" style="font-style:normal;">Localiser</span> <span class="Path" style="font-style:normal;">Menu</span> <span class="Path">Datum &gt; Circle</span><span lang="EN-GB">.</span></p>
+<h2 class="Normal"><span lang="EN-GB"><span lang="EN-GB"><span lang="EN-US">W</span></span>izard</span></h2>
+<p><span lang="EN-US">When you select</span> <span class="Path" style="font-weight:bold;"><b>Datum &gt; Circle</b></span> <span lang="EN-US">from the localiser menu the wizard behaves depending on the settings in <a href="../../References/Preferences_-_Datums_-_Capture_Method.htm">System &gt; Preferences &gt; Datums &gt; Capture Method (Datum Capture Method)</a> dialog. If Circle listbox is set to</span> <span lang="EN-US" style="font-weight:bold;"><b>Prompt</b></span> <span lang="EN-US">the following dialogue will appear:</span></p>
+<p class="whs4"><img src="../Capture_files/capture_method.gif" width="766px" height="150px" border="0" class="img_whs5" alt=""></p>
+<p class="whs4"><span lang="EN-US">At this stage there are offered 2 possibilities for measuring the circle:</span></p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet">If you select<span style="font-weight:bold;"><b>Tactile</b></span>, you will capture the circle using the localiser probe. See <a href="#Capture_Circle_Wizard">Capture Circle Wizard</a>.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">If you select <span style="font-weight:bold;"><b>Scanning</b></span>, you will scan the circle using the sensor. See <a href="#Scan_Circle_Wizard">Scan Circle Wizard</a>.</p>
+</li>
+</ul>
+<p class="bullet">&#160;</p>
+<h3><span lang="EN-US"><a name="Capture_Circle_Wizard"></a>Capture Circle Wizard</span></h3>
+<p><span lang="EN-GB">When</span> <span lang="EN-GB" class="Path" style="font-style:normal;">Tactile</span> <span class="Path" style="font-style:normal; font-weight:normal;">is selected y</span><span lang="EN-GB">ou will need a plane where the circle will lay on. KUBE offers two options:</span></p>
+<ul>
+<li class="kadov-p-Cbullet-circle">
+<p class="bullet-circle">to capture a plane.</p>
+</li>
+<li class="kadov-p-Cbullet-circle">
+<p class="bullet-circle"><span lang="EN-GB">to use an existing plane or plane reducible entity. If there are existing planes, circles, cylinders, cones, or slots the following dialogue will appear when</span> <span class="Path" style="font-weight:bold;"><b>Datum &gt; Circle</b></span> <span lang="EN-GB">&#160;is selected from the localiser menu:</span></p>
+</li>
+</ul>
+<p class="Normal" style="text-align:justify;"><img src="../Capture_files/select_plane.gif" width="766px" height="150px" border="0" class="img_whs5" alt=""></p>
+<p><span lang="EN-GB">If the ‘Capture 3 or more points to define a plane’ option is selected, the</span> <u><span lang="EN-GB"><a href="Capture_Plane.htm">Capture Plane</a></span></u> <span lang="EN-GB">procedure will start. If one of the existing planes from the list is selected, it will be used for the base of the circle. If there are no existing planes, this dialogue is omitted and the procedure will start immediately to capture a plane.</span></p>
+<p class="Note" id="p2"><span style="font-weight:bold;"><b>Note 1</b></span>: If Always capture method is used then no dialog for selecting existing plane reducible entities appears but Capture Plane procedure will automatically start. See <span lang="EN-GB"><a href="../../References/Preferences_-_Datums_-_Capture_Method.htm">System &gt; Preferences &gt; Datums &gt; Capture Method (Base Plane Definition)</a> for details.</span></p>
+<p class="Note" id="p1"><span lang="EN-GB" style="font-weight:bold;"><b>Note 2</b></span><span lang="EN-GB">: KUBE projects the centre of the circle onto the captured (or selected) plane. So even if you use another plane for capturing the circle points, finally the circle will lie on the captured (or selected) plane.</span></p>
+<p class="sub-head"><span lang="EN-GB">Capture Circle</span></p>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB">When the base plane is captured or selected, capture the points that define the circle.</span></p>
+</li>
+</ul>
+<p class="Normal" style="margin-left:0px;"><img src="../Capture_files/capture_circle_4.gif" width="766px" height="150px" border="0" class="img_whs5" alt=""></p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB">Press '</span><span class="Button">B'</span> <span lang="EN-GB">button consecutively to collect the necessary points. Hold</span> <span lang="EN-GB" style="font-weight:bold;"><b>'B'</b></span> <span lang="EN-GB">button to delete the last captured point if necessary. Finally press '</span><span class="Button">A'</span> <span lang="EN-GB">button to finish.</span></p>
+</li>
+</ul>
+<p><span lang="EN-GB">If Tolerance check is enabled and the next point is out-of-tolerance KUBE will play warning sound and will display out-of-tolerance value in yellow. See <a href="../../References/Preferences_-_Datums_-_Form_Tolerances.htm">System &gt; Preferences &gt; Datums &gt; Form Tolerances</a> for details.</span></p>
+<p><span lang="EN-GB">If Sheet metal measurement is enabled and the next point is not in Zone A, Thickness zone, and Zone B, KUBE will play warning sound (optionally) and will discard this point. See <a href="../../References/Preferences_-_Datums_-_Sheet_Metal.htm">System &gt; Preferences &gt; Datums &gt; Sheet Metal</a> for details.</span></p>
+<p class="Warning"><span lang="EN-GB">A circle cannot be created if there are less than three captured points. In this case a warning message will appear.</span></p>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB">Select the side of the circle ('</span><span lang="EN-GB" style="font-weight:bold;"><b>A</b></span><span lang="EN-GB">' - inner side or '</span><span lang="EN-GB" style="font-weight:bold;"><b>B'</b></span> <span lang="EN-GB">- outer side) &#160;from which the points were captured.</span></p>
+</li>
+</ul>
+<p class="Normal" style="margin-left:0px;"><img src="../Capture_files/compensate_round_c.gif" width="766px" height="128px" border="0" class="img_whs6" alt=""></p>
+<p><span lang="EN-GB">If the ball probe is used, it will inflate or deflate the circle with the radius of the probe depending on which side was captured. This is very important for the correct circle diameter because every localiser returns co-ordinates of the centre of its probe. See</span> <u><span lang="EN-GB"><a href="offset_on_curved_surfaces.htm">Offset On Curved Surfaces</a></span></u> <span lang="EN-GB">for details.</span></p>
+<p><span lang="EN-GB">KUBE will fit a circle from the set of the captured points. The information about the radius (diameter) and centre of the resulting circle and the RMS of fitting will be displayed:</span></p>
+<p class="Example" style="text-decoration:underline;"><span lang="EN-GB"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP232592362" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="../Capture_files/capture_circle_3.gif" width="766px" height="150px" border="0" class="img_whs5" alt=""></p>
+</div>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB">Press '</span><span class="Button">A'</span> <span lang="EN-GB">button to reject the resulting circle or '</span><span class="Button">B'</span> <span lang="EN-GB">button to create it.</span></p>
+</li>
+</ul>
+<p><span lang="EN-GB">After finishing the capture procedure, KUBE will issue a dialog, asking you if you will continue capturing circles.</span></p>
+<p class="Example" style="text-decoration:underline;"><span lang="EN-GB"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP169061673" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="../Capture_files/continue.gif" width="766px" height="150px" border="0" class="img_whs5" alt=""></p>
+</div>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB">Press '</span><span class="Button">A'</span> <span lang="EN-GB">button to exit the capture mode or '</span><span class="Button">B'</span> <span lang="EN-GB">button to continue capturing using</span> <span lang="EN-GB" style="font-weight:bold;"><b>Tactile</b></span> <span lang="EN-GB">method.</span></p>
+</li>
+</ul>
+<p class="Bullet">&#160;</p>
+<h3 class="Bullet"><span lang="EN-GB"><a name="Scan_Circle_Wizard"></a>Scan</span> <span lang="EN-US">Circle Wizard</span></h3>
+<p><span lang="EN-GB">When</span> <span lang="EN-GB" class="Path" style="font-style:normal;">Scanning</span> <span class="Path" style="font-style:normal; font-weight:normal;">is selected</span><span lang="EN-GB">, an additional window (which displays the scanned data) will pop-up and the following dialogue will appear:</span></p>
+<p class="Normal"><img src="../Capture_files/scan_circle.gif" width="766px" height="150px" border="0" class="img_whs5" alt=""></p>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB">Press</span> <span lang="EN-GB" style="font-weight:bold;"><b>'B'</b></span> <span lang="EN-GB">button to start scanning. Scanning is performed as in the normal</span> <span lang="EN-GB" style="text-decoration:underline;"><u>Scan</u></span> <span lang="EN-GB">mode, i.e. after you press</span> <span lang="EN-GB" style="font-weight:bold;"><b>'B'</b></span> <span lang="EN-GB">button KUBE starts capturing a patch and after you press it again KUBE will stop scanning and will enter in</span> <span lang="EN-GB" style="text-decoration:underline;"><u>Pause</u></span> <span lang="EN-GB">mode.</span></p>
+</li>
+</ul>
+<p class="Example" style="text-decoration:underline;"><span lang="EN-GB"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a7" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP229416308" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="../Capture_files/scan_circle1.gif" width="1152px" height="834px" border="0" class="img_whs7" alt=""></p>
+</div>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB">W</span>hen done with the scanning press <span style="font-weight:bold;"><b>'A'</b></span> button to exit.</p>
+</li>
+</ul>
+<p>If the extraction is successful you will get:</p>
+<ul>
+<li class="kadov-p-Cbullet-circle">
+<p class="bullet-circle"><span lang="EN-GB">the centre of the circle.</span></p>
+</li>
+<li class="kadov-p-Cbullet-circle">
+<p class="bullet-circle">the radius (diameter) of the circle.</p>
+</li>
+<li class="kadov-p-Cbullet-circle">
+<p class="bullet-circle">the RMS of the extraction.</p>
+</li>
+</ul>
+<p class="Note" id="p3"><span style="font-weight:bold;"><b>Note</b></span>: Circle detection is controlled by <span style="font-weight:bold;"><b>Tolerance</b></span> and <span style="font-weight:bold;"><b>Depth</b></span> parameters. See <span lang="EN-GB"><a href="../../References/Preferences_-_Datums_-_Detection_Tolerances.htm">System &gt; Preferences &gt; Datums &gt; Detection Tolerances</a> for details.</span></p>
+<p class="Example" style="text-decoration:underline;"><span lang="EN-GB"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a5" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP228466050" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="../Capture_files/scan_circle2.gif" width="1152px" height="834px" border="0" class="img_whs7" alt=""></p>
+</div>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB">Press '</span><span class="Button">A'</span> <span lang="EN-GB">button to reject the resulting circle or '</span><span class="Button">B'</span> <span lang="EN-GB">button to create it.</span></p>
+</li>
+</ul>
+<p><span lang="EN-GB">After finishing the scan procedure, KUBE will issue a dialog, asking you if you will continue scanning circles.</span></p>
+<p class="Example" style="text-decoration:underline;"><span lang="EN-GB"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a6" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP228228293" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="../Capture_files/continue.gif" width="766px" height="150px" border="0" class="img_whs5" alt=""></p>
+</div>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB">Press '</span><span class="Button">A'</span> <span lang="EN-GB">button to exit the capture mode or '</span><span class="Button">B'</span> <span lang="EN-GB">button to continue capturing using</span> <span lang="EN-GB" style="font-weight:bold;"><b>Scanning</b></span> <span lang="EN-GB">method.</span></p>
+</li>
+</ul>
+<p class="Normal" style="text-align:justify;"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Capture 2D Line','capture_2d_line.htm','Capture 2D Point','capture_surface_point.htm','Capture Cone','capture_cone.htm','Capture Cylinder','capture_cylinder.htm','Capture Line','capture_line.htm','Capture Plane','Capture_Plane.htm','Capture Point','capture_point.htm','Capture Rectangular Slot','capture_rectangular_slot.htm','Capture Round Slot','capture_round_slot.htm','Capture Sphere','capture_sphere.htm');return false;" title=""><img src="../../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></p>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a1','POPUP232592362');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a2','POPUP169061673');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a7','POPUP229416308');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a5','POPUP228466050');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a6','POPUP228228293');
+//-->
+</script><script type="text/javascript" language="JavaScript">
+<!--
+if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
+  WritePopupMenuLayer();
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B020E0000004361707475726520436972636C650C0207000000436170747572650D020E0000004361707475726520436972636C6511020D000000446174756D204361707475726512020E0000004361707475726520436972636C651302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

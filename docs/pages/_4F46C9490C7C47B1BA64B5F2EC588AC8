@@ -1,0 +1,478 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>MMX Hardware Assembly</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { float:aligncenter; height:5px; }
+tr.whs4 { mso-yfti-irow:0; height:28.5pt; }
+td.whs5 { padding:0in 0in 0in 0in; height:28.5pt; padding-left:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; }
+img_whs6 { width:150px; height:150px; margin-left:0px; margin-right:0px; margin-top:2px; margin-bottom:2px; float:none; border-style:none; }
+tr.whs7 { mso-yfti-irow:1; mso-yfti-lastrow:yes; height:58.5pt; }
+td.whs8 { padding:0in 0in 0in 0in; height:58.5pt; padding-left:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; }
+img_whs9 { width:120px; height:118px; margin-left:0px; margin-right:0px; margin-top:2px; margin-bottom:2px; float:none; border-style:none; }
+img_whs10 { width:120px; height:120px; margin-left:0px; margin-right:0px; margin-top:2px; margin-bottom:2px; float:none; border-style:none; }
+tr.whs11 { mso-yfti-irow:1; mso-yfti-lastrow:yes; height:1.0in; }
+td.whs12 { padding:0in 0in 0in 0in; height:1.0in; padding-left:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; }
+tr.whs13 { mso-yfti-irow:1; mso-yfti-lastrow:yes; height:31.5pt; }
+td.whs14 { padding:0in 0in 0in 0in; height:31.5pt; padding-left:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; }
+col.whs15 { width:187px; }
+col.whs16 { width:460px; }
+td.whs17 { width:187px; padding:0in 0in 0in 0in; height:28.5pt; padding-left:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; }
+img_whs18 { width:150px; height:150px; border-style:none; }
+td.whs19 { width:460px; padding:0in 0in 0in 0in; height:28.5pt; padding-left:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; }
+img_whs20 { width:150px; height:115px; border-style:none; }
+img_whs21 { border:none; width:78px; height:51px; float:none; border-style:none; }
+img_whs22 { border:none; width:80px; height:52px; float:none; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "img_whs6 {margin-left:1pt;margin-right:1pt; }";
+  strNSS += "img_whs9 {margin-left:1pt;margin-right:1pt; }";
+  strNSS += "img_whs10 {margin-left:1pt;margin-right:1pt; }";
+  strNSS +="<\/style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nScanning\nHardware\nMMX\nMMX Hardware Assembly");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1><span lang="EN-GB">MMX Hardware Assembly</span></h1>
+<div class="MsoNormal" style="text-align:center;" align="center">
+<hr align="center" size="5" class="whs3"></div>
+<p><span class="heading11" lang="EN-GB">To gain a better understanding of the individual components and the system's architecture, please look at the <a href="Hardware_Description_X_System.htm">X System Description</a> before going through Hardware Assembly.</span></p>
+<h2>Handling the ModelMaker sensor</h2>
+<p id="P4" class="Warning"><span lang="EN-GB" style="mso-ansi-font-size:12.0pt; mso-bidi-font-size:12.0pt; font-family:Arial;"><font id="font1">ModelMaker is a precision optical measuring instrument, please treat it with care.</font></span></p>
+<p><span lang="EN-GB" style="mso-ansi-font-size:12.0pt; mso-bidi-font-size:12.0pt; font-family:Arial;"><span lang="EN-GB">The ModelMaker sensor has been designed to withstand a typical shop-floor environment, nevertheless, there are certain precautions that should be taken when using the sensor:</span></span></p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB" style="mso-ansi-font-size:12.0pt; mso-bidi-font-size:12.0pt; font-family:Arial;">D</span><span lang="EN-GB" style="mso-ansi-font-size:12.0pt; mso-bidi-font-size:12.0pt; font-family:Arial;">o not drop the sensor.</span></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB" style="mso-ansi-font-size:12.0pt; mso-bidi-font-size:12.0pt; font-family:Arial;"><span lang="EN-GB">Do not touch the optical windows on the front of the sensor.</span></span></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB" style="mso-ansi-font-size:12.0pt; mso-bidi-font-size:12.0pt; font-family:Arial;"><span lang="EN-GB">Do not attempt to dismantle the sensor, doing so will invalidate the &#160;warranty.</span></span></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB" style="mso-ansi-font-size:12.0pt; mso-bidi-font-size:12.0pt; font-family:Arial;"><span lang="EN-GB">Do not allow the sensor to be covered in any liquid</span></span></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB" style="mso-ansi-font-size:12.0pt; mso-bidi-font-size:12.0pt; font-family:Arial;"><span lang="EN-GB">Do not expose the sensor to extremes of temperatures</span></span></p>
+</li>
+</ul>
+<p class="Warning" id="P1"><span lang="EN-GB" style="mso-ansi-font-size:12.0pt; mso-bidi-font-size:12.0pt; font-family:Arial;"><span lang="EN-GB">Laser light is emitted from the indicated aperture - do not look directly into the beam or view with an optical instrument.</span></span></p>
+<h2>ModelMaker hardware set-up</h2>
+<ol>
+<li class="kadov-p-Csteps">
+<p class="steps">If not already completed, the first step is to set up the <a href="Localiser_Compatibility_MMX.htm">localiser</a></p>
+</li>
+<li class="kadov-p-Csteps">
+<p class="steps">Power up the localiser before starting the ModelMaker hardware set-up.</p>
+</li>
+</ol>
+<p class="Normalbold">&#160;</p>
+<p class="stepstitle">Mounting sensor on a FARO localiser</p>
+<table class="MsoNormalTable" style="mso-cellspacing:0in; mso-padding-alt:0in 0in 0in 0in; margin-left:24px; border-spacing:0px;" cellspacing="0">
+<col>
+<col>
+<tr class="whs4">
+<td colspan="1" rowspan="1" height="38" class="whs5">
+<p class="normal-table"><span lang="EN-GB"><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) <= 4)) 
+{  if (parseInt(navigator.appVersion) != 2) document.write("<img src='arm_mount.jpg' id='_x0000_i1030' width='150px' height='150px' border='0' class='img_whs6'>");}
+else
+{   document.write("<img src='arm_mount.jpg' id='_x0000_i1030' style='margin-left:0px;margin-right:0px;margin-top:2px;margin-bottom:2px;' width='150px' height='150px' border='0' class='img_whs6'>");}
+//-->
+</script></span></p>
+</td>
+<td height="38" class="whs5">
+<p>Mount the FARO arm mount on the end of the arm.</p>
+<p>Mount the sensor onto the arm mount</p>
+</td>
+</tr>
+<tr class="whs7">
+<td colspan="1" rowspan="1" height="78" class="whs8">
+<p class="normal-table"><span lang="EN-GB"><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) <= 4)) 
+{  if (parseInt(navigator.appVersion) != 2) document.write("<img src='../Hardware_Description/sensor_c.jpg' id='_x0000_i1031' width='150px' height='150px' border='0' class='img_whs6'>");}
+else
+{   document.write("<img src='../Hardware_Description/sensor_c.jpg' id='_x0000_i1031' style='margin-left:0px;margin-right:0px;margin-top:2px;margin-bottom:2px;' width='150px' height='150px' border='0' class='img_whs6'>");}
+//-->
+</script></span></p>
+</td>
+<td height="78" class="whs8">
+<p>Connect the sensor cable at the back of the sensor and the trigger cable into the rear of the arm.</p>
+<p>Use the releasable velcro fixings to clamp the cables to the arm</p>
+</td>
+</tr>
+</table>
+<p class="MsoNormal">&#160;</p>
+<p class="stepstitle">Mounting MMIB-D on a FARO localiser</p>
+<table class="MsoNormalTable" style="mso-cellspacing:0in; mso-padding-alt:0in 0in 0in 0in; margin-left:24px; left:0px; top:929px; width:743px; border-spacing:0px;" cellspacing="0" width="743">
+<col>
+<col>
+<tr class="whs4">
+<td colspan="1" rowspan="1" height="38" class="whs5">
+<p class="normal-table"><span lang="EN-GB"><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) <= 4)) 
+{  if (parseInt(navigator.appVersion) != 2) document.write("<img src='mmib_on_faro.jpg' id='_x0000_i1032' width='150px' height='150px' border='0' class='img_whs6'>");}
+else
+{   document.write("<img src='mmib_on_faro.jpg' id='_x0000_i1032' style='margin-left:0px;margin-right:0px;margin-top:2px;margin-bottom:2px;' width='150px' height='150px' border='0' class='img_whs6'>");}
+//-->
+</script></span></p>
+</td>
+<td height="38" class="whs5">
+<p><span lang="EN-GB">Mount the</span> <b><span lang="EN-GB" style="font-weight:normal;">MMIB-D</span></b> <span lang="EN-GB">on the top of the FARO control box using the velcro strips which are supplied with the ModelMaker system</span></p>
+</td>
+</tr>
+<tr class="whs7">
+<td colspan="1" rowspan="1" height="78" class="whs8">
+<p class="normal-table"><span lang="EN-GB"><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) <= 4)) 
+{  if (parseInt(navigator.appVersion) != 2) document.write("<img src='trigger_c.jpg' id='_x0000_i1033' width='150px' height='150px' border='0' class='img_whs6'>");}
+else
+{   document.write("<img src='trigger_c.jpg' id='_x0000_i1033' style='margin-left:0px;margin-right:0px;margin-top:2px;margin-bottom:2px;' width='150px' height='150px' border='0' class='img_whs6'>");}
+//-->
+</script></span></p>
+</td>
+<td height="78" class="whs8">
+<p><span lang="EN-GB">Connect the</span> <b><span lang="EN-GB" style="font-weight:normal;">trigger</span> <span lang="EN-GB" style="font-weight:normal;">cable</span></b> <span lang="EN-GB">into the rear of the MMIB-D and into the rear of FARO control box.</span></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<p class="stepstitle">Using a CimCore localiser</p>
+<table class="MsoNormalTable" style="mso-cellspacing:0in; mso-padding-alt:0in 0in 0in 0in; margin-left:24px; left:0px; top:1308px; width:744px; border-spacing:0px;" cellspacing="0" width="744">
+<col>
+<col>
+<tr class="whs4">
+<td colspan="1" rowspan="1" height="38" class="whs5">
+<p class="normal-table"><span lang="EN-GB"><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) <= 4)) 
+{  if (parseInt(navigator.appVersion) != 2) document.write("<img src='../../System_Set-up/cimcore_6.jpg' id='_x0000_i1034' width='150px' height='150px' border='0' class='img_whs6'>");}
+else
+{   document.write("<img src='../../System_Set-up/cimcore_6.jpg' id='_x0000_i1034' style='margin-left:0px;margin-right:0px;margin-top:2px;margin-bottom:2px;' width='150px' height='150px' border='0' class='img_whs6'>");}
+//-->
+</script></span></p>
+</td>
+<td height="38" class="whs5">
+<p><span lang="EN-GB">To be able to use a CimCore localiser with ModelMaker X, you will need a 75mm</span> <b><span lang="EN-GB" style="font-weight:normal;">probe extension</span><span lang="EN-GB">.</span></b></p>
+</td>
+</tr>
+<tr class="whs7">
+<td colspan="1" rowspan="1" height="78" class="whs8">
+<p class="normal-table"><span lang="EN-GB"><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) <= 4)) 
+{  if (parseInt(navigator.appVersion) != 2) document.write("<img src='ext_cimcore.jpg' id='_x0000_i1035' width='150px' height='150px' border='0' class='img_whs6'>");}
+else
+{   document.write("<img src='ext_cimcore.jpg' id='_x0000_i1035' style='margin-left:0px;margin-right:0px;margin-top:2px;margin-bottom:2px;' width='150px' height='150px' border='0' class='img_whs6'>");}
+//-->
+</script></span></p>
+</td>
+<td height="78" class="whs8">
+<p><span lang="EN-GB">Please contact your CimCore distributor to purchase this item.</span></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<p class="stepstitle">Mounting sensor on a CimCore localiser</p>
+<table class="MsoNormalTable" style="mso-cellspacing:0in; mso-padding-alt:0in 0in 0in 0in; margin-left:24px; border-spacing:0px;" cellspacing="0">
+<col>
+<col>
+<tr class="whs4">
+<td colspan="1" rowspan="1" height="38" class="whs5">
+<p class="normal-table"><span lang="EN-GB"><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) <= 4)) 
+{  if (parseInt(navigator.appVersion) != 2) document.write("<img src='mount_cimcore.jpg' id='_x0000_i1036' width='150px' height='150px' border='0' class='img_whs6'>");}
+else
+{   document.write("<img src='mount_cimcore.jpg' id='_x0000_i1036' style='margin-left:0px;margin-right:0px;margin-top:2px;margin-bottom:2px;' width='150px' height='150px' border='0' class='img_whs6'>");}
+//-->
+</script></span></p>
+</td>
+<td height="38" class="whs5">
+<p><span lang="EN-GB">Mount the</span> <b><span lang="EN-GB" style="font-weight:normal;">CimCore</span> <span lang="EN-GB" style="font-weight:normal;">arm mount</span></b> <span lang="EN-GB">on the end of the arm.</span></p>
+<p><span lang="EN-GB">Mount the <span lang="EN-GB" style="font-weight:normal;">sensor</span> onto the arm mount.</span></p>
+</td>
+</tr>
+<tr class="whs7">
+<td colspan="1" rowspan="1" height="78" class="whs8">
+<p class="normal-table"><span lang="EN-GB"><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) <= 4)) 
+{  if (parseInt(navigator.appVersion) != 2) document.write("<img src='sensor_cimcore.jpg' id='_x0000_i1037' width='150px' height='150px' border='0' class='img_whs6'>");}
+else
+{   document.write("<img src='sensor_cimcore.jpg' id='_x0000_i1037' style='margin-left:0px;margin-right:0px;margin-top:2px;margin-bottom:2px;' width='150px' height='150px' border='0' class='img_whs6'>");}
+//-->
+</script></span></p>
+</td>
+<td height="78" class="whs8">
+<p><span lang="EN-GB">Connect the <span lang="EN-GB" style="font-weight:normal;">sensor cable</span></span> <span lang="EN-GB">at the side of the sensor.</span></p>
+<p><span lang="EN-GB">Use the releasable velcro fixings to clamp the cables to the arm.</span></p>
+</td>
+</tr>
+</table>
+<p class="MsoNormal">&#160;</p>
+<h2>PC</h2>
+<p>&#160;</p>
+<table class="MsoNormalTable" style="mso-cellspacing:0in; mso-padding-alt:0in 0in 0in 0in; border-spacing:0px;" cellspacing="0">
+<col>
+<col>
+<tr class="whs4">
+<td colspan="1" rowspan="1" height="38" class="whs5">
+<p><span lang="EN-GB"><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) <= 4)) 
+{  if (parseInt(navigator.appVersion) != 2) document.write("<img src='surfa_pci_power.jpg' id='_x0000_i1038' width='120px' height='118px' border='0' class='img_whs9'>");}
+else
+{   document.write("<img src='surfa_pci_power.jpg' id='_x0000_i1038' style='margin-left:0px;margin-right:0px;margin-top:2px;margin-bottom:2px;' width='120px' height='118px' border='0' class='img_whs9'>");}
+//-->
+</script></span></p>
+</td>
+<td colspan="1" rowspan="1" height="38" class="whs5">
+<p><span lang="EN-GB">Power down the PC.</span></p>
+<p><span lang="EN-GB">Insert the power connector into the</span> <b><span lang="EN-GB" style="font-weight:normal;">SURFA PCI 2</span> card.</b></p>
+</td>
+</tr>
+<tr class="whs4">
+<td colspan="1" rowspan="1" height="38" class="whs5">
+<p><span lang="EN-GB"><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) <= 4)) 
+{  if (parseInt(navigator.appVersion) != 2) document.write("<img src='surfa_pci_slot.jpg' id='_x0000_i1039' width='120px' height='120px' border='0' class='img_whs10'>");}
+else
+{   document.write("<img src='surfa_pci_slot.jpg' id='_x0000_i1039' style='margin-left:0px;margin-right:0px;margin-top:2px;margin-bottom:2px;' width='120px' height='120px' border='0' class='img_whs10'>");}
+//-->
+</script></span></p>
+</td>
+<td colspan="1" rowspan="1" height="38" class="whs5">
+<p><span lang="EN-GB">Insert the SURFA PCI 2 into an available PCI slot and connect the power lead to a spare disk drive power lead.</span></p>
+<p><span lang="EN-GB">Replace the PC cover.</span></p>
+</td>
+</tr>
+<tr class="whs4">
+<td colspan="1" rowspan="1" height="38" class="whs5">
+<p><span lang="EN-GB"><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) <= 4)) 
+{  if (parseInt(navigator.appVersion) != 2) document.write("<img src='pc_surfa_c.jpg' id='_x0000_i1040' width='120px' height='120px' border='0' class='img_whs10'>");}
+else
+{   document.write("<img src='pc_surfa_c.jpg' id='_x0000_i1040' style='margin-left:0px;margin-right:0px;margin-top:2px;margin-bottom:2px;' width='120px' height='120px' border='0' class='img_whs10'>");}
+//-->
+</script></span></p>
+</td>
+<td height="38" class="whs5">
+<p><span lang="EN-GB">Plug the 1</span><b><span lang="EN-GB" style="font-weight:normal;">5 way</span> <span lang="EN-GB" style="font-weight:normal;">D-type cable</span></b> <span lang="EN-GB">into the SURFA card</span></p>
+</td>
+</tr>
+<tr class="whs11">
+<td colspan="1" rowspan="1" height="96" class="whs12">
+<p><span lang="EN-GB"><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) <= 4)) 
+{  if (parseInt(navigator.appVersion) != 2) document.write("<img src='comp_dongle_small.jpg' id='_x0000_i1041' width='120px' height='120px' border='0' class='img_whs10'>");}
+else
+{   document.write("<img src='comp_dongle_small.jpg' id='_x0000_i1041' style='margin-left:0px;margin-right:0px;margin-top:2px;margin-bottom:2px;' width='120px' height='120px' border='0' class='img_whs10'>");}
+//-->
+</script></span></p>
+</td>
+<td height="96" class="whs12">
+<p><span lang="EN-GB">Plug the</span><b><span lang="EN-GB" style="font-weight:normal;">dongle</span> into the parallel port of the PC.</b></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<h2>ModelMaker Interface Box Digital (MMIB-D)</h2>
+<p>&#160;</p>
+<table class="MsoNormalTable" style="mso-cellspacing:0in; mso-padding-alt:0in 0in 0in 0in; border-spacing:0px;" cellspacing="0">
+<col>
+<col>
+<tr class="whs4">
+<td colspan="1" rowspan="1" height="38" class="whs5">
+<p><span lang="EN-GB"><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) <= 4)) 
+{  if (parseInt(navigator.appVersion) != 2) document.write("<img src='mmib_front_c_small.jpg' id='_x0000_i1042' width='150px' height='150px' border='0' class='img_whs6'>");}
+else
+{   document.write("<img src='mmib_front_c_small.jpg' id='_x0000_i1042' style='margin-left:0px;margin-right:0px;margin-top:2px;margin-bottom:2px;' width='150px' height='150px' border='0' class='img_whs6'>");}
+//-->
+</script></span></p>
+</td>
+<td height="38" class="whs5">
+<p><span lang="EN-GB">Connect the</span> <b><span lang="EN-GB" style="font-weight:normal;">sensor</span> <span lang="EN-GB" style="font-weight:normal;">cable</span></b> <span lang="EN-GB">and the <span lang="EN-GB" style="font-weight:normal;">antenna</span></span> <span lang="EN-GB">to the front of the MMIB-D</span></p>
+</td>
+</tr>
+<tr class="whs13">
+<td colspan="1" rowspan="1" height="42" class="whs14">
+<p><span lang="EN-GB"><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) <= 4)) 
+{  if (parseInt(navigator.appVersion) != 2) document.write("<img src='mmib_back_c_small.jpg' id='_x0000_i1043' width='150px' height='150px' border='0' class='img_whs6'>");}
+else
+{   document.write("<img src='mmib_back_c_small.jpg' id='_x0000_i1043' style='margin-left:0px;margin-right:0px;margin-top:2px;margin-bottom:2px;' width='150px' height='150px' border='0' class='img_whs6'>");}
+//-->
+</script></span></p>
+</td>
+<td height="42" class="whs14">
+<p><span lang="EN-GB">Connect the</span> <b><span lang="EN-GB" style="font-weight:normal;">SURFA</span> <span lang="EN-GB" style="font-weight:normal;">PCI 2 cable</span></b><span lang="EN-GB">, the</span> <b><span lang="EN-GB" style="font-weight:normal;">trigger</span> <span lang="EN-GB" style="font-weight:normal;">cable</span></b> <span lang="EN-GB">and the foot switches to the rear of the MMIB-D.</span></p>
+</td>
+</tr>
+</table>
+<p class="Warning" id="P2"><span lang="EN-GB" style="mso-ansi-font-size:12.0pt; mso-bidi-font-size:12.0pt; font-family:Arial;">The trigger cable should only be plugged into the MMIB-D after the localiser is powered up.<b>&#160;</b></span></p>
+<p>&#160;</p>
+<h2>Foot switches</h2>
+<p>&#160;</p>
+<table class="MsoNormalTable" style="mso-cellspacing:0in; mso-padding-alt:0in 0in 0in 0in; width:77.918%; border-spacing:0px;" cellspacing="0" width="77.918%">
+<col class="whs15">
+<col class="whs16">
+<tr class="whs4">
+<td height="38" width="187px" class="whs17">
+<p><span lang="EN-GB"><img id="_x0000_i1044" src="footswitches.jpg" width="150px" height="150px" border="0" class="img_whs18" alt=""></span><span lang="EN-GB" style="font-size:12.0pt;"><font size="3" style="font-size:12pt;">&#160;</font></span></p>
+</td>
+<td rowspan="1" height="38" width="460px" class="whs19">
+<p><span lang="EN-GB">Connect the</span> <b><span lang="EN-GB" style="font-weight:normal;">foot switches</span></b> <span lang="EN-GB">to the rear of the MMIB-D</span></p>
+</td>
+</tr>
+</table>
+<p class="MsoNormal">&#160;</p>
+<h2>Miniature Remote Switches</h2>
+<p>&#160;</p>
+<table class="MsoNormalTable" style="mso-cellspacing:0in; mso-padding-alt:0in 0in 0in 0in; border-spacing:0px;" cellspacing="0">
+<col>
+<col>
+<tr class="whs4">
+<td height="38" class="whs5">
+<p><span lang="EN-GB"><img id="_x0000_i1045" src="../Hardware_Description/Accessories_files/remote_min.jpg" width="150px" height="115px" border="0" class="img_whs20" alt=""></span><span lang="EN-GB" style="font-size:12.0pt;"><font size="3" style="font-size:12pt;">&#160;</font></span></p>
+</td>
+<td rowspan="1" height="38" class="whs5">
+<p><span lang="EN-GB">Connect the</span> <b><span lang="EN-GB" style="font-weight:normal;">radio</span> <span lang="EN-GB" style="font-weight:normal;">antenna</span></b> <span lang="EN-GB">to the MMIB-D</span></p>
+<p><span lang="EN-GB">The remote switch is now ready to use</span></p>
+<p>&#160;</p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<h2>Voice control microphone</h2>
+<p class="Note" id="p5"><span lang="EN-GB" style="mso-ansi-font-size:12.0pt; mso-bidi-font-size:12.0pt; font-family:Arial;"><span lang="EN-GB" style="font-weight:bold;"><b>Note</b></span><span lang="EN-GB">: This feature is unsuitable for use in a noisy environment.</span></span></p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB">A sound card is required to use this feature and Microsoft Speech SDK v5.1 must be installed (provided on the KUBE CD or can be downloaded from www.microsoft.com).</span></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB" style="mso-ansi-font-size:12.0pt; mso-bidi-font-size:12.0pt; font-family:Arial;"><span lang="EN-GB">A microphone is supplied with the ModelMaker X system.</span></span></p>
+</li>
+</ul>
+<p class="Warning" id="P3"><span lang="EN-GB" style="mso-ansi-font-size:12.0pt; mso-bidi-font-size:12.0pt; font-family:Arial;"><span lang="EN-GB">Ensure the battery is installed and the microphone switched on.</span></span></p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Before using this feature please setup the microphone using Control Panel &gt; Speech on your PC. Select Speech Recognition &gt; Configure microphone and follow the configuration 'wizard'. Experiment with the position of the microphone so it is close to your mouth but not directly in front of it.</p>
+</li>
+</ul>
+<p><span lang="EN-GB" style="mso-ansi-font-size:12.0pt; mso-bidi-font-size:12.0pt;"><img src="../MMD/speech1.gif" width="78px" height="51px" border="0" class="img_whs21" alt=""> &#160;To use voice operation in KUBE click on the speech icon in</span> System &gt; Preferences &gt; Audio.</p>
+<p><img src="../MMD/speech2.gif" width="80px" height="52px" border="0" class="img_whs22" alt=""> &#160;In the localiser scan menu, click on the microphone button to enable it.</p>
+<p>&#160;</p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet">The keywords and commands available are all those words found in the Scan menu e.g. 'Prescan', 'Scan', 'View' etc. During Scan mode: 'Start' to start scanning and 'Stop' to pause.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">The speech recognition software is developed by Microsoft. Please refer to the Microsoft help files for more information.</p>
+</li>
+</ul>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0C0210010000417564696F0A4261636B0A426F780A43696D636F72650A436C6F73650A446F6E676C650A446F776E0A4641524F0A46726F6E740A48617264776172650A486172647761726520417373656D626C790A48656C700A4C617365720A4C696768740A6C6F63616C697365720A4D6561737572650A4D4D580A4D6F64656C4D616B65720A4D6F64656C4D616B6572094D6F64656C4D616B657220496E7465726661636520426F78204469676974616C0A506172616C6C656C0A507265666572656E6365730A5072655363616E0A50726F62650A52656D6F74652053776974636865730A5363616E0A5363616E204D6F64650A53656C6563740A53656E736F720A5370656563680A53555246410A53797374656D0D02150000004D4D5820486172647761726520417373656D626C791102030000004D4D581202150000004D4D5820486172647761726520417373656D626C791302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

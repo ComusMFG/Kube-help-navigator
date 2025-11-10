@@ -1,0 +1,1611 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Tree Context Menus</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { float:aligncenter; height:5px; }
+p.whs4 { font-size:10.0pt; font-family:Arial; }
+ol.whs5 { margin-top:0mm; }
+img_whs6 { width:189px; height:271px; float:none; border-style:none; }
+p.whs7 { font-size:10.0pt; }
+img_whs8 { width:198px; height:290px; float:none; border-style:none; }
+p.whs9 { font-size:9.0pt; }
+img_whs10 { width:149px; height:196px; margin-top:0px; margin-bottom:0px; margin-left:2px; margin-right:2px; float:none; border-style:none; }
+table.whs11 { margin-left:24px; left:0px; top:1105px; width:807px; border-spacing:0px; }
+col.whs12 { width:17.233%; }
+col.whs13 { width:73.392%; }
+col.whs14 { width:9.375%; }
+tr.whs15 {  }
+td.whs16 { width:17.233%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs17 { width:73.392%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs18 { width:9.375%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+td.whs19 { width:17.233%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs20 { width:73.392%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs21 { width:9.375%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs22 { border:none; float:none; width:23px; height:16px; border-style:none; }
+td.whs23 { width:17.233%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+td.whs24 { width:73.392%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+img_whs25 { border:none; width:147px; height:338px; float:none; border-style:none; }
+table.whs26 { margin-left:24px; left:0px; top:1918px; width:809px; height:414px; border-spacing:0px; }
+col.whs27 { width:17.345%; }
+col.whs28 { width:73.28%; }
+tr.whs29 { height:37px; }
+td.whs30 { width:17.345%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs31 { width:73.28%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+tr.whs32 { height:50px; }
+td.whs33 { width:17.345%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs34 { width:73.28%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+tr.whs35 { height:51px; }
+tr.whs36 { height:82px; }
+tr.whs37 { height:95px; }
+p.whs38 { margin-left:40px; }
+img_whs39 { border:none; width:297px; height:146px; float:none; border-style:none; }
+img_whs40 { width:219px; height:46px; border-style:none; }
+table.whs41 { margin-left:24px; left:0px; top:2567px; width:809px; height:722px; border-spacing:0px; }
+col.whs42 { width:17.346%; }
+col.whs43 { width:73.279%; }
+td.whs44 { width:17.346%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs45 { width:73.279%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs46 { width:100%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs47 { width:17.346%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs48 { width:73.279%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+p.whs49 { font-weight:bold; margin-left:40px; }
+img_whs50 { border:none; width:147px; height:290px; float:none; border-style:none; }
+td.whs51 { padding:0mm 5.4pt 0mm 5.4pt; padding-left:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; }
+img_whs52 { width:285px; height:284px; border-style:none; }
+img_whs53 { width:264px; height:86px; border-style:none; }
+table.whs54 { margin-left:24px; left:0px; top:4091px; width:806px; height:424px; border-spacing:0px; }
+col.whs55 { width:17.362%; }
+col.whs56 { width:73.263%; }
+td.whs57 { width:17.362%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs58 { width:73.263%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs59 { width:17.362%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs60 { width:73.263%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs61 { border:none; width:138px; height:366px; float:none; border-style:none; }
+table.whs62 { margin-left:24px; left:0px; top:5041px; width:803px; border-spacing:0px; }
+col.whs63 { width:17.006%; }
+col.whs64 { width:73.619%; }
+td.whs65 { width:17.006%; padding-right:10px; padding-left:10px; background-color:#eae8d6; border-top-style:Double; border-top-width:3px; border-top-color:#000080; border-right-style:Double; border-right-width:3px; border-right-color:#000080; border-bottom-style:Double; border-bottom-width:3px; border-bottom-color:#000080; border-left-style:Double; border-left-width:3px; border-left-color:#000080; }
+td.whs66 { width:73.619%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs67 { width:17.006%; padding-right:10px; padding-left:10px; border-right-style:Double; border-right-width:3px; border-right-color:#000080; border-bottom-style:Double; border-bottom-width:3px; border-bottom-color:#000080; border-left-style:Double; border-left-width:3px; border-left-color:#000080; }
+td.whs68 { width:73.619%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs69 { border:none; width:138px; height:354px; float:none; border-style:none; }
+table.whs70 { margin-left:24px; left:0px; top:5623px; width:808px; border-spacing:0px; }
+col.whs71 { width:16.98%; }
+col.whs72 { width:73.645%; }
+td.whs73 { width:16.98%; padding-right:10px; padding-left:10px; background-color:#eae8d6; border-top-style:Double; border-top-width:3px; border-top-color:#000080; border-right-style:Double; border-right-width:3px; border-right-color:#000080; border-bottom-style:Double; border-bottom-width:3px; border-bottom-color:#000080; border-left-style:Double; border-left-width:3px; border-left-color:#000080; }
+td.whs74 { width:73.645%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs75 { width:16.98%; padding-right:10px; padding-left:10px; border-right-style:Double; border-right-width:3px; border-right-color:#000080; border-bottom-style:Double; border-bottom-width:3px; border-bottom-color:#000080; border-left-style:Double; border-left-width:3px; border-left-color:#000080; }
+td.whs76 { width:73.645%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs77 { border:none; width:138px; height:402px; float:none; border-style:none; }
+table.whs78 { margin-left:24px; left:0px; top:6146px; width:805px; border-spacing:0px; }
+col.whs79 { width:17.12%; }
+col.whs80 { width:73.505%; }
+td.whs81 { width:17.12%; padding-right:10px; padding-left:10px; background-color:#eae8d6; border-top-style:Double; border-top-width:3px; border-top-color:#000080; border-right-style:Double; border-right-width:3px; border-right-color:#000080; border-bottom-style:Double; border-bottom-width:3px; border-bottom-color:#000080; border-left-style:Double; border-left-width:3px; border-left-color:#000080; }
+td.whs82 { width:73.505%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs83 { width:17.12%; padding-right:10px; padding-left:10px; border-right-style:Double; border-right-width:3px; border-right-color:#000080; border-bottom-style:Double; border-bottom-width:3px; border-bottom-color:#000080; border-left-style:Double; border-left-width:3px; border-left-color:#000080; }
+td.whs84 { width:73.505%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs85 { border:none; width:138px; height:374px; float:none; border-style:none; }
+table.whs86 { margin-left:24px; left:0px; top:6691px; width:808px; border-spacing:0px; }
+col.whs87 { width:17.351%; }
+col.whs88 { width:73.274%; }
+td.whs89 { width:17.351%; padding-right:10px; padding-left:10px; background-color:#eae8d6; border-top-style:Double; border-top-width:3px; border-top-color:#000080; border-right-style:Double; border-right-width:3px; border-right-color:#000080; border-bottom-style:Double; border-bottom-width:3px; border-bottom-color:#000080; border-left-style:Double; border-left-width:3px; border-left-color:#000080; }
+td.whs90 { width:73.274%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs91 { width:17.351%; padding-right:10px; padding-left:10px; border-right-style:Double; border-right-width:3px; border-right-color:#000080; border-bottom-style:Double; border-bottom-width:3px; border-bottom-color:#000080; border-left-style:Double; border-left-width:3px; border-left-color:#000080; }
+td.whs92 { width:73.274%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs93 { border:none; width:149px; height:310px; float:none; border-style:none; }
+table.whs94 { margin-left:24px; left:0px; top:7214px; width:803px; border-spacing:0px; }
+col.whs95 { width:17.753%; }
+col.whs96 { width:72.872%; }
+td.whs97 { width:17.753%; padding-right:10px; padding-left:10px; background-color:#eae8d6; border-top-style:Double; border-top-width:3px; border-top-color:#000080; border-right-style:Double; border-right-width:3px; border-right-color:#000080; border-bottom-style:Double; border-bottom-width:3px; border-bottom-color:#000080; border-left-style:Double; border-left-width:3px; border-left-color:#000080; }
+td.whs98 { width:72.872%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs99 { width:17.753%; padding-right:10px; padding-left:10px; border-right-style:Double; border-right-width:3px; border-right-color:#000080; border-bottom-style:Double; border-bottom-width:3px; border-bottom-color:#000080; border-left-style:Double; border-left-width:3px; border-left-color:#000080; }
+td.whs100 { width:72.872%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs101 { border:none; width:171px; height:202px; float:none; border-style:none; }
+table.whs102 { margin-left:24px; left:0px; top:7687px; width:802px; border-spacing:0px; }
+col.whs103 { width:18.038%; }
+col.whs104 { width:72.925%; }
+td.whs105 { width:18.038%; padding-right:10px; padding-left:10px; background-color:#eae8d6; border-top-style:Double; border-top-width:3px; border-top-color:#000080; border-right-style:Double; border-right-width:3px; border-right-color:#000080; border-bottom-style:Double; border-bottom-width:3px; border-bottom-color:#000080; border-left-style:Double; border-left-width:3px; border-left-color:#000080; }
+td.whs106 { width:72.925%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+tr.whs107 { height:34px; }
+td.whs108 { width:18.038%; padding-right:10px; padding-left:10px; border-right-style:Double; border-right-width:3px; border-right-color:#000080; border-bottom-style:Double; border-bottom-width:3px; border-bottom-color:#000080; border-left-style:Double; border-left-width:3px; border-left-color:#000080; }
+td.whs109 { width:72.925%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+tr.whs110 { height:39px; }
+tr.whs111 { height:35px; }
+img_whs112 { border:none; width:151px; height:210px; float:none; border-style:none; }
+table.whs113 { margin-left:24px; left:0px; top:8342px; width:808px; border-spacing:0px; }
+col.whs114 { width:17.97%; }
+col.whs115 { width:72.655%; }
+td.whs116 { width:17.97%; padding-right:10px; padding-left:10px; background-color:#eae8d6; border-top-style:Double; border-top-width:3px; border-top-color:#000080; border-right-style:Double; border-right-width:3px; border-right-color:#000080; border-bottom-style:Double; border-bottom-width:3px; border-bottom-color:#000080; border-left-style:Double; border-left-width:3px; border-left-color:#000080; }
+td.whs117 { width:72.655%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs118 { width:17.97%; padding-right:10px; padding-left:10px; border-right-style:Double; border-right-width:3px; border-right-color:#000080; border-bottom-style:Double; border-bottom-width:3px; border-bottom-color:#000080; border-left-style:Double; border-left-width:3px; border-left-color:#000080; }
+td.whs119 { width:72.655%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "ol.whs5 {margin-top:1pt; }";
+  strNSS += "img_whs10 {margin-top:1pt;margin-bottom:1pt; }";
+  strNSS +="<\/style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nWorking with Data\nDefine Datums\nDatum Commands in Tree Context Menus");
+addTocInfo("KUBE\nWorking with Data\nCo-ordinate Systems\nCommands for current CS in Tree Context Menus");
+addTocInfo("KUBE\nWorking with Data\nCo-ordinate Systems\nCommands for Transformations in Tree Context Menus");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script><map name="MAP2451778052">
+<area shape="rect" coords="3, 4, 121, 23" href="javascript:void(0);" id="area51" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Material_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="123, 2, 218, 23" href="javascript:void(0);" id="area52" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Colour_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="124, 24, 219, 45" href="javascript:void(0);" id="area53" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('Tree_Context_Menu_Files/Reset_Tree_Cintext_Menu.htm');return false;" alt=""></map> <script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area51');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area52');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area53');
+//-->
+</script><map name="MAP2451778051">
+<area shape="rect" coords="3, 4, 121, 23" href="javascript:void(0);" id="area48" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Material_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="123, 2, 218, 23" href="javascript:void(0);" id="area49" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Colour_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="124, 24, 219, 45" href="javascript:void(0);" id="area50" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('Tree_Context_Menu_Files/Reset_Tree_Cintext_Menu.htm');return false;" alt=""></map> <script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area48');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area49');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area50');
+//-->
+</script><map name="MAP239959792">
+<area shape="rect" coords="3, 5, 120, 23" href="javascript:void(0);" id="area39" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Material_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="132, 2, 207, 22" href="javascript:void(0);" id="area46" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Colour_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="133, 22, 207, 42" href="javascript:void(0);" id="area47" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('Tree_Context_Menu_Files/Reset_Tree_Cintext_Menu.htm');return false;" alt=""></map> <script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area39');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area46');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area47');
+//-->
+</script><map name="MAP241650597">
+<area shape="rect" coords="5, 3, 122, 21" href="javascript:void(0);" id="area29" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Material_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="7, 59, 120, 79" href="javascript:void(0);" id="area30" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Select_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="7, 32, 120, 52" href="javascript:void(0);" id="area31" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/New_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="8, 80, 119, 98" href="javascript:void(0);" id="area32" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Unselect_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="9, 99, 117, 117" href="javascript:void(0);" id="area33" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Hide_All_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="10, 118, 116, 138" href="javascript:void(0);" id="area34" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Show_All_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="11, 167, 116, 187" href="javascript:void(0);" id="area35" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Rename_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="11, 188, 115, 205" href="javascript:void(0);" id="area36" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Delete_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="11, 205, 117, 227" href="javascript:void(0);" id="area37" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Properties_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="10, 146, 118, 164" href="javascript:void(0);" id="area38" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Reset_Alignment_Tree_Context_Menu.htm');return false;" alt=""></map> <script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area29');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area30');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area31');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area32');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area33');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area34');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area35');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area36');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area37');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area38');
+//-->
+</script><map name="MAP242417740">
+<area shape="rect" coords="11, 4, 152, 23" href="javascript:void(0);" id="area24" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Draw_Polyline_Nodes_as_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="188, 1, 262, 24" href="javascript:void(0);" id="area25" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/None_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="189, 24, 262, 41" href="javascript:void(0);" id="area26" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Points_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="189, 41, 262, 62" href="javascript:void(0);" id="area27" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Squares_Tree_Context_Menu.htm.htm');return false;" alt="">
+<area shape="rect" coords="188, 63, 261, 84" href="javascript:void(0);" id="area28" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Crosses_Tree_Context_Menu.htm');return false;" alt=""></map> <script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area24');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area25');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area26');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area27');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area28');
+//-->
+</script><map name="MAP240625171">
+<area shape="rect" coords="21, 259, 127, 281" href="javascript:void(0);" id="area29" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Properties_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="21, 220, 129, 243" href="javascript:void(0);" id="area30" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Delete_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="22, 199, 130, 219" href="javascript:void(0);" id="area31" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Rename_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="21, 173, 131, 193" href="javascript:void(0);" id="area32" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Show_All_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="19, 151, 131, 173" href="javascript:void(0);" id="area33" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Hide_Selected_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="19, 130, 131, 152" href="javascript:void(0);" id="area34" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Hide_All_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="18, 113, 129, 131" href="javascript:void(0);" id="area35" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Unselect_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="17, 93, 130, 113" href="javascript:void(0);" id="area36" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Select_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="17, 6, 134, 24" href="javascript:void(0);" id="area37" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Rendering_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="17, 25, 134, 43" href="javascript:void(0);" id="area38" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Material_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="174, 2, 268, 23" href="javascript:void(0);" id="area39" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Points_Rendering_Polylines_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="176, 23, 267, 42" href="javascript:void(0);" id="area40" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Large_Points_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="17, 44, 158, 63" href="javascript:void(0);" id="area21" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Draw_Polyline_Nodes_as_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="18, 67, 122, 85" href="javascript:void(0);" id="area22" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Draw_First_Point_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="176, 44, 269, 64" href="javascript:void(0);" id="area23" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Polygons_Tree_Context_Menu.htm');return false;" alt=""></map> <script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area29');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area30');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area31');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area32');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area33');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area34');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area35');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area36');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area37');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area38');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area39');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area40');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area21');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area22');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area23');
+//-->
+</script><map name="MAP240106455">
+<area shape="rect" coords="5, 4, 122, 22" href="javascript:void(0);" id="area35" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Rendering_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="6, 24, 123, 42" href="javascript:void(0);" id="area36" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Material_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="7, 50, 120, 70" href="javascript:void(0);" id="area37" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Select_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="7, 71, 118, 89" href="javascript:void(0);" id="area38" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Unselect_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="6, 89, 118, 111" href="javascript:void(0);" id="area39" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Hide_All_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="6, 111, 118, 133" href="javascript:void(0);" id="area40" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Hide_Selected_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="6, 133, 119, 153" href="javascript:void(0);" id="area41" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Show_All_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="5, 157, 118, 177" href="javascript:void(0);" id="area42" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Rename_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="7, 178, 115, 201" href="javascript:void(0);" id="area43" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Delete_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="8, 201, 114, 223" href="javascript:void(0);" id="area44" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Properties_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="144, 2, 238, 23" href="javascript:void(0);" id="area45" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Points_Rendering_Polylines_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="145, 24, 236, 43" href="javascript:void(0);" id="area28" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Large_Points_Tree_Context_Menu.htm');return false;" alt=""></map> <script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area35');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area36');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area37');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area38');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area39');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area40');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area41');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area42');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area43');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area44');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area45');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area28');
+//-->
+</script><map name="MAP239896631">
+<area shape="rect" coords="3, 5, 120, 23" href="javascript:void(0);" id="area32" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Material_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="132, 2, 207, 22" href="javascript:void(0);" id="area33" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Colour_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="133, 22, 207, 42" href="javascript:void(0);" id="area34" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('Tree_Context_Menu_Files/Reset_Tree_Cintext_Menu.htm');return false;" alt=""></map> <script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area32');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area33');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area34');
+//-->
+</script><map name="MAP241711209">
+<area shape="rect" coords="6, 24, 123, 42" href="javascript:void(0);" id="area23" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Material_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="5, 4, 122, 22" href="javascript:void(0);" id="area24" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Rendering_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="145, 2, 225, 20" href="javascript:void(0);" id="area25" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Points_Rendering_Polylines_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="146, 20, 224, 40" href="javascript:void(0);" id="area26" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Large_Points_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="146, 40, 223, 61" href="javascript:void(0);" id="area27" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Polygons_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="147, 62, 221, 80" href="javascript:void(0);" id="area28" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Flat_Shaded_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="148, 82, 220, 102" href="javascript:void(0);" id="area29" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Smooth_Shaded_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="148, 104, 220, 123" href="javascript:void(0);" id="area30" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Intensity_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="7, 50, 120, 70" href="javascript:void(0);" id="area31" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Select_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="9, 72, 120, 90" href="javascript:void(0);" id="area32" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Unselect_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="9, 91, 121, 113" href="javascript:void(0);" id="area33" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Hide_All_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="9, 113, 121, 135" href="javascript:void(0);" id="area34" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Hide_Selected_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="9, 134, 119, 154" href="javascript:void(0);" id="area35" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Show_All_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="12, 160, 120, 180" href="javascript:void(0);" id="area36" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Tools_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="12, 188, 117, 208" href="javascript:void(0);" id="area37" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Rename_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="12, 208, 116, 229" href="javascript:void(0);" id="area38" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Delete_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="13, 230, 114, 248" href="javascript:void(0);" id="area39" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Properties_Tree_Context_Menu.htm');return false;" alt=""></map> <script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area23');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area24');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area25');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area26');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area27');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area28');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area29');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area30');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area31');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area32');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area33');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area34');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area35');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area36');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area37');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area38');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area39');
+//-->
+</script><map name="MAP268483018">
+<area shape="rect" coords="18, 2, 111, 20" href="javascript:void(0);" id="area23" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Select_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="19, 21, 110, 41" href="javascript:void(0);" id="area24" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Unselect_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="20, 43, 110, 60" href="javascript:void(0);" id="area25" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Hide_All_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="21, 62, 110, 81" href="javascript:void(0);" id="area26" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Hide_Selected_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="21, 84, 110, 101" href="javascript:void(0);" id="area27" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Show_All_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="22, 110, 109, 128" href="javascript:void(0);" id="area21" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Delete_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="23, 130, 127, 151" href="javascript:void(0);" id="area22" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Delete_Selected_Tree_Context_Menu.htm');return false;" alt=""></map> <script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area23');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area24');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area25');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area26');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area27');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area21');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area22');
+//-->
+</script><map name="MAP2399597921">
+<area shape="rect" coords="3, 5, 120, 23" href="javascript:void(0);" id="area31" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Material_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="132, 2, 207, 22" href="javascript:void(0);" id="area21" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Colour_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="133, 22, 207, 42" href="javascript:void(0);" id="area22" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('Tree_Context_Menu_Files/Reset_Tree_Cintext_Menu.htm');return false;" alt=""></map> <script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area31');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area21');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area22');
+//-->
+</script><map name="MAP2271695111">
+<area shape="rect" coords="5, 4, 122, 22" href="javascript:void(0);" id="area15" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Rendering_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="6, 24, 123, 42" href="javascript:void(0);" id="area16" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Material_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="8, 90, 121, 110" href="javascript:void(0);" id="area17" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Select_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="8, 111, 122, 132" href="javascript:void(0);" id="area18" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Unselect_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="8, 132, 122, 154" href="javascript:void(0);" id="area19" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Hide_All_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="9, 154, 121, 176" href="javascript:void(0);" id="area20" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Hide_Selected_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="7, 175, 120, 195" href="javascript:void(0);" id="area21" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Show_All_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="9, 200, 118, 224" href="javascript:void(0);" id="area22" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Rename_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="9, 224, 119, 244" href="javascript:void(0);" id="area23" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Delete_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="10, 262, 118, 284" href="javascript:void(0);" id="area24" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Properties_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="8, 67, 120, 86" href="javascript:void(0);" id="area25" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Draw_Polyline_Nodes_as_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="8, 45, 149, 64" href="javascript:void(0);" id="area26" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Draw_Polyline_Nodes_as_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="190, 23, 282, 43" href="javascript:void(0);" id="area27" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Large_Points_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="190, 3, 280, 21" href="javascript:void(0);" id="area28" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Points_Rendering_Polylines_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="191, 43, 282, 64" href="javascript:void(0);" id="area29" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Polygons_Tree_Context_Menu.htm');return false;" alt="">
+<area shape="rect" coords="10, 244, 120, 261" href="javascript:void(0);" id="area30" onmouseover="if (parseInt(navigator.appVersion) &gt;= 4 &amp;&amp; typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('../User_Interface/Tree_Context_Menu_Files/Delete_Selected_Tree_Context_Menu.htm');return false;" alt=""></map> <script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area15');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area16');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area17');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area18');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area19');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area20');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area21');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area22');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area23');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area24');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area25');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area26');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area27');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area28');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area29');
+//-->
+</script><script type="text/javascript" language="JavaScript1.2">
+<!--
+kadovFilePopupInit('area30');
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1><span lang="EN-GB">Tree Context Menus</span></h1>
+<hr align="center" size="5" class="whs3">
+<p>Tree context menus appear when user right clicks on a tree item. There are mainly three types of commands in this menu:</p>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><a href="#Common%20and%20Selection%20Commands">Common and Selection commands</a></p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><a href="#Visualisation_Commands">Visualisation commands</a></p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><a href="#Specific_Commands_for_Datuming">Specific commands for datuming</a></p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><a href="#Transformations">Specific commands for transformations</a></p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><a href="#Transformations1">Specific commands for Current CS</a></p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><a href="#Specific_commands_for_View_Positions">Specific commands for view positions</a></p>
+</li>
+</ul>
+<h2><a name="Common and Selection Commands"></a>Common and Selection Commands</h2>
+<p class="whs4"><span lang="EN-US"><font size="2" style="font-size:10pt;">Commands selected for an item of higher level will affect to all sub-items that are derived from it. For example, if you choose</font></span> <i style="font-style:normal;"><span class="Path">Rendering &gt; Wireframe</span></i> <span lang="EN-US">for Scans group, all scan data entities will be displayed in</span> <span class="Mode">wireframe</span> <span lang="EN-US">mode. If you want to display as polygons a particular scan data entity, then right-click on this entity and select</span> <i style="font-style:normal;"><span class="Path">Rendering &gt; Wireframe</span></i> <span lang="EN-US">from its context menu.</span></p>
+<p><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">You can call context menu for several entities and groups at once. They must be marked first. There are two ways of marking entities/groups:</font></span></p>
+<ol start="1" class="whs5">
+<li style="text-align:justify;" class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-US">Hold down</span> <span lang="EN-US" style="font-weight:bold;"><b>Ctrl</b></span> <span lang="EN-US">key and click on different entities/groups to mark them.</span></p>
+</li>
+</ol>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP223638983" style="display:'none'; x-ss-type:dropdown;">
+<p><span lang="EN-US"><img src="Images/tree_context.gif" width="189px" height="271px" border="0" class="img_whs6" alt=""></span></p>
+</div>
+<ol start="2" class="whs5">
+<li style="text-align:justify;" class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-US">Hold down</span> <span lang="EN-US" style="font-weight:bold;"><b>Shift</b></span> <span lang="EN-US">key and click on two entities/groups. All items between them will be marked.</span></p>
+</li>
+</ol>
+<p class="Example" style="text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP223708864" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs7"><span lang="EN-US"><font size="2" style="font-size:10pt;"><img src="Images/tree_context_2.gif" width="198px" height="290px" border="0" class="img_whs8" alt=""></font></span></p>
+</div>
+<p><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">If you marked more than one entity/group the common context menu will appear. It contains only select/unselect, hide/show, and delete commands. Tree context menus for single entity/group vary depending on the data type.</font></span></p>
+<p class="Note" id="P8"><span lang="EN-US">Note that marking (highlighting) and selecting entities are two different actions. Mark single or multiple items to invoke a particular or common context menu. Use selection to apply processing commands to specific entities or particular areas from entities.</span></p>
+<p class="Warning" id="p12"><span lang="EN-GB">Cut</span><span lang="EN-GB">,</span> <span lang="EN-GB">Copy</span><span lang="EN-GB">, and</span> <span lang="EN-GB">Paste</span> <span lang="EN-GB">(for groups only) commands from the tree context menus are per entity/group.&#160;</span></p>
+<p class="ExampleCode" id="p12"><span lang="EN-GB">For example:<br>
+<br>
+1. If one scan data entity and one mesh entity are selected and</span> <span lang="EN-GB" style="font-weight:bold;"><b>Cut</b></span> <span lang="EN-GB">command is called from the mesh entity context menu then only the mesh entity will be cut to the clipboard. If</span> <span lang="EN-GB" style="font-weight:bold; font-style:italic;"><i><b><a href="../References/cut.htm">Edit &gt; Cut</a></b></i></span> <span lang="EN-GB">command is selected or</span> <span lang="EN-GB" style="font-weight:bold;"><b>Ctrl + X</b></span> <span lang="EN-GB">shortcut is used then both entities will be cut to the clipboard.<br>
+<br>
+2. If one scan data entity and one mesh entity are selected and</span> <span lang="EN-GB" style="font-weight:bold;"><b>Copy</b></span> <span lang="EN-GB">command is called from the mesh entity context menu then only the mesh entity will be copied in the clipboard. If</span> <span lang="EN-GB" style="font-weight:bold; font-style:italic;"><i><b><a href="../References/copy.htm">Edit &gt; Copy</a></b></i></span> <span lang="EN-GB">command is selected or</span> <span lang="EN-GB" style="font-weight:bold;"><b>Ctrl + C</b></span> <span lang="EN-GB">shortcut is used then both entities will be copied in the clipboard.<br>
+<br>
+3. If one scan data entity and one mesh entity are copied in the clipboard and</span> <span lang="EN-GB" style="font-weight:bold;"><b>Paste</b></span> <span lang="EN-GB">command is called from the Meshes group then only the mesh entity will be pasted. If</span> <span lang="EN-GB" style="font-weight:bold; font-style:italic;"><i><b><a href="../References/Paste_as_New_Entity.htm">Edit &gt; Paste as New Entity</a></b></i></span> <span lang="EN-GB">command is selected or</span> <span lang="EN-GB" style="font-weight:bold;"><b>Ctrl + V</b></span> <span lang="EN-GB">shortcut is used then both entities will be pasted into their corresponding groups.</span></p>
+<h3><span lang="EN-US">Common Context Menu</span></h3>
+<p><span lang="EN-US">I</span>f you mark more than one entity/group the <span style="font-weight:bold;"><b>common context menu</b></span> only will appear.</p>
+<p class="whs9"><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) <= 4)) 
+{  if (parseInt(navigator.appVersion) != 2) document.write("<img src='Images/tree_context_3.gif' x-maintain-ratio='TRUE' width='149px' height='196px' border='0' class='img_whs10'>");}
+else
+{   document.write("<img src='Images/tree_context_3.gif' x-maintain-ratio='TRUE' style='margin-top:0px;margin-bottom:0px;margin-left:2px;margin-right:2px;' width='149px' height='196px' border='0' class='img_whs10'>");}
+//-->
+</script>&#160;</p>
+<table cellspacing="0" width="807" class="whs11">
+<col class="whs12">
+<col class="whs13">
+<col class="whs14">
+<tr valign="top" class="whs15">
+<td bgcolor="#EAE8D6" width="17.233%" class="whs16">
+<p class="caption">Command</p>
+</td>
+<td bgcolor="#EAE8D6" width="73.392%" class="whs17">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="9.375%" class="whs18">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td width="17.233%" class="whs19">
+<p class="normal-table-func"><span class="Command">Select All</span></p>
+</td>
+<td width="73.392%" class="whs20">
+<p class="normal-table">Selects marked entities/groups.</p>
+</td>
+<td width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Select.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td width="17.233%" class="whs19">
+<p class="normal-table-func"><span class="Command">Unselect All</span></p>
+</td>
+<td width="73.392%" class="whs20">
+<p class="normal-table">Unselects marked entities/groups that are selected (or partially selected).</p>
+</td>
+<td width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Unselect_All.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td width="17.233%" class="whs19">
+<p class="normal-table-func"><span class="Command">Hide All</span></p>
+</td>
+<td width="73.392%" class="whs20">
+<p class="normal-table">Hides marked entities/groups.</p>
+</td>
+<td width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/hide_all.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td width="17.233%" class="whs19">
+<p class="normal-table-func"><span class="Command">Hide Selected</span></p>
+</td>
+<td width="73.392%" class="whs20">
+<p class="normal-table">Hides marked entities/groups that are selected (or partially selected).</p>
+</td>
+<td width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/hide_selection_and_hide_selected.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.233%" class="whs23">
+<p class="normal-table-func"><span class="Command">Show All</span></p>
+</td>
+<td colspan="1" rowspan="1" width="73.392%" class="whs24">
+<p class="normal-table">Shows marked entities. If applied to a group, all its hidden entities will appear, no matter if they are selected or not.</p>
+<p class="Note" id="p1"><span style="font-weight:bold;"><b>Note</b></span>: Hiding entities (or parts of them) is not stored, i.e. next time when you open the file all entities will be displayed.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Show_All.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.233%" class="whs23">
+<p class="normal-table-func"><span class="Command">Delete</span></p>
+</td>
+<td colspan="1" rowspan="1" width="73.392%" class="whs24">
+<p class="normal-table">Deletes marked entities/groups. If applied to a group, all entities will be deleted. It is possible to delete hidden entities/groups. There is no undo for this command.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/delete.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td width="17.233%" class="whs23">
+<p class="normal-table-func"><span class="Command">Delete Selection</span></p>
+</td>
+<td width="73.392%" class="whs24">
+<p class="normal-table">Deletes marked selected entities/groups. If an entity is partially selected, calling this command will cause the whole entity to be deleted. If applied to a group, all its entities that are wholly of partially selected, will be deleted. It is not possible to delete hidden entities/groups if the marked set contains hidden entities/groups (with the exception of polylines) the command will be grayed. There is no undo for Delete Selected.</p>
+<p class="Note" id="p3"><span style="font-weight:bold;"><b>Note</b></span>: If you call the context menu for a single entity/group, this command will be available for the polylines only.</p>
+</td>
+<td width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/delete_selected.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+</table>
+<h3>Other Common Commands from the Tree Context Menu</h3>
+<p class="whs9"><img src="Images/tree_context_4.gif" width="147px" height="338px" border="0" class="img_whs25" alt=""> &#160;</p>
+<table cellspacing="0" width="809" class="whs26">
+<col class="whs27">
+<col class="whs28">
+<col class="whs14">
+<tr valign="top" class="whs29">
+<td bgcolor="#EAE8D6" width="17.345%" class="whs30">
+<p class="caption">Command</p>
+</td>
+<td bgcolor="#EAE8D6" width="73.28%" class="whs31">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="9.375%" class="whs18">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs32">
+<td colspan="1" rowspan="1" width="17.345%" class="whs33">
+<p class="normal-table-func">Lock in Space</p>
+</td>
+<td colspan="1" rowspan="1" width="73.28%" class="whs34">
+<p class="normal-table">Locks single or multiple entities or groups so that they won't be affected when updating the current CS.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Lock_in_Space.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs35">
+<td colspan="1" rowspan="1" width="17.345%" class="whs33">
+<p class="normal-table-func">Unlock</p>
+</td>
+<td colspan="1" rowspan="1" width="73.28%" class="whs34">
+<p class="normal-table">Unlocks single or multiple entities or groups so that they will be affected when updating the current CS.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Unlock.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs36">
+<td width="17.345%" class="whs33">
+<p class="normal-table-func"><span class="Command">Rename</span></p>
+</td>
+<td width="73.28%" class="whs34">
+<p class="normal-table">Renames single entity or group. This command is grayed if applied to scan data, mesh, or point cloud group these groups have standard names. It is possible to rename hidden entities/groups. Other way for renaming is to mark an entity/group and single click on it. Rename command does not appear if applied to multiple marked entities/groups.</p>
+</td>
+<td width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Rename.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs37">
+<td width="17.345%" class="whs33">
+<p class="normal-table-func"><span class="Command">Properties</span></p>
+</td>
+<td width="73.28%" class="whs34">
+<p class="normal-table">This command accesses the properties dialog for an entity or group. The dialog has two tabs one that contains specific information (e.g. number of points, stripes, triangles, normal, radius, etc.) for a particular type and the other called Common, which contains the extents and size of the entity/group.</p>
+<p class="normal-table">&#160;</p>
+</td>
+<td width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Properties.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs36">
+<td width="17.345%" class="whs33">
+<p class="normal-table-func"><span class="Command">Properties (root)</span></p>
+</td>
+<td width="73.28%" class="whs34">
+<p class="normal-table">When this command is called from the context menu for the root of the tree a dialog appears. This dialog contains miscellaneous information about the project operator name, object name, date created, etc. Some of the fields are manually edited; some of them are filled automatically. This information can be printed The parameters of the alignment used to capture the data saved in the file can also be viewed.</p>
+</td>
+<td width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Project_Properties.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p class="Normal" style="text-align:justify;"><span lang="EN-GB" style="font-weight:bold;"><b>Related topic:</b></span> <a href="Entities_Pane.htm">Entities Pane</a></p>
+<h2><a name="Visualisation_Commands"></a>Visualisation Commands</h2>
+<h3>Common visualisation commands</h3>
+<p class="whs38"><img src="tree_context_menu_files/image028.gif" width="297px" height="146px" border="0" class="img_whs39" alt=""> <img src="../Working_with_data/Visualisation_files/image029.gif" width="219px" height="46px" border="0" class="img_whs40" alt=""></p>
+<table cellspacing="0" width="809" class="whs41">
+<col class="whs42">
+<col class="whs43">
+<col class="whs14">
+<tr valign="top" class="whs15">
+<td bgcolor="#EAE8D6" width="17.346%" class="whs44">
+<p class="caption">Command</p>
+</td>
+<td bgcolor="#EAE8D6" width="73.279%" class="whs45">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="9.375%" class="whs18">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td rowspan="1" colspan="3" width="100%" class="whs46">
+<p class="normal-table"><span style="font-weight:bold;"><b>Rendering submenu</b></span> - this command is available for all entities and groups except for the datum entities.</p>
+<p class="Note" id="P4"><span style="font-weight:bold;"><b>Note:</b></span> Changing rendering is not stored, therefore objects will be rendered in their default modes (<span class="Mode">Smooth Shaded</span> for scan data and meshes, <span class="Mode">Large Points</span> for point clouds, and <span class="Mode">Polygons</span> for polylines) the next time that the file is opened.</p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td width="17.346%" class="whs47">
+<p class="normal-table-func"><span class="Command">Points</span></p>
+</td>
+<td width="73.279%" class="whs48">
+<p class="normal-table">Draw only objects vertices as points. This mode is applied for scan data, meshes, point clouds, and polylines.</p>
+</td>
+<td width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Rendering_Points_and_Points_Mode.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.346%" class="whs47">
+<p class="normal-table-func"><span class="Command">Large Points</span></p>
+</td>
+<td colspan="1" rowspan="1" width="73.279%" class="whs48">
+<p class="normal-table">Draw only objects vertices as large points. This mode is applied for scan data, meshes, point clouds, and polylines.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Rendering_Large_Points_and_Large_Points_Mode.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.346%" class="whs47">
+<p class="normal-table-func"><span class="Command">Wireframe</span></p>
+</td>
+<td colspan="1" rowspan="1" width="73.279%" class="whs48">
+<p class="normal-table">Draw objects as connected triangles. This mode is applied for scan data, meshes, and polylines. Triangles are used for scan data and meshes only. Polylines are drawn as connected lines.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Rendering_Polygons_and_Polygons_Mode.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.346%" class="whs47">
+<p class="normal-table-func">Flat</p>
+</td>
+<td colspan="1" rowspan="1" width="73.279%" class="whs48">
+<p class="normal-table">Draw objects as connected triangles each of which is shaded depending on the angle of its normal to the light direction in the scene. This mode is applied for scan data and meshes only.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Rendering_Flat_and_Flat_Shaded_Mode.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.346%" class="whs47">
+<p class="normal-table-func"><span class="Command">Flat + Wireframe</span></p>
+</td>
+<td colspan="1" rowspan="1" width="73.279%" class="whs48">
+<p class="normal-table">Draw objects as combination of flat shaded surface and wireframe.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/rendering_flat_wireframe_and_flat_wireframe_mode.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.346%" class="whs47">
+<p class="normal-table-func"><span class="Command">Smooth</span></p>
+</td>
+<td colspan="1" rowspan="1" width="73.279%" class="whs48">
+<p class="normal-table">Draw objects as smooth shaded surface. This mode is applied for scan data and meshes only. Shading is the same as in <span class="Mode">Flat Shaded</span> mode, but there is an approximation of the hue between neighbouring triangles.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><span style="font-weight:bold;"><b><a href="../References/Rendering_Smooth_and_Smooth_Shaded_Mode.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></b></span></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.346%" class="whs47">
+<p class="normal-table-func"><span class="Command">Smooth + Wireframe</span></p>
+</td>
+<td colspan="1" rowspan="1" width="73.279%" class="whs48">
+<p class="normal-table">Draw objects as combination of smooth shaded surface and wireframe.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/rendering_smooth_wireframe_and_smooth_wireframe_mode.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="3" rowspan="1" width="100%" class="whs46">
+<p><span style="font-weight:bold;"><b>Material submenu</b></span> - this command is available for all entities and groups. In contrast to the colour schemes in <i><span class="Path"><a href="../References/Display_Settings-Colours.htm">System &gt; Preferences - Display - Colours</a></span></i> dialog colours are changed for a particular entity or group, not for all the entities of same type.</p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.346%" class="whs47">
+<p class="normal-table-func"><span class="Command">Colour</span></p>
+</td>
+<td colspan="1" rowspan="1" width="73.279%" class="whs48">
+<p class="normal-table">This command invokes the standard Windows dialog for colour selection. The chosen colour will be used for paining the entity (or group of entities) from which the context menu was called.</p>
+<p class="Note" id="p5"><span style="font-weight:bold;"><b>Note</b></span>: Changing entity colours will be stored in the file.</p>
+<p class="normal-table"><b style="font-weight:bold;"><span lang="EN-US">Use in</span>:</b> This command is useful if you want to set different colour for different entities (in <span class="Mode">Instant Comparison</span> mode for example)</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Material_Colour.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td width="17.346%" class="whs47">
+<p class="normal-table-func"><span class="Command">Reset</span></p>
+</td>
+<td width="73.279%" class="whs48">
+<p class="normal-table">This command restores the default colour of the entity (or group of entities) from which the context menu was called.</p>
+</td>
+<td width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Material_Reset.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+</table>
+<h3><span style="font-weight:bold;"><b>Context menu for Scan Data, Meshes and</b></span> <span style="font-weight:bold;"><b>P</b>oint Clouds</span></h3>
+<p>Common selection and visualisation commands, no specific commands for scan data.</p>
+<p class="whs49"><img src="Images/tree_context_scan_data.gif" width="147px" height="290px" border="0" class="img_whs50" alt=""></p>
+<p>&#160;</p>
+<p class="Note"><span lang="EN-US" style="font-weight:bold;"><b>Note:</b></span> <span lang="EN-US">The</span><span lang="EN-US" style="font-weight:bold;"><b>Rendering</b></span> <span lang="EN-US">submenu for Point Clouds contains two commands only -</span> <span class="Command">Points</span> <span lang="EN-US">and</span> <span class="Command">Large Points</span><span lang="EN-US">.</span></p>
+<h3><span style="font-weight:bold;"><b>Context menu for Polylines</b></span></h3>
+<p><span lang="EN-US">Same as for Scan Data (see above) and some specific commands:</span></p>
+<table class="TableGrid" style="border-collapse:collapse; margin-left:24px; border-spacing:0px;" cellspacing="0">
+<col>
+<col>
+<tr>
+<td rowspan="1" valign="top" class="whs51">
+<p class="Normal" style="margin-top:5.0pt; margin-right:0mm; margin-bottom:5.0pt; margin-left:0mm; text-align:justify; font-size:9.0pt;"><img src="../Working_with_data/Visualisation_files/image031.gif" width="285px" height="284px" border="0" class="img_whs52" alt=""></p>
+</td>
+<td valign="top" class="whs51">
+<p class="Normal" style="margin-top:5.0pt; margin-right:0mm; margin-bottom:5.0pt; margin-left:0mm; text-align:justify; font-size:9.0pt;"><img src="../Working_with_data/Visualisation_files/image032.gif" width="264px" height="86px" border="0" class="img_whs53" alt=""></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<table cellspacing="0" width="806" class="whs54">
+<col class="whs55">
+<col class="whs56">
+<col class="whs14">
+<tr valign="top" class="whs15">
+<td bgcolor="#EAE8D6" width="17.362%" class="whs57">
+<p class="caption">Command</p>
+</td>
+<td bgcolor="#EAE8D6" width="73.263%" class="whs58">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="9.375%" class="whs18">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="3" rowspan="1" width="100%" class="whs46">
+<p><span lang="EN-US" style="font-weight:bold;"><b>Rendering</b></span> <span lang="EN-US">submenu - for Polylines the rendering menu contains three commands only -</span> <span class="Command">Points</span><span lang="EN-US">,</span> <span class="Command">Large Points</span> <span lang="EN-US">and</span> <span class="Command">Polygons</span><span lang="EN-US">.</span></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.362%" class="whs59">
+<p class="normal-table-func"><span class="Command">Draw First Point</span></p>
+</td>
+<td colspan="1" rowspan="1" width="73.263%" class="whs60">
+<p class="normal-table">This command is available for single polyline or polyline group. If you enable it, the first node of every polyline will be visualised as yellow filled square. This square is larger than the points, squares, and crosses that are used for displaying nodes.</p>
+<p class="Note" id="P6"><span style="font-weight:bold;"><b>Note:</b></span> Changing <span style="text-decoration:underline;"><u>Draw First Point</u></span> mode is stored, i.e. next time when you open the file the first points will not be displayed.</p>
+<p class="normal-table"><b><span lang="EN-US" style="font-weight:bold;"><b>Use in:</b></span></b> This command is useful when preparing section data for export to a CAD system or when preparing to combine polylines. It is better to see what is the direction of polylines before reversing it or sort polylines.<span lang="EN-US">&#160;</span></p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/draw_first_point.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="3" rowspan="1" width="100%" class="whs46">
+<p class="normal-table"><span lang="EN-US" style="font-weight:bold;"><b>Draw Polyline Node as</b></span> submenu: This command is available for polylines only. User can select the way that polyline nodes are visualised. The different visualisation options affect all polyline groups in the active window although it was applied to a single polyline or polyline group.</p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.362%" class="whs59">
+<p class="normal-table-func"><span class="Command">None</span></p>
+</td>
+<td colspan="1" rowspan="1" width="73.263%" class="whs60">
+<p class="normal-table">Does not display nodes.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/draw_polyline_nodes_as_none.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.362%" class="whs59">
+<p class="normal-table-func"><span class="Command">Points</span></p>
+</td>
+<td colspan="1" rowspan="1" width="73.263%" class="whs60">
+<p class="normal-table">Displays nodes as small yellow points.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/draw_polyline_nodes_as_points.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.362%" class="whs59">
+<p class="normal-table-func"><span class="Command">Squares</span></p>
+</td>
+<td colspan="1" rowspan="1" width="73.263%" class="whs60">
+<p class="normal-table">Displays nodes as outlined yellow squares.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/draw_polyline_nodes_as_squares.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td width="17.362%" class="whs59">
+<p class="normal-table-func"><span class="Command">Crosses</span></p>
+</td>
+<td width="73.263%" class="whs60">
+<p class="normal-table">Displays nodes as yellow crosses oriented to the polyline direction.</p>
+</td>
+<td width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/draw_polyline_nodes_as_crosses.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p class="Warning" id="p2">Points are not displayed if you select <span class="Mode">Points</span>, <span class="Mode">Large Points</span>, or <span class="Mode">Wireframe</span> render mode from the viewport context menu. Squares and Crosses are not displayed if you select <span class="Mode">Wireframe</span> render mode from the viewport context menu<span lang="EN-US">&#160;</span></p>
+<p class="Normal" style="text-align:justify;"><span style="text-align:justify;"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Display Settings','../References/display_settings.htm','Edit Menu','edit_menu.htm','Tree','Tree.htm');return false;" title=""><img src="../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></span></p>
+<p class="Normal" style="text-align:justify;">&#160;</p>
+<h2><a name="Specific_Commands_for_Datuming"></a>Specific Commands for Datuming</h2>
+<p class="Normal" style="text-align:justify;"><img src="Images/tree_context_datum.gif" width="138px" height="366px" border="0" class="img_whs61" alt=""></p>
+<table cellspacing="0" width="803" class="whs62">
+<col class="whs63">
+<col class="whs64">
+<col class="whs14">
+<tr valign="top" class="whs15">
+<td bgcolor="#EAE8D6" width="17.006%" class="whs65">
+<p class="caption">Command</p>
+</td>
+<td bgcolor="#EAE8D6" width="73.619%" class="whs66">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="9.375%" class="whs18">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.006%" class="whs67">
+<p class="normal-table-func">Put Label</p>
+</td>
+<td colspan="1" rowspan="1" width="73.619%" class="whs68">
+<p class="normal-table">Places a label for each marked datum entity or for all datum entities if selected from the context menu of Datuming group.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Put_Label.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.006%" class="whs67">
+<p class="normal-table-func">Remove Label</p>
+</td>
+<td colspan="1" rowspan="1" width="73.619%" class="whs68">
+<p class="normal-table">Removes the label for each marked datum entity or for all datum entities if selected from the context menu of Datuming group.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/remove_label.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.006%" class="whs67">
+<p class="normal-table-func">Sort by Name</p>
+</td>
+<td colspan="1" rowspan="1" width="73.619%" class="whs68">
+<p class="normal-table">Sorts datum entities by name.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Sort_by_Name.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.006%" class="whs67">
+<p class="normal-table-func">Sort by Type</p>
+</td>
+<td colspan="1" rowspan="1" width="73.619%" class="whs68">
+<p class="normal-table">Sorts datum entities by type. The order of types is</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Sort_by_Type.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p class="Normal" style="text-align:justify;">&#160;</p>
+<p class="Normal" style="text-align:justify;"><b style="font-weight:bold;"><span lang="EN-GB">Datum lines</span> <span lang="EN-GB" style="font-weight:normal;">and</span> <span lang="EN-GB">Datum cylinders</span>:</b></p>
+<p><img src="Images/tree_context_datum_line.gif" width="138px" height="354px" border="0" class="img_whs69" alt=""></p>
+<table cellspacing="0" width="808" class="whs70">
+<col class="whs71">
+<col class="whs72">
+<col class="whs14">
+<tr valign="top" class="whs15">
+<td bgcolor="#EAE8D6" width="16.98%" class="whs73">
+<p class="caption">Command</p>
+</td>
+<td bgcolor="#EAE8D6" width="73.645%" class="whs74">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="9.375%" class="whs18">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="16.98%" class="whs75">
+<p class="normal-table-func"><span class="Command">Reverse</span></p>
+</td>
+<td colspan="1" rowspan="1" width="73.645%" class="whs76">
+<p class="normal-table"><span lang="EN-GB">Reverses the direction of a datum line or the axe of the cylinder.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Reverse.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p class="Normal">&#160;</p>
+<p class="Normal"><b style="font-weight:bold;"><span lang="EN-GB">Datum planes</span></b><span lang="EN-GB">:</span></p>
+<p class="Normal"><img src="Images/tree_context_datum_plane.gif" width="138px" height="402px" border="0" class="img_whs77" alt=""></p>
+<table cellspacing="0" width="805" class="whs78">
+<col class="whs79">
+<col class="whs80">
+<col class="whs14">
+<tr valign="top" class="whs15">
+<td bgcolor="#EAE8D6" width="17.12%" class="whs81">
+<p class="caption">Command</p>
+</td>
+<td bgcolor="#EAE8D6" width="73.505%" class="whs82">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="9.375%" class="whs18">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.12%" class="whs83">
+<p class="normal-table-func">Align View</p>
+</td>
+<td colspan="1" rowspan="1" width="73.505%" class="whs84">
+<p class="normal-table">Aligns view direction orthogonal to the datum plane.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Align_View.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.12%" class="whs83">
+<p class="normal-table-func"><span class="Command">Reverse</span></p>
+</td>
+<td colspan="1" rowspan="1" width="73.505%" class="whs84">
+<p class="normal-table"><span lang="EN-GB">Reverses the normal of a datum plane.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Reverse.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.12%" class="whs83">
+<p class="normal-table-func"><span class="Command">Offset</span></p>
+</td>
+<td colspan="1" rowspan="1" width="73.505%" class="whs84">
+<p class="normal-table"><span lang="EN-GB">Translates a datum plane along its normal.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Offset.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p class="Normal">&#160;</p>
+<p class="Normal"><b style="font-weight:bold;"><span lang="EN-GB">Datum spheres</span></b> <span lang="EN-GB">and <b>datum circles</b>:</span></p>
+<p class="Normal" style="text-align:justify;"><img src="Images/tree_context_datum_circle.gif" width="138px" height="374px" border="0" class="img_whs85" alt=""></p>
+<table cellspacing="0" width="808" class="whs86">
+<col class="whs87">
+<col class="whs88">
+<col class="whs14">
+<tr valign="top" class="whs15">
+<td bgcolor="#EAE8D6" width="17.351%" class="whs89">
+<p class="caption">Command</p>
+</td>
+<td bgcolor="#EAE8D6" width="73.274%" class="whs90">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="9.375%" class="whs18">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.351%" class="whs91">
+<p class="normal-table-func"><span class="Command">Reverse</span></p>
+</td>
+<td colspan="1" rowspan="1" width="73.274%" class="whs92">
+<p class="normal-table"><span lang="EN-GB">Reverses the normal of a plane on which the datum circle lies.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Reverse.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.351%" class="whs91">
+<p class="normal-table-func"><span class="Command">Modify Radius</span></p>
+</td>
+<td colspan="1" rowspan="1" width="73.274%" class="whs92">
+<p class="normal-table"><span lang="EN-GB">I</span><span lang="EN-GB">ncreases/decreases radius of a datum sphere or circle.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/increase_radius.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p class="Normal" style="text-align:justify;">&#160;</p>
+<p class="Note" id="p11"><span lang="EN-GB" style="font-weight:bold;"><b>Note</b></span><span lang="EN-GB">: <b>Datum points</b> do not have special operations. Only the common commands are accessible from their context menus.</span></p>
+<p class="Normal" style="text-align:justify;">&#160;</p>
+<h2><span lang="EN-GB"><a name="Transformations"></a>Specific commands for Transformations:</span></h2>
+<p><img src="Images/tree_context_transformation.gif" width="149px" height="310px" border="0" class="img_whs93" alt=""></p>
+<table cellspacing="0" width="803" class="whs94">
+<col class="whs95">
+<col class="whs96">
+<col class="whs14">
+<tr valign="top" class="whs15">
+<td bgcolor="#EAE8D6" width="17.753%" class="whs97">
+<p class="caption">Command</p>
+</td>
+<td bgcolor="#EAE8D6" width="72.872%" class="whs98">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="9.375%" class="whs18">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.753%" class="whs99">
+<p class="normal-table-func">Update Current CS</p>
+</td>
+<td colspan="1" rowspan="1" width="72.872%" class="whs100">
+<p class="normal-table">Updates current co-ordinate system with the selected transformation.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Update_Current_CS.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.753%" class="whs99">
+<p class="normal-table-func"><span class="Command">Apply to Selection</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.872%" class="whs100">
+<p class="normal-table"><span lang="EN-GB">Transforms selected entities from the global co-ordinate system to the co-ordinate system defined by the marked transformation.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/apply_to_selection.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.753%" class="whs99">
+<p class="normal-table-func"><span class="Command">Apply Reverse</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.872%" class="whs100">
+<p class="normal-table"><span lang="EN-GB">Transforms selected entities by applying the reverse matrix of the selected transformation.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/apply_reverse.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.753%" class="whs99">
+<p class="normal-table-func"><span class="Command">Invert</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.872%" class="whs100">
+<p class="normal-table"><span lang="EN-GB">Inverses the transformation matrix.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Inverse.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.753%" class="whs99">
+<p class="normal-table-func"><span class="Command">Modify</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.872%" class="whs100">
+<p class="normal-table">Calls the dialog, that lets you modify the transformation matrix.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Modify.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p id="p7">&#160;</p>
+<h2 id="p7"><span lang="EN-GB"><a name="Transformations1"></a>Specific commands for Current CS:</span></h2>
+<p><img src="Images/tree_context_CurrentCS.gif" width="171px" height="202px" border="0" class="img_whs101" alt=""></p>
+<table cellspacing="0" width="802" class="whs102">
+<col class="whs103">
+<col class="whs104">
+<col class="whs14">
+<tr valign="top" class="whs29">
+<td bgcolor="#EAE8D6" width="18.038%" class="whs105">
+<p class="caption">Command</p>
+</td>
+<td bgcolor="#EAE8D6" width="72.925%" class="whs106">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="9.375%" class="whs18">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs107">
+<td colspan="1" rowspan="1" width="18.038%" class="whs108">
+<p class="normal-table-func">Previous CS</p>
+</td>
+<td colspan="1" rowspan="1" width="72.925%" class="whs109">
+<p class="normal-table">Activates the previous transformation as current CS.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Previous_CS.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs107">
+<td colspan="1" rowspan="1" width="18.038%" class="whs108">
+<p class="normal-table-func">Next CS</p>
+</td>
+<td colspan="1" rowspan="1" width="72.925%" class="whs109">
+<p class="normal-table"><span lang="EN-GB">Activates the next transformation as current CS.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Next_CS.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs110">
+<td colspan="1" rowspan="1" width="18.038%" class="whs108">
+<p class="normal-table-func"><span class="Command">Back to World CS</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.925%" class="whs109">
+<p class="normal-table"><span lang="EN-GB">Restores the World CS as current CS and applies all non-locked entities to it.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/back_to_world_cs.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs107">
+<td colspan="1" rowspan="1" width="18.038%" class="whs108">
+<p class="normal-table-func">Clear</p>
+</td>
+<td colspan="1" rowspan="1" width="72.925%" class="whs109">
+<p class="normal-table"><span lang="EN-GB">Restores the World CS as current CS and without applying the non-locked entities to it.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/clear.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs32">
+<td colspan="1" rowspan="1" width="18.038%" class="whs108">
+<p class="normal-table-func"><span class="Command">Modify (Current CS)</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.925%" class="whs109">
+<p class="normal-table">Calls the dialog, that lets you modify the transformation matrix of Current CS.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Modify_Current_CS.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs111">
+<td colspan="1" rowspan="1" width="18.038%" class="whs108">
+<p class="normal-table-func">History</p>
+</td>
+<td colspan="1" rowspan="1" width="72.925%" class="whs109">
+<p class="normal-table">Calls the history of applied transformations dialog.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/History.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs32">
+<td colspan="1" rowspan="1" width="18.038%" class="whs108">
+<p class="normal-table-func">Copy (Current CS)</p>
+</td>
+<td colspan="1" rowspan="1" width="72.925%" class="whs109">
+<p class="normal-table">Copies the Current CS into the clipboard.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/Copy_Current_CS.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs32">
+<td colspan="1" rowspan="1" width="18.038%" class="whs108">
+<p class="normal-table-func">Copy as Transformation</p>
+</td>
+<td colspan="1" rowspan="1" width="72.925%" class="whs109">
+<p class="normal-table">Creates a copy of Current CS in Transformations group.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/copy_as_transformation.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p id="p9">&#160;</p>
+<h2 id="p10"><a name="Specific_commands_for_View_Positions"></a>Specific commands for View Positions:</h2>
+<p id="p10"><img src="Images/tree_context_viewposition.gif" width="151px" height="210px" border="0" class="img_whs112" alt=""></p>
+<table cellspacing="0" width="808" class="whs113">
+<col class="whs114">
+<col class="whs115">
+<col class="whs14">
+<tr valign="top" class="whs15">
+<td bgcolor="#EAE8D6" width="17.97%" class="whs116">
+<p class="caption">Command</p>
+</td>
+<td bgcolor="#EAE8D6" width="72.655%" class="whs117">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="9.375%" class="whs18">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.97%" class="whs118">
+<p class="normal-table-func"><span class="Command">Use</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.655%" class="whs119">
+<p class="normal-table">Applies the selected view position. This command is automatically executed if double-click on the view position entity.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/use_view_position.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="17.97%" class="whs118">
+<p class="normal-table-func"><span class="Command">Set to Current View</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.655%" class="whs119">
+<p class="normal-table">Replaces the saved view position with the current one.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs21">
+<p class="normal-table"><a href="../References/set_to_current_view.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs22" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p id="p10">&#160;</p>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a1','POPUP223638983');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a2','POPUP223708864');
+//-->
+</script><script type="text/javascript" language="JavaScript">
+<!--
+if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
+  WritePopupMenuLayer();
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B02120000005472656520436F6E74657874204D656E75730C0217000000547265650A5472656520436F6E74657874204D656E75730D02120000005472656520436F6E74657874204D656E75731102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

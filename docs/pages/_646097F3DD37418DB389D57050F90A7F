@@ -1,0 +1,154 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Fit Multiple Lines</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+table.whs4 { border-spacing:0px; }
+tr.whs5 {  }
+td.whs6 { padding-right:10px; padding-left:10px; border-left-style:None; border-top-style:None; border-bottom-style:None; border-right-style:None; }
+img_whs7 { width:546px; height:355px; border-style:none; }
+img_whs8 { border:none; width:257px; height:165px; border-style:none; }
+ul.whs9 { margin-top:0in; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "ul.whs9 {margin-top:1pt; }";
+  strNSS +="<\/style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Fit Multiple Lines</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p>This command is accessible from <span class="Path" style="font-weight:bold;"><b>System &gt; Performance Check Utilities &gt; Measure Multiple Lines</b></span>.</p>
+<p class="Description"><span class="Command" style="font-weight:bold;"><b>Description:</b></span> <span class="Command">Fit Multiple Lines</span> <span lang="EN-GB">command fits a line through each stripe in the visible selected scan data and calculates statistics. This command is grayed if there is no selection or all selections are hidden.</span></p>
+<p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Example</a></p>
+<div class="droptext" id="POPUP173761900" style="display:'none'; x-ss-type:dropdown;">
+<table cellspacing="0" class="whs4">
+<col>
+<tr valign="top" class="whs5">
+<td class="whs6">
+<p class="Normal" style="text-align:justify;"><span lang="EN-GB"><img src="../Working_with_data/Measuring_files/image025.jpg" width="546px" height="355px" border="0" class="img_whs7" alt=""></span></p>
+<p class="Normal" style="text-align:justify;"><span lang="EN-GB">Selection to fit Multiple lines</span></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+</div>
+<p><span lang="EN-GB">A line is fitted through each stripe, no entity is created in the document.</span></p>
+<p><span lang="EN-GB">After the lines are fitted the following dialog will appear:</span></p>
+<p><img src="Images/fit_multiple_lines.gif" width="257px" height="165px" border="0" class="img_whs8" alt=""></p>
+<ul class="whs9">
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Mean RMS</b></span> <span lang="EN-GB">-</span> <span lang="EN-GB">mean value of Root Mean Square distance from each line to the selected points from the corresponding stripe.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Median RMS</b></span> <span lang="EN-GB">-</span> <span lang="EN-GB">median value of Root Mean Square distance from each line to the selected points from the corresponding stripe.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Standard deviation</b></span> <span lang="EN-GB">-</span> <span lang="EN-GB">standard deviation of Root Mean Square distances from each line to the selected points from the corresponding stripe.</span></p>
+</li>
+</ul>
+<p class="Normal"><span style="font-weight:bold;"><b>Related Topic:</b></span> <a href="fit_parallel_planes_(manual).htm">Fit Parallel Planes (Manual)</a></p>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a1','POPUP173761900');
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B0212000000466974204D756C7469706C65204C696E65730C029C0000004372656174650A456E7469746965730A666974204D756C7469706C65206C696E65730A4C696E650A4D6561737572650A4D656173757265204D756C7469706C65204C696E65730A506572666F726D616E63650A506572666F726D616E636520436865636B0A526F6F74204D65616E205371756172650A5363616E0A5363616E20446174610A53656C6563740A53656C656374696F6E0A53797374656D0D0212000000466974204D756C7469706C65204C696E65731102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

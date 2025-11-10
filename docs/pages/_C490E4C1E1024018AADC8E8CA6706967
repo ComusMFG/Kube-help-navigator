@@ -1,0 +1,202 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Script Generation</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+p.whs4 { font-style:italic; }
+ul.whs5 { list-style:circle; }
+p.whs6 { font-style:italic; font-family:Arial, sans-serif; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript" src="../ehlpdhtm.js">
+</script>
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nMacros Module\nScript Generation");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Script Generation</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p>In therms of KUBE a file containing sequence of macro commands is named script. A macro command could be either recorded during execution of various functions in KUBE or manually written by the user.</p>
+<p><span style="font-weight:bold;"><b>Automatic script generation</b></span> - used for quick recording script commands. Procedure:</p>
+<ol>
+<li class="kadov-p-CNumbered">
+<p class="Numbered">Open a file</p>
+</li>
+<li class="kadov-p-CNumbered">
+<p class="Numbered">Call the functions necessary for processing the file.</p>
+</li>
+<li class="kadov-p-CNumbered">
+<p class="Numbered">When data processing is complete, save the file and close it</p>
+</li>
+<li class="kadov-p-CNumbered">
+<p class="Numbered">Press F11 and the <a href="Macros_Menu/show_command_window.htm">log window</a> will appear. As you see it contains record of all executed functions for the current KUBE session.</p>
+</li>
+<li class="kadov-p-CNumbered">
+<p class="Numbered">Select the sequence of commands, that you want to save as script, and copy it in the clipboard.</p>
+</li>
+<li class="kadov-p-CNumbered">
+<p class="Numbered">Paste the clipboard content in a text editor and save it as .txt file. This file (without making any other changes) can be used later as script and executed for a single file only.</p>
+</li>
+</ol>
+<p><span style="font-weight:bold;"><b>Manual script generation</b></span>. Procedure:</p>
+<ol>
+<li class="kadov-p-CNumbered">
+<p class="Numbered">If you know very well the KUBE script commands you could write manually the whole command sequence in a txt file and use it later as script. The process is slower than the automatic generation and mistakes can be easily made.</p>
+</li>
+<li class="kadov-p-CNumbered">
+<p class="Numbered">Scripts written manually can be very flexible and executed on multiple files, but the user should be careful and keep the writing rules and conventions.</p>
+</li>
+</ol>
+<p><span style="font-weight:bold;"><b>Mixed script generation</b></span> - recommended as quick and flexible enough. Procedure:</p>
+<ol>
+<li class="kadov-p-CNumbered">
+<p class="Numbered">Generate a script using the automatic procedure.</p>
+</li>
+<li class="kadov-p-CNumbered">
+<p class="Numbered">Open the saved script file and make changes manually: for example add functions, include predefined or custom parameters, remove useless commands, add comments, etc.</p>
+</li>
+<li class="kadov-p-CNumbered">
+<p class="Numbered">Save the script file - it is ready for use now on single as well as on multiple files.</p>
+</li>
+</ol>
+<p class="ExampleCode">2 Examples for mixed script generation:</p>
+<p class="ExampleCode">Initial automatic script generation:</p>
+<p class="ExampleCode">Open( FileName="D:\temp\CAD.sab2" )<br>
+OpenInDoc( FileName="D:\temp\scan1.sab2" )<br>
+SaveAs( FileName="D:\Temp\aligned1.sab2" )<br>
+CloseFile( FileName="D:\Temp\aligned1.sab2" )</p>
+<p id="P1" class="whs4">Comment: If the initial script is executed it will:</p>
+<ul type="circle" class="whs5">
+<li class="kadov-p-IP1">
+<p id="P1" class="whs4">open <span style="font-family:Arial, sans-serif;">CAD.sab2,</span></p>
+</li>
+<li class="kadov-p-IP1">
+<p id="P1" class="whs6">open scan1.sab2 in the current file,</p>
+</li>
+<li class="kadov-p-IP1">
+<p id="P1" class="whs6">save the file under new name</p>
+</li>
+<li class="kadov-p-IP1">
+<p id="P1" class="whs4"><span style="font-family:Arial, sans-serif;">and finally close it.</span></p>
+</li>
+</ul>
+<p class="ExampleCode">The script when the manual editing is completed:</p>
+<p class="ExampleCode"><span style="font-family:'Courier New' , monospace; text-decoration:none;">Open( FileName="D:\temp\CAD.sab2" )<br>
+OpenInDoc( FileName=%FileName% )<br>
+SelEntityType( Type="PtStripe")<br>
+AlignEntities( SmpStep=1, MaxDist=3, IterNum=5, Ref="CAD Model", TrOnly=Yes )<br>
+SaveAs( FileName=%FilePath%Aligned_%ShortFileName% )<br>
+CloseFile( FileName=%FilePath%Aligned_%ShortFileName% )</span></p>
+<p class="whs4">Comment: If the new script is executed it will:</p>
+<ul type="circle" class="whs5">
+<li class="kadov-p">
+<p class="whs4">open the CAD.sab2 file</p>
+</li>
+<li class="kadov-p">
+<p class="whs4">open in it the currently processed file of the multiple file list</p>
+</li>
+<li class="kadov-p">
+<p class="whs4">select all scan data entities</p>
+</li>
+<li class="kadov-p">
+<p class="whs4">align the selection to the <span style="font-family:'Courier New' , monospace;">CAD Model (</span><span style="font-family:Arial, sans-serif;">this is the content of the</span> CAD.sab2 file)</p>
+</li>
+<li class="kadov-p">
+<p class="whs4">save the new file in the same folder as the currently processed file, but with name "Aligned_currently processed file name")</p>
+</li>
+<li class="kadov-p">
+<p class="whs4">close the file</p>
+</li>
+</ul>
+<p class="whs4"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Macro Commands','macro_commands.htm','Macro Module','macro_module.htm','Macro Syntax','Macro_Syntax.htm','Parameter Types','Parameter_Types.htm','Run Script from File','Macros_Menu/run_script_from_file.htm','Special Symbols and Abbreviations','Special_Symbols_and_Abbreviations.htm','Type Conventions','type_conventions.htm');return false;" title=""><img src="../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a> &#160;</p>
+<script type="text/javascript" language="JavaScript">
+<!--
+if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
+  WritePopupMenuLayer();
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B02110000005363726970742047656E65726174696F6E0C02CB000000416C69676E0A4341440A436C6F73650A436C6F736546696C650A436F70790A456469740A456E7469746965730A46696C654E616D650A47656E65726174650A6D6163726F20636F6D6D616E64730A4D6163726F730A4E65770A4F70656E496E446F630A506172616D65746572730A50617374650A536176650A536176652041730A5363616E0A5363616E20446174610A5363726970742047656E65726174696F6E0A53656C6563740A53656C65637420416C6C0A53656C656374696F6E0A53656C456E74697479547970650D02110000005363726970742047656E65726174696F6E11020D0000004D6163726F73204D6F64756C651202110000005363726970742047656E65726174696F6E1302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

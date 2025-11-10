@@ -1,0 +1,1888 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Appendix A</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+table.whs4 { border-left-style:Double; border-left-width:4px; border-right-style:Double; border-right-width:4px; border-top-style:Double; border-top-width:4px; border-bottom-style:Double; border-bottom-width:4px; border-spacing:0px; }
+tr.whs5 {  }
+td.whs6 { border-left-width:1px; border-left-color:#000000; border-left-style:Solid; border-top-style:Solid; border-top-color:#000000; border-top-width:1px; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#808080; }
+p.whs7 { font-weight:bold; color:#ffffff; text-align:center; margin-left:0px; }
+td.whs8 { border-top-style:Solid; border-top-color:#000000; border-top-width:1px; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#808080; }
+td.whs9 { border-left-width:1px; border-left-color:#000000; border-left-style:Solid; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#ffffc1; }
+p.whs10 { margin-left:12px; }
+td.whs11 { border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#ffffc1; }
+p.whs12 { font-weight:bold; }
+p.whs13 { text-align:center; margin-left:0px; }
+td.whs14 { border-left-width:1px; border-left-color:#000000; border-left-style:Solid; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#ffff00; }
+td.whs15 { border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; background-color:#ffff00; }
+p.whs16 { font-weight:normal; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs7 {margin-left:1pt; }";
+  strNSS += "p.whs13 {margin-left:1pt; }";
+  strNSS +="<\/style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" src="../../ehlpdhtm.js">
+</script>
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Appendix A</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p>The following list defines the codes for the paper sizes used in <span style="font-family:'Courier New' , monospace;">Page</span> tag in <a href="xml_template.htm">XML templates</a>.</p>
+<table cellspacing="0" class="whs4">
+<col>
+<col>
+<col>
+<col>
+<tr valign="top" class="whs5">
+<td bgcolor="#808080" class="whs6">
+<p align="center" class="whs7">Code</p>
+</td>
+<td bgcolor="#808080" class="whs8">
+<p align="center" class="whs7">Page Type</p>
+</td>
+<td bgcolor="#808080" class="whs8">
+<p align="center" class="whs7">Width (mm)</p>
+</td>
+<td bgcolor="#808080" class="whs8">
+<p align="center" class="whs7">Height (mm)</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">1</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Letter <span style="font-weight:normal;">&#160;&#160;8 1/2 x 11 in</span></p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">215.9</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">279.4</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">2</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Letter Small <span style="font-weight:normal;">&#160;&#160;8 1/2 x 11 in</span></p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">215.9</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">279.4</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">3</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Tabloid <span style="font-weight:normal;">&#160;&#160;11 x 17 in</span></p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">279.4</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">431.8</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">4</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Ledger <span style="font-weight:normal;">&#160;&#160;17 x 11 in</span></p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">431.8</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">279.4</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">5</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Legal <span style="font-weight:normal;">&#160;&#160;8 1/2 x 14 in</span></p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">215.9</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">355.6</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">6</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Statement <span style="font-weight:normal;">&#160;&#160;5 1/2 x 8 1/2 in</span></p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">139.7</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">215.9</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">7</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Executive <span style="font-weight:normal;">&#160;&#160;7 1/4 x 10 1/2 in</span></p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">184.15</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">266.7</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">8</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">A3</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">297</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">420</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">9</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">A4</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">210</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">297</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">10</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">A4 Small</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">210</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">297</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">11</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">A5</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">148</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">210</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">12</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">B4 (JIS)</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">257</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">364</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">13</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">B5 (JIS)</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">182</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">257</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">14</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Folio <span style="font-weight:normal;">&#160;&#160;8 1/2 x 13 in</span></p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">215.9</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">330.2</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">15</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Quarto</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">215</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">275</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">16</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">10 x 14 in</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">254</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">355.6</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">17</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">11 x 17 in</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">279.4</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">431.8</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">18</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Note&#160; &#160;8 1/2 x 11 in</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">215.9</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">279.4</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">19</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Envelope #9 <span style="font-weight:normal;">&#160;&#160;3 7/8 x 8 7/8 in</span></p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">98.42</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">225.43</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">20</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Envelope #10 <span style="font-weight:normal;">&#160;&#160;4 1/8 x 9 1/2 in</span></p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">104.78</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">241.3</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">21</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Envelope #11 <span style="font-weight:normal;">&#160;&#160;4 1/2 x 10 3/8 in</span></p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">114.3</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">263.52</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">22</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Envelope #12 <span style="font-weight:normal;">&#160;&#160;4 \276 x 11 in</span></p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">120.65</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">279.4</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">23</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Envelope #14 <span style="font-weight:normal;">&#160;&#160;5 x 11 1/2 in</span></p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">127</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">292.1</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">24</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">C size sheet</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">431.8</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">558.8</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">25</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">D size sheet</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">558.8</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">863.6</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">26</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">E size sheet</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">863.6</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">1117.6</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">27</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Envelope DL</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">110</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">220</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">28</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Envelope C5</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">162</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">229</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">29</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Envelope C3</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">324</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">458</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">30</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Envelope C4</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">229</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">324</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">31</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Envelope C6</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">114</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">162</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">32</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Envelope C65</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">114</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">229</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">33</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Envelope B4</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">250</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">353</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">34</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Envelope B5</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">176</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">250</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">35</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Envelope B6</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">176</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">125</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">36</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Envelope</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">110</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">230</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">37</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Envelope Monarch <span style="font-weight:normal;">&#160;&#160;3.875 x 7.5 in</span></p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">98.42</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">190.5</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">38</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">6 3/4 Envelope <span style="font-weight:normal;">&#160;&#160;3 5/8 x 6 1/2 in</span></p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">92.08</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">165.1</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">39</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">US Standard Fanfold <span style="font-weight:normal;">&#160;&#160;14 7/8 x 11 in</span></p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">377.82</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">279.4</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">40</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">German Standard Fanfold <span style="font-weight:normal;">&#160;&#160;8 1/2 x 12 in</span></p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">215.9</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">304.8</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">41</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">German Legal Fanfold <span style="font-weight:normal;">&#160;&#160;8 1/2 x 13 in</span></p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">215.9</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">330.2</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">42</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">B4 (ISO)</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">250</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">353</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">43</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Japanese Postcard</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">100</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">148</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">44</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">9 x 11 in</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">228.6</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">279.4</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">45</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">10 x 11 in</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">254</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">279.4</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">46</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">15 x 11 in</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">381</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">279.4</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">47</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Envelope Invite</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">220</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">220</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">50</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Letter Extra <span style="font-weight:normal;">&#160;&#160;9 \275 x 12 in</span></p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">241.3</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">304.8</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">51</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Legal Extra <span style="font-weight:normal;">&#160;&#160;9 \275 x 15 in</span></p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">241.3</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">381</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">52</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Tabloid Extra <span style="font-weight:normal;">&#160;&#160;11.69 x 18 in</span></p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">304.8</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">457.2</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">53</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">A4 Extra <span style="font-weight:normal;">9.27 x 12.69 in</span></p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">235.46</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">322.33</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">54</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Letter Transverse <span style="font-weight:normal;">&#160;&#160;8 \275 x 11 in</span></p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">215.9</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">279.4</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">55</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">A4 Transverse</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">210</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">297</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">56</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Letter Extra Transverse <span style="font-weight:normal;">&#160;&#160;9 \275 x 12 in</span></p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">241.3</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">304.8</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">57</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Super A</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">227</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">356</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">58</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Super B</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">305</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">487</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">59</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Letter Plus <span style="font-weight:normal;">&#160;&#160;8.5 x 12.69 in</span></p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">215.9</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">322.33</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">60</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">A4 Plus</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">210</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">330</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">61</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">A5 Transverse</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">148</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">210</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">62</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">B5 (JIS) Transverse</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">182</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">257</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">63</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">A3 Extra</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">322</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">445</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">64</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">A5 Extra</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">174</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">235</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">65</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">B5 (ISO) Extra</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">201</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">276</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">66</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">A2</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">420</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">594</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">67</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">A3 Transverse</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">297</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">420</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">68</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">A3 Extra Transverse</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">322</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">445</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">69</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Japanese Double Postcard</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">200</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">148</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">70</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">A6</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">105</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">148</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">71</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Japanese Envelope Kaku #2</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">240</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">332</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">72</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Japanese Envelope Kaku #3</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">216</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">277</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">73</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Japanese Envelope Chou #3</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">120</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">235</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">74</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Japanese Envelope Chou #4</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">90</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">205</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">75</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Letter Rotated <span style="font-weight:normal;">&#160;&#160;11 x 8 1/2 in</span></p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">279.4</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">215.9</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">76</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">A3 Rotated</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">420</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">297</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">77</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">A4 Rotated</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">297</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">210</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">78</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">A5 Rotated</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">210</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">148</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">79</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">B4 (JIS) Rotated</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">364</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">257</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">80</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">B5 (JIS) Rotated</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">257</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">182</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">81</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Japanese Postcard Rotated</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">148</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">100</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">82</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Double Japan Postcard Rotated</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">148</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">200</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">83</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">A6 Rotated</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">148</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">105</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">84</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Japan Envelope Kaku #2 Rotated</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">332</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">240</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">85</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Japan Envelope Kaku #3 Rotated</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">277</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">216</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">86</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Japan Envelope Chou #3 Rotated</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">235</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">120</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">87</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Japan Envelope Chou #4 Rotated</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">205</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">90</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">88</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">B6 (JIS)</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">128</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">182</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">89</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">B6 (JIS) Rotated</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">182</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">128</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">90</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">12 x 11 in</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">304.93</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">279.52</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">91</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">Japan Envelope You #4</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">105</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">235</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">92</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Japan Envelope You #4 Rotated</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">235</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">105</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">93</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">PRC 16K</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">188</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">260</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">94</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">PRC 32K</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">130</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">184</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">95</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">PRC 32K (Big)</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">140</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">203</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">96</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">PRC Envelope #1</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">102</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">165</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">97</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">PRC Envelope #2</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">102</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">176</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">98</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">PRC Envelope #3</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">125</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">176</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">99</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">PRC Envelope #4</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">110</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">208</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs14">
+<p class="whs10">100</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p class="whs12">PRC Envelope #5</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">110</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">220</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">101</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">PRC Envelope #6</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">120</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">230</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs14">
+<p class="whs10">102</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p class="whs12">PRC Envelope #7</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">160</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">230</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">103</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">PRC Envelope #8</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">120</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">309</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs14">
+<p class="whs10">104</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p class="whs12">PRC Envelope #9</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">229</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">324</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">105</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">PRC Envelope #10</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">324</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">458</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs14">
+<p class="whs10">106</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p class="whs12">PRC 16K Rotated</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">260</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">188</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">107</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">PRC 32K Rotated</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">184</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">130</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs14">
+<p class="whs10">108</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p class="whs12">PRC 32K (Big) Rotated</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">203</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">140</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">109</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">PRC Envelope #1 Rotated</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">165</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">102</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs14">
+<p class="whs10">110</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p class="whs12">PRC Envelope #2 Rotated</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">176</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">102</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">111</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">PRC Envelope #3 Rotated</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">176</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">125</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs14">
+<p class="whs10">112</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p class="whs12">PRC Envelope #4 Rotated</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">208</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">110</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">113</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">PRC Envelope #5 Rotated</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">220</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">110</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs14">
+<p class="whs10">114</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p class="whs12">PRC Envelope #6 Rotated</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">230</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">120</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">115</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">PRC Envelope #7 Rotated</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">230</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">160</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs14">
+<p class="whs10">116</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p class="whs12">PRC Envelope #8 Rotated</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">309</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">120</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">117</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">PRC Envelope #9 Rotated</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">324</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">229</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs14">
+<p class="whs10">118</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p class="whs12">PRC Envelope #10 Rotated</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">458</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">324</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">119</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">16K</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">196.85</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">273.05</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs14">
+<p class="whs10">120</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Executive (JIS)</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">215.9</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">329.95</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">121</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">B5 (ISO)</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">175.94</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">249.94</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs14">
+<p class="whs10">122</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p class="whs12">Double Postcard (JIS)</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">148</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">199.98</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">123</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">8K</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">273.05</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">393.7</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs14">
+<p class="whs10">124</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p class="whs12">8 x 10 in</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">200.73</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">249.77</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFFC1" class="whs9">
+<p class="whs10">125</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p class="whs12">11 x 14 in</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">278.69</p>
+</td>
+<td bgcolor="#FFFFC1" class="whs11">
+<p align="center" class="whs13">351.72</p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td bgcolor="#FFFF00" class="whs14">
+<p class="whs10">126</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p class="whs12">14 x 17 in</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">355.6</p>
+</td>
+<td bgcolor="#FFFF00" class="whs15">
+<p align="center" class="whs13">431.8</p>
+</td>
+</tr>
+</table>
+<p class="whs16"><b><i style="font-style:italic; font-weight:normal;"><span lang="EN-GB"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Custom Report Generation','Custom_Report_Generation.htm','XML Templates for Custom PDF Reports','xml_template.htm');return false;" title=""><img src="../../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></span></i></b></p>
+<script type="text/javascript" language="JavaScript">
+<!--
+if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
+  WritePopupMenuLayer();
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B020A000000417070656E64697820410C020D000000446566696E650A526F746174650D020A000000417070656E64697820411102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

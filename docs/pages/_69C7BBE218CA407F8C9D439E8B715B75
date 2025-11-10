@@ -1,0 +1,323 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Labels Menu</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+img_whs4 { border:none; width:140px; height:216px; float:none; border-style:none; }
+table.whs5 { width:95.335%; margin-left:24px; border-spacing:0px; }
+col.whs6 { width:17.022%; }
+col.whs7 { width:72.104%; }
+col.whs8 { width:10.874%; }
+tr.whs9 {  }
+td.whs10 { width:17.022%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs11 { width:72.104%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+td.whs12 { width:10.874%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+td.whs13 { width:17.022%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs14 { width:72.104%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs15 { width:10.874%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs16 { border:none; width:23px; height:16px; border-style:none; }
+table.whs17 { width:95.335%; border-spacing:0px; margin-left:24px; }
+img_whs18 { border:none; width:23px; height:16px; border-style:none; }
+td.whs19 { width:17.022%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+table.whs20 { margin-left:24px; width:95.575%; border-spacing:0px; }
+col.whs21 { width:17.105%; }
+col.whs22 { width:72.048%; }
+col.whs23 { width:10.847%; }
+td.whs24 { width:17.105%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs25 { width:72.048%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+td.whs26 { width:10.847%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+td.whs27 { width:17.105%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs28 { width:72.048%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs29 { width:10.847%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs30 { width:17.105%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+table.whs31 { margin-left:24px; width:95.573%; border-spacing:0px; }
+col.whs32 { width:17.355%; }
+col.whs33 { width:71.798%; }
+td.whs34 { width:17.355%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs35 { width:71.798%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+td.whs36 { width:17.355%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs37 { width:71.798%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs38 { width:17.355%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+table.whs39 { margin-left:24px; width:95.693%; border-spacing:0px; }
+col.whs40 { width:17.334%; }
+col.whs41 { width:71.833%; }
+col.whs42 { width:10.833%; }
+td.whs43 { width:17.334%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs44 { width:71.833%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+td.whs45 { width:10.833%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+td.whs46 { width:17.334%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs47 { width:71.833%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs48 { width:10.833%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nInspection Mode\nInspection Interface\nMenus\nLabels Menu");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Labels Menu</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p><span lang="EN-US">Labels menu is divided in 5 sections as follows:</span></p>
+<p class="toolbar"><span lang="EN-US"><img src="../INSPECTION_MODE_FILES/labels_menu.gif" width="140px" height="216px" border="0" class="img_whs4" alt=""></span></p>
+<p class="sub-head"><span lang="EN-US">Edit labels section</span></p>
+<table cellspacing="0" width="95.335%" class="whs5">
+<col class="whs6">
+<col class="whs7">
+<col class="whs8">
+<tr valign="top" class="whs9">
+<td bgcolor="#EAE8D6" width="17.022%" class="whs10">
+<p class="caption">Command</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="72.104%" class="whs11">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="10.874%" class="whs12">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td width="17.022%" class="whs13">
+<p class="normal-table-func"><span class="Command">Edit mode</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.104%" class="whs14">
+<p class="normal-table"><span lang="EN-US">Switches on the</span> <span lang="EN-US" style="font-style:italic;"><i>Create Labels</i></span> <span lang="EN-US">mode.</span></p>
+</td>
+<td width="10.874%" class="whs15">
+<p class="normal-table"><a href="../References/Edit_Mode_for_Labels.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs16" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p class="sub-head"><span lang="EN-US">Arrange labels section</span></p>
+<table cellspacing="0" width="95.335%" class="whs17">
+<col class="whs6">
+<col class="whs7">
+<col class="whs8">
+<tr valign="top" class="whs9">
+<td bgcolor="#EAE8D6" width="17.022%" class="whs10">
+<p class="caption">Command</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="72.104%" class="whs11">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="10.874%" class="whs12">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td width="17.022%" class="whs13">
+<p class="normal-table-func"><span class="Command">Auto Arrange</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.104%" class="whs14">
+<p class="normal-table"><span lang="EN-US">Switches on the</span> <span class="Mode">auto</span> <span class="Mode" style="font-style:italic;"><i>Arrange</i></span><span lang="EN-US" style="font-style:italic;"><i>Mode</i></span> <span lang="EN-US">for labels.</span></p>
+</td>
+<td width="10.874%" class="whs15">
+<p class="normal-table"><span lang="EN-US"><a href="../References/Auto_Arrange_Labels.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs18" alt=""></a></span></p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td colspan="1" rowspan="1" width="17.022%" class="whs19">
+<p class="normal-table-func"><span class="Command">Arrange</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.104%" class="whs14">
+<p class="normal-table"><span lang="EN-US">Used for arranging labels when the</span> <span class="Mode">auto update</span> <span lang="EN-US">mode is not on.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="10.874%" class="whs15">
+<p class="normal-table"><a href="../References/Arrange_Labels.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs18" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p class="sub-head"><span lang="EN-US">Label settings section</span></p>
+<table cellspacing="0" width="95.575%" class="whs20">
+<col class="whs21">
+<col class="whs22">
+<col class="whs23">
+<tr valign="top" class="whs9">
+<td bgcolor="#EAE8D6" width="17.105%" class="whs24">
+<p class="caption">Command</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="72.048%" class="whs25">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="10.847%" class="whs26">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td width="17.105%" class="whs27">
+<p class="normal-table-func"><span class="Command">Colouring</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.048%" class="whs28">
+<p class="normal-table"><span lang="EN-US">Launches a dialog for colour settings of the labels.</span></p>
+</td>
+<td width="10.847%" class="whs29">
+<p class="normal-table"><a href="../References/Colouring_Labels.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs18" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td colspan="1" rowspan="1" width="17.105%" class="whs30">
+<p class="normal-table-func"><span class="Command">Format</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.048%" class="whs28">
+<p class="normal-table"><span lang="EN-US">Launches a dialog for information settings of the labels.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="10.847%" class="whs29">
+<p class="normal-table"><a href="../References/Format_Labels.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs18" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p class="sub-head"><span lang="EN-US">Show MIN/MAX Point section</span></p>
+<table cellspacing="0" width="95.573%" class="whs31">
+<col class="whs32">
+<col class="whs33">
+<col class="whs23">
+<tr valign="top" class="whs9">
+<td bgcolor="#EAE8D6" width="17.355%" class="whs34">
+<p class="caption">Command</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="71.798%" class="whs35">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="10.847%" class="whs26">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td width="17.355%" class="whs36">
+<p class="normal-table-func"><span class="Command">Show MIN Point</span></p>
+</td>
+<td colspan="1" rowspan="1" width="71.798%" class="whs37">
+<p class="normal-table"><span lang="EN-US">Automatically creates a label for the point with maximum distance from the negative range.</span></p>
+</td>
+<td width="10.847%" class="whs29">
+<p class="normal-table"><a href="../References/Show_MIN_Point.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs18" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td colspan="1" rowspan="1" width="17.355%" class="whs38">
+<p class="normal-table-func"><span class="Command">Show MAX Point</span></p>
+</td>
+<td colspan="1" rowspan="1" width="71.798%" class="whs37">
+<p class="normal-table"><span lang="EN-US">Automatically creates a label for the point with maximum distance from the positive range.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="10.847%" class="whs29">
+<p class="normal-table"><a href="../References/Show_MAX_Point.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs18" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p class="sub-head">Delete section</p>
+<table cellspacing="0" width="95.693%" class="whs39">
+<col class="whs40">
+<col class="whs41">
+<col class="whs42">
+<tr valign="top" class="whs9">
+<td bgcolor="#EAE8D6" width="17.334%" class="whs43">
+<p class="caption">Command</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="71.833%" class="whs44">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="10.833%" class="whs45">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td width="17.334%" class="whs46">
+<p class="normal-table-func"><span class="Command">Delete All</span></p>
+</td>
+<td colspan="1" rowspan="1" width="71.833%" class="whs47">
+<p class="normal-table"><span lang="EN-US">Deletes all labels from the current page.</span></p>
+</td>
+<td width="10.833%" class="whs48">
+<p class="normal-table"><a href="../References/Delete_All_Labels.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs18" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p id="p3">&#160;</p>
+<p class="Note" id="p3"><span lang="EN-GB" style="font-weight:bold;"><b>Note</b></span><span lang="EN-GB">:</span> &#160;Modifying label properties from the menu affects all the inspection labels (but not those created in normal mode). If you wish to modify a particular inspection label use the commands from Labels Context Menu instead.</p>
+<p>&#160;</p>
+<p><span style="font-weight:bold;"><b>Related topic:</b></span> <a href="../User_Interface/Label_Context_Menu.htm">Labels Context Menu</a></p>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0C0290000000417272616E67650A4175746F0A636F6C6F75720A436F6E74657874204D656E75730A4372656174650A44656C6574650A44656C65746520416C6C0A456469740A45646974204D6F64650A466F726D61740A4C6162656C730A4D6F646966790A50726F706572746965730A53657474696E67730A53686F77204D415820506F696E740A53686F77204D494E20506F696E740D020B0000004C6162656C73204D656E751102050000004D656E757312020B0000004C6162656C73204D656E751302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

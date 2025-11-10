@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Construct_NPoints_Interactive</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+img_whs4 { border:none; width:719px; height:255px; float:none; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Construct_NPoints_Interactive</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p class="description"><span style="font-weight:bold;"><b>Description:</b></span> Runs the wizard for interactive creation of N-Points transformation.</p>
+<p class="parameterstitle"><span style="font-weight:bold;"><b>Parameters</b></span>:</p>
+<p class="parameterdescription"><span style="font-style:italic; font-weight:bold;"><i><b>Name</b></i></span> – name of the resulting transformation that will be created.</p>
+<p class="parameterstitle">Dialog description:</p>
+<p class="parameterdescription">When the wizard is started, the following dialog appears:</p>
+<p class="parameterdescription"><img src="../Images/NpointsTr.gif" width="719px" height="255px" border="0" class="img_whs4" alt=""></p>
+<p class="parameterdescription"><span style="font-weight:bold; font-style:italic;"><i><b>Use</b></i></span> - check the box for datum x (where x is 1, 2, 3 etc) if the datum will be included in transformation calculations.</p>
+<p class="parameterdescription"><span style="font-weight:bold; font-style:italic;"><i><b>X</b></i></span> - check the box on the left of the X co-ordinate for datum x and type the value if it will be included in transformation calculations.</p>
+<p class="parameterdescription"><span style="font-weight:bold; font-style:italic;"><i><b>Y</b></i></span>- check the box on the left of the Y co-ordinate for datum x and type the value if it will be included in transformation calculations.</p>
+<p class="parameterdescription"><span style="font-weight:bold; font-style:italic;"><i><b>Z</b></i></span> - check the box on the left of the Z co-ordinate for datum x and type the value if it will be included in transformation calculations.</p>
+<p class="parameterdescription"><span style="font-weight:bold; font-style:italic;"><i><b>Measure drop-down list</b></i></span> - select from the drop-down list the source x entity to be measured as correspondent to the target datum x point.</p>
+<p class="parameterdescription"><span style="font-style:italic; font-weight:bold;"><i><b>Add</b></i></span> - check the box to insert new row for datum correspondence in the table</p>
+<p class="parameterdescription"><span style="font-weight:bold; font-style:italic;"><i><b>Remove Row button</b></i></span> - use this button to remove unused correspondences</p>
+<p class="parameterdescription"><span style="font-weight:bold; font-style:italic;"><i><b>Reset button</b></i></span> - resets all fields to their initial values</p>
+<p class="parameterdescription"><span style="font-weight:bold; font-style:italic;"><i><b>Cancel button</b></i></span> - stop the transformation wizard</p>
+<p class="parameterdescription"><span style="font-weight:bold; font-style:italic;"><i><b>Next button</b></i></span> - launches the capture wizard for each source entity in the order they appear in the transformation table. Press this button when you have set all target points, i.e. when you are ready for the capture stage.</p>
+<p class="parameterdescription">When all capture wizards are finished, the new transformation from N points will be created and will appear in the Entity tree.</p>
+<p class="ExampleCode">Example:</p>
+<p class="ExampleCode">Construct_NPoints_Interactive( Name="T1" )</p>
+<p class="examplecode">&#160;</p>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B021D000000436F6E7374727563745F4E506F696E74735F496E7465726163746976650C027E000000426F780A436170747572650A436F6E7374727563745F4E506F696E74735F496E7465726163746976650A4372656174650A446174756D696E670A456E7469746965730A4C6566740A4D6561737572650A4E65770A506172616D65746572730A53656C6563740A5472616E73666F726D6174696F6E2046726F6D0A547265650D021D000000436F6E7374727563745F4E506F696E74735F496E7465726163746976651102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

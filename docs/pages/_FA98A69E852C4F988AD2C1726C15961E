@@ -1,0 +1,315 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>File Menu</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+table.whs4 { border-spacing:0px; margin-left:24px; }
+col.whs5 { width:350px; }
+col.whs6 { width:384px; }
+tr.whs7 {  }
+td.whs8 { width:350px; padding-right:10px; padding-left:10px; }
+img_whs9 { border:none; float:none; width:329px; height:271px; border-style:none; }
+td.whs10 { width:384px; padding-right:0px; padding-left:0px; border-top-style:None; border-right-style:None; border-bottom-style:None; }
+table.whs11 { border-spacing:0px; }
+col.whs12 { width:334px; }
+tr.whs13 { height:130px; }
+td.whs14 { width:334px; padding-right:10px; padding-left:10px; }
+tr.whs15 { height:35px; }
+td.whs16 { width:334px; padding-right:10px; padding-left:10px; border-left-style:none; border-bottom-style:none; border-right-color:#000000; border-right-width:1px; border-right-style:None; }
+tr.whs17 { height:57px; }
+tr.whs18 { height:34px; }
+table.whs19 { border-spacing:0px; margin-left:24px; left:0px; top:443px; width:811px; height:286px; }
+col.whs20 { width:16.852%; }
+col.whs21 { width:74.64%; }
+col.whs22 { width:4.125%; }
+tr.whs23 {  }
+td.whs24 { padding-right:10px; padding-left:10px; background-color:#eae8d6; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; }
+td.whs25 { padding-right:10px; padding-left:10px; background-color:#eae8d6; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; }
+td.whs26 { width:4.125%; padding-right:10px; padding-left:10px; background-color:#eae8d6; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs27 { padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs28 { padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs29 { width:4.125%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs30 { border:none; float:none; width:23px; height:16px; border-style:none; }
+table.whs31 { border-spacing:0px; margin-left:24px; left:0px; top:789px; width:811px; }
+col.whs32 { width:16.893%; }
+col.whs33 { width:74.599%; }
+table.whs34 { border-spacing:0px; margin-left:24px; left:0px; top:1006px; width:808px; }
+col.whs35 { width:16.832%; }
+col.whs36 { width:74.629%; }
+tr.whs37 { height:36px; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nUser Interface\nMenus\nFile Menu");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>File Menu</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p>The File menu contains command related to work with KUBE project files. The <span style="font-weight:bold;"><b>File</b></span> menu is divided in 4 sections:</p>
+<table cellspacing="0" class="whs4">
+<col class="whs5">
+<col class="whs6">
+<tr valign="middle" class="whs7">
+<td valign="top" width="350px" class="whs8">
+<p class="normal-table"><img src="File_menu_files/file_menu.gif" width="329px" height="271px" border="0" class="img_whs9" alt=""></p>
+<p class="normal-table">&#160;</p>
+</td>
+<td width="384px" class="whs10">
+<table cellspacing="0" class="whs11">
+<col class="whs12">
+<tr valign="top" class="whs13">
+<td valign="middle" width="334px" class="whs14">
+<p class="normal-table"><a href="#Common_operations_with_project_files">Common operations with project files</a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td width="334px" class="whs16">
+<p class="normal-table"><a href="#Import%20and%20Export%20of%20files">Export of files</a></p>
+</td>
+</tr>
+<tr valign="top" class="whs17">
+<td width="334px" class="whs16">
+<p class="normal-table"><a href="#Recent_files_list">Recent files list</a></p>
+</td>
+</tr>
+<tr valign="top" class="whs18">
+<td colspan="1" rowspan="1" width="334px" class="whs16">
+<p class="normal-table"><a href="#Exit">Exit</a></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p class="sub-head"><a name="Common_operations_with_project_files"></a>Common operations with project files</p>
+<table width="811" cellspacing="0" class="whs19">
+<col class="whs20">
+<col class="whs21">
+<col class="whs22">
+<tr valign="top" class="whs23">
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="16.852%" class="whs24">
+<p class="caption">Command</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="74.64%" class="whs25">
+<p class="caption">Description</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="4.125%" class="whs26">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs23">
+<td colspan="1" rowspan="1" width="16.852%" class="whs27">
+<p class="normal-table-func"><span class="Command">New</span></p>
+</td>
+<td colspan="1" rowspan="1" width="74.64%" class="whs28">
+<p class="normal-table">Standard Windows command to create new file. In KUBE it will be an empty document, named Scan DataXX, where XX stands for a number.</p>
+</td>
+<td colspan="1" rowspan="1" width="4.125%" class="whs29">
+<p class="normal-table"><a href="../References/New.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs30" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs23">
+<td colspan="1" rowspan="1" width="16.852%" class="whs27">
+<p class="normal-table-func"><span class="Command">Open</span></p>
+</td>
+<td colspan="1" rowspan="1" width="74.64%" class="whs28">
+<p class="normal-table">Standard Windows command to open an existing file. In KUBE can be loaded files with different file extensions (.sab2, .tri, .stl, etc).</p>
+</td>
+<td colspan="1" rowspan="1" width="4.125%" class="whs29">
+<p class="normal-table"><a href="../References/Open.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs30" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs23">
+<td colspan="1" rowspan="1" width="16.852%" class="whs27">
+<p class="normal-table-func">Open in Current Document</p>
+</td>
+<td colspan="1" rowspan="1" width="74.64%" class="whs28">
+<p class="normal-table">Standard Windows command to open an existing file and load it in the current document. In KUBE can be loaded files with different file extensions (.sab2, .tri, .stl, etc).</p>
+</td>
+<td colspan="1" rowspan="1" width="4.125%" class="whs29">
+<p class="normal-table"><a href="../References/Open_in_Current_Document.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs30" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs23">
+<td colspan="1" rowspan="1" width="16.852%" class="whs27">
+<p class="normal-table-func"><span class="Command">Close</span></p>
+</td>
+<td colspan="1" rowspan="1" width="74.64%" class="whs28">
+<p class="normal-table">Standard Windows command to close the currently opened file.</p>
+</td>
+<td colspan="1" rowspan="1" width="4.125%" class="whs29">
+<p class="normal-table"><a href="../References/close.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs30" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs23">
+<td colspan="1" rowspan="1" width="16.852%" class="whs27">
+<p class="normal-table-func"><span class="Command">Save</span></p>
+</td>
+<td colspan="1" rowspan="1" width="74.64%" class="whs28">
+<p class="normal-table">Standard Windows command to save the current file. In KUBE : if it is a new file (not preliminary saved), you will be prompted for a name and the document will be saved with sab2 extension.</p>
+</td>
+<td colspan="1" rowspan="1" width="4.125%" class="whs29">
+<p class="normal-table"><a href="../References/Save_(As).htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs30" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs23">
+<td width="16.852%" class="whs27">
+<p class="normal-table-func"><span class="Command">Save As</span></p>
+</td>
+<td width="74.64%" class="whs28">
+<p class="normal-table">Standard Windows command to save the current file with a different name.</p>
+</td>
+<td width="4.125%" class="whs29">
+<p class="normal-table"><a href="../References/Save_(As).htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs30" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<p class="sub-head"><a name="Import and Export of files"></a>Export of files</p>
+<table width="811" cellspacing="0" class="whs31">
+<col class="whs32">
+<col class="whs33">
+<col class="whs22">
+<tr valign="top" class="whs23">
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="16.893%" class="whs24">
+<p class="caption">Command</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="74.599%" class="whs25">
+<p class="caption">Description</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="4.125%" class="whs26">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs23">
+<td width="16.893%" class="whs27">
+<p class="normal-table-func"><span class="Command">Export</span></p>
+</td>
+<td width="74.599%" class="whs28">
+<p class="normal-table">Converts data from the current document to different file formats. This command work with whole or partially selected entities.</p>
+</td>
+<td width="4.125%" class="whs29">
+<p class="normal-table"><a href="../References/export.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs30" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<p class="sub-head"><a name="Recent_files_list"></a>Recent files list</p>
+<p>Here is the list of recently opened files. Click on a file in this list to reopen it again.</p>
+<p>&#160;</p>
+<p class="sub-head"><a name="Exit"></a>Exit</p>
+<table width="808" cellspacing="0" class="whs34">
+<col class="whs35">
+<col class="whs36">
+<col class="whs22">
+<tr valign="top" class="whs23">
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="16.832%" class="whs24">
+<p class="caption">Command</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="74.629%" class="whs25">
+<p class="caption">Description</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="4.125%" class="whs26">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs37">
+<td width="16.832%" class="whs27">
+<p class="normal-table-func"><span class="Command">Exit</span></p>
+</td>
+<td width="74.629%" class="whs28">
+<p class="normal-table">Exits the KUBE .</p>
+</td>
+<td width="4.125%" class="whs29">
+<p class="normal-table"><a href="../References/exit.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs30" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<p>&#160;</p>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B020900000046696C65204D656E750D020900000046696C65204D656E751102050000004D656E757312020900000046696C65204D656E751302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

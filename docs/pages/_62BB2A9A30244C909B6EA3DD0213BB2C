@@ -1,0 +1,309 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Instant Editing</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { float:alignleft; width:98.974%; height:6px; }
+img_whs4 { border:none; width:220px; height:552px; float:none; border-style:none; }
+table.whs5 { border-spacing:0px; margin-left:24px; }
+col.whs6 { width:165px; }
+col.whs7 { width:60px; }
+col.whs8 { width:105px; }
+col.whs9 { width:303px; }
+tr.whs10 {  }
+td.whs11 { width:165px; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs12 { width:60px; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs13 { width:105px; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs14 { width:303px; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+td.whs15 { width:165px; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs16 { width:60px; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs17 { border:none; float:none; width:23px; height:16px; border-style:none; }
+td.whs18 { width:105px; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs19 { width:32px; height:32px; border-style:none; }
+td.whs20 { width:303px; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs21 { width:165px; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+td.whs22 { width:60px; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+td.whs23 { width:105px; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+table.whs24 { border-spacing:0px; margin-left:24px; left:0px; top:1171px; width:790px; }
+col.whs25 { width:92px; }
+col.whs26 { width:104px; }
+col.whs27 { width:112px; }
+col.whs28 { width:335px; }
+td.whs29 { padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs30 { width:92px; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs31 { width:104px; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs32 { width:112px; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs33 { width:335px; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+td.whs34 { padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs35 { width:92px; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs36 { width:104px; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs37 { width:112px; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs38 { width:335px; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs39 { border:none; width:24px; height:22px; float:none; border-style:none; }
+td.whs40 { padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+td.whs41 { width:92px; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+td.whs42 { width:104px; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+td.whs43 { width:112px; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript" src="../ehlpdhtm.js">
+</script>
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1><span lang="EN-GB">Instant Editing</span></h1>
+<hr align="left" width="98.974%" size="6" class="whs3">
+<p><span lang="EN-GB">This command is accessible from</span> <i style="font-style:normal;"><span class="Path" style="font-weight:bold;"><b>Mesh &gt; Instant Editing</b></span></i><span lang="EN-GB">.</span></p>
+<p class="Description"><span class="Command" style="font-weight:bold;"><b>Description:</b></span> <span class="Command">Instant Editing</span> <span lang="EN-GB">command applies different processing tools on meshes to areas defined in the dialog. You can apply a function using the mouse in a brush-like style or by automatically detecting and selecting all holes in the visible meshes. It is not necessary for the meshes to be selected. Using the command on other types of entities has no effect on them. If called from a tree context menu, the command works on every visible mesh, no matter if it was selected from the group or entity context menu.</span></p>
+<p><img src="../mesh/instant_editing_files/image008.gif" width="220px" height="552px" border="0" class="img_whs4" alt=""></p>
+<p class="parameterstitle"><span lang="EN-GB" style="font-weight:bold;"><b>Function group</b></span><span lang="EN-GB">:</span></p>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Type</b></span> <span lang="EN-GB">– select from the drop-down list the function to be applied. Parameters in this group depend on the selected function. Available functions are:</span></p>
+</li>
+</ul>
+<table cellspacing="0" class="whs5">
+<col class="whs6">
+<col class="whs7">
+<col class="whs8">
+<col class="whs9">
+<tr valign="top" class="whs10">
+<td bgcolor="#EAE8D6" width="165px" class="whs11">
+<p class="Normal" style="font-weight:bold; margin-left:0px; text-align:center;" align="center">Function</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="60px" class="whs12">
+<p class="Normal" style="font-weight:bold; margin-left:0px; text-align:center;" align="center">Details</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="105px" class="whs13">
+<p class="Normal" style="font-weight:bold; margin-left:0px; text-align:center;" align="center">Mouse cursor</p>
+</td>
+<td bgcolor="#EAE8D6" width="303px" class="whs14">
+<p class="Normal" style="font-weight:bold; margin-left:0px; text-align:center;" align="center">Parameter</p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td width="165px" class="whs15">
+<p class="Normal" style="margin-left:0px;"><span lang="EN-GB" style="font-weight:bold;"><b>Reduce Noise</b></span> <span lang="EN-GB">(Average Noise Reduction)</span></p>
+</td>
+<td colspan="1" rowspan="1" width="60px" class="whs16">
+<p class="Normal" style="margin-left:0px;"><a href="average_noise_reduction_Mesh.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs17" alt=""></a></p>
+</td>
+<td colspan="1" rowspan="1" width="105px" class="whs18">
+<p class="Normal" style="margin-left:0px;"><span lang="EN-GB"><img src="../mesh/Instant_Editing_files/image009.gif" width="32px" height="32px" border="0" class="img_whs19" alt=""></span></p>
+</td>
+<td width="303px" class="whs20">
+<p class="Normal" style="margin-left:0px;"><span lang="EN-GB" style="font-weight:bold;"><b>Strength</b></span> <span lang="EN-GB">– specifies how strong the filter to be applied, i.e. number of iterations. It ranges from 1 to 10. Default value is 1.</span></p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td width="165px" class="whs15">
+<p class="Normal" style="font-weight:bold; margin-left:0px;"><u style="text-decoration:none;"><span lang="EN-GB" style="text-decoration:none;">Fill</span></u></p>
+</td>
+<td colspan="1" rowspan="1" width="60px" class="whs16">
+<p class="Normal" style="margin-left:0px;"><span style="font-weight:bold;"><b><a href="fill.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs17" alt=""></a></b></span></p>
+</td>
+<td colspan="1" rowspan="1" width="105px" class="whs18">
+<p class="Normal" style="margin-left:0px;"><span lang="EN-GB"><img src="../mesh/Instant_Editing_files/image010.gif" width="32px" height="32px" border="0" class="img_whs19" alt=""></span></p>
+</td>
+<td width="303px" class="whs20">
+<p class="Normal" style="margin-left:0px;"><span lang="EN-GB" style="font-weight:bold;"><b>Method –</b></span> <span lang="EN-GB">select one of the available methods:</span> <span lang="EN-GB" style="font-weight:bold;"><b>Curvature based</b></span> <span lang="EN-GB">or</span> <span lang="EN-GB" style="font-weight:bold;"><b>Flat filling</b></span><span lang="EN-GB">.</span></p>
+<p class="Normal" style="margin-left:0px;"><span lang="EN-GB" style="font-weight:bold;"><b>Fill only small holes up to ... edges –</b></span> <span lang="EN-GB">holes with this number of edges or lesser will be filled. Default value is 50.</span></p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td colspan="1" rowspan="1" width="165px" class="whs21">
+<p class="Normal" style="font-weight:bold; margin-left:0px;"><u style="text-decoration:none;"><span lang="EN-GB" style="text-decoration:none;">Repair</span></u></p>
+</td>
+<td colspan="1" rowspan="1" width="60px" class="whs22">
+<p class="Normal" style="margin-left:0px;"><span style="font-weight:bold;"><b><a href="Repair.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs17" alt=""></a></b></span></p>
+</td>
+<td colspan="1" rowspan="1" width="105px" class="whs23">
+<p class="Normal" style="margin-left:0px;"><span lang="EN-GB"><img src="../mesh/Instant_Editing_files/image011.gif" width="32px" height="32px" border="0" class="img_whs19" alt=""></span></p>
+</td>
+<td colspan="1" rowspan="1" width="303px" class="whs20">
+<p class="Normal" style="margin-left:0px;">No parameter</p>
+</td>
+</tr>
+</table>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>Apply To Selection -</b></span> applies the active tool to the selected area<span style="font-weight:bold;"><b>.</b></span></p>
+</li>
+</ul>
+<p class="parameterstitle"><span lang="EN-GB">Brush group:</span></p>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Type</b></span> <span lang="EN-GB">– type of the brush. Available brushes are</span> <span lang="EN-GB" style="font-weight:bold;"><b>Rectangle</b></span> <span lang="EN-GB">and</span> <span lang="EN-GB" style="font-weight:bold;"><b>Circle</b></span><span lang="EN-GB">, their parameter is the size. See the table below:</span></p>
+</li>
+</ul>
+<table cellspacing="0" width="790" class="whs24">
+<col>
+<col class="whs25">
+<col class="whs26">
+<col class="whs27">
+<col class="whs28">
+<tr valign="top" class="whs10">
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" class="whs29">
+<p class="Normal" style="font-weight:bold; margin-left:0px; text-align:center;" align="center">&#160;</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="92px" class="whs30">
+<p class="Normal" style="font-weight:bold; margin-left:0px; text-align:center;" align="center">Small brush</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="104px" class="whs31">
+<p class="Normal" style="font-weight:bold; margin-left:0px; text-align:center;" align="center"><span lang="EN-GB">Medium brush</span></p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="112px" class="whs32">
+<p class="Normal" style="font-weight:bold; margin-left:0px; text-align:center;" align="center"><span lang="EN-GB">Large brush</span></p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="335px" class="whs33">
+<p class="Normal" style="font-weight:bold; margin-left:0px; text-align:center;" align="center"><span lang="EN-GB">Custom brush</span></p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td class="whs34">
+<p class="Normal" style="font-weight:bold; margin-left:0px;">Rectangle</p>
+</td>
+<td width="92px" class="whs35">
+<p class="Normal" style="margin-left:0px;"><span lang="EN-GB">The sides of rectangle are 30 points.</span></p>
+</td>
+<td width="104px" class="whs36">
+<p class="Normal" style="margin-left:0px;"><span lang="EN-GB">The sides of rectangle are 100 points.</span></p>
+</td>
+<td width="112px" class="whs37">
+<p class="Normal" style="margin-left:0px;"><span lang="EN-GB">The sides of rectangle are 300 points.</span></p>
+</td>
+<td width="335px" class="whs38">
+<p class="Normal" style="margin-left:0px;">Customise the brush by using the <span lang="EN-GB">Width and Height edit boxes.</span></p>
+<p class="Normal" style="margin-left:0px;"><span lang="EN-GB">Press the &#160;</span><img src="../mesh/instant_editing_files/lock_button.gif" width="24px" height="22px" border="0" class="img_whs39" alt=""> &#160;button to lock the height same as width. This will make the brush shape square.</p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td class="whs40">
+<p class="Normal" style="font-weight:bold; margin-left:0px;">Circle</p>
+</td>
+<td width="92px" class="whs41">
+<p class="Normal" style="margin-left:0px;"><span lang="EN-GB">The radius of circle is 15 points.</span></p>
+</td>
+<td width="104px" class="whs42">
+<p class="Normal" style="margin-left:0px;"><span lang="EN-GB">The radius of circle is 50 points.</span></p>
+</td>
+<td width="112px" class="whs43">
+<p class="Normal" style="margin-left:0px;"><span lang="EN-GB">The radius of circle is 150 points.</span></p>
+</td>
+<td width="335px" class="whs38">
+<p class="Normal" style="margin-left:0px;">Customise the brush by using the Radius <span lang="EN-GB">edit box.</span></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<p class="parameterstitle"><span lang="EN-GB" style="font-weight:bold;"><b>Hole Processing group:</b></span></p>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Select</b></span> <span lang="EN-GB">button – press this button to select border triangles of the current hole in mesh.</span></p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Number</b></span> <span lang="EN-GB" style="font-weight:bold;"><b>hole in the mesh</b></span> <span lang="EN-GB">– if the current hole should not have to be selected/processed, type-in the next number to jump to the next hole.</span></p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>with up to ... edges</b></span> <span lang="EN-GB">– limit for edges in holes. If a hole contains more edges that this value it will not be selected. Default value is 1000 edges.</span></p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Previous</b></span> <span lang="EN-GB">button – press this button to select the previous hole.</span></p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Next</b></span> <span lang="EN-GB">button – press this button to select the next hole.</span></p>
+</li>
+</ul>
+<p><span lang="EN-GB">It is possible to zoom, rotate, and pan the viewport as well as to change the selection while you are in</span> <span class="Mode">Instant Editing</span><span lang="EN-GB">. After every such operation KUBE will revert to the current editing mode.</span></p>
+<p class="Use" style="font-weight:normal;"><span class="Command" style="font-weight:bold;"><b>Use:</b></span> <span class="Command">Instant Editing</span> command is <span style="font-weight:bold;"><b>suitable</b></span> for fixing small problems on the mesh.</p>
+<p><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Average Noise Reduction','average_noise_reduction_Scan_data.htm','Average Noise Reduction','average_noise_reduction_Mesh.htm','Fill','fill.htm','Repair','Repair.htm');return false;" title=""><img src="../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></p>
+<script type="text/javascript" language="JavaScript">
+<!--
+if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
+  WritePopupMenuLayer();
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B020F000000496E7374616E742045646974696E670C02FE0000004170706C790A417265610A417665726167650A41766572616765204E6F69736520526564756374696F6E0A426F780A436972636C650A436F6E74657874204D656E75730A4375727661747572650A446566696E650A456469740A45646974204D6F64650A456E7469746965730A46696C6C0A466C61740A496E7374616E742045646974696E670A4C6F636B0A4D6573680A50616E0A506172616D65746572730A50726F63657373696E670A526564756365204E6F6973650A5265706169720A526F746174650A53656C6563740A53656C65637420416C6C0A53656C656374696F6E0A547265650A5472656520436F6E74657874204D656E75730A5A6F6F6D0D020F000000496E7374616E742045646974696E671102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

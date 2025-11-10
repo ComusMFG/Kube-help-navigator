@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Multisite Scanning Introduction</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { float:aligncenter; height:5px; }
+p.whs4 { font-size:10pt; }
+img_whs5 { width:250px; height:179px; float:none; border-style:none; }
+p.whs6 { font-size:8.0pt; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nScanning\nScanning Process\nMultisite Scanning\nIntroduction");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Multi-Site Scanning Introduction</h1>
+<hr align="center" size="5" class="whs3">
+<p>If the object to be scanned exceeds the range of the scanning system then it is necessary to use the multi site scanning system.</p>
+<p class="sub-head">Scanning introduction</p>
+<p class="whs4">This feature allows the range of ModelMaker to be extended over and above the physical size of the localiser and sensor combination by setting up several scanning positions (or sites) around the zone to be measured.</p>
+<p class="whs4">A typical application of this technique is the scanning of a full size car (exterior and/or interior) but the technique can also be applied to a number of other applications such as scale models or full size clays (immovable objects).</p>
+<p class="whs4"><b style="font-weight:bold;"><img id="_x0000_i1026" src="../../Images/arif_cone_car.jpg" width="250px" height="179px" border="0" class="img_whs5" alt=""></b></p>
+<p class="whs6"><span style="font-size:10pt;"><font size="2" style="font-size:10pt;">Below we describe the procedure for a full size European saloon car, using the FARO 12' localiser with tripod.</font></span></p>
+<p><span style="font-weight:bold;"><b>Next Step</b></span>: <a href="Multisite_Scanning_Preparation.htm">Preparation</a></p>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0C02450000004170706C790A4641524F0A6C6F63616C697365720A4D6561737572650A4D6F64656C4D616B65720A4D756C74692D736974650A5363616E0A53656E736F720A53797374656D0D021F0000004D756C746973697465205363616E6E696E6720496E74726F64756374696F6E1102120000004D756C746973697465205363616E6E696E6712020C000000496E74726F64756374696F6E1302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

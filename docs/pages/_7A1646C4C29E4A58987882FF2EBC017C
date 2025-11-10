@@ -1,0 +1,226 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Z System - Close-Up</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { float:aligncenter; height:5px; }
+tr.whs4 { mso-yfti-irow:0; }
+td.whs5 { padding:0in 0in 0in 0in; padding-left:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; }
+img_whs6 { float:none; width:442px; height:305px; border-style:none; }
+tr.whs7 { mso-yfti-irow:2; }
+img_whs8 { width:455px; height:406px; float:none; border-style:none; }
+tr.whs9 { mso-yfti-irow:4; }
+img_whs10 { border:none; width:418px; height:320px; float:none; border-style:none; }
+img_whs11 { float:none; width:295px; height:137px; border-style:none; }
+tr.whs12 { mso-yfti-irow:6; }
+img_whs13 { border:none; width:284px; height:146px; float:none; border-style:none; }
+tr.whs14 { mso-yfti-irow:8; }
+img_whs15 { border:none; width:181px; height:250px; float:none; border-style:none; }
+tr.whs16 { mso-yfti-irow:10; }
+img_whs17 { border:none; float:none; width:299px; height:228px; border-style:none; }
+img_whs18 { width:275px; height:374px; float:none; border-style:none; }
+tr.whs19 { mso-yfti-irow:14; mso-yfti-lastrow:yes; }
+img_whs20 { border:none; width:280px; height:205px; float:none; border-style:none; }
+img_whs21 { border:none; float:none; width:130px; height:72px; border-style:none; }
+img_whs22 { border:none; width:250px; height:79px; float:none; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../../whtopic.js">
+</script>
+</head>
+<body lang="BG" style="tab-interval:35.4pt;">
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Z System - Close-Up</h1>
+<hr align="center" size="5" class="whs3">
+<p>Each picture indicates a cabling connection between one of the components of the system.</p>
+<p class="sub-head"><span lang="EN-GB"><b style="font-weight:bold;"><a name="MMIB"></a>MMIB-DL connections</b></span></p>
+<table class="MsoNormalTable" style="border-spacing:5px;" cellspacing="5">
+<col>
+<col>
+<tr valign="middle" class="whs4">
+<td class="whs5">
+<p class="normal-table"><b style="font-weight:bold;"><span lang="EN-GB"><img id="_x0000_i1026" src="p9_mmib_dl_front_and_cables.jpg" width="442px" height="305px" border="0" class="img_whs6" alt=""></span>&#160;</b></p>
+</td>
+<td class="whs5">
+<p class="normal-table">The sensor cable transfers data from the senor. &#160;The trigger cable provides a synchronisation signal to the localiser. &#160;The antenna receives the signal from the remote switches.</p>
+</td>
+</tr>
+<tr valign="middle" class="whs7">
+<td class="whs5">
+<p class="normal-table"><b style="font-weight:bold;"><span lang="EN-GB"><img id="_x0000_i1027" src="p9_mmib_dl_rear_and_cables.jpg" width="455px" height="406px" border="0" class="img_whs8" alt=""></span>&#160;</b></p>
+</td>
+<td class="whs5">
+<p class="normal-table">The power cable provides power from either mains or battery. &#160;The MMIB-DL I/O cable transmit data to/from the PC.</p>
+</td>
+</tr>
+<tr valign="middle" class="whs9">
+<td colspan="1" rowspan="1" class="whs5">
+<p class="sub-head"><a name="PC"></a>Laptop PC Connections</p>
+<p class="normal-table"><img src="28_june_pcmcia_insert.jpg" width="418px" height="320px" border="0" class="img_whs10" alt=""></p>
+</td>
+<td colspan="1" rowspan="1" class="whs5">
+<p class="normal-table">The PCMCIA card is plugged in to a PCMCIA slot and the I/O cable connects it with the MMIB-DL.</p>
+</td>
+</tr>
+<tr valign="middle" class="whs9">
+<td class="whs5">
+<p class="sub-head">Desktop PC connections</p>
+<p class="normal-table"><b style="font-weight:bold;"><span lang="EN-GB"><img id="_x0000_i1028" src="PCI_cable.JPG" width="295px" height="137px" border="0" class="img_whs11" alt=""></span>&#160;</b></p>
+</td>
+<td class="whs5">
+<p class="normal-table">The PCI card is plugged into any available PCI slot and the I/O cable connects it with the MMIB-DL.</p>
+</td>
+</tr>
+<tr valign="middle" class="whs12">
+<td class="whs5">
+<p class="normal-table"><span lang="EN-GB" style="font-size:12.0pt;"><font size="3" style="font-size:12pt;">&#160;</font></span><img src="USB_cable.JPG" width="284px" height="146px" border="0" class="img_whs13" alt=""></p>
+</td>
+<td class="whs5">
+<p class="normal-table">(FARO USB Arm) The localiser USB cable provides the link to the localiser.</p>
+<p class="normal-table">A dongle controls the software options.</p>
+</td>
+</tr>
+<tr valign="middle" class="whs14">
+<td colspan="1" rowspan="1" class="whs5">
+<p class="normal-table"><img src="p10_PC_serial_and_dongle_and_PCI.jpg" width="181px" height="250px" border="0" class="img_whs15" alt=""></p>
+</td>
+<td colspan="1" rowspan="1" class="whs5">
+<p class="normal-table">(CimCore) A serial connection provides communication for the localilser.</p>
+<p class="normal-table">Here a parallel port dongle is shown</p>
+</td>
+</tr>
+<tr valign="middle" class="whs14">
+<td class="whs5">
+<p class="sub-head"><a name="Sensor"></a>Sensor connection</p>
+<p class="normal-table">&#160;</p>
+</td>
+<td class="whs5">
+<p class="normal-table">The sensor cable transfers data from the sensor to the MMIB-DL.</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td colspan="1" rowspan="1" class="whs5">
+<p class="normal-table"><img src="p10_Z_on_cimcore.jpg" width="299px" height="228px" border="0" class="img_whs17" alt=""></p>
+</td>
+<td colspan="1" rowspan="1" class="whs5">
+<p class="normal-table">&#160;</p>
+</td>
+</tr>
+<tr valign="middle" class="whs16">
+<td class="whs5">
+<p class="sub-head"><a name="Arm"></a>Arm connections</p>
+<p class="normal-table"><b style="font-weight:bold;"><span lang="EN-GB"><img id="_x0000_i1031" src="FARO_arm_base_conns.jpg" width="275px" height="374px" border="0" class="img_whs18" alt=""></span>&#160;</b></p>
+</td>
+<td class="whs5">
+<p class="normal-table">(FARO USB Arm) The trigger cable is connected from the MMIB-DL to the localiser trigger port (miniDIN connector).</p>
+</td>
+</tr>
+<tr valign="middle" class="whs19">
+<td colspan="1" rowspan="1" class="whs5">
+<p class="normal-table"><img src="cimcore_rear.jpg" width="280px" height="205px" border="0" class="img_whs20" alt=""></p>
+</td>
+<td colspan="1" rowspan="1" class="whs5">
+<p class="normal-table">(Cimcore) &#160;The trigger cable is connected from the MMIB-DL to the localiser trigger port (DB9 connector)</p>
+</td>
+</tr>
+<tr valign="middle" class="whs19">
+<td colspan="1" rowspan="1" class="whs5">
+<p class="normal-table"><img src="USB_dongle.JPG" width="130px" height="72px" border="0" class="img_whs21" alt=""></p>
+</td>
+<td colspan="1" rowspan="1" class="whs5">
+<p class="normal-table">USB dongle.</p>
+</td>
+</tr>
+<tr valign="middle" class="whs19">
+<td class="whs5">
+<p class="sub-head"><span lang="EN-GB">Dongle parallel port version&#160;</span></p>
+<p class="normal-table"><span lang="EN-GB"><img src="dongle.JPG" width="250px" height="79px" border="0" class="img_whs22" alt=""></span></p>
+</td>
+<td class="whs5">
+<p class="normal-table">Parallel port dongle</p>
+</td>
+</tr>
+</table>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0C020F00000053797374656D0A5A2053797374656D0D02130000005A2053797374656D202D20436C6F73652D55701102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

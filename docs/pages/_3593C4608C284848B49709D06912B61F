@@ -1,0 +1,182 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Fit Point</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+img_whs4 { border:none; width:220px; height:400px; float:none; border-style:none; }
+p.whs5 { font-weight:normal; }
+ul.whs6 { margin-top:0in; }
+img_whs7 { width:546px; height:355px; float:none; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "ul.whs6 {margin-top:1pt; }";
+  strNSS +="<\/style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nWorking with Data\nMeasurements\nMeasure Geometry\nFit Point");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Fit Point</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p><span lang="EN-GB">This command is accessible from</span> <span class="Path" style="font-weight:bold;"><b>Measure &gt; Geometry &gt; Point</b></span> <span lang="EN-GB">or by pressing</span> <b><span class="Shortcut" style="font-weight:bold;"><b>Alt + 1</b></span></b><span lang="EN-GB">.</span></p>
+<p class="Description"><span class="Command" style="font-weight:bold;"><b>Description:</b></span> <span class="Command">Fit Point</span> <span lang="EN-GB">command fits a datum point to the visible selection, which may include scan data, meshes, point clouds, datum points and polylines. This command is grayed if there is no selection or all selections are hidden.</span></p>
+<p class="Note" id="P1"><span lang="EN-GB" style="font-weight:bold;"><b>Note</b></span><span lang="EN-GB">: If needed to fit point to existing datums, you should use datum points only. Including other datums in the selection will lead to incorrect results.</span></p>
+<p><span lang="EN-GB">After the point is fitted the following dialog will appear in the Tools pane:</span></p>
+<p class="Normal" style="text-align:justify;"><img src="../Measure/images/fit_point.gif" width="220px" height="400px" border="0" class="img_whs4" alt=""></p>
+<p class="parameterstitle"><span style="font-weight:bold;"><b><span lang="EN-GB">D</span>eviation</b></span></p>
+<ul>
+<li style="font-weight:bold;" class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>Max value</b></span>: Maximum deviation from fitted point.</p>
+</li>
+</ul>
+<p class="whs5">The dialog includes the following statistics:</p>
+<p class="parameterstitle"><span lang="EN-GB">Centre</span></p>
+<ul class="whs6">
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>X</b></span><span lang="EN-GB">,</span> <span lang="EN-GB" style="font-weight:bold;"><b>Y</b></span><span lang="EN-GB">,</span> <span lang="EN-GB" style="font-weight:bold;"><b>Z</b></span> <span lang="EN-GB">: co-ordinates of the fitted point.</span></p>
+</li>
+</ul>
+<p class="parameterstitle"><span lang="EN-GB">Statistics</span></p>
+<ul class="whs6">
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>(MaxX - MinX) / 2</b></span><span lang="EN-GB">: distance along X-axis from the geometric centre of the selected points' extents to the end of the extents.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>(MaxY - MinY) / 2</b></span><span lang="EN-GB">: distance along Y-axis from the geometric centre of the selected points' extents to the end of the extents.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>(MaxZ - MinZ) / 2</b></span><span lang="EN-GB">: &#160;distance along Z-axis from the geometric centre of the selected points' extents to the end of the extents.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>RMS error</b></span><span lang="EN-GB">: Root Mean Square distance from the point to the selected points.</span></p>
+</li>
+</ul>
+<p class="parameterstitle"><span lang="EN-GB">Buttons</span></p>
+<ul class="whs6">
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span class="Button">Recalculate</span>: fits a point again according to the current deviation.</p>
+</li>
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span class="Button">Create point</span>: creates a datum point entity from the fit data.</p>
+</li>
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span style="font-weight:bold;"><b>Plot</b></span>: calls the error distribution plot dialog.</p>
+</li>
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span class="Button">Close</span>: exits this mode.</p>
+</li>
+</ul>
+<p>After the point is fitted, the error map is displayed.</p>
+<p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Example</a></p>
+<div class="droptext" id="POPUP162525528" style="display:'none'; x-ss-type:dropdown;">
+<p class="Normal" style="text-align:justify;"><span lang="EN-GB"><img src="../Working_with_data/Measuring_files/image043.jpg" width="546px" height="355px" border="0" class="img_whs7" alt=""></span></p>
+</div>
+<p class="Normal" style="text-align:justify;"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Fit Circle','fit_circle.htm','Fit Cone','fit_cone.htm','Fit Cylinder','fit_cylinder.htm','Fit Line','fit_line.htm','Fit Plane','fit_plane.htm','Fit Sphere','fit_sphere.htm');return false;" title=""><img src="../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></p>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a1','POPUP162525528');
+//-->
+</script><script type="text/javascript" language="JavaScript">
+<!--
+if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
+  WritePopupMenuLayer();
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B02100000004669742053696E676C6520506F696E740C029F000000436C6F73650A4372656174650A446174756D20706F696E740A446174756D696E670A446973706C61790A456E7469746965730A457869740A46697420506F696E740A4D6561737572650A4D6573680A50616E650A506F6C796C696E650A524D530A524D5309524D53206572726F720A526F6F74204D65616E205371756172650A5363616E0A5363616E20446174610A53656C6563740A53656C656374696F6E0D020900000046697420506F696E741102100000004D6561737572652047656F6D6574727912020900000046697420506F696E741302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

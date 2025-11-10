@@ -1,0 +1,236 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Multisite Scanning Procedure</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { float:aligncenter; height:5px; }
+p.whs4 { font-size:10pt; }
+img_whs5 { width:325px; height:254px; float:none; border-style:none; }
+img_whs6 { width:325px; height:240px; float:none; border-style:none; }
+img_whs7 { border:none; width:332px; height:350px; float:none; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nScanning\nScanning Process\nMultisite Scanning\nProcedure");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Multi-Site Scanning Procedure</h1>
+<div class="Normal" style="text-align:center;" align="center">
+<hr align="center" size="5" class="whs3"></div>
+<p>Once all preparation has been done scanning may commence. A step by step procedure is given here.</p>
+<p class="sub-head">Scanning procedure</p>
+<p>In order to be successful whilst scanning the appropriate procedure must be followed. The procedure has 3 main stages:</p>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Setup of the required scanning area</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Measuring the position of a set of floor mounted datum cones</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Data capture, using one of 6 available Scanning Sites</p>
+</li>
+</ul>
+<p class="stepstitle">Determination of scanning area</p>
+<p class="whs4">The scanning area must be of sufficient size to move the scanner to the necessary locations.</p>
+<p class="whs4">The number of datum cones and position will depend on the size of the car (scanning area) and the measuring radius R of the localiser. In this example, the car can be scanned using 16 datum cones with a FARO 12' localiser.</p>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Move the car into position</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Mark a box around the car, about 0.5m larger than the car</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Remove the car</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet"><span style="font-size:10pt;"><font size="2" style="font-size:10pt;">Mark the two measurement positions M1 and M2 on the centre line of the rectangle using the tape. They are distance R apart and centrally located in the scanning box.</font></span></p>
+</li>
+</ul>
+<p><img id="_x0000_i1026" src="../../Images/multisite_pic2.jpg" width="325px" height="254px" border="0" class="img_whs5" alt=""></p>
+<p class="sub-head-steptitle">Marking out of scanning sites</p>
+<p class="parameterdescription">Mark out the scanning site correctly to avoid unnecessary errors later whilst scanning.</p>
+<p class="parameterdescription">The measuring positions M1 and M2 are only required for establishing the overall positions of all the cones. When the car is driven back in, they are no longer accessible.</p>
+<p class="parameterdescription">During the data capture the localiser will be positioned at one of the 6 available Scanning sites (S1 to S6) where 3 of the previously measured datum cones can be accessed by the localiser and used to establish a co-ordinate system.</p>
+<p class="parameterdescription">Mark out the scanning sites S1 to S6 as shown using tape:</p>
+<p class="parameterdescription"><img id="_x0000_i1027" src="../../Images/multisite_pic1.jpg" width="325px" height="240px" border="0" class="img_whs6" alt=""></p>
+<p class="sub-head-steptitle">Placement of datum cones</p>
+<p class="parameterdescription">The datum cones must be positioned correctly to ensure optimum scanning.</p>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Position the cones as shown (the precise position is not important, as they will be accurately measured later) in an orderly sequence</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Double check the positions of the cones, then fix them with the glue gun</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Wait for the glue to dry, then use the numbered discs to number them in sequence</p>
+</li>
+</ul>
+<p class="stepstitle">Measurement of datum cones (position M1)</p>
+<p>The positions of the datum cones at position M1 are now registered.</p>
+<p>Now you will need to run <span style="font-weight:bold;"><b>KUBE</b></span>.</p>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Set up the arm at position M1 - the sensor does NOT need to be installed at this point</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Open a new document</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">The document should already be in <span class="Mode">Multi-Site</span> mode, this is indicated by <span class="Mode">Single-Site</span> shown in the scanning menu.</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Select <span class="Command" style="font-weight:bold;"><b>Set-up</b></span></p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">A prompt appears to place the arm in the start position, Press 'A' to continue.</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">A grid appears with numbers 1 to 31, select appropriate disk number.</p>
+</li>
+</ul>
+<p><img src="../../Images/mulitsite_scanning.gif" width="332px" height="350px" border="0" class="img_whs7" alt=""></p>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Place the touch probe in the correct datum cone</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Button 'B' to switch pause off and collect data of position of cone.</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Make sure the correct cone number is always entered - failure to do so will make the scan impossible.</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Capture a large number of points with the arm at a variety of different angles</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Follow the on screen instructions</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Repeat this procedure for all 11 cones within scanning range</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Select <span style="font-weight:bold;"><b>'New Arm Position'</b></span> within the grid</p>
+</li>
+</ul>
+<p class="stepstitle">Measurement of datum cones (position M2)</p>
+<p>The positions of the datum cones at position M2 are next registered.</p>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Move the arm to position M2</p>
+</li>
+<li style="margin-bottom:12.0pt;" class="kadov-p-CBullet">
+<p class="Bullet">Follow the same procedure as described above to digitise the ALL 11 cones within the reach of the arm</p>
+</li>
+</ul>
+<p class="Warning" id="P1">Make sure the correct cone number is always entered - failure to do so will make the scan impossible.</p>
+<p>&#160;</p>
+<p class="stepstitle">Scanning</p>
+<p class="whs4">Now scanning can take place as normal</p>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Move the scanning equipment out of the way.</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Move the car in position</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Place the arm at one of the scanning sites</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Select 'New position' within the scanning menu</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Follow the on screen instructions digitising the positions of at least 3 cones.</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Scan as normal.</p>
+</li>
+</ul>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0C02A6000000417265610A41726D0A4261636B0A426F780A436170747572650A436F6E650A446174756D20436F6E650A446174756D696E670A4641524F0A4C696E650A6C6F63616C697365720A4D6561737572650A4D756C74692D736974650A4D756C74692D73697465094D756C74692D53697465205363616E6E696E672050726F6365647572650A4E65770A50726F62650A5363616E0A53656C6563740A53656E736F720A53797374656D0D021C0000004D756C746973697465205363616E6E696E672050726F6365647572651102120000004D756C746973697465205363616E6E696E6712020900000050726F6365647572651302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

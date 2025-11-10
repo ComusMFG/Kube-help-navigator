@@ -1,0 +1,278 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Merging</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { height:5px; float:alignleft; }
+p.whs4 { text-align:left; }
+img_whs5 { border:none; width:368px; height:696px; float:none; border-style:none; }
+p.whs6 { font-size:10.0pt; margin-left:40px; }
+img_whs7 { border:none; width:400px; height:300px; float:none; border-style:none; }
+img_whs8 { border:none; width:686px; height:358px; float:none; border-style:none; }
+p.whs9 { margin-left:40px; text-align:left; }
+img_whs10 { border:none; width:430px; height:343px; float:none; border-style:none; }
+table.whs11 { left:0px; top:4559px; margin-left:40px; width:911px; float:alignleft; border-spacing:0px; }
+col.whs12 { width:48.404%; }
+col.whs13 { width:50.055%; }
+tr.whs14 { height:370px; }
+td.whs15 { width:48.404%; border-left-width:1px; border-left-color:#000000; border-left-style:Solid; border-top-style:Solid; border-top-color:#000000; border-top-width:1px; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; }
+td.whs16 { width:50.055%; border-top-style:Solid; border-top-color:#000000; border-top-width:1px; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; }
+col.whs17 { width:49.945%; }
+td.whs18 { width:50.055%; border-left-width:1px; border-left-color:#000000; border-left-style:Solid; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; border-top-width:1px; border-top-color:#000000; border-top-style:Solid; }
+td.whs19 { width:49.945%; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; border-top-width:1px; border-top-color:#000000; border-top-style:Solid; }
+p.whs20 { margin-left:40px; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body lang="BG">
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nCorrosion Module\nMerging");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1><span lang="EN-US">Merging</span></h1>
+<hr size="5" align="left" class="whs3">
+<p class="description"><i style="font-style:italic;"><span lang="EN-US" style="font-style:normal; font-weight:bold;"><b>Description:</b></span> <span lang="EN-US" style="font-style:normal;">The merging calculates a cylinder fit for the raw data, unfolds it around that fit, aligns the scan patches for better overlapping and creates a regular grid mesh. In order to carry out the processing correctly the following must be complied with:</span></i></p>
+<ul>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-US">There is one and only one datum point in the entities pane (called briefly Reference Point - RP) which should be created so that it is located at the end of the scan from where the gas comes.</span></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-US">There is a selection&#160;of the scan data specifying areas of potential corrosion.</span></p>
+</li>
+</ul>
+</li>
+</ul>
+<p class="sub-head"><i><span lang="EN-US" style="font-style:normal;">Merge Description and procedure:</span></i></p>
+<p align="left" class="whs4"><i><span lang="EN-US" style="font-style:normal;">Depending on the parameters the following steps are performed on the loaded scan data:</span></i></p>
+<p><img src="Images/Merge_dialog.gif" width="368px" height="696px" border="0" class="img_whs5" alt=""></p>
+<p class="parameterstitle"><span lang="EN-US">Skip</span></p>
+<p class="parameterdescription">If this option is enabled the processing goes straight to the next step, i.e. Inspect. If it is disabled then the cylinder fit will be calculated for all non-hidden scan data (for complex surfaces make sure you hide all significant areas of data which do not belong to the targeted cylinder).</p>
+<p class="parameterstitle"><span lang="EN-US">Filter o</span>ut data more than ... deg from cylinder</p>
+<p class="parameterdescription">If this option is enabled then all points with a normal more than the specified degree from the cylinder normal are removed from the next cylinder fit calculation. Default value is 10deg.</p>
+<p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a6" style="text-decoration:underline;">Schematic</a></p>
+<div class="droptext" id="POPUP167049796" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs6"><img src="Images/Normals.gif" width="400px" height="300px" border="0" class="img_whs7" alt=""></p>
+</div>
+<p class="parameterstitle"><span lang="EN-US">Filter</span> out data farther than ... mm from cylinder</p>
+<p class="parameterdescription">If this option is enabled then all points further away than specified distance are removed from the next cylinder fit calculation. Default value is 1mm.</p>
+<p><span lang="EN-US">If any filtration is done cylinder fit is re-calculated. The rest of the parameters are explained below by the order of their using in the merge algorithm.</span></p>
+<p><span lang="EN-US">T</span>he next step is transformation of the coordinate system so that the global system Y axis goes through the 12 o’clock point or other clock position and the X axis coincides with the cylinder fit axis while pointing in the direction from the RP towards the other end of the scan data.</p>
+<p class="parameterstitle">Y=0.0 at … o’clock</p>
+<p class="parameterdescription"><span style="font-weight:normal;">Sets clock position that defines the Y axis. Default value is 12 o’clock.</span></p>
+<p class="parameterstitle">Reference point at … o’clock</p>
+<p class="parameterdescription"><span style="font-weight:normal;">Sets clock position for the reference point (RP). By default it is at 12 o'clock. Using this parameter and the coordinates of the RP the coordinates of RP are calculated by rotating the RP around the cylinder fit axis.</span></p>
+<p class="parameterstitle">Reference point at ... mm along X</p>
+<p class="parameterdescription" style="font-weight:normal;"><span style="font-weight:normal;">Sets position of the RP on the X axis. By default it is at 0mm. This value is used for transformation of the (0,0,0) along the X-axis so that the new coordinates of the RP are the same as specified in this edit box.</span></p>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Schematic 3D</a></span></p>
+<div class="droptext" id="POPUP240928431" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs6"><img src="Images/RP1.gif" width="400px" height="300px" border="0" class="img_whs7" alt=""><span style="text-align:left; margin-left:40px; font-weight:normal;"><br>
+3D view of RP on the pipe</span></p>
+</div>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2" style="text-decoration:underline;">Schematic 2D</a></span></p>
+<div class="droptext" id="POPUP261340822" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs6"><img src="Images/RP2.gif" width="400px" height="300px" border="0" class="img_whs7" alt=""><span style="margin-left:40px;"><br>
+Unfolded view of the pipe and RP</span></p>
+</div>
+<p align="left" class="whs4">The next step is unfolding the data around the global X axis (cylinder fit axis). The resulting coordinate system is offset in Y-direction so that Y = 0.0 where the specified in the dialog clock position is.</p>
+<p align="left" class="whs4">Then it follows a minimisation of the distance between overlapping areas of scan patches and merging into a regular grid mesh.</p>
+<p class="parameterstitle">X resolution</p>
+<p class="parameterdescription"><span style="font-weight:normal;">Specifies the grid resolution for the generated mesh along X axis. By default this value is set to 0.5mm.</span></p>
+<p class="parameterstitle">Y resolution</p>
+<p class="parameterdescription" style="font-weight:normal;"><span style="font-weight:normal;">Specifies the grid resolution for the generated mesh along Y axis. By default this value is set to 0.5mm.</span></p>
+<p class="parameterstitle">Area of interest from … to … o’clock</p>
+<p class="parameterdescription"><span style="font-weight:normal;">Specifies the area covered by the grid. All other data is cropped. By default these two values are set to 12 o'clock, which means the whole selected surface is used. The resulting area for inspection is actually the section between the selected area and the defined area of interest.</span></p>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a3" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP261969361" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs6"><img src="Images/Areas.gif" width="686px" height="358px" border="0" class="img_whs8" alt=""></p>
+</div>
+<p class="parameterstitle">Void data if discrepancy &gt; … mm</p>
+<p class="parameterdescription" style="font-weight:normal;"><span style="font-weight:normal;">If this option is enabled the data is voided if overlapping scan patches differs more than this value. By default it is 0.5mm. For better analysis it is recommended to use 0.2mm.</span></p>
+<p class="parameterstitle">Fill holes smaller than … mm</p>
+<p class="parameterdescription">If this option is enabled all holes in the range image grid smaller than this value are filled. By default it is 10mm.</p>
+<p class="parameterstitle">Output File</p>
+<p class="parameterdescription">Resulting file is output into a .pii file with the name specified. The default file name is the same as the original file. This file is the input to the next step (if enabled).</p>
+<p class="parameterstitle">Output Intermediate Files</p>
+<p class="parameterdescription"><span style="font-weight:normal;">If this option is enabled the following files are generated:</span> <span style="font-weight:normal; font-style:italic;"><i>FileName_PreAligned.sab2</i></span><span style="font-weight:normal;">,</span> <span style="font-weight:normal; font-style:italic;"><i>FileName_Aligned.sab2</i></span><span style="font-weight:normal;">, and</span> <span style="font-weight:normal; font-style:italic;"><i>FileName_Merged.sab2</i></span><span style="font-weight:normal;">, where</span> <span style="font-weight:normal; font-style:italic;"><i>FileName</i></span> <span style="font-weight:normal;">is the name of the original file.</span></p>
+<p align="left" class="whs4">Dialog parameters and cylinder fit results are automatically saved in a log file having the same name as the original file and .log as extension. This is a text file and its contents could be as follows:</p>
+<p class="Code"><span style="font-weight:bold;"><b>Merge Stage Input Parameters</b></span><br>
+<br>
+Filter out data at more than 10.000 deg from cylinder (TRUE)<br>
+Filter out data farther than 1.000 mm from cylinder (TRUE)<br>
+Fill holes smaller than 10.000 mm (TRUE)<br>
+Void data if discrepancy &gt; 0.200 mm (TRUE)<br>
+X Resolution 0.500<br>
+Y Resolution 0.500<br>
+Area of interest from 12 to 4 o'clock<br>
+Y=0.0 at 12 o'clock<br>
+Reference point at 12 o'clock<br>
+Reference point at 0.000 mm along X<br>
+Input File: C:\Corrosion\Pipe_01.sab2<br>
+Output File: C:\Corrosion\Pipe_01.pii<br>
+Cylinder fit: Radius: 109.246 mm &#160;Length: 302.266 mm &#160;StartPoint(17.737,-838.366,-281.593) &#160;EndPoint(11.486,-536.236,-275.006) &#160;AxisVector(-0.021,1.000,0.022)</p>
+<p align="left" class="whs4">&#160;</p>
+<p class="sub-head"><i><span lang="EN-US" style="font-style:normal;">Intermediate Files:</span></i></p>
+<p align="left" class="whs4"><span style="font-weight:bold; font-style:italic;"><i><b>FileName</b></i></span><span style="font-weight:bold;"><b>_PreAligned.sab2</b></span> – scan patches are merged into individual meshes. Each mesh entity is named ‘Patch as Mesh #N’, where N is the number of the patch.</p>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a4" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP162623557" style="display:'none'; x-ss-type:dropdown;">
+<p align="left" class="whs9"><img src="Images/Patches.gif" width="430px" height="343px" border="0" class="img_whs10" alt=""><br>
+Example of merged patches painted in different colours <span style="font-size:8pt;"><font size="1" style="font-size:8pt;">(please note that KUBE does not colour patches automatically.)</font></span></p>
+</div>
+<p align="left" class="whs4"><span style="font-weight:bold; font-style:italic;"><i><b>FileName</b></i></span><span style="font-weight:bold;"><b>_Aligned.sab2</b></span> – merged scan patches are aligned so that the best overlapping is achieved. The aligned patches are named ‘Patch as Mesh Aligned #N’, where N is the number of the aligned patch.</p>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a5" style="text-decoration:underline;">Examples</a></span></p>
+<div class="droptext" id="POPUP259584278" style="display:'none'; x-ss-type:dropdown;">
+<div align="left">
+<table cellspacing="0" width="911" class="whs11">
+<col class="whs12">
+<col class="whs13">
+<tr valign="top" class="whs14">
+<td width="48.404%" class="whs15">
+<p><img src="Images/Pre-aligned1.gif" width="430px" height="343px" border="0" class="img_whs10" alt=""></p>
+</td>
+<td width="50.055%" class="whs16">
+<p><img src="Images/Aligned1.gif" width="430px" height="343px" border="0" class="img_whs10" alt=""></p>
+</td>
+</tr>
+</table>
+</div>
+<p align="left" class="whs9">Example 1: Two neighboring patches before (left) and after aligning (right)</p>
+<div align="left">
+<table cellspacing="0" width="911" class="whs11">
+<col class="whs13">
+<col class="whs17">
+<tr valign="top" class="whs14">
+<td width="50.055%" class="whs18">
+<p><img src="Images/Pre-aligned2.gif" width="430px" height="343px" border="0" class="img_whs10" alt=""></p>
+</td>
+<td width="49.945%" class="whs19">
+<p><img src="Images/Aligned2.gif" width="430px" height="343px" border="0" class="img_whs10" alt=""></p>
+</td>
+</tr>
+</table>
+</div>
+<p align="left" class="whs9">Example 2: Two neighboring patches before (left) and after aligning (right)</p>
+</div>
+<p align="left" class="whs4"><span style="font-weight:bold; font-style:italic;"><i><b>FileName</b></i></span><span style="font-weight:bold;"><b>_Merged.sab2</b></span> – aligned scan patches are merged into single mesh entity named ‘Merged Processed Mesh.sab2’.</p>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a7" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP167450828" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs20"><img src="Images/Merged.gif" width="430px" height="343px" border="0" class="img_whs10" alt=""><br>
+Example of merged patches as a single mesh.</p>
+</div>
+<p align="left" class="whs9">&#160;</p>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a6','POPUP167049796');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a1','POPUP240928431');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a2','POPUP261340822');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a3','POPUP261969361');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a4','POPUP162623557');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a5','POPUP259584278');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a7','POPUP167450828');
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0C02FD000000416C69676E0A417265610A426F780A636F6C6F75720A4372656174650A43796C696E6465720A446174756D20706F696E740A446174756D696E670A446566696E650A456469740A456E7469746965730A46696C654E616D650A46696C6C0A47656E65726174650A4869646520416C6C0A496E73706563740A4C6566740A4D657267650A4D65726765094D65726765204465736372697074696F6E0A4D6573680A4E65770A50616E650A506172616D65746572730A50617463680A50726F63657373696E670A52696768740A526F746174650A536176650A5363616E0A5363616E20446174610A53656C6563740A53656C656374696F6E0A53797374656D0D02070000004D657267696E67110210000000436F72726F73696F6E204D6F64756C651202070000004D657267696E671302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

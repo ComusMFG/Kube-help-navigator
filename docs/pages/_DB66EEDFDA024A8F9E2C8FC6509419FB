@@ -1,0 +1,214 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Define Cone</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+table.whs4 { border-spacing:0px; }
+tr.whs5 {  }
+td.whs6 { padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+img_whs7 { border:none; border-style:none; width:203px; height:325px; float:none; }
+td.whs8 { padding-right:10px; padding-left:10px; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs9 { border:none; width:23px; height:24px; float:none; border-style:none; }
+tr.whs10 {  }
+td.whs11 { padding:0cm 5.4pt 0cm 5.4pt; padding-left:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; border-bottom-style:none; border-right-style:none; border-left-style:none; border-top-style:none; }
+img_whs12 { border:none; width:71px; height:69px; float:none; border-style:none; }
+td.whs13 { padding:0cm 5.4pt 0cm 5.4pt; padding-left:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; border-bottom-style:none; border-top-style:none; border-right-style:none; }
+td.whs14 { padding:0cm 5.4pt 0cm 5.4pt; padding-left:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; border-right-style:none; border-left-style:none; border-bottom-style:none; }
+td.whs15 { padding:0cm 5.4pt 0cm 5.4pt; padding-left:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; border-bottom-style:none; border-right-style:none; }
+img_whs16 { border:none; border-style:none; float:none; width:34px; height:32px; }
+img_whs17 { border:none; width:20px; height:15px; float:none; border-style:none; }
+img_whs18 { border:none; border-style:none; float:none; width:33px; height:32px; }
+img_whs19 { border:none; width:20px; height:15px; float:none; border-style:none; }
+table.whs20 { width:33.333%; border-spacing:0px; }
+col.whs21 { width:99.999%; }
+td.whs22 { width:99.999%; border-top-style:Solid; border-top-color:#000000; border-top-width:1px; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; border-left-style:Solid; border-left-color:#000000; border-left-width:1px; }
+img_whs23 { border:none; width:176px; height:271px; float:none; border-style:none; }
+td.whs24 { width:99.999%; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; border-left-style:Solid; border-left-color:#000000; border-left-width:1px; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nWorking with Data\nDefine Datums\nDefine Cone");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Define Cone</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<table cellspacing="0" class="whs4">
+<col>
+<col>
+<tr valign="top" class="whs5">
+<td class="whs6">
+<p class="normal-table"><img src="../Images/image028.gif" width="203px" height="325px" border="0" class="img_whs7" alt=""></p>
+</td>
+<td class="whs8">
+<p class="normal-table"><b style="font-weight:normal;"><span lang="EN-US" class="Button" style="font-weight:bold;"><b>C</b></span><span lang="EN-US" style="font-weight:bold;"><b>apture</b></span> <span lang="EN-US" style="font-weight:normal;">button</span></b> <span lang="EN-US">– for delayed definition of a datum cone by probe capture.</span></p>
+<p class="normal-table"><b style="font-weight:normal;"><span lang="EN-US" class="Button" style="font-weight:bold;"><b>Detect</b></span> <span lang="EN-US" style="font-weight:normal;">button</span></b> <span lang="EN-US">– for interactive detection of a cone to selection.</span></p>
+<p class="Note" id="p4"><span style="font-weight:bold;"><b>Note</b></span>: Cone detection is controlled by <span style="font-weight:bold;"><b>Tolerance</b></span> parameter. See <span lang="EN-GB"><a href="../../References/Preferences_-_Datums_-_Detection_Tolerances.htm">System &gt; Preferences &gt; Datums &gt; Detection Tolerances</a></span> <span lang="EN-GB">for details.</span></p>
+<p class="normal-table"><b style="font-weight:normal;"><span lang="EN-US" class="Button" style="font-weight:bold;"><b>Tolerances</b></span> <span lang="EN-US" style="font-weight:normal;">button</span></b> <span lang="EN-US">– calls</span> <span lang="EN-GB">System&gt;Preferences&gt;Datum&gt;Detection Tolerances</span> <span lang="EN-US">dialog for settings the detection tolerances.</span></p>
+<p class="normal-table"><b style="font-weight:bold;"><span lang="EN-US">Choose entity</span>:</b></p>
+<p class="parameterdescription"><span class="Button" style="font-weight:bold;"><b>Pick</b></span> <span lang="EN-US">button – to pick in the viewport an existing cone. The cursor shape for pick mode is</span><img src="../Images/cursor_pick.gif" width="23px" height="24px" border="0" class="img_whs9" alt=""></p>
+<p class="parameterdescription"><span lang="EN-US" style="font-weight:bold;"><b>Listbox</b></span> <span lang="EN-US">– to select from the list a predefined cone.</span></p>
+<p class="normal-table-func"><b style="font-weight:bold;"><span lang="EN-US">Apex, B.Centre and Axis:</span></b></p>
+<p class="parameterdescription"><span class="Button" style="font-weight:bold;"><b>Pick</b></span> <span lang="EN-US">buttons for</span> <span lang="EN-US" style="font-weight:bold;"><b>apex</b></span> <span lang="EN-US">and</span> <span lang="EN-US" style="font-weight:bold;"><b>base centre</b></span> <span lang="EN-US">– to pick the start and end points of the cone axis in the viewport.</span></p>
+<p class="parameterdescription"><span lang="EN-US" style="font-weight:bold;"><b>Pick</b></span> <span lang="EN-US">button for</span> <span lang="EN-US" style="font-weight:bold;"><b>axis</b></span> <span lang="EN-US">- to pick an existing normal (of plane, circle, or slot), line, cylinder, or cone axis.</span><span lang="EN-US" style="font-weight:bold;"><b><br>
+Pick</b></span> <span lang="EN-US">button</span> <span lang="EN-US" style="font-weight:bold;"><b>extension</b></span> <span lang="EN-US">- click and hold down for a while the pick button. The button extension shown below will appear allowing you to select any of the CS axis and use it as normal.</span></p>
+<table class="NormalTable" style="margin-left:2px;">
+<col>
+<col>
+<tr valign="middle" class="whs10">
+<td colspan="1" rowspan="1" valign="top" class="whs11">
+<p class="normal-table"><img src="../Images/pick_extension.gif" width="71px" height="69px" border="0" class="img_whs12" alt=""></p>
+</td>
+<td colspan="1" rowspan="1" valign="top" class="whs13">
+<p class="normal-table"><img src="../Images/pick_extension_axis.gif" width="71px" height="69px" border="0" class="img_whs12" alt=""></p>
+</td>
+</tr>
+<tr valign="middle" class="whs10">
+<td valign="top" class="whs14">
+<p class="normal-table" style="font-style:italic;">Pick button extension</p>
+</td>
+<td valign="top" class="whs15">
+<p class="normal-table" style="font-style:italic;">Pick button with 0X selection</p>
+</td>
+</tr>
+</table>
+<p class="normal-table">&#160;</p>
+<p class="normal-table"><span lang="EN-US" style="font-weight:bold;"><b>Edit boxes</b></span> <span lang="EN-US">– to type co-ordinates of the start and end points of the cone axis, the axis direction, the radius, the length, and the apex angle of the cone. As the edit boxes are bent together, the changes in the length will invoke changes in the base centre co-ordinates, for example.</span></p>
+<p class="normal-table"><b style="font-weight:normal;"><span class="Button" style="font-weight:bold;"><b>Pick 4 points</b></span> <span lang="EN-US" style="font-weight:normal;">button</span></b> <span lang="EN-US">– for exact cone definition by picking 4 points in the viewport as follows: 3 points forming a circle and the 4th for lateral area definition. The first 3 points define a plane where the cone base lies, the 4th point defines the rest of the cone. The c</span>ursor shape for pick N mode is <span style="font-style:italic;"><i><img src="../Images/cursor_pickNcone.gif" width="34px" height="32px" border="0" class="img_whs16" alt="">.</i></span> To remove a picked point, press the Alt key and click next to the chosen point in the viewport. The <span lang="EN-US">c</span>ursor shape for remove picked point mode is <img src="../Images/cursor_pick_minus.gif" width="20px" height="15px" border="0" class="img_whs17" alt="">.</p>
+<p class="normal-table">&#160;</p>
+<p class="normal-table"><span style="font-weight:bold;"><b>Detect</b></span> button - to detect a cone shape by picking 1 or more points on the data surface. <span lang="EN-US">&#160;The cursor shape for Detect mode is</span> <img src="../Images/cursor_detectcone.gif" width="33px" height="32px" border="0" class="img_whs18" alt="">. When 1 point is taken, the button caption changes to "Finish [X pts]", where X is updated according to the number of currently picked points. To remove a picked point, press the Alt key and click next to the chosen point in the viewport. The <span lang="EN-US">c</span>ursor shape for remove picked point mode is <img src="../Images/cursor_pick_minus.gif" width="20px" height="15px" border="0" class="img_whs19" alt="">.</p>
+</td>
+</tr>
+</table>
+<p class="sub-head">Temporary Cone</p>
+<p>When all <span lang="EN-US">values are set the new cone will be visualised in the viewport as temporary entity. There are different types of temporary cones:</span></p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>temporary construction cone</b></span> - when a cone takes part in other entity definition, it appears in the viewport as temporary construction datum (white/black coloured by default). Its appearance can be changed from <span style="font-style:italic; font-weight:bold;"><i><b>System &gt; Preferences &gt; Display &gt; Colours &gt; Temporary Construction Datum.</b></i></span></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>current construction cone</b></span> - the currently edited/selected cone appears in the viewport as highlighted temporary datum (light red by default). Its colour can be changed from <span style="font-style:italic; font-weight:bold;"><i><b>System &gt; Preferences &gt; Display &gt; Colours &gt; Highlighted</b></i></span>.</p>
+</li>
+</ul>
+<p class="Note" id="P2"><span style="font-weight:bold;"><b>Note</b></span>: If the temporary construction datum is currently edited, it appears as highlighted temporary datum.</p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>final construction cone</b></span> - when all definition fields/all construction tabs are filled, then the cone appears in the viewport as final construction datum (green/black coloured by default). Its appearance can be changed from <span style="font-style:italic; font-weight:bold;"><i><b>System &gt; Preferences &gt; Display &gt; Colours &gt; Final Construction Datum.</b></i></span></p>
+</li>
+</ul>
+<p class="Note" id="p3"><span style="font-weight:bold;"><b>Note</b></span>: If the current construction datum is actually the final one, then it will be coloured as final construction datum.</p>
+<p>When this final construction datum is really created then its colour will be changed to the real datum colour (set in <span style="font-style:italic; font-weight:bold;"><i><b><a href="../../References/Display_Settings-Colours.htm">System &gt; Preferences &gt; Display &gt; Colours</a></b></i></span> ).</p>
+<p class="Warning">The normal direction of the cone (from apex to the base centre) is indicated by an arrow and by the movement of the points on its dashed axis.</p>
+<p class="Note" id="p1"><span style="font-weight:bold;"><b>Note:</b></span> Currently the cone does not take part as construction entity in other datum definitions. That means the final construction cone is the only one temporary type, that appears in the viewport.</p>
+<p class="Example" style="text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP161113578" style="display:'none'; x-ss-type:dropdown;">
+<table cellspacing="0" width="33.333%" class="whs20">
+<col class="whs21">
+<tr valign="top" class="whs5">
+<td width="99.999%" class="whs22">
+<p><img src="../Images/finalCcone.gif" width="176px" height="271px" border="0" class="img_whs23" alt=""></p>
+</td>
+</tr>
+<tr valign="top" class="whs5">
+<td width="99.999%" class="whs24">
+<p>Final construction cone</p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+</div>
+<p>&#160;</p>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a1','POPUP161113578');
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B020B000000446566696E6520436F6E650C02E2000000417265610A426F780A436170747572650A436972636C650A636F6C6F75720A436F6E650A4372656174650A43796C696E6465720A446174756D20436F6E650A446174756D696E670A446566696E650A446566696E6520436F6E650A446574656374206D6F64650A446973706C61790A446F776E0A456469740A456E7469746965730A46696C6C0A4C696768740A4C696E650A4E65770A4E657720436F6E650A506172616D65746572730A506C616E650A507265666572656E6365730A50726F62650A53656C6563740A53656C656374696F6E0A53657474696E67730A53797374656D0D020B000000446566696E6520436F6E6511020D000000446566696E6520446174756D7312020B000000446566696E6520436F6E651302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

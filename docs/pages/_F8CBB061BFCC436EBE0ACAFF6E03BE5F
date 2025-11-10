@@ -1,0 +1,289 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>alignment</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+img_whs4 { border:none; width:552px; height:659px; float:none; border-style:none; }
+tr.whs5 { height:1.5pt; }
+td.whs6 { padding:0mm 0mm 0mm 0mm; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; width:282.3pt; }
+td.whs7 { padding:0mm 0mm 0mm 0mm; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; width:91pt; }
+td.whs8 { padding:0mm 0mm 0mm 0mm; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; width:91pt; }
+td.whs9 { padding:0mm 0mm 0mm 0mm; padding-left:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; width:282.3pt; }
+td.whs10 { padding:0mm 0mm 0mm 0mm; padding-left:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; width:91pt; }
+td.whs11 { padding:0mm 0mm 0mm 0mm; padding-left:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; width:282.3pt; }
+td.whs12 { padding:0mm 0mm 0mm 0mm; padding-left:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; width:91pt; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nScanning\nSystem Set-Up\nAlignment");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>alignment</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p class="description"><span class="Command" style="font-weight:bold;"><b>Description:</b></span> Alignment is the process of registering the sensor co-ordinate system to the localiser co-ordinate system. Without an accurate alignment, the data produced by the ModelMaker system &#160;will be out of specification. This command is accessible from <span class="Path">System &gt; Alignment</span>, by pressing the '<span class="Path" style="font-style:normal;">Alignment'</span> button on the toolbar or by pressing <span style="font-weight:bold;"><b>Ctrl + Shift + Q</b></span>.</p>
+<p class="Warning">If you have done an alignment with 3DScanners v7 you can not use it for scanning with KUBE v8 and higher. If you have done an alignment with KUBE v11 you cannot use it for scanning with KUBE v12 but you can use it with KUBE v13 and higher.</p>
+<p>Open the command and <span style="margin-left:0mm;">enter the correct settings into the alignment dialogue.</span></p>
+<p class="Warning">It is <font id="font2">recommended to use the Certified Settings</font>, but if any of them need to be changed, please read the descriptions of the options in the following dialogue:</p>
+<p class="Normal"><img src="Alignment_files/alignment.gif" width="552px" height="659px" border="0" class="img_whs4" alt=""></p>
+<p class="Normal">This dialogue contains four sections and a check box:</p>
+<p class="sub-head"><b style="font-weight:bold;">Probe diameter</b></p>
+<p class="parameterstitle"><b style="font-weight:bold;">Probe diameter</b></p>
+<p class="parameterdescription">Diameter in mm of the ball probe on the end of the localiser e.g. 6.000.<span lang="EN-US">&#160;</span></p>
+<p class="Note" id="p1"><span lang="EN-US" style="font-weight:bold;"><b>Note</b></span><span lang="EN-US">:</span> <font id="font1">For successful alignment, the correct probe diameter must be entered. If unsure of the diameter, use a precision caliper to check the dimensions before proceeding.</font></p>
+<p class="sub-head"><b style="font-weight:bold;"><a name="tolerance"></a>Localiser movement tolerance</b></p>
+<p>The <b style="font-weight:normal;">localiser movement tolerance</b> allows for a certain amount of movement during data capture. The suggested values are as follows:<span lang="EN-US">&#160;</span></p>
+<table class="Normal" style="margin-left:40px; left:0px; top:1216px; width:498px; height:288px; border-spacing:0px;" cellspacing="0" width="498">
+<col>
+<col>
+<col>
+<tr class="whs5">
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" valign="top" width="282.3pt" class="whs6">
+<p class="caption">Localiser</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="91pt" class="whs7">
+<p class="caption">Probe</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="91pt" class="whs8">
+<p class="caption">Stripe</p>
+</td>
+</tr>
+<tr class="whs5">
+<td colspan="1" rowspan="1" valign="top" width="282.3pt" class="whs9">
+<p class="normal-table">FARO Platinum/Titanium 4, 6, 8ft</p>
+</td>
+<td colspan="1" rowspan="1" width="91pt" class="whs10">
+<p class="normal-table">0.05mm</p>
+</td>
+<td colspan="1" rowspan="1" width="91pt" class="whs10">
+<p class="normal-table">0.1mm</p>
+</td>
+</tr>
+<tr class="whs5">
+<td colspan="1" rowspan="1" valign="top" width="282.3pt" class="whs9">
+<p class="normal-table">FARO Platinum/Titanium 10, 12ft</p>
+</td>
+<td colspan="1" rowspan="1" width="91pt" class="whs10">
+<p class="normal-table">0.1mm</p>
+</td>
+<td colspan="1" rowspan="1" width="91pt" class="whs10">
+<p class="normal-table">0.2mm</p>
+</td>
+</tr>
+<tr class="whs5">
+<td valign="top" width="282.3pt" class="whs9">
+<p class="normal-table"><span>FARO Gold/Silver/Sterling 04/06/08</span></p>
+</td>
+<td colspan="1" rowspan="1" width="91pt" class="whs10">
+<p class="normal-table">0.05mm</p>
+</td>
+<td width="91pt" class="whs10">
+<p class="normal-table">0.1mm</p>
+</td>
+</tr>
+<tr class="whs5">
+<td valign="top" width="282.3pt" class="whs9">
+<p class="normal-table"><span>FARO Gold/Silver/Sterling 10/12&#160;</span></p>
+</td>
+<td colspan="1" rowspan="1" width="91pt" class="whs10">
+<p class="normal-table">0.1mm</p>
+</td>
+<td width="91pt" class="whs10">
+<p class="normal-table">0.2mm</p>
+</td>
+</tr>
+<tr class="whs5">
+<td valign="top" width="282.3pt" class="whs9">
+<p class="normal-table"><span>FARO Bronze</span></p>
+</td>
+<td colspan="1" rowspan="1" width="91pt" class="whs10">
+<p class="normal-table">0.25mm</p>
+</td>
+<td width="91pt" class="whs10">
+<p class="normal-table">0.5mm</p>
+</td>
+</tr>
+<tr class="whs5">
+<td colspan="1" rowspan="1" valign="top" width="282.3pt" class="whs11">
+<p class="normal-table">CimCore INFINITE/3000i/STINGER II</p>
+</td>
+<td colspan="1" rowspan="1" width="91pt" class="whs12">
+<p class="normal-table">0.1mm</p>
+</td>
+<td colspan="1" rowspan="1" width="91pt" class="whs10">
+<p class="normal-table">0.2mm</p>
+</td>
+</tr>
+<tr class="whs5">
+<td colspan="1" rowspan="1" valign="top" width="282.3pt" class="whs11">
+<p class="normal-table">K-Scan</p>
+</td>
+<td colspan="1" rowspan="1" width="91pt" class="whs12">
+<p class="normal-table">0.2mm</p>
+</td>
+<td colspan="1" rowspan="1" width="91pt" class="whs10">
+<p class="normal-table">0.4mm</p>
+</td>
+</tr>
+<tr class="whs5">
+<td colspan="1" rowspan="1" valign="top" width="282.3pt" class="whs11">
+<p class="normal-table">Metris MCA</p>
+</td>
+<td colspan="1" rowspan="1" width="91pt" class="whs12">
+<p class="normal-table">0.1mm</p>
+</td>
+<td colspan="1" rowspan="1" width="91pt" class="whs10">
+<p class="normal-table">0.2mm</p>
+</td>
+</tr>
+</table>
+<p class="sub-head">Data Capture</p>
+<p class="parameterstitle">Number of planes</p>
+<p class="parameterdescription">Indicates how many planes will be used during alignment procedure. For Cube alignment the default value is 5.</p>
+<p class="parameterstitle">Number of stripes</p>
+<p class="parameterdescription">Indicates how many stripes to be captured on each plane. Increasing the number of stripes results in a better alignment, but the procedure becomes much slower. The optimal, and respectively the default, number is 9.</p>
+<p class="parameterstitle">Number of points</p>
+<p class="parameterdescription">Indicates how many probe points to be captured on each plane. Increasing the number of the robe points results in a better alignment, but the procedure becomes much slower. The optimal and respectively the default number is 9.</p>
+<p class="parameterstitle">Use every</p>
+<p class="parameterdescription">Linear sampling applied to the captured stripes. For more details see <a href="../../References/Linear_1D_Sampling.htm" target="_self">Linear Sampling Command</a>.</p>
+<p class="Note" id="p2"><span style="font-weight:bold;"><b>Note</b></span>: Using less than five planes and nine points and stripes will result in a poor alignment and the system will then not perform to specification.</p>
+<p class="sub-head">Maximum allowed plane RMS sub-group</p>
+<p>The settings in this group restrict the plane fit RMS when capturing probes and stripes. If the value exceeds the limit, a warning will sound. Reject the capture by pressing 'B' button, or continue.</p>
+<p class="parameterstitle"><span style="font-weight:bold;"><b>Probe RMS</b></span></p>
+<p class="parameterdescription">Depends on the localiser accuracy. The default value is 0.015mm (set for FARO Gold arm).</p>
+<p class="parameterstitle"><span style="font-weight:bold;"><b>Stripe RMS</b></span></p>
+<p class="parameterdescription">Value depends on which sensor type is used.</p>
+<p class="parameterdescription">&#160;</p>
+<p class="sub-head">Sensor sub-group</p>
+<p class="parameterstitle"><b><span style="font-weight:bold;"><b>Ambient threshold</b></span></b></p>
+<p class="parameterdescription">Box contains the ambient threshold setting of the current material item option. Sets the sensitivity of the sensor to surrounding light. Default value is 96.</p>
+<p class="parameterstitle"><b><span style="font-weight:bold;"><b>Laser power</b></span></b></p>
+<p class="parameterdescription" style="font-weight:normal;"><b><span style="font-weight:normal;">Sets the laser power during alignment procedure. Default value is 1 for white alignment block and for MMW, MMX/Y and MMZ sensors.</span></b> <b><span style="font-weight:normal;">Default value is 4</span></b> <b><span style="font-weight:normal;">for white alignment block and for MMD/C sensors.</span></b></p>
+<p class="parameterstitle"><b><span style="font-weight:bold;"><b>Restrict roll angle</b></span></b></p>
+<p class="parameterdescription"><b><span style="font-weight:normal;">C</span></b>heck box is to determine the angle between the sensor and the plane normal. With this box checked, the sensor needs to be kept between 15 and 60 degrees to the surface. Enabled by default.</p>
+<p class="parameterdescription">&#160;</p>
+<p class="sub-head">Button Operation</p>
+<p>Use the radio buttons to choose the functions of the 'A' and 'B' buttons.</p>
+<p class="Note"><span style="font-weight:bold;"><b>Note</b></span>: For the KScan systems the functionality of 'A' and 'B' buttons is pre-defined and the buttons can not have any different assignment. For these systems the first option is disabled.</p>
+<p>&#160;</p>
+<p class="sub-head">Capturing Order</p>
+<p class="parameterstitle">First plane, first stripe-&gt;Last plane, last stripe</p>
+<p class="parameterdescription">This is the default order for capture, i.e. for each selected plane from the alignment block capture with the probe and then capture the stripes. For example, if 5 planes should be used and 9 points and 9 stripes should be captured for each plane, then the procedure is as follows:</p>
+<p class="bullet" style="margin-left:40px;">plane 1: capture 9 points<br>
+plane 1: capture 9 stripes</p>
+<p class="bullet" style="margin-left:40px;"><span style="margin-left:40px;">p</span>lane 2: capture 9 points<span style="margin-left:40px;"><br>
+plane 2: capture 9 stripes</span></p>
+<p class="bullet" style="margin-left:40px;">plane 3: capture 9 points<span style="margin-left:40px;"><br>
+plane 3: capture 9 stripes</span></p>
+<p class="bullet" style="margin-left:40px;">plane 4: capture 9 points<br>
+plane 4: capture 9 stripes</p>
+<p class="bullet" style="margin-left:40px;">plane 5: capture 9 points<br>
+plane 5: capture 9 stripes</p>
+<p class="bullet" style="margin-left:40px;">Use this option with FARO and CimCore localisers.</p>
+<p class="parameterstitle"><span style="font-weight:bold;"><b>First plane, last plane-&gt;First stripe, last stripe</b></span></p>
+<p class="parameterdescription">All selected planes from the alignment block are captured with the probe first and then the stripes are captured. For example, if 5 planes should be used and 9 points and 9 stripes should be captured for each plane, then the procedure is as follows:</p>
+<p class="bullet" style="margin-left:40px;">plane 1: capture 9 points<br>
+plane 2: capture 9 points<br>
+plane 3: capture 9 points<br>
+plane 4: capture 9 points<span style="margin-left:40px;"><br>
+plane 5: capture 9 points</span></p>
+<p class="bullet" style="margin-left:40px;">plane 1: capture 9 stripes<br>
+plane 2: capture 9 stripes<br>
+plane 3: capture 9 stripes<br>
+plane 4: capture 9 stripes<br>
+plane 5: capture 9 stripes</p>
+<p class="bullet" style="margin-left:40px;">Use this option with K-Scan localisers because the points are taken with the Space Probe and the stripes are taken with the sensor attached to the K-Scan probe.</p>
+<p class="bullet" style="margin-left:40px;">&#160;</p>
+<p class="sub-head">Certified Distances</p>
+<p class="parameterstitle"><span style="font-weight:bold;"><b>Known plane to plane distance</b></span></p>
+<p class="parameterdescription">Choose the appropriate button, depending on the number of used planes and respectively the known distance between them. Default value is 2.</p>
+<p>For certified system performance the <b style="font-weight:normal;">certified distances</b> must be used. Enter the distances marked on your alignment block into the relevant dialogue boxes.</p>
+<p class="Note" id="P3"><font id="font3"><span lang="EN-GB" style="font-weight:bold;"><b>Note</b></span><span lang="EN-GB">:</span> For successful alignment, these values must be correct. Please take care when entering the values<span lang="EN-US">&#160;</span></font></p>
+<p class="parameterstitle"><span style="font-weight:bold;"><b>Certified settings</b></span></p>
+<p class="parameterdescription">Should be used. Set by default.</p>
+<p>When the correct settings are filled in the alignment window, follow the wizard as explained in the <a href="Alignment_Procedure.htm">System Setup Section</a>.</p>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B0209000000416C69676E6D656E740D0209000000416C69676E6D656E7411020D00000053797374656D205365742D5570120209000000416C69676E6D656E741302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

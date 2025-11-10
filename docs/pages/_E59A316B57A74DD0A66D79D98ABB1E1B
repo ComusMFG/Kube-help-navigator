@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Hardware Settings - Postprocessing Tab</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+img_whs4 { border:none; width:551px; height:485px; float:none; border-style:none; }
+img_whs5 { width:23px; height:16px; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../../../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Hardware Settings - Postprocessing Tab</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p class="description"><span style="font-weight:bold;"><b>Description:</b></span><span lang="EN-GB" style="font-weight:bold;"><b>Postprocessing</b></span> <span lang="EN-GB">tab displays the settings concerning the postprocessing operations.</span></p>
+<p><span lang="EN-GB"><img src="../hw_postprocessing.gif" width="551px" height="485px" border="0" class="img_whs4" alt=""></span></p>
+<p><span lang="EN-GB">The tab is divided in four sections and a checkbox for 'Certified settings':</span></p>
+<p class="sub-head">Profiles: <a href="Profiles_in_HW_settings_(MMD).htm"><img src="../../../../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs5" alt=""></a></p>
+<p class="parameterdescription">&#160;</p>
+<p class="sub-head"><span style="text-decoration:none;">R</span>emove reverse scans</p>
+<p>ModelMaker data quality is often better when scan data is gathered in one direction only. This function is disabled by default.</p>
+<p><span style="font-weight:bold;"><b>Use</b></span> this function to automatically prevent data being captured in the Reverse direction.</p>
+<p>&#160;</p>
+<p class="sub-head">Filter by angle</p>
+<p>Removes data where the angle between the sensor and object in the scanning direction is greater than the value 'Maximum angle'. The function is enabled by default with a value of 60 degrees.</p>
+<p class="Note" id="p2"><span style="font-weight:bold;"><b>Note</b></span>: This function works best when 2D sampling is also enabled.</p>
+<p id="p2">&#160;</p>
+<p class="sub-head"><span style="text-decoration:none;">Area (2D) sampling</span></p>
+<p class="parameterstitle">'Enable' checkbox</p>
+<p class="parameterdescription">Allows area sampling to be switched on/off during scanning. If this checkbox is enabled (default option) parameters for time and distance should be adjusted:</p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>&#160;'After scan'</b></span> applies 2D sampling to all patches at once when '<span class="Mode">Scan'</span> mode is exited.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>&#160;'During pause'</b></span> applies 2D sampling to the patch when in '<span class="Mode">Pause'</span> mode. This option is enabled by default.</p>
+</li>
+</ul>
+<p id="p1" class="Note"><span style="font-weight:bold;"><b>Note</b></span>: If 'Remove reverse scans' is enabled, one single patch will be created after sampling.</p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>'From sensor'</b></span> applies 2D sampling with the default distances for the current sensor. <span style="margin-left:40px;">This option is enabled by default.</span></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>'Custom'</b></span> <span lang="EN-GB">specifies the spacing between points in U and V directions on the plane fitted for every patch</span></p>
+</li>
+</ul>
+<p>&#160;</p>
+<p class="sub-head">Certified Settings checkbox:</p>
+<p>When this option is enabled all settings in the tab are set to their default values. For the best results, it is &#160;recommended to use 'Certified settings'.</p>
+<p>When all changes are made, confirm with '<span class="Button">Apply'</span> button.</p>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B022600000048617264776172652053657474696E6773202D20506F737470726F63657373696E67205461620C027C00000032442073616D706C696E670A4170706C790A4365727469666965642073657474696E67730A4372656174650A446973706C61790A48617264776172650A4D6F64656C4D616B65720A506C616E650A506F737470726F63657373696E670A526576657273650A5363616E0A5363616E204D6F64650A53657474696E67730D022600000048617264776172652053657474696E6773202D20506F737470726F63657373696E67205461621102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

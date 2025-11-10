@@ -1,0 +1,290 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Menu Transformations</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { float:aligncenter; height:5px; }
+table.whs4 { border-spacing:0px; margin-left:24px; left:0px; top:102px; width:795px; }
+tr.whs5 { height:220px; }
+td.whs6 { padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+img_whs7 { border:none; width:194px; height:232px; float:none; border-style:none; }
+td.whs8 { padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+tr.whs9 { height:126px; }
+td.whs10 { padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+table.whs11 { border-spacing:0px; margin-left:24px; left:0px; top:418px; width:795px; }
+col.whs12 { width:19.958%; }
+col.whs13 { width:71.363%; }
+col.whs14 { width:8.513%; }
+tr.whs15 {  }
+td.whs16 { padding-right:10px; padding-left:10px; background-color:#eae8d6; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; }
+td.whs17 { padding-right:10px; padding-left:10px; background-color:#eae8d6; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; }
+td.whs18 { width:8.513%; padding-right:10px; padding-left:10px; background-color:#eae8d6; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs19 { padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs20 { width:8.513%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs21 { border:none; width:23px; height:16px; border-style:none; }
+td.whs22 { width:8.513%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+table.whs23 { border-spacing:0px; margin-left:24px; left:0px; top:955px; width:794px; }
+col.whs24 { width:20.045%; }
+col.whs25 { width:71.265%; }
+td.whs26 { padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+td.whs27 { padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+img_whs28 { border:none; width:23px; height:16px; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body lang="BG">
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nUser Interface\nMenus\nTransformations Menu");
+addTocInfo("KUBE\nWorking with Data\nCo-ordinate Systems\nCreate Transformations");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1><span lang="EN-US">Menu Transformations</span></h1>
+<hr align="center" size="5" class="whs3">
+<p><span lang="EN-US">The menu Transformations is divided in 2 sections:</span></p>
+<table width="795" cellspacing="0" class="whs4">
+<col>
+<col>
+<tr valign="top" class="whs5">
+<td rowspan="2" colspan="1" class="whs6">
+<p class="normal-table"><img src="Transformations_files/image001.gif" width="194px" height="232px" border="0" class="img_whs7" alt=""></p>
+</td>
+<td rowspan="1" colspan="1" class="whs8">
+<p class="normal-table"><span lang="EN-US">1. <a href="#Create%20Transformation%20Section">Create Transformation section</a> with a menu group for choosing different methods of transformation creation</span></p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td class="whs10">
+<p class="normal-table"><span lang="EN-US">2. <a href="#Use_and_History_section">History section</a></span></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<p class="sub-head"><a name="Create Transformation Section"></a>Create <span lang="EN-US">Transformation section</span></p>
+<table width="795" cellspacing="0" class="whs11">
+<col class="whs12">
+<col class="whs13">
+<col class="whs14">
+<tr valign="top" class="whs15">
+<td bgcolor="#EAE8D6" width="19.958%" class="whs16">
+<p class="caption"><b style="font-weight:bold;"><span lang="EN-US">Command</span></b></p>
+</td>
+<td bgcolor="#EAE8D6" width="71.363%" class="whs17">
+<p class="caption"><b style="font-weight:bold;"><span lang="EN-US">Description</span></b></p>
+</td>
+<td bgcolor="#EAE8D6" width="8.513%" class="whs18">
+<p class="caption"><b style="font-weight:bold;"><span lang="EN-US">Details</span></b></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="19.958%" class="whs19">
+<p class="normal-table-func">Interactive</p>
+</td>
+<td colspan="1" rowspan="1" width="71.363%" class="whs10">
+<p class="normal-table">Enters the transformation mode for interactive matrix creation using 3-2-1 method.</p>
+</td>
+<td colspan="1" rowspan="1" valign="middle" width="8.513%" class="whs20">
+<p class="normal-table"><a href="../References/Interactive_Transformation.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs21" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="19.958%" class="whs19">
+<p class="normal-table-func">3-2-1</p>
+</td>
+<td colspan="1" rowspan="1" width="71.363%" class="whs10">
+<p class="normal-table">Creates 3-2-1 transformation by non-interactive way.</p>
+</td>
+<td colspan="1" rowspan="1" width="8.513%" class="whs22">
+<p class="normal-table"><a href="../References/create_3-2-1_transformation.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs21" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td width="19.958%" class="whs19">
+<p class="normal-table-func"><span class="Command">From 3 Entities</span></p>
+</td>
+<td width="71.363%" class="whs10">
+<p class="normal-table"><span lang="EN-US">Enters the transformation mode for interactive matrix creation using 3 entities</span></p>
+</td>
+<td width="8.513%" class="whs22">
+<p class="normal-table"><a href="../References/create_from_3_entities.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs21" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="19.958%" class="whs19">
+<p class="normal-table-func">From N Points</p>
+</td>
+<td colspan="1" rowspan="1" width="71.363%" class="whs10">
+<p class="normal-table">Creates N Points transformation by non-interactive way.</p>
+</td>
+<td colspan="1" rowspan="1" width="8.513%" class="whs22">
+<p class="normal-table"><a href="../References/from_n_points.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs21" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td width="19.958%" class="whs19">
+<p class="normal-table-func"><span class="Command">From N Constrained Points</span></p>
+</td>
+<td width="71.363%" class="whs10">
+<p class="normal-table"><span lang="EN-US">Enters the transformation mode for interactive matrix creation using N entities</span></p>
+</td>
+<td width="8.513%" class="whs22">
+<p class="normal-table"><a href="../References/from_n_constrained_points.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs21" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="19.958%" class="whs19">
+<p class="normal-table-func">From Viewport</p>
+</td>
+<td colspan="1" rowspan="1" width="71.363%" class="whs10">
+<p class="normal-table">Creates a transformation from the current viewport position</p>
+</td>
+<td colspan="1" rowspan="1" width="8.513%" class="whs22">
+<p class="normal-table"><a href="../References/create_from_viewport.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs21" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="19.958%" class="whs19">
+<p class="normal-table-func">From Single Plane</p>
+</td>
+<td colspan="1" rowspan="1" width="71.363%" class="whs10">
+<p class="normal-table">Creates transformation matrix using a single plane.</p>
+</td>
+<td colspan="1" rowspan="1" width="8.513%" class="whs22">
+<p class="normal-table"><a href="../References/create_from_single_plane.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs21" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td width="19.958%" class="whs19">
+<p class="normal-table-func"><span class="Command">Type in Transformation</span></p>
+</td>
+<td width="71.363%" class="whs10">
+<p class="normal-table"><span lang="EN-US">For crating a transformation &#160;by entering its parameters (rotate/translate values or matrix).</span></p>
+</td>
+<td width="8.513%" class="whs22">
+<p class="normal-table"><a href="../References/Type_In_Transformation.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs21" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="19.958%" class="whs19">
+<p class="normal-table-func">Import</p>
+</td>
+<td colspan="1" rowspan="1" width="71.363%" class="whs10">
+<p class="normal-table">To import transformation matrices created in third party software.</p>
+</td>
+<td colspan="1" rowspan="1" width="8.513%" class="whs22">
+<p class="normal-table"><a href="../References/import_transformation.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs21" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<p class="sub-head"><a name="Use_and_History_section"></a>History section</p>
+<table width="794" cellspacing="0" class="whs23">
+<col class="whs24">
+<col class="whs25">
+<col class="whs14">
+<tr valign="top" class="whs15">
+<td bgcolor="#EAE8D6" width="20.045%" class="whs16">
+<p class="caption"><b style="font-weight:bold;"><span lang="EN-US">Command</span></b></p>
+</td>
+<td bgcolor="#EAE8D6" width="71.265%" class="whs17">
+<p class="caption"><b style="font-weight:bold;"><span lang="EN-US">Description</span></b></p>
+</td>
+<td bgcolor="#EAE8D6" width="8.513%" class="whs18">
+<p class="caption"><b style="font-weight:bold;"><span lang="EN-US">Details</span></b></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td width="20.045%" class="whs26">
+<p class="normal-table-func"><span class="Command">History</span></p>
+</td>
+<td width="71.265%" class="whs27">
+<p class="normal-table"><span lang="EN-US">For managing hidden transformations.</span></p>
+</td>
+<td width="8.513%" class="whs22">
+<p class="normal-table"><a href="../References/History.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs28" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B02140000004D656E75205472616E73666F726D6174696F6E730C020F0000005472616E73666F726D6174696F6E730D02140000004D656E75205472616E73666F726D6174696F6E731102050000004D656E75731202140000005472616E73666F726D6174696F6E73204D656E751302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

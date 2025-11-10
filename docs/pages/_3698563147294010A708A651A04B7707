@@ -1,0 +1,178 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Capture 2D Line</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+ul.whs4 { list-style:circle; }
+img_whs5 { border:none; width:766px; height:150px; float:none; border-style:none; }
+img_whs6 { border:none; width:430px; height:314px; float:none; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nScanning\nDatum Capture\nCapture 2D Line");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Capture 2D Line</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p class="description"><span class="Command" style="font-weight:bold;"><b>Description:</b></span> <span class="Command">Capture 2D Line</span> <span lang="EN-GB">allows a compensated datum line to be captured using the localiser probe. It is used to get edges on the object. Another application of this command is to build datum alignments from point, line, and plane. This command is accessible from the</span> <span lang="EN-GB" class="Path" style="font-style:normal;">Localiser</span> <span class="Path" style="font-style:normal;">Menu</span> <span class="Path">Datum &gt; 2D Line</span><span lang="EN-GB">.</span></p>
+<p><span lang="EN-GB">You will need a plane where the line will be projected. KUBE offers two options:</span></p>
+<ul type="circle" class="whs4">
+<li class="kadov-p-Cbullet-circle">
+<p class="bullet-circle">to capture a plane.</p>
+</li>
+<li class="kadov-p-Cbullet-circle">
+<p class="bullet-circle">to use an existing plane or plane reducible entity. If there are existing planes, circles, cylinders, cones, or slots the following dialogue will appear when <span style="font-weight:bold;"><b>Datum 2D Line</b></span> is selected from the localiser menu:</p>
+</li>
+</ul>
+<p><img src="../Capture_files/select_plane.gif" width="766px" height="150px" border="0" class="img_whs5" alt=""></p>
+<p>If the ‘Capture 3 or more points to define a plane’ option is selected, the <u><a href="Capture_Plane.htm" style="font-weight:normal;">Capture Plane</a></u> <span class="Path" lang="EN-GB">procedure will start. If one of the existing planes from the list is selected, it will be used for the base of the line. If there are no existing planes, this dialogue is omitted and the procedure will start immediately to capture a plane.</span></p>
+<p class="Note" id="p1"><span style="font-weight:bold;"><b>Note:</b></span> If Always capture method is used then no dialog for selecting existing plane reducible entities appears but Capture Plane procedure will automatically start. See <a href="../../References/Preferences_-_Datums_-_Capture_Method.htm" style="font-weight:normal;">System &gt; Preferences &gt; Datums &gt; Capture Method (Base Plane Definition)</a> for details.</p>
+<h2>Capture 2D Line Wizard</h2>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet">When the base plane is captured or selected, capture the points that define the line:</p>
+</li>
+</ul>
+<p><img src="../Capture_files/capture_2D_line0.gif" width="766px" height="150px" border="0" class="img_whs5" alt=""></p>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Press '<span class="Button">B'</span> button at least two times to collect the necessary points. Hold 'B' button to delete the last captured point if necessary. Press '<span class="Button">A'</span>button to finish.</p>
+</li>
+</ul>
+<p class="Warning">A line cannot be created if you captured less than two points. In this case a warning message will appear.</p>
+<p>Captured points are projected on the base plane. If more than two points are captured, KUBE will fit a line from the set of the projected points, otherwise the two projected points will be used to construct the line. Then the line is offset on the base plane depending on the orientation of the probe during capture.</p>
+<p class="bullet"><img src="../Capture_files/2d_line.gif" width="430px" height="314px" border="0" class="img_whs6" alt=""></p>
+<p>The following information about the resulting 2D line will be displayed:</p>
+<ul type="circle" class="whs4">
+<li class="kadov-p-Cbullet-circle">
+<p class="bullet-circle">normal of the line.</p>
+</li>
+<li class="kadov-p-Cbullet-circle">
+<p class="bullet-circle">RMS of the fitting (RMS will be zero if you captured two points only).</p>
+</li>
+</ul>
+<p class="Example" style="font-weight:normal; text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Example</a></p>
+<div class="droptext" id="POPUP239107207" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="../Capture_files/capture_line.gif" width="766px" height="150px" border="0" class="img_whs5" alt=""></p>
+</div>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Press '<span class="Button">A'</span>button to reject the resulting 2D line or '<span class="Button">B'</span>button to create it</p>
+</li>
+</ul>
+<p>After finishing the capture procedure, KUBE will issue a dialog, asking you if you will continue capturing 2D lines.</p>
+<p class="Example" style="font-weight:normal; text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2" style="text-decoration:underline;">Example</a></p>
+<div class="droptext" id="POPUP259536863" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="../Capture_files/continue.gif" width="766px" height="150px" border="0" class="img_whs5" alt=""></p>
+</div>
+<ul>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Press '<span class="Button">A'</span> button to exit the capture mode or '<span class="Button">B'</span>button to continue capturing.</p>
+</li>
+</ul>
+<p class="Normal"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Capture 2D Point','capture_surface_point.htm','Capture Circle','capture_circle.htm','Capture Cone','capture_cone.htm','Capture Cylinder','capture_cylinder.htm','Capture Line','capture_line.htm','Capture Plane','Capture_Plane.htm','Capture Point','capture_point.htm','Capture Rectangular Slot','capture_rectangular_slot.htm','Capture Round Slot','capture_round_slot.htm','Capture Sphere','capture_sphere.htm');return false;" title=""><img src="../../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></p>
+<p>&#160;</p>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a1','POPUP239107207');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a2','POPUP259536863');
+//-->
+</script><script type="text/javascript" language="JavaScript">
+<!--
+if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
+  WritePopupMenuLayer();
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B020F00000043617074757265203244204C696E650C02010100003244204C696E650A416C69676E6D656E740A436170747572650A43617074757265204D6574686F640A4361707475726520506C616E650A4361707475726520506F696E740A436972636C650A436F6E650A4372656174650A43796C696E6465720A446174756D204C696E650A446174756D696E670A446566696E650A44656C6574650A446973706C61790A456E7469746965730A457869740A4C696E650A6C6F63616C697365720A6C6F63616C69736572096C6F63616C69736572206D656E750A6C6F63616C69736572094C6F63616C69736572204D656E7520446174756D0A4D656E7520446174756D0A506C616E650A50726F62650A524D530A53656C6563740D020F00000043617074757265203244204C696E6511020D000000446174756D204361707475726512020F00000043617074757265203244204C696E651302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

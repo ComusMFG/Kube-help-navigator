@@ -1,0 +1,669 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Select Menu</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; height:5px; }
+table.whs4 { border-spacing:0px; }
+col.whs5 { width:218px; }
+col.whs6 { width:479px; }
+tr.whs7 {  }
+td.whs8 { width:218px; padding-right:10px; padding-left:10px; border-left-style:None; border-top-style:None; border-bottom-style:None; border-right-style:None; }
+img_whs9 { border:none; float:none; width:217px; height:256px; border-style:none; }
+td.whs10 { width:479px; padding-right:10px; padding-left:0px; border-top-style:None; border-right-style:None; border-bottom-style:None; }
+table.whs11 { width:100%; border-spacing:0px; }
+col.whs12 { width:100%; }
+tr.whs13 { height:77px; }
+td.whs14 { width:100%; padding-right:10px; padding-left:10px; }
+tr.whs15 { height:47px; }
+td.whs16 { width:100%; padding-right:10px; padding-left:10px; border-left-style:None; border-right-style:None; border-bottom-style:None; }
+tr.whs17 { height:30px; }
+tr.whs18 { height:20px; }
+p.whs19 { margin-top:0pt; margin-bottom:0pt; }
+tr.whs20 { height:19px; }
+tr.whs21 { height:18px; }
+tr.whs22 { height:38px; }
+td.whs23 { width:100%; padding-right:10px; padding-left:10px; border-left-style:None; border-bottom-style:None; border-right-style:None; }
+table.whs24 { margin-left:24px; left:0px; top:529px; width:810px; border-spacing:0px; }
+col.whs25 { width:18.328%; }
+col.whs26 { width:72.297%; }
+col.whs27 { width:9.375%; }
+td.whs28 { width:18.328%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs29 { width:72.297%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs30 { width:9.375%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+td.whs31 { width:18.328%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs32 { width:72.297%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs33 { width:9.375%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs34 { border:none; float:none; width:23px; height:16px; border-style:none; }
+td.whs35 { width:18.328%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+td.whs36 { width:72.297%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+table.whs37 { margin-left:24px; left:0px; top:695px; width:810px; border-spacing:0px; }
+table.whs38 { margin-left:24px; left:0px; top:869px; width:812px; border-spacing:0px; }
+col.whs39 { width:18.191%; }
+col.whs40 { width:72.434%; }
+td.whs41 { width:18.191%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs42 { width:72.434%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs43 { width:100%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+img_whs44 { border:none; width:282px; height:110px; float:none; border-style:none; }
+td.whs45 { width:18.191%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs46 { width:72.434%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs47 { width:18.191%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+td.whs48 { width:72.434%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+table.whs49 { margin-left:24px; left:0px; top:1968px; width:813px; border-spacing:0px; }
+col.whs50 { width:18.184%; }
+col.whs51 { width:72.441%; }
+tr.whs52 { height:51px; }
+td.whs53 { width:18.184%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs54 { width:72.441%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+tr.whs55 { height:45px; }
+td.whs56 { width:18.184%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs57 { width:72.441%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+tr.whs58 { height:61px; }
+td.whs59 { width:18.184%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+td.whs60 { width:72.441%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+tr.whs61 { height:36px; }
+table.whs62 { margin-left:24px; left:0px; top:2442px; width:811px; border-spacing:0px; }
+col.whs63 { width:18.454%; }
+col.whs64 { width:72.172%; }
+td.whs65 { width:18.454%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs66 { width:72.172%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs67 { width:18.454%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs68 { width:72.172%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs69 { width:18.454%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+td.whs70 { width:72.172%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+table.whs71 { margin-left:24px; left:0px; top:2669px; width:811px; border-spacing:0px; }
+col.whs72 { width:18.444%; }
+col.whs73 { width:72.181%; }
+td.whs74 { width:18.444%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs75 { width:72.181%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs76 { width:18.444%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs77 { width:72.181%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+table.whs78 { margin-left:24px; left:0px; top:2806px; width:811px; border-spacing:0px; }
+col.whs79 { width:18.197%; }
+col.whs80 { width:72.428%; }
+td.whs81 { width:18.197%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs82 { width:72.428%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs83 { width:18.197%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs84 { width:72.428%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs19 {margin-top:1pt;margin-bottom:1pt; }";
+  strNSS +="<\/style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" src="../ehlpdhtm.js">
+</script>
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nUser Interface\nMenus\nSelect Menu");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Select Menu</h1>
+<hr align="left" size="5" class="whs3">
+<p>These tools are used for selecting and removing data. <span style="text-align:justify;">The functions below work for the following entities:</span></p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Scan data and meshes - Thin triangles.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Scan data only - Triangles based on edge length, Triangles based on order, By point normal, Reverse scans.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Meshes only - By curvature.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">All types of entities - By type, Box, All, None.</p>
+</li>
+</ul>
+<table cellspacing="0" class="whs4">
+<col class="whs5">
+<col class="whs6">
+<tr valign="top" class="whs7">
+<td width="218px" class="whs8">
+<p><img src="Visualisation_menu_files/Select_Menu.gif" width="217px" height="256px" border="0" class="img_whs9" alt=""></p>
+</td>
+<td width="479px" class="whs10">
+<table cellspacing="0" width="100%" class="whs11">
+<col class="whs12">
+<tr valign="top" class="whs13">
+<td valign="middle" width="100%" class="whs14">
+<p><a href="#All_None">All/None Selection</a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td width="100%" class="whs16">
+<p><a href="#modification">Selection modification</a></p>
+</td>
+</tr>
+<tr valign="top" class="whs17">
+<td valign="middle" width="100%" class="whs14">
+<p><a href="#region">Region Selection</a></p>
+</td>
+</tr>
+<tr valign="top" class="whs18">
+<td width="100%" class="whs16">
+<p class="whs19"><a href="#scan_data">Select in Scan data</a></p>
+</td>
+</tr>
+<tr valign="top" class="whs20">
+<td width="100%" class="whs16">
+<p class="whs19"><a href="#mesh">Select in Mesh</a></p>
+</td>
+</tr>
+<tr valign="top" class="whs21">
+<td width="100%" class="whs16">
+<p class="whs19"><a href="#polylines">Select in Polylines</a></p>
+</td>
+</tr>
+<tr valign="top" class="whs22">
+<td width="100%" class="whs23">
+<p><a href="#entities">Select Entities</a></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p class="sub-head"><a name="All_None"></a>All/None Selection</p>
+<table cellspacing="0" width="810" class="whs24">
+<col class="whs25">
+<col class="whs26">
+<col class="whs27">
+<tr valign="top" class="whs7">
+<td bgcolor="#EAE8D6" width="18.328%" class="whs28">
+<p class="caption">Command</p>
+</td>
+<td bgcolor="#EAE8D6" width="72.297%" class="whs29">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="9.375%" class="whs30">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="18.328%" class="whs31">
+<p class="normal-table-func"><span class="Command">Select All</span></p>
+</td>
+<td width="72.297%" class="whs32">
+<p class="normal-table">Selects all visible entities.</p>
+</td>
+<td width="9.375%" class="whs33">
+<p class="normal-table"><a href="../References/Select_All.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="18.328%" class="whs35">
+<p class="normal-table-func"><span class="Command">Select None</span></p>
+</td>
+<td width="72.297%" class="whs36">
+<p class="normal-table">Unselects all visible entities.</p>
+</td>
+<td width="9.375%" class="whs33">
+<p class="normal-table"><a href="../References/Select_None.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p class="bullet">&#160;</p>
+<p class="sub-head"><a name="modification"></a>Selection Modification</p>
+<table cellspacing="0" width="810" class="whs37">
+<col class="whs25">
+<col class="whs26">
+<col class="whs27">
+<tr valign="top" class="whs7">
+<td bgcolor="#EAE8D6" width="18.328%" class="whs28">
+<p class="caption">Command</p>
+</td>
+<td bgcolor="#EAE8D6" width="72.297%" class="whs29">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="9.375%" class="whs30">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="18.328%" class="whs31">
+<p class="normal-table-func"><span class="Command">Invert Selection</span></p>
+</td>
+<td width="72.297%" class="whs32">
+<p class="normal-table"><span lang="EN-GB">selects all visible unselected entities (or parts of them) and deselects all visible selected entities (or parts of them).</span></p>
+</td>
+<td width="9.375%" class="whs33">
+<p class="normal-table"><a href="../References/Invert_Selection.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="18.328%" class="whs35">
+<p class="normal-table-func"><span class="Command">Front Facing Mode</span></p>
+</td>
+<td width="72.297%" class="whs36">
+<p class="normal-table"><span lang="EN-GB">all shape selections will select only the scan data and mesh triangles, which normals face front towards the</span> <span lang="EN-GB"><a href="Viewport.htm">viewport</a>.</span></p>
+</td>
+<td width="9.375%" class="whs33">
+<p class="normal-table"><a href="../References/front_selection.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p class="sub-head"><a name="region"></a>Region Selection</p>
+<table cellspacing="0" width="812" class="whs38">
+<col class="whs39">
+<col class="whs40">
+<col class="whs27">
+<tr valign="top" class="whs7">
+<td bgcolor="#EAE8D6" width="18.191%" class="whs41">
+<p class="caption">Command</p>
+</td>
+<td bgcolor="#EAE8D6" width="72.434%" class="whs42">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="9.375%" class="whs30">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="3" rowspan="1" width="100%" class="whs43">
+<p><span class="Command"><img src="Visualisation_menu_files/Select_Menu_expanded.gif" width="282px" height="110px" border="0" class="img_whs44" alt=""></span></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="18.191%" class="whs45">
+<p class="normal-table-func"><span class="Command">Polygon</span></p>
+</td>
+<td width="72.434%" class="whs46">
+<p class="normal-table">The selection will consist of all visible points and whole visible entities that are inside a polygon.</p>
+<p class="normal-table">In this mode:</p>
+<ul>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">Hold down the <span class="Shortcut">Ctrl</span> key while drawing with the mouse to add Polygonal selection to the existing one.</p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">Hold down the <span class="Shortcut">Alt</span> key while drawing with the mouse to exclude Polygonal selection from the existing one.</p>
+</li>
+</ul>
+</td>
+<td width="9.375%" class="whs33">
+<p class="normal-table"><a href="../References/Polygonal_Selection.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="18.191%" class="whs47">
+<p class="normal-table-func"><span class="Command">Freehand</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.434%" class="whs48">
+<p class="normal-table">Use the mouse to draw a free-form shape. The selection will consist of all visible points and whole visible entities that are inside.</p>
+<p class="normal-table">In this mode:</p>
+<ul>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">Hold down the <span class="Shortcut">Ctrl</span> key while drawing with the mouse to add Freehand selection to the existing one.</p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">Hold down the <span class="Shortcut">Alt</span> key while drawing with the mouse to exclude Freehand selection from the existing one.</p>
+</li>
+</ul>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs33">
+<p class="normal-table"><a href="../References/freehand_(lasso)_selection.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="18.191%" class="whs47">
+<p class="normal-table-func"><span class="Command">Rectangle</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.434%" class="whs48">
+<p class="normal-table">Use the mouse to draw a rectangle. The selection will consist of all visible points and whole visible entities that are inside.</p>
+<p class="normal-table">In this mode:</p>
+<ul>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">Hold down the <span class="Shortcut">Ctrl</span> key while drawing with the mouse to add Rectangular selection to the existing one.</p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">Hold down the <span class="Shortcut">Alt</span> key while drawing with the mouse to exclude Rectangular selection from the existing one.</p>
+</li>
+</ul>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs33">
+<p class="normal-table"><a href="../References/Rectangular_Selection.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="18.191%" class="whs47">
+<p class="normal-table-func"><span class="Command">Ellipse</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.434%" class="whs48">
+<p class="normal-table">Use the mouse to draw an ellipse. The selection will consist of all visible points and whole visible entities that are inside.</p>
+<p class="normal-table">In this mode:</p>
+<ul>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">Hold down the <span class="Shortcut">Ctrl</span> key while drawing with the mouse to add Elliptic selection to the existing one.</p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">Hold down the <span class="Shortcut">Alt</span> key while drawing with the mouse to exclude Elliptic selection from the existing one.</p>
+</li>
+</ul>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs33">
+<p class="normal-table"><a href="../References/elliptic_selection.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="18.191%" class="whs47">
+<p class="normal-table-func"><span class="Command">Pick Entity</span></p>
+</td>
+<td width="72.434%" class="whs48">
+<p class="normal-table">Click on a single entity in the viewport to select it.</p>
+<p class="normal-table">In this mode:</p>
+<ul>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">Hold down the <span class="Shortcut">Ctrl</span> key while drawing with the mouse to add Pick selection to the existing one.</p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">Hold down the <span class="Shortcut">Alt</span> key while drawing with the mouse to exclude Pick selection from the existing one.</p>
+</li>
+</ul>
+<p class="Note" id="p2"><span style="font-weight:bold;"><b>Note</b></span>: When use Pick selection, all currently selected areas will be deselected.</p>
+</td>
+<td width="9.375%" class="whs33">
+<p class="normal-table"><a href="../References/Pick_Selection.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<p class="sub-head"><a name="scan_data"></a>Select in Scan Data</p>
+<table cellspacing="0" width="813" class="whs49">
+<col class="whs50">
+<col class="whs51">
+<col class="whs27">
+<tr valign="top" class="whs52">
+<td bgcolor="#EAE8D6" width="18.184%" class="whs53">
+<p class="caption">Command</p>
+</td>
+<td bgcolor="#EAE8D6" width="72.441%" class="whs54">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="9.375%" class="whs30">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs55">
+<td width="18.184%" class="whs56">
+<p class="normal-table-func"><span class="Command">Select Thin Triangles</span></p>
+</td>
+<td width="72.441%" class="whs57">
+<p class="normal-table">Selects areas containing triangles having an angle smaller than a given value. Applied to scan data and meshes only</p>
+</td>
+<td width="9.375%" class="whs33">
+<p class="normal-table"><a href="../References/Select_Thin_Triangles.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs58">
+<td colspan="1" rowspan="1" width="18.184%" class="whs59">
+<p class="normal-table-func"><span class="Command">Select Triangles Based On Edge Length</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.441%" class="whs60">
+<p class="normal-table">Selects triangles based on the length of their sides. This function allows selection of large triangles, small triangles or both.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs33">
+<p class="normal-table"><a href="../References/Select_Triangles_Based_on_Edge_Length.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="18.184%" class="whs59">
+<p class="normal-table-func"><span class="Command">Select Triangles Based On Order</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.441%" class="whs60">
+<p class="normal-table">Selects parts of a scan captured while reverse scanning.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs33">
+<p class="normal-table"><a href="../References/Select_Triangles_Based_on_Order.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="18.184%" class="whs59">
+<p class="normal-table-func"><span class="Command">Select By Point Normal</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.441%" class="whs60">
+<p class="normal-table">Selects part of a scan based on the angle at which the points were created.</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs33">
+<p class="normal-table"><a href="../References/Select_by_Point_Normal.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs61">
+<td colspan="1" rowspan="1" width="18.184%" class="whs59">
+<p class="normal-table-func"><span class="Command">Select Boundaries</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.441%" class="whs60">
+<p class="normal-table"><span lang="EN-US">Selects boundary triangles of visible scans and meshes.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs33">
+<p class="normal-table"><a href="../References/Select_Boundaries.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td width="18.184%" class="whs59">
+<p class="normal-table-func"><span class="Command">Select Reverse Scans</span></p>
+</td>
+<td width="72.441%" class="whs60">
+<p class="normal-table">Selects parts of a scan captured while scanning in reverse direction.</p>
+</td>
+<td width="9.375%" class="whs33">
+<p class="normal-table"><a href="../References/Select_Reverse_Scans.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<p class="sub-head"><a name="mesh"></a>Select in Mesh</p>
+<table cellspacing="0" width="811" class="whs62">
+<col class="whs63">
+<col class="whs64">
+<col class="whs27">
+<tr valign="top" class="whs7">
+<td bgcolor="#EAE8D6" width="18.454%" class="whs65">
+<p class="caption">Command</p>
+</td>
+<td bgcolor="#EAE8D6" width="72.172%" class="whs66">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="9.375%" class="whs30">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="18.454%" class="whs67">
+<p class="normal-table-func"><span class="Command">Select By Curvature</span></p>
+</td>
+<td width="72.172%" class="whs68">
+<p class="normal-table">Computes the curvature per point comparing it's normal and it's neighbours normal, decides whether it is a curved or a flat surface, and selects it.</p>
+</td>
+<td width="9.375%" class="whs33">
+<p class="normal-table"><a href="../References/Select_by_Curvature.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="18.454%" class="whs69">
+<p class="normal-table-func"><span class="Command">Select Thin Triangles</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.172%" class="whs70">
+<p class="normal-table">Selects areas containing triangles having an angle smaller than a given value. Applied to scan data and meshes only</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs33">
+<p class="normal-table"><a href="../References/Select_Thin_Triangles.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="18.454%" class="whs69">
+<p class="normal-table-func"><span class="Command">Select Boundaries</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.172%" class="whs70">
+<p class="normal-table"><span lang="EN-US">Selects boundary triangles of visible scans and meshes.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs33">
+<p class="normal-table"><a href="../References/Select_Boundaries.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p class="bullet">&#160;</p>
+<p class="sub-head"><a name="polylines"></a>Select in Polylines</p>
+<table cellspacing="0" width="811" class="whs71">
+<col class="whs72">
+<col class="whs73">
+<col class="whs27">
+<tr valign="top" class="whs7">
+<td bgcolor="#EAE8D6" width="18.444%" class="whs74">
+<p class="caption">Command</p>
+</td>
+<td bgcolor="#EAE8D6" width="72.181%" class="whs75">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="9.375%" class="whs30">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="18.444%" class="whs76">
+<p class="normal-table-func"><span class="Command">By Number Of Nodes</span></p>
+</td>
+<td width="72.181%" class="whs77">
+<p class="normal-table">Command for additional selection for polylines depending on the number of their vertices.</p>
+</td>
+<td width="9.375%" class="whs33">
+<p class="normal-table"><a href="../References/Select_Polylines.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p class="bullet">&#160;</p>
+<p class="sub-head"><a name="entities"></a>Select Entities</p>
+<table cellspacing="0" width="811" class="whs78">
+<col class="whs79">
+<col class="whs80">
+<col class="whs27">
+<tr valign="top" class="whs7">
+<td bgcolor="#EAE8D6" width="18.197%" class="whs81">
+<p class="caption">Command</p>
+</td>
+<td bgcolor="#EAE8D6" width="72.428%" class="whs82">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="9.375%" class="whs30">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="18.197%" class="whs83">
+<p class="normal-table-func"><span class="Command">Select Box</span></p>
+</td>
+<td colspan="1" rowspan="1" width="72.428%" class="whs84">
+<p class="normal-table">Selects these points that are located in specific box co-ordinates. Applied to compound types of entities</p>
+</td>
+<td colspan="1" rowspan="1" width="9.375%" class="whs33">
+<p class="normal-table"><a href="../References/Select_Box.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs7">
+<td width="18.197%" class="whs83">
+<p class="normal-table-func"><span class="Command">Select By Type</span></p>
+</td>
+<td width="72.428%" class="whs84">
+<p class="normal-table">Selects all visible entities from the chosen type. Applied to all types of entities</p>
+</td>
+<td width="9.375%" class="whs33">
+<p class="normal-table"><a href="../References/Select_by_Type.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p class="Normal" style="text-align:justify;"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Toolbar','Toolbar2.htm','Tree Context Menus','Tree_Context_Menus.htm');return false;" title=""><img src="../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></p>
+<script type="text/javascript" language="JavaScript">
+<!--
+if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
+  WritePopupMenuLayer();
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0C021200000053656C6563740A53656C656374204D656E750D020B00000053656C656374204D656E751102050000004D656E757312020B00000053656C656374204D656E751302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

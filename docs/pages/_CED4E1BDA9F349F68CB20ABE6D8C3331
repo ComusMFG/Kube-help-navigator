@@ -1,0 +1,2098 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>What's New</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+ul.whs4 { list-style:url('../General/arr_right.gif'); }
+table.whs5 { width:100%; border-spacing:0px; }
+col.whs6 { width:100%; }
+tr.whs7 { height:43px; }
+td.whs8 { width:100%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+tr.whs9 { height:31px; }
+td.whs10 { width:100%; padding-right:10px; padding-left:10px; border-left-style:Double; border-left-width:3px; border-left-color:#000080; border-right-style:Double; border-right-width:3px; border-right-color:#000080; border-bottom-style:Double; border-bottom-width:3px; border-bottom-color:#000080; }
+img_whs11 { border:none; width:78px; height:115px; float:none; border-style:none; }
+td.whs12 { width:100%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+tr.whs13 { height:29px; }
+tr.whs14 { height:32px; }
+tr.whs15 { height:34px; }
+tr.whs16 { height:40px; }
+table.whs17 { width:100%; border-spacing:0px; }
+tr.whs18 { height:39px; }
+tr.whs19 { height:41px; }
+tr.whs20 { height:25px; }
+tr.whs21 { height:270px; }
+tr.whs22 { height:45px; }
+tr.whs23 { height:195px; }
+img_whs24 { border:none; width:68px; height:166px; float:none; border-style:none; }
+tr.whs25 {  }
+img_whs26 { border:none; width:99px; height:123px; float:none; border-style:none; }
+img_whs27 { border:none; width:120px; height:138px; float:none; border-style:none; }
+img_whs28 { border:none; width:110px; height:81px; float:none; border-style:none; }
+img_whs29 { border:none; width:200px; height:187px; float:none; border-style:none; }
+table.whs30 { width:91.862%; border-spacing:0px; }
+td.whs31 { width:100%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; }
+td.whs32 { width:100%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs33 { width:100%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+td.whs34 { width:100%; padding-right:10px; padding-left:10px; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs35 { width:100%; padding-right:10px; padding-left:10px; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs36 { border:none; width:87px; height:112px; float:none; border-style:none; }
+img_whs37 { border:none; width:82px; height:116px; float:none; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>What's New</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<ul class="whs4">
+<li class="kadov-p">
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a20">KUBE v14</a></p>
+<div class="droptext" id="POPUP163840631" style="display:'none'; x-ss-type:dropdown;">
+<h2><a name="What_s_new_in_KUBE_v14_"></a>What's new in KUBE v14?</h2>
+<table cellspacing="0" width="100%" class="whs5">
+<col class="whs6">
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="100%" class="whs8">
+<p class="sub-head"><span style="font-weight:bold;"><b>New Features</b></span></p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td colspan="1" rowspan="1" width="100%" class="whs10">
+<p class="normal-table">Support of MMC sensors for different localisers.</p>
+<p class="normal-table"><img src="Images/MMC.png" width="78px" height="115px" border="0" class="img_whs11" alt=""></p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Annotations supported in Inspection mode.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">An option for showing/hiding points in zero range added in Inspection mode</p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Mirror functionality</p>
+</td>
+</tr>
+<tr valign="top" class="whs14">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">New macro command for running external applications</p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">New macro command for (exporting and) loading the current sab2 file in an external software</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">New option for running script at KUBE start-up.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">New macro command for defining a toolbar with 2 large buttons and custom scripts assigned to each button.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">New option for scanning with MMD at max rate and max points taken by limited Z range (25%) added to the sensor settings.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p>&#160;</p>
+</td>
+</tr>
+<tr valign="top" class="whs16">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="sub-head">Improvements</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">MCA dll communications improved, functional stability when working with KUBE+MCA 6 or 7 axes improved.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">MCA+KUBE accuracy improved</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Information in Alignment.log file re-arranged: the sections about probe and stripe optimizations are separated.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Unified wizard for datum creation while scanning with IPG ON and OFF</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Online datum creation (circle, cone, sphere and cylinder): value for detected diameter is added to the output.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Probe buttons of MetrisMCA arm are assigned to the 'B' button functionality in KUBE</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Improved DXF import - bug fixed</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Improved polylines visualisation - bugs fixed</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Improved behaviour of the function "Create Point datum by line and position"</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Units support improved</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">TPQ wizard re-factored to be more consistent and user-friendly</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">New section for adjusting parameters of the RunExternalSoftware command added to the Preferences</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Improved snapshot visualisation when using black background in Inspection mode.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">&#160;</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="sub-head">Improvements for running KUBE on a K-Scan system</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Clear definition and distinction of the state "Active measurement with the SPP/KSP"</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">In the state of active measurement, all functions of the KCMM toolbar are disabled (the measurement process can not be interrupted accidentally)</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">The endless cycle of camera restarting is avoided.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">The feedback from KCMM to KUBE is improved (it concerns the cases when the hardware configuration is changed during an active measurement state)</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Messages updated</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Increased stability of measurement and workflow KUBE+K-Scan system - several non-conformities found in the previous KUBE release are fixed</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="kadov-p">
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a19">KUBE v13FP1</a></p>
+<div class="droptext" id="POPUP161851408" style="display:'none'; x-ss-type:dropdown;">
+<h2><a name="What_s_new_in_KUBE_v13FP1_"></a>What's new in KUBE v13FP1?</h2>
+<table cellspacing="0" width="100%" class="whs17">
+<col class="whs6">
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="100%" class="whs8">
+<p class="sub-head"><span style="font-weight:bold;"><b>New Features</b></span></p>
+</td>
+</tr>
+<tr valign="top" class="whs18">
+<td colspan="1" rowspan="1" width="100%" class="whs10">
+<p class="normal-table">Support for Metris MCA localisers: Capture probe points options are available now.</p>
+</td>
+</tr>
+<tr valign="top" class="whs19">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Offline datum detection available for all supported datums, except point and line.</p>
+</td>
+</tr>
+<tr valign="top" class="whs20">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">TPQ functionality: probe calibration for MetrisMCA arm.</p>
+</td>
+</tr>
+<tr valign="top" class="whs20">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Support and visualisation of different measurement units in KUBE.</p>
+</td>
+</tr>
+<tr valign="top" class="whs21">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">New macro commands for:</p>
+<ul>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">Constrained N points Transformation</p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">321 Transformation</p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">Close file without asking to save</p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">Point Construction</p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">Point construction by Projection</p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">Start scanning</p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">Lock entity in space</p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">Start Measuring 2DPoint</p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">Unlock entity in space</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">New temporary parameters supported for macro commands.</p>
+</td>
+</tr>
+<tr valign="top" class="whs16">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="sub-head">Improvements</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Metris import libraries for UniGrafics.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Extended information saved in the alignment file when sphere qualification is performed.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Exact definition/construction for round slot by 6 points added.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Online datum detection wizard improved.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">CSV-file export updated to meet requirement for unit support.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Improvement of Remove last patch option to work with IPG option as well.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Information about captured points and memory usage updated in the status bar.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Linear sampling available for MMD sensors.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">"Convert to current units" option added to the Save As dialog.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Reset connection option added to the Localiser tab in Hardware settings</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">New advanced settings for MetrisMCA arm.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Standard views Up and Down updated.</p>
+</td>
+</tr>
+<tr valign="top" class="whs22">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">'Filter by angle' functionality changed to apply the filter in scanning direction only.</p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+</div>
+</li>
+<li class="kadov-p">
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a17">KUBE v13</a></p>
+<div class="droptext" id="POPUP161900988" style="display:'none'; x-ss-type:dropdown;">
+<h2><a name="What_s_new_in_KUBE_v13_"></a>What's new in KUBE v13?</h2>
+<table cellspacing="0" width="100%" class="whs17">
+<col class="whs6">
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="100%" class="whs8">
+<p class="sub-head"><span style="font-weight:bold;"><b>New Features</b></span></p>
+</td>
+</tr>
+<tr valign="top" class="whs23">
+<td colspan="1" rowspan="1" width="100%" class="whs10">
+<p class="normal-table">Support for Metris MCA localisers: scanning</p>
+<p class="normal-table"><img src="Images/garda.jpg" width="68px" height="166px" border="0" class="img_whs24" alt=""></p>
+</td>
+</tr>
+<tr valign="top" class="whs19">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Optical feature detection integrated in Datum localiser driven menu. User can choose between Tactile and Scanning method for datum capture.</p>
+</td>
+</tr>
+<tr valign="top" class="whs20">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Basic Gap and Flush tool.</p>
+</td>
+</tr>
+<tr valign="top" class="whs20">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">New macro commands for:</p>
+<ul>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">Datum and transformation construction / handling - point from entity, point from two lines, point from point on a line, line from entity, line from two points, plane from entity, plane from points and offsets, reversing (datum direction/normal), 3-2-1 transformation, updating global co-ordinate system, applying selection to transformation.</p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">Measuring datums - 2D line, plane, circle.</p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Cbullet">
+<p class="bullet">Miscellaneous - autoview, set profile, import, message.</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Support for Metris calibration map.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Temperature compensation for ModelMaker D sensors.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Roboscan support:</p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Sphere qualification.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Improved COM interface.</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Interactive method for creating plane by three points and offsets (<span style="font-style:italic;"><i>Datuming &gt; Plane</i></span>).</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Fit Sphere with fixed radius (<span style="font-style:italic;"><i>Measure &gt; Geometry &gt; Sphere</i></span>).</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="sub-head">Improvements</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Metris import libraries for IGES, VDA, STEP, Pro/ENGINEER, CATIA v4, and CATIA v5 replace Rhinoceros importers.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Offline feature detection integrated in Datuming menu (for interactive datum construction).</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Automatic or manual sensor type detection (<span style="font-style:italic;"><i>Hardware Settings &gt; Sensor</i></span> tab).</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Datum normal not displayed if not opposite to the view direction.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">CSV-file export adds dimensions and Gap &amp; Flush measurements in separate tables.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Localiser and sensor specific certified settings for alignment.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Correct use of K-Scan Space Probe tip diameter in datum mode.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Scale Points function now has the option to scale around the centre of gravity.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Instant inspection: colour map is calculated while scanning.</p>
+</td>
+</tr>
+<tr valign="top" class="whs22">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">For the Snapshot function the user now has the choice to use the current background or a white background (useful when printing the images).</p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+</div>
+</li>
+<li class="kadov-p">
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a18">KUBE v12 FP1</a></p>
+<div class="droptext" id="POPUP163947553" style="display:'none'; x-ss-type:dropdown;">
+<h2><a name="What_s_new_in_KUBE_v12_FP1_"></a>What's new in KUBE v12 FP1?</h2>
+<table cellspacing="0" width="100%" class="whs17">
+<col class="whs6">
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs8">
+<p class="sub-head"><span style="font-weight:bold;"><b>New Features</b></span></p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs10">
+<p class="normal-table">Instant comparison redesigned:</p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Allow entering in Inspection mode without data to inspect.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Transparency option for the inspection reference in Preferences dialog.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Allow localiser driven menu in inspection mode.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Online rendering during scanning in inspection mode</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Immediate comparison and colouring of patches.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Change the inspection options (Max distance, inspection method, point sampling) from Inspection mode and re-apply the new settings.</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Ability to use 3GB of RAM (see <span style="font-weight:bold; font-style:italic;"><i><b>KUBE Help &gt; PC Requirements</b></i></span> section for details how to configure the system).</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Turbo Button - quick switch between normal and fast scan mode by double-click B button (for MMD only).</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Intensity View window (for MMD only).</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Temperature compensation (for MMD only).</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Laser spot auto intensity (for MMD only).</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">DLPC (Dynamic Laser Power Control) - improved Adaptive Laser Power (ALP) for MMD. Laser power limits are automatically adjusted - no user control.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">'PRESCAN' label appears on the top right of the window to indicate that KUBE is in PreScan mode.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">OBJ import.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="sub-head">Improvements</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">K-Scan probe synchronistation check during alignment.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">During alignment when SpaceProbe or K-Scan probe not visible KUBE indicates immediately that there is an error.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">When changing the localiser do not display prompt only, but offer a dialog with ability to select from the existing alignment files or align the sensor to the localiser.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Prompt for localiser selection if there is no localiser selected.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Import of polysurfaces as meshes via Rhinoceros.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Custom tolerance for Unify Normals when importing file via Rhinoceros.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Align to Plane works with double-click on a list item.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">If there is no open documen and Scan button is pressed KUBE automatically enter in Prescan mode.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Improved rendering on NVIDIA Quadro series graphic cards.</p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+</div>
+</li>
+<li class="kadov-p">
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a16">KUBE v12</a></p>
+<div class="droptext" id="POPUP162626597" style="display:'none'; x-ss-type:dropdown;">
+<h2><a name="What_s_new_in_KUBE_v12_"></a>What's new in KUBE v12?</h2>
+<table cellspacing="0" width="100%" class="whs17">
+<col class="whs6">
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs8">
+<p class="normal-table"><span style="font-weight:bold;"><b>New Features</b></span></p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs10">
+<p class="normal-table">Support for ModelMaker D sensors (series MM D50, MM D100, and MM D200). Resulting data - mesh patches produced by IPG (Intelligent Patch Generation) method.</p>
+<p class="normal-table"><img src="Images/dsensor.gif" width="99px" height="123px" border="0" class="img_whs26" alt=""></p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs10">
+<p class="normal-table">Support for K-Scan localisers.</p>
+<p class="normal-table"><img src="Images/KScan.gif" width="120px" height="138px" border="0" class="img_whs27" alt=""></p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Capture 2D Line (compensated).</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Out of tolerance notification warning sound is played when captured point for a datum is out of the given form tolerance.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Capture stream of datum points (compensated and non-compensated) by single click; no Accept/Reject dialog appears.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Sheet Metal Measure when measure circle checks whether the center of the ball probe is within the thickness of the sheet metal and if not, warning sound is generated and the radius for compensation is modified.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Option to display 3D model of the current sensor/probe when in pause in scan mode.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Mesh capping function.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Floating and resizable Localiser Position Display.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Customisable localiser driven menu.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="sub-head">Improvements</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Plane normal when capture plane (or base plane for circle, surface point, and slots) calculated automatically based on the probe normals.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Inspection - ability to print page thumbnails on the report pages. The additional object used in XML template files is PageVariable.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Integrated mesh optimisation in Merge - calls appropriate functions for optimising scan data and meshes.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Scan in selection deactivation when new transformation is activated.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Using of decimal symbol from Windows Regional Settings for CSV file export (Entities, Labels, 3D Inspection points).</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Pick plane pairs - measures the perpendicular distance from the first plane to the other.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Custom sensitivity of scroll bars when rotate.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Unified Zoom In/Out limits when zooming by the keyboard and the mouse wheel.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Improved Zoom Window, Zoom All, and Zoom Selected functionality extents calculations are based on the front and back facing points.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Added Cut/Copy/Paste per-group commands in context menu.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Calibration of Localiser Menu Operation dialog displays image of the current localiser in use.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Custom parameters of macros - now variable names can be not only numbers (in format %1%, %2%...), but also strings (%ViewParam_X%, %ReduceNoiseStrength%, %EntityTypeForSelection%, etc.).</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Run Script dialog - representation of script's custom parameters in a table with editable values.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Standard Windows mechanism when select/unselect and hide/unhide using Shift.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Calculation of mesh area in Properties dialog.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Create XY Grid from scan data and meshes displays the number of points that are to be generated.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Additional capturing order for alignment probe points first (for all planes) and then stripes.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Audible notifications when capture datums.</p>
+</td>
+</tr>
+</table>
+<p class="normal-table">&#160;</p>
+</div>
+</li>
+<li class="kadov-p">
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a14">KUBE v11</a></p>
+<div class="droptext" id="POPUP161808578" style="display:'none'; x-ss-type:dropdown;">
+<h2><a name="What_s_new_in_KUBE_v11_"></a>What's new in KUBE v11?</h2>
+<table cellspacing="0" width="100%" class="whs17">
+<col class="whs6">
+<tr valign="top" class="whs25">
+<td width="100%" class="whs8">
+<p class="sub-head">New Features</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Basic Measurement module point/datum labels, distances.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Inspection definition of exact XY grid on scan data and meshes. For inspecting only scan data and mesh points that are at certain distance to each other.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Export of the inspected data into CSV file format for processing in spreadsheet and other statistical software.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Export entities information in CSV file format.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Unification of normals of sub-parts of CAD models.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Support of X, Y, Z normal directions when doing 3D Comparison.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Cross sections aligning - Ability to align section planes for parallel polylines extraction to existing datum plane.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Support for TP20 Renishaw probe.</p>
+<p class="normal-table"><img src="Images/tp20.jpg" width="110px" height="81px" border="0" class="img_whs28" alt=""></p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="sub-head">Improvements</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Customisable inspection reports that use XML templates.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Utility, which automatically creates e-mail with attached files (KUBE_LOG, merge_log, etc.) and prepares it for sending to support@3dscanners.com or other user defined address (needs an e-mail client program installed.)</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Customisable shortcut keys.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Extended mouse operations:</p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Using right mouse button to rotate instantly on the screen.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Using middle mouse button to translate.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Infinite manipulation with the mouse if the user rotates and translates the object.</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Inspection mode defaults - When enter in Inspection mode the default colour settings is discrete. Min Max value equals to the range divided by the number of sections of colour plot.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Improved support for coordinate systems and registration.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Select hole - automatic function for detecting holes in the mesh and highlighting them.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Highlighting correspondence entities when transformations are created.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">IGES export of cones/slots.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Formatting data output to CSV, ASCII and TXT files with different metrics, precision.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Individual formatting of labels - name, title, font size, decimal places.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Auto creation of labels for min and max point in inspection mode.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Auto colouring of pedal dialog buttons depending on the selected localiser.</p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+</div>
+</li>
+<li class="kadov-p">
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a15">KUBE v10</a></p>
+<div class="droptext" id="POPUP162246092" style="display:'none'; x-ss-type:dropdown;">
+<h2><a name="What_s_new_in_KUBE_v10_"></a>What's new in KUBE v10?</h2>
+<table cellspacing="0" width="100%" class="whs17">
+<col class="whs6">
+<tr valign="top" class="whs25">
+<td width="100%" class="whs8">
+<p class="sub-head">Scanning</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Ability to delete captured points during contact capturing of datums.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Adjust width and colour of stripe in pause mode.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Online patch trimming (this is available only for demonstration systems in Beta test menu). This functionality is designed to remove the overlap of the patches during scanning.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Redesigned pedal dialogs movable, resizable, and fully translatable.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Only one dialog for message on initialisation.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Removing curling stripe ends during scanning edges.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="sub-head">Tools</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Cut meshes by plane/circle/cylinder.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Decimation speed improved. Up to 4 times faster.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Optimise scan speed improved. 5 to 10 times faster.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Trim patches on scan data. Reduces number of points up to 40%.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="sub-head">User Interface</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Scrollable arm menu for low display resolution.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Improved rendering with wireframe and flat shading.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Fast rendering switch using 1/2/3/4/5/6 buttons. Fast switch for display of mesh boundaries with E key. Ctrl+Q shortcut added for faster select/deselect functionality.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">New algorithm for faster Lasso selection.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Dump current scene into a BMP/JPEG/TIFF/PNG/GIF images.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">On screen redraw of the process during different stages of merge.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Draw back-facing triangles for meshes in customisable colour for better processing.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Customisable sensitivity of the scroll bars.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Icons for tile windows vertically/horizontally in the main toolbar.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Elliptic selection starts from centre.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Improved sensitivity in MultiSite setup dialog.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Option to swap positions of PreScan and Scan buttons on the localiser driven menu.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Macro window is dockable for easier navigation.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Macro SpeedBar (customisable toolbar for assigning macro commands to buttons).</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Plot window added in fit modes.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="sub-head">Datuming</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Auto switch between panels during datum definitions.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Support of CONE, RECTANGULAR SLOT, and ROUND SLOT datum entities. This includes capture, construction methods, auto-extraction, and fit (for cones only).</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Editable properties for datums.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Auto-extraction of datums works on meshes with complex geometry.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">All datums having plane (circle, cylinder (two planes), cone, slots) appear in the list for defining plane for circle and slots capture.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">New datum construction methods:</p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet">point from two circles.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">point from line and sphere/cylinder.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">line from two points.</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Visualisation of transformations.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="sub-head">3D Inspection</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Export labels information in CSV and text file formats with Pass/Fail criteria (included also in the PDF inspection report).</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="sub-head">Miscellaneous</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Improved display on integrated video cards (Intel).</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Support for SpaceBall 5000 3D-mouse (<a href="http://www.3dconnexion.com">www.3dconnexion.com</a>).</p>
+<p class="normal-table"><img src="Images/spaceball1.jpg" width="200px" height="187px" border="0" class="img_whs29" alt=""></p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">KUBE non-scanning version runs together with scanning versions of 3D Scanners v7 or earlier.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">CAD import also includes points and lines.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="sub-head">Improvements and bug fixes</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Improvements in CimCore localiser interface for Infinity arms:</p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Fixed freezing of KUBE after exit from Scan mode.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Support of the official version of CimCore WinRDS 4.3 (Build 20050620).</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Proper calculation of selection extents for inspection.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">'Projection' method for line construction from <span style="font-weight:bold; font-style:italic;"><i><b>Datuming &gt; Non-interactive &gt; Line</b></i></span> command causing application error is fixed.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Reversing the co-ordinate system in some cases when create alignment from <span style="font-weight:bold; font-style:italic;"><i><b>Transformations &gt; Create &gt; 3-2-1</b></i></span> command is fixed.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Enable/disable Check MMIB-DL Battery Warning message thru the registry.</p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+</div>
+</li>
+<li class="kadov-p">
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a13">KUBE v9</a></p>
+<div class="droptext" id="POPUP161488628" style="display:'none'; x-ss-type:dropdown;">
+<h2><a name="What_s_new_in_KUBE_v9_"></a>What's new in KUBE v9?</h2>
+<table cellspacing="0" width="100%" class="whs17">
+<col class="whs6">
+<tr valign="top" class="whs25">
+<td width="100%" class="whs8">
+<p class="sub-head"><span style="font-weight:bold;"><b>New development</b></span></p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="stepstitle"><span style="font-weight:bold;"><b>Datuming</b></span></p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Interactive navigation for datum creation &#160;- all datum creation methods are incorporated in the interactive Tools pane:</p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Capturing</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Fit to selection</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Pick from viewport (existing entities or their features, points)</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Easy picking of CS axis or planes</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">New methods added for constructing datums:</p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>point</b></span>: by point on line at exact length or length ratio</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>line</b></span>: by plane/circle normal</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;by point and line</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;by two lines</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;by points and offsets tangent method</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>plane</b></span>: by two planes</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;by plane and point</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>sphere</b></span>: by circle and offset</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>cylinder</b></span>: by circle, length and radius</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>circle</b></span>: by projection on plane</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Improved visualization</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Displaying direction of line and cylinder</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Displaying temporary and final construction datums</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Easy switching between different datum creations</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Interface design improvements</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Easy to pick datums on the screen all datum entities can be picked for defining other datums or transformations</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="stepstitle">Macros version 1</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Version 1 of macros engine developed most of the functions are available as macro commands</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Command line interface for processing command directly typing the macro command name with its parameters causes the corresponding function to be executed. Typing the macro command name only (without parameters) will call the corresponding function dialog and the command will be executed when all function parameters are set.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Store macros in files and run later with different parameters. Ability to execute sequences of macros on current document or on set of files.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Command history log for later use of commands every function having macro command representation is stored in a history log when executed</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="stepstitle">Enlarged Undo functionality</p>
+<p class="normal-table">Save and recovery at a later stage of the current scene status.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="stepstitle">Remove last patch functionality</p>
+<p class="normal-table">Offers possibility to delete the last captured patch.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="sub-head">Improvements</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Large files merging</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Undo command one-level undo command for all functions in KUBE</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Automatic save of scan data during scanning options for automatic save of scan data as single file and as separate files for each patch during pause. Available in <span style="font-style:italic;"><i>System &gt; Hardware / Scan Mode tab</i></span>.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Quick switch from Scan to View mode during scanning. Option available in <span style="font-style:italic;"><i>System</i></span> &gt; <span style="font-style:italic;"><i>Hardware / Scan Mode tab</i></span></p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Option for limitation of captured points. Available in <span style="font-style:italic;"><i>System &gt; Hardware / Scan Mode tab</i></span></p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Tolerance based CAD import</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Sample display of large scan data in static view sampling of points displayed in the viewport. Useful for large scan data and meshes (when in points and large points mode). Available in the context menu for the viewport.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Display boundaries of meshes display the boundaries as connected lines. Available in the context menu for the viewport.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Split mesh into individual submeshes create separate mesh entities from floating meshes. <span style="font-style:italic;"><i>Mesh &gt; Split Meshes.</i></span></p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Measuring plane-to-plane distance measure absolute and screen distances between two planes. <span style="font-style:italic;"><i>Measure &gt; Pick Pair of Planes</i></span></p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">CATIA import through Rhinoceros software</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Transformation from 3-2-1 added <span style="font-style:italic;"><i>Transformations &gt; Create &gt; 3-2-1&amp;</i></span></p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Transformation from viewport added <span style="font-style:italic;"><i>Transformations &gt; Create &gt; From Viewport&amp;</i></span></p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Transformation from single plane added <span style="font-style:italic;"><i>Transformations &gt; Create &gt; From Single Plane&amp;</i></span></p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Capture average point added - <span style="font-style:italic;"><i>Scan pane &gt; Datum &gt; Point</i></span></p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Reduce noise on boundary points - <span style="font-style:italic;"><i>Mesh &gt; Reduce Noise &gt; Average</i></span>.. this function works on boundary points too</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">4. Bug fixes</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Compatibility with Rhinoceros SR3 fixed import through Rhinoceros RS3</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Unify normals interactive on multiple meshes fixed proper work of Unify Interactive command when multiple meshes are present in the scene.</p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+</div>
+</li>
+<li class="kadov-p">
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a12">KUBE v8</a></p>
+<div class="droptext" id="POPUP161679787" style="display:'none'; x-ss-type:dropdown;">
+<h2><a name="What_s_new_in_KUBE_v8_"></a>What's new in KUBE v8?</h2>
+<table cellspacing="0" width="100%" class="whs17">
+<col class="whs6">
+<tr valign="top" class="whs25">
+<td width="100%" class="whs8">
+<p class="normal-table">Support for ModelMaker Z sensor (series MM Z35, MM Z70, and MM Z140).</p>
+<p class="normal-table"><img src="Images/zsensor.gif" width="99px" height="123px" border="0" class="img_whs26" alt=""></p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Enhanced Sensor Processing (ESP) the MM Z sensor incorporates new technology allowing the use of a number of ESP options during scanning.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">New transformation methods replace alignment creation; useful for scanning and registration of large scan files.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Automatic plane, sphere, cylinder, and circle detection on CAD model software tries automatically to detect plane, sphere, cylinder, and circle on a CAD model and creates corresponding datum entities for each datum.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Colourful presentation of optimised scan patches.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Cutting mesh tool - Incorporate simple ModelMaker v3 mesh cutting tools to enable an automotive scan to be cut into sub-meshes.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Cimcore rotary-table use- Supports Cimcores new rotary-table.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">New look styling. 3D Scanners has introduced a new look styling for all navigation bars. All interactive functions are visualised now in the left pane for easier preview and operation with the data in the viewport. Display settings dialog is rearranged in a tree structure for easier use and better visualisation.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Added ability to invert the normal of circle entity and to reverse the direction of cylinder entity. Circle entities now have normal property and cylinders have direction property. There are options for inverting the direction of these properties.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Improvements in surface Inspection.</p>
+</td>
+</tr>
+</table>
+<p class="normal-table">&#160;</p>
+</div>
+</li>
+<li class="kadov-p">
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1">3D Scanners v7</a></p>
+<div class="droptext" id="POPUP161474267" style="display:'none'; x-ss-type:dropdown;">
+<h2><a name="What_s_new_in_3DScanners_7_0_"></a>What's new in 3D Scanners v7?</h2>
+<table cellspacing="0" width="91.862%" class="whs30">
+<col class="whs6">
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs31">
+<p class="normal-table">Scan optimisation.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs32">
+<p class="normal-table">Insertion of boundary points during Merge.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs32">
+<p class="normal-table">'Instant editing' of meshes.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs32">
+<p class="normal-table">Polygon Reduction on partial mesh selections</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs32">
+<p class="normal-table">Fill Holes</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs32">
+<p class="normal-table">Registration</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs33">
+<p class="normal-table">Inspection Mode</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="kadov-p">
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2">ModelMaker 6.3</a></p>
+<div class="droptext" id="POPUP163671152" style="display:'none'; x-ss-type:dropdown;">
+<h2><a name="What_s_new_in_ModelMaker_v6_3_"></a>What's new in ModelMaker v6.3?</h2>
+<table cellspacing="0" width="100%" class="whs17">
+<col class="whs6">
+<tr valign="top" class="whs25">
+<td width="100%" class="whs8">
+<p class="normal-table">Automatic laser power selection.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Improved merging - the uniformity and distribution of polygons has been considerably improved.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Tool for sharpening mesh features.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Interactive noise reduction.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Import co-ordinate systems from DELCAM PowerINSPECT (.MAT file).</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td colspan="1" rowspan="1" width="100%" class="whs12">
+<p class="normal-table">Import co-ordinate systems from FARO CAM2 Geo (.MAT file).</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs34">
+<p class="normal-table">Import ASCII point cloud as entities.</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="kadov-p">
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a3">ModelMaker 6.2</a></p>
+<div class="droptext" id="POPUP162418155" style="display:'none'; x-ss-type:dropdown;">
+<h2><a name="What_s_new_in_ModelMaker_v6_2_"></a>What's new in ModelMaker v6.2?</h2>
+<table cellspacing="0" width="100%" class="whs17">
+<col class="whs6">
+<tr valign="top" class="whs25">
+<td width="100%" class="whs35">
+<p class="normal-table">New SURFA PCI drivers. The new drivers make communication between the sensor and the PC more reliable, therefore 3D Scanners recommend to only use ModelMaker 6.2 for scanning. Since the new drivers are not backward compatible with earlier software versions the user must decide at installation whether to use the new drivers or install the old drivers to preserve scanning compatibility with earlier versions of software. &#160;In either case all versions of ModelMaker can be used for data post-processing. Please note, for ModelMaker W systems it is not possible to use install ModelMaker 6.2 in compatibility mode.</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="kadov-p">
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a4">ModelMaker 6.1</a></p>
+<div class="droptext" id="POPUP161969736" style="display:'none'; x-ss-type:dropdown;">
+<h2><a name="What_s_new_in_ModelMaker_v6_1_"></a>What's new in ModelMaker v6.1?</h2>
+<table cellspacing="0" width="100%" class="whs17">
+<col class="whs6">
+<tr valign="top" class="whs25">
+<td width="100%" class="whs8">
+<p class="normal-table">Memory use during Merge much improved.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">CimCore arm support (ModelMaker X only).</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Progress bar displaying memory usage.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs34">
+<p class="normal-table">Import co-ordinate systems from FARO CAM2 Measure (.XPD file).</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="kadov-p">
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a5">ModelMaker 6.0</a></p>
+<div class="droptext" id="POPUP161681634" style="display:'none'; x-ss-type:dropdown;">
+<h2><a name="What_s_new_in_ModelMaker_6_0_"></a>What's new in ModelMaker 6.0?</h2>
+<table cellspacing="0" width="100%" class="whs17">
+<col class="whs6">
+<tr valign="top" class="whs25">
+<td width="100%" class="whs8">
+<p class="normal-table">ModelMaker v6 is the new release of software to support the ModelMaker X sensor and PCI2 board.</p>
+<p class="normal-table"><img src="Images/xsensor.gif" width="87px" height="112px" border="0" class="img_whs36" alt=""></p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Improved polygon mesh quality from <span style="font-weight:bold; font-style:italic;"><i><b>Points &gt; Merge</b></i></span>.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Manual and best-fit entity registration.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs34">
+<p class="normal-table">Supports of ModelMaker W/H40 series (PCI board).</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="kadov-p">
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a6">ModelMaker 5.1</a></p>
+<div class="droptext" id="POPUP162122198" style="display:'none'; x-ss-type:dropdown;">
+<h2><a name="What_s_new_in_ModelMaker_5_1_"></a>What's new in ModelMaker 5.1?</h2>
+<table cellspacing="0" width="100%" class="whs17">
+<col class="whs6">
+<tr valign="top" class="whs25">
+<td width="100%" class="whs8">
+<p class="normal-table">Scans on single CPU computer.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Post processing tools: remove by angle, remove reverse scans.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs34">
+<p class="normal-table">FARO rear option port: BIOS 7.61.</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="kadov-p">
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a7">ModelMaker 5.0</a></p>
+<div class="droptext" id="POPUP162023986" style="display:'none'; x-ss-type:dropdown;">
+<h2><a name="What_s_new_in_ModelMaker_5_0_"></a>What's new in ModelMaker 5.0?</h2>
+<table cellspacing="0" width="100%" class="whs17">
+<col class="whs6">
+<tr valign="top" class="whs25">
+<td width="100%" class="whs8">
+<p class="normal-table">ModelMaker 5 is the first release of ModelMaker for the SURFA PCI board. The SURFA PCI board offers the following advantages over the ISA version:</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Smaller size for easier hardware installation.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Plug and play drivers for easier software installation.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">No internal fuses for easier maintenance.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">The SURFA ISA card continues to be supported by via the ModelMaker 4.x software versions.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Import co-ordinate systems from FARO CAM2 Measure (.pos files).</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs34">
+<p class="normal-table">3D sampling now eliminates duplicate points, i.e. produces a regular grid.</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="kadov-p">
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a8">ModelMaker 4.4</a></p>
+<div class="droptext" id="POPUP162391800" style="display:'none'; x-ss-type:dropdown;">
+<h2>What's new in ModelMaker 4.4?</h2>
+<table cellspacing="0" width="100%" class="whs17">
+<col class="whs6">
+<tr valign="top" class="whs25">
+<td width="100%" class="whs8">
+<p class="normal-table">Multi-patch 2D sampling 2D sampling can now be automatically applied over multiple scan patches simultaneously to produce a single, regular gridded patch. &#160;This gives a smaller number of patches over the whole object, making the dataset easier to manage. &#160;This feature is particularly suitable for large relatively flat areas such as car body panels.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Filter by Angle the sensor data can now by filtered based on the angle of the surface being scanned - this can prevent bad data being captured on very steep surfaces.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs34">
+<p class="normal-table">Remove Reverse Scans we recommend to scan uni-directionally to get the best data quality. &#160;This feature automatically deletes data captured in the reverse direction.</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="kadov-p">
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a9">ModelMaker 4.3</a></p>
+<div class="droptext" id="POPUP161657275" style="display:'none'; x-ss-type:dropdown;">
+<h2><a name="What_s_new_in_ModelMaker_4_3_"></a>What's new in ModelMaker 4.3?</h2>
+<table cellspacing="0" width="100%" class="whs17">
+<col class="whs6">
+<tr valign="top" class="whs25">
+<td width="100%" class="whs8">
+<p class="normal-table">Improved, quicker and more accurate alignment (9 stripe/9 point).</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">PC Diagnostics to check that the performance of your PC is suitable for ModelMaker.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Scan into selected area.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">More Mesh tools added in context menu.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Circle entity is now supported.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">On-line Area sampling allows you to enter both U and V values.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">In the Error map dialogue box you can now get more statistical information via 'More Info...'.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">In <span style="font-weight:bold; font-style:italic;"><i><b>Polylines &gt; Cross Sections &gt; Parallel</b></i></span> there are buttons X, Y and Z to align to the current view.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">A new context menu item 'On Rotate/Pan' allowing you to change settings during rotate/pan.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Scroll bars now rotate at exactly 90 degrees.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">If you keep the 'Shift' button held down automatic redraw is delayed.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">You can now create user defined views via <span style="font-weight:bold; font-style:italic;"><i><b>View &gt; Create Viewport Entity</b></i></span>.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">You can now customise the default colours via <span style="font-weight:bold; font-style:italic;"><i><b>System &gt; Settings &gt; Display</b></i></span>.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs34">
+<p class="normal-table">ModelMaker remembers last file type exported.</p>
+</td>
+</tr>
+</table>
+<p class="Bullet">&#160;</p>
+</div>
+</li>
+<li class="kadov-p">
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a10">ModelMaker 4.2</a></p>
+<div class="droptext" id="POPUP30273011" style="display:'none'; x-ss-type:dropdown;">
+<h2><a name="What_s_new_in_ModelMaker_4_2_"></a>What's new in ModelMaker 4.2?</h2>
+<table cellspacing="0" width="100%" class="whs17">
+<col class="whs6">
+<tr valign="top" class="whs25">
+<td width="100%" class="whs8">
+<p class="normal-table">Merge - a function to generate a single polygon mesh dataset from the selected scan or mesh entities (up to 8x faster than the Fusion function in v3.0).</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Area (2D) sampling during Pause - this applies 2D sampling to each scanned patch when the Pause button is pressed to give a better quality, regular spaced data patch.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Select by point normal - Use this feature to select and delete areas where there is a steep angle between the sensor and the surface of the object.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs34">
+<p class="normal-table">Select triangles based on order - The &lt;&lt; and &gt;&gt; arrows now move between discrete scan patches, making it easier to edit data.</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="kadov-p">
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a11">ModelMaker 4.1</a></p>
+<div class="droptext" id="POPUP163364181" style="display:'none'; x-ss-type:dropdown;">
+<h2>What's new in ModelMaker 4.1?</h2>
+<table cellspacing="0" width="100%" class="whs17">
+<col class="whs6">
+<tr valign="top" class="whs25">
+<td width="100%" class="whs8">
+<p class="normal-table">100% improvement in scanning speed (W sensor).</p>
+<p class="normal-table"><img src="Images/wsensor.gif" width="82px" height="116px" border="0" class="img_whs37" alt=""></p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Multiple datum alignment methods.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Section line creation direct from scan data.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Multi-site scanning facility for large objects like cars.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Multi-processor support on many editing operations.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Filtering operations, which work directly on scan data.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">70% reduction in file size (scan data).</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs12">
+<p class="normal-table">Statistical coloured error map for detailed data analysis.</p>
+</td>
+</tr>
+<tr valign="top" class="whs25">
+<td width="100%" class="whs34">
+<p class="normal-table">Single document interface with all data types stored in one file.</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ul>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a20','POPUP163840631');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a19','POPUP161851408');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a17','POPUP161900988');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a18','POPUP163947553');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a16','POPUP162626597');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a14','POPUP161808578');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a15','POPUP162246092');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a13','POPUP161488628');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a12','POPUP161679787');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a1','POPUP161474267');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a2','POPUP163671152');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a3','POPUP162418155');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a4','POPUP161969736');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a5','POPUP161681634');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a6','POPUP162122198');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a7','POPUP162023986');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a8','POPUP162391800');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a9','POPUP161657275');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a10','POPUP30273011');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a11','POPUP163364181');
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B020A000000576861742773204E65770D020A000000576861742773204E65771102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

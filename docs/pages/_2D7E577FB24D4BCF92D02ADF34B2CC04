@@ -1,0 +1,179 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Scroll Bars</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { float:aligncenter; height:3px; }
+p.whs4 { font-weight:bold; }
+table.whs5 { border-spacing:0px; }
+tr.whs6 {  }
+td.whs7 { padding-right:10px; padding-left:10px; border-right-style:None; border-left-style:None; border-top-style:None; border-bottom-style:None; }
+img_whs8 { width:271px; height:103px; float:none; border-style:none; }
+td.whs9 { padding-right:10px; padding-left:10px; }
+img_whs10 { border:none; width:470px; height:447px; float:none; border-style:none; }
+img_whs11 { width:268px; height:100px; float:none; border-style:none; }
+img_whs12 { width:306px; height:105px; float:none; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nUser Interface\nScroll Bars");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1><span lang="EN-GB">Scroll Bars</span></h1>
+<hr align="center" size="3" class="whs3">
+<p>There are two horizontal scroll bars on the bottom and one vertical scroll bar on the right side of each window. By default scroll bars in KUBE are used for rotating and translating the viewpoint.</p>
+<p>When you are in <u style="text-decoration:none;"><span class="Mode">Rotate</span> <span style="text-decoration:none;">and</span> <span class="Mode">Translate</span></u> mode, moving scroll bars rotates and translates the selections thus changing their actual orientations and positions. If you want to rotate/pan the actual viewpoint in this mode, but not the entities, press <span class="Shortcut">Shift</span> while moving scroll bars.</p>
+<p>There is a button in the lower right corner for switching between <span class="Mode">rotate</span> and <span class="Mode">pan</span> modes.</p>
+<p>&#160;</p>
+<p class="whs4">Actions of scroll bars in Rotate mode:</p>
+<table cellspacing="0" class="whs5">
+<col>
+<col>
+<tr valign="top" class="whs6">
+<td class="whs7">
+<p><img src="Images/scroll_bars_rotate.jpg" width="271px" height="103px" border="0" class="img_whs8" alt=""></p>
+</td>
+<td valign="middle" class="whs9">
+<ol>
+<li style="margin-left:-20px;" class="kadov-p-Csteps">
+<p class="steps">Rotate east (to left) and west (to right) around the vertical axis of the viewport.</p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Csteps">
+<p class="steps">Rotate counter-clockwise (to left) and clockwise (to right) towards the viewport.</p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Csteps">
+<p class="steps">Rotate north (to up) and south (to bottom) around the horizontal axis of the viewport.</p>
+</li>
+</ol>
+</td>
+</tr>
+</table>
+<p><img src="../Working_with_data/Visualisation_files/viewport_direction.gif" width="470px" height="447px" border="0" class="img_whs10" alt=""></p>
+<p>&#160;</p>
+<p class="whs4">Actions of scroll bars in Pan mode:</p>
+<table cellspacing="0" class="whs5">
+<col>
+<col>
+<tr valign="top" class="whs6">
+<td class="whs7">
+<p><img src="Images/scroll_bars_pan.jpg" width="268px" height="100px" border="0" class="img_whs11" alt=""></p>
+</td>
+<td valign="middle" class="whs9">
+<ol>
+<li style="margin-left:-20px;" class="kadov-p-Csteps">
+<p class="steps">Pan left (to left) and right (to right).</p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Csteps">
+<p class="steps">Zoom in (to left) and out (to right).</p>
+</li>
+<li style="margin-left:-20px;" class="kadov-p-Csteps">
+<p class="steps">Pan up (to top) and down (to bottom).</p>
+</li>
+</ol>
+</td>
+</tr>
+</table>
+<p>If you need more space in the viewport the scroll bars and the button for switching rotate/pan modes can be <a class="expandspot" href="javascript:kadovTextPopup(this)" id="a1"><span style="text-decoration:underline;"><u>hidden</u></span>.</a> <span class="expandtext" style="display:'none';" id="POPUP165765831">Go to System &gt; Display Settings dialog and uncheck ‘Display scroll bars’ option in General group from the General tab.<br>
+<img src="Images/display_scroll_bars.bmp" width="306px" height="105px" border="0" class="img_whs12" alt=""><br>
+&#160;</span></p>
+<p>This option will take effect after you restart KUBE .</p>
+<p class="Normal" style="text-align:justify;"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Mouse operations','Mouse_Operations.htm','Viewport Context Menu','viewport_context_menu.htm');return false;" title=""><img src="../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></p>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a1','POPUP165765831');
+//-->
+</script><script type="text/javascript" language="JavaScript">
+<!--
+if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
+  WritePopupMenuLayer();
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B020B0000005363726F6C6C20426172730C025D000000446973706C61790A446F776E0A456E7469746965730A4C6566740A50616E0A52696768740A526F746174650A5363726F6C6C0A5363726F6C6C20426172730A53656C656374696F6E0A53657474696E67730A53797374656D0A5A6F6F6D0D020B0000005363726F6C6C204261727311020E0000005573657220496E7465726661636512020B0000005363726F6C6C20426172731302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

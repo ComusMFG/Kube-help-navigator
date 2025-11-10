@@ -1,0 +1,231 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Entity Types</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+table.whs4 { border-spacing:0px; margin-left:24px; left:0px; top:134px; width:811px; height:421px; }
+col.whs5 { width:15.647%; }
+col.whs6 { width:77.24%; }
+col.whs7 { width:7.112%; }
+tr.whs8 {  }
+td.whs9 { width:15.647%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs10 { width:77.24%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs11 { width:7.112%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+td.whs12 { width:15.647%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs13 { width:77.24%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs14 { width:7.112%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs15 { border:none; width:23px; height:16px; float:none; border-style:none; }
+td.whs16 { width:15.647%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+td.whs17 { width:77.24%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nWorking with Data\nEntity Types");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Entity Types</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p>Every entity belongs to a particular data type. Here follows a list describing the types available in KUBE. All data types are supported by the native <span style="font-weight:bold;"><b>SAB2</b></span> format. The native <span style="font-weight:bold;"><b>SAB</b></span> format supports all of the entity types with the exception of Current CS entity, cones, rectangular and round slots.</p>
+<table width="811" cellspacing="0" class="whs4">
+<col class="whs5">
+<col class="whs6">
+<col class="whs7">
+<tr valign="top" class="whs8">
+<td bgcolor="#EAE8D6" width="15.647%" class="whs9">
+<p class="caption">Entity Type</p>
+</td>
+<td bgcolor="#EAE8D6" width="77.24%" class="whs10">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="7.112%" class="whs11">
+<p class="caption">Info</p>
+</td>
+</tr>
+<tr valign="top" class="whs8">
+<td width="15.647%" class="whs12">
+<p class="normal-table-func">Scan data</p>
+</td>
+<td width="77.24%" class="whs13">
+<p class="normal-table">The raw point data gathered by the sensor. Each scan consists of stripes arranged in one or more patches. The scan data is usually more dense than actually required.</p>
+</td>
+<td width="7.112%" class="whs14">
+<p class="normal-table"><a href="Scan_Data_Description.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs15" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs8">
+<td width="15.647%" class="whs12">
+<p class="normal-table-func">Meshes</p>
+</td>
+<td width="77.24%" class="whs13">
+<p class="normal-table">They are created from scan data by merging and polygon reduction.</p>
+</td>
+<td width="7.112%" class="whs14">
+<p class="normal-table"><a href="Mesh_Description.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs15" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs8">
+<td width="15.647%" class="whs12">
+<p class="normal-table-func">Point clouds</p>
+</td>
+<td width="77.24%" class="whs13">
+<p class="normal-table">They differ from a scan in that the points are not organised into stripes and patches. A point cloud is created by volume sampling. Special cases of point clouds are:</p>
+</td>
+<td width="7.112%" class="whs14">
+<p class="normal-table"><a href="Point_Clouds_Description.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs15" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs8">
+<td colspan="1" rowspan="1" width="15.647%" class="whs12">
+<p class="normal-table-func">Probe points</p>
+</td>
+<td colspan="1" rowspan="1" width="77.24%" class="whs13">
+<p class="normal-table">Captured by the localiser and the probe.</p>
+</td>
+<td colspan="1" rowspan="1" width="7.112%" class="whs14">
+<p class="normal-table"><a href="Probe_Points.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs15" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs8">
+<td colspan="1" rowspan="1" width="15.647%" class="whs12">
+<p class="normal-table-func">Static stripes</p>
+</td>
+<td colspan="1" rowspan="1" width="77.24%" class="whs13">
+<p class="normal-table">Captured by the localiser and the sensor.</p>
+</td>
+<td colspan="1" rowspan="1" width="7.112%" class="whs14">
+<p class="normal-table"><a href="Static_Stripes.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs15" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs8">
+<td colspan="1" rowspan="1" width="15.647%" class="whs12">
+<p class="normal-table-func">Polylines</p>
+</td>
+<td colspan="1" rowspan="1" width="77.24%" class="whs13">
+<p class="normal-table">They are commonly used as a means of passing information to a CAD system for surface construction.</p>
+</td>
+<td colspan="1" rowspan="1" width="7.112%" class="whs14">
+<p class="normal-table"><a href="Polylines_Description.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs15" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs8">
+<td colspan="1" rowspan="1" width="15.647%" class="whs12">
+<p class="normal-table-func">Datums</p>
+</td>
+<td colspan="1" rowspan="1" width="77.24%" class="whs13">
+<p class="normal-table">They are used to set up reference systems. The use of datum entities together with the localiser probe allows the user to scan in bodyline co-ordinates.</p>
+</td>
+<td colspan="1" rowspan="1" width="7.112%" class="whs14">
+<p class="normal-table"><a href="datums_description.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs15" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs8">
+<td colspan="1" rowspan="1" width="15.647%" class="whs16">
+<p class="normal-table-func">Transformations</p>
+</td>
+<td colspan="1" rowspan="1" width="77.24%" class="whs17">
+<p class="normal-table"><span lang="EN-US">The transformations are used to align existing entities to a known position or to scan directly in a new co-ordinate system. There is a special transformation called</span> <span lang="EN-US" style="font-weight:bold;"><b>Current CS</b></span><span lang="EN-US">. It is an e</span>ntity that contains the currently active co-ordinate system. It can be World CS or any transformation.</p>
+</td>
+<td colspan="1" rowspan="1" width="7.112%" class="whs14">
+<p class="normal-table"><a href="Transformation_Description.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs15" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs8">
+<td width="15.647%" class="whs16">
+<p class="normal-table-func">Viewport Positions</p>
+</td>
+<td width="77.24%" class="whs17">
+<p class="normal-table">They are used to save a particular position and orientation of the viewport according to the global co-ordinate system.</p>
+</td>
+<td width="7.112%" class="whs14">
+<p class="normal-table"><a href="../../References/Create_Viewport_Entity.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs15" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p class="Bullet">&#160;</p>
+<p><span lang="EN-GB" style="font-weight:bold;"><b>Related topic:</b></span> <a href="../../References/Properties.htm">Properties</a></p>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0C02E6000000416C69676E0A417272616E67650A4341440A436170747572650A436F6E650A4372656174650A4372656174652046726F6D0A43757272656E742043530A446174756D696E670A456E7469746965730A456E7469747920547970650A466F726D61740A6C6F63616C697365720A4D657267650A4D6573680A4E65770A50617463680A506F6C79676F6E20526564756374696F6E0A506F6C796C696E650A50726F62650A52656374616E67756C61720A536176650A5363616E0A5363616E20446174610A53656E736F720A5374617469630A53797374656D0A566F6C756D650A576F726C642043530D020C000000456E74697479205479706573110211000000576F726B696E672077697468204461746112020C000000456E746974792054797065731302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

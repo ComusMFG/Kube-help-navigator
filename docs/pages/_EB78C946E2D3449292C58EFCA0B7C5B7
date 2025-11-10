@@ -1,0 +1,247 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Alignment Preparation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { float:aligncenter; height:5px; }
+ul.whs4 { list-style:disc; }
+img_whs5 { width:320px; height:178px; float:none; border-style:none; }
+p.whs6 { margin-left:0px; font-weight:bold; }
+img_whs7 { border:none; width:838px; height:694px; float:none; border-style:none; }
+img_whs8 { border:none; width:601px; height:567px; float:none; border-style:none; }
+img_whs9 { border:none; width:763px; height:538px; float:none; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs6 {margin-left:1pt; }";
+  strNSS +="<\/style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
+</script>
+</head>
+<body lang="BG">
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nScanning\nSystem Set-Up\nAlignment\nAlignment Preparation");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Alignment Preparation</h1>
+<div class="Normal" style="text-align:center;" align="center">
+<hr align="center" size="5" class="whs3"></div>
+<p class="description"><span class="Command" style="font-weight:bold;"><b>Description:</b></span> <span class="heading11">Alignment Preparation describes what should be done before alignment is attempted.</span></p>
+<h2><span lang="EN-GB">What is alignment?</span></h2>
+<p><span class="body11">Alignment is the process of registering the sensor co-ordinate system to the localiser co-ordinate system. Alignment must be carried out the first time the localiser mount and sensor is attached to a particular localiser.</span></p>
+<p id="P1"><b><span class="body11" style="font-weight:normal;">Without an accurate alignment, the data produced by the ModelMaker system will be out of specification.</span></b></p>
+<p>If the localiser mount is not moved, the repeatable mounting system allows you to remove and replace the sensor, without having to repeat the alignment process.</p>
+<p class="Normal">&#160;</p>
+<h2><span class="subheading11">When is alignment needed?</span></h2>
+<ul type="disc" class="whs4">
+<li class="kadov-p-Cbullet">
+<p class="bullet">If it is the first time the localiser mount and sensor have been attached to the localiser.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">If the localiser mount has been moved.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">If there has been a significant change to the localiser or sensor, for example, a recalibration or shock impact</p>
+</li>
+</ul>
+<p class="Note" id="P3"><span style="font-weight:bold; font-family:Arial, sans-serif;"><b>Note:</b></span><span style="font-size:8.0pt; font-family:Verdana;"><font size="1" style="font-size:8pt;">T</font></span>he alignment quality may be checked by performing the <b><a href="Alignment_Check.htm" style="font-family:Arial, sans-serif; font-size:10pt; font-weight:normal;">System Certification Check</a></b></p>
+<p>&#160;</p>
+<h2><span lang="EN-GB">What is needed for successful alignment?</span></h2>
+<p class="stepstitle"><span lang="EN-GB">1. The localiser, sensor and alignment block all securely and correctly mounted</span></p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Ensure the localiser is securely mounted according to the manufacturers instructions. This includes tightening the bolts on the localiser mount to the bench to the correct torque and ensuring the probe is securely mounted. If the localiser or probe is not secure, then the system will be inaccurate. Unless a tripod is being used, it is normally necessary to mount the localiser to a strong bench or optical table.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Ensure the ModelMaker localiser mount and sensor are securely mounted on the localiser, to the correct torque. The alignment block should be firmly bolted down to the same bench or table as the localiser.</p>
+</li>
+</ul>
+<p class="Warning">In case when sphere qualification procedure will be followed, a certified sphere should be mounted instead of alignment block.</p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet">The block should be mounted in the position shown in the diagram. The distance between localiser and block will depend on the localiser type. For an 8' FARO arm it is approximately 500mm (±50mm).</p>
+</li>
+</ul>
+<p class="Normal" style="margin-left:40px;"><span lang="EN-US"><img id="_x0000_i1029" src="arm_cube.jpg" width="320px" height="178px" border="0" class="img_whs5" alt="">&#160;</span></p>
+<p>&#160;</p>
+<p class="stepstitle"><span lang="EN-GB">2. The localiser performing to specification</span></p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Regularly check that the localiser is performing to specification using the manufacturer's recommended procedure e.g. FARO arm ball bar test. The calibration is stored internally on the localiser.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">A quick <span style="font-family:Arial, sans-serif;">Localiser Performance Check</span> can also be done using the KUBE software. Refer to your localiser section for details.</p>
+</li>
+</ul>
+<p class="stepstitle"><span lang="EN-GB">3. The sensor performing to specification</span></p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet">The ModelMaker sensor is factory calibrated and it is very unlikely that it will need recalibration under normal use.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span>The calibration data is stored in a file which must be in the same directory as the KUBE software. The name of the file is xxxxx.mcl (xxxxx.3cl for the old versions) where xxxxx is the sensor ID/serial number, for example, sensor ID 40001 would have the calibration file name "40001.mcl".</span></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">All sensors except MMD should be powered up using the KUBE software and for 30 minutes before alignment proceeds. During this time, the power light on the sensor should be continuously lit. If the sensor is not switched on, it is best to do it now before proceeding any further.</p>
+</li>
+</ul>
+<ul>
+<li class="kadov-p-Cbullet-IP2">
+<p class="bullet" id="P2"><span class="body11">If sensor is not allowed to</span> <span class="body11" style="text-decoration:underline;"><u><a href="Alignment_Procedure.htm" style="font-weight:normal; color:#ff0000;">warm-up</a>,</u></span> <span class="body11">the alignment may be unsuccessful.</span></p>
+</li>
+</ul>
+<h2 id="P2"><span class="body11">Specific Information for alignment with K-Scan localiser</span></h2>
+<p class="stepstitle"><span lang="EN-GB">1. Preparation</span></p>
+<p><span lang="EN-GB">This procedure describes the necessary steps to perform an alignment for the ModelMaker sensor on K-Scan localiser with the best accuracy results.</span> Prior to performing the alignment procedure, all necessary measures must be taken in order to optimise accuracy:</p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Use correct versions of K-Interface and K-CMM for particular KUBE version.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Respect warm-up times for both sensor (for MM X/Y/Z/C it is 30 minutes) and Kx00 camera (30min + 1h per 10° temperature difference with environmental temperature).</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Have calibration file for the sensor loaded in KUBE.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Have the correct certified distances of the alignment block.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Perform K-Reference procedure on Kx00 camera.</p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Perform probe calibration for the SpaceProbe.</p>
+</li>
+</ul>
+<p class="stepstitle"><span lang="EN-GB">2. Alignment block setup</span></p>
+<p><span lang="EN-GB">S</span>etup the alignment block in front of the K-camera at about 3m (10 feet) distance. Alignment blocks need to be securely mounted to the bench. Adjust the laser power so you have a good response on the alignment block (usually the certified value of 1 will do).</p>
+<p>There are two ways of mounting the alignment block:</p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>On K-Reference tripod</b></span>. In this case Plane 5 should face the camera, Plane 2 should face up, and the user should measure Plane 1 (#1 in the wizard), Plane 2 (#2 in the wizard), and Plane 3 (#3 in the wizard).</p>
+</li>
+</ul>
+<p class="Example" style="text-decoration:underline;"><span lang="EN-GB"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Alignment block on the K-Reference tripod</a></span></p>
+<div class="droptext" id="POPUP247100725" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs6"><img src="Alignment_files/tripod1.gif" width="838px" height="694px" border="0" class="img_whs7" alt=""></p>
+</div>
+<p class="Example" style="text-decoration:underline;"><span lang="EN-GB"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2" style="text-decoration:underline;">Mounting the alignment block on the K-Reference tripod</a></span></p>
+<div class="droptext" id="POPUP172006894" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs6"><img src="Alignment_files/Cube-tripod.gif" width="601px" height="567px" border="0" class="img_whs8" alt=""></p>
+</div>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>Onto a table surface</b></span>. In this case Plane 5 should face up, Plane 4 should face the camera, and the user should measure Plane 1 (#1 in the wizard), Plane 5 (#2 in the wizard), and Plane 3 (#3 in the wizard).</p>
+</li>
+</ul>
+<p class="Example" style="text-decoration:underline;"><span lang="EN-GB"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a3" style="text-decoration:underline;">Alignment block on a table</a></span></p>
+<div class="droptext" id="POPUP245869879" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs6"><img src="Alignment_files/table1.gif" width="763px" height="538px" border="0" class="img_whs9" alt=""></p>
+</div>
+<p>&#160;</p>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a1','POPUP247100725');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a2','POPUP172006894');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a3','POPUP245869879');
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0C0205010000416C69676E6D656E740A416C69676E6D656E7409416C69676E6D656E74205072657061726174696F6E0A43616C6962726174696F6E0A446F776E0A4641524F0A46617374205363616E6E696E670A46726F6E740A4B2D434D4D0A4C617365720A4C6173657220506F7765720A4C696768740A6C6F63616C697365720A6C6F63616C69736572094C6F63616C6973657220506572666F726D616E636520436865636B0A4D6561737572650A4D4D440A4D4D580A4D4D590A4D4D5A0A4D6F64656C4D616B65720A4F7074696D6973650A506572666F726D616E63650A506572666F726D616E636520436865636B0A506C616E650A50726F62650A53656E736F720A53797374656D0D0215000000416C69676E6D656E74205072657061726174696F6E110209000000416C69676E6D656E74120215000000416C69676E6D656E74205072657061726174696F6E1302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

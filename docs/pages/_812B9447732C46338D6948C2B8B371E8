@@ -1,0 +1,425 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Inspection Toolbar</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+img_whs4 { border:none; float:none; border-style:none; width:904px; height:39px; }
+table.whs5 { width:100%; border-spacing:0px; }
+col.whs6 { width:6.035%; }
+col.whs7 { width:17.065%; }
+col.whs8 { width:65.906%; }
+col.whs9 { width:8.192%; }
+tr.whs10 {  }
+td.whs11 { width:6.035%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs12 { width:17.065%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs13 { width:65.906%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+td.whs14 { width:8.192%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+td.whs15 { width:6.035%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+img_whs16 { border:none; width:39px; height:35px; float:none; border-style:none; }
+td.whs17 { width:17.065%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs18 { width:65.906%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs19 { width:8.192%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs20 { border:none; width:23px; height:16px; border-style:none; }
+img_whs21 { border:none; width:240px; height:24px; float:none; border-style:none; }
+img_whs22 { width:40px; height:36px; border-style:none; }
+img_whs23 { width:32px; height:37px; border-style:none; }
+img_whs24 { width:33px; height:34px; border-style:none; }
+img_whs25 { width:33px; height:35px; border-style:none; }
+img_whs26 { width:35px; height:33px; border-style:none; }
+img_whs27 { border:none; width:33px; height:31px; float:none; }
+img_whs28 { border:none; width:23px; height:16px; border-style:none; }
+img_whs29 { width:32px; height:33px; border-style:none; }
+img_whs30 { width:36px; height:32px; border-style:none; }
+img_whs31 { width:37px; height:33px; border-style:none; }
+img_whs32 { width:36px; height:34px; border-style:none; }
+img_whs33 { width:33px; height:32px; border-style:none; }
+img_whs34 { width:38px; height:32px; border-style:none; }
+td.whs35 { width:6.035%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+td.whs36 { width:17.065%; padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+img_whs37 { border:none; width:36px; height:35px; float:none; border-style:none; }
+img_whs38 { width:34px; height:32px; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nInspection Mode\nInspection Interface\nToolbar");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Inspection Toolbar</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p><span lang="EN-US">Here is a snapshot of the toolbar in</span> <span class="Mode">Inspection</span> <span lang="EN-US">mode and below are the explanations for each button function.</span></p>
+<p class="toolbar" style="margin-left:0px;"><img src="../Images/inspection_toolbar.gif" width="904px" height="39px" border="0" class="img_whs4" alt=""></p>
+<p>&#160;</p>
+<table cellspacing="0" width="100%" class="whs5">
+<col class="whs6">
+<col class="whs7">
+<col class="whs8">
+<col class="whs9">
+<tr valign="top" class="whs10">
+<td bgcolor="#EAE8D6" width="6.035%" class="whs11">
+<p class="caption">Button</p>
+</td>
+<td bgcolor="#EAE8D6" width="17.065%" class="whs12">
+<p class="caption">Name</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="65.906%" class="whs13">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="8.192%" class="whs14">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td colspan="1" rowspan="1" width="6.035%" class="whs15">
+<p class="normal-table"><img src="../Images/image00.gif" width="39px" height="35px" border="0" class="img_whs16" alt=""></p>
+</td>
+<td colspan="1" rowspan="1" width="17.065%" class="whs17">
+<p class="normal-table" style="font-weight:bold;">Profile settings</p>
+</td>
+<td colspan="1" rowspan="1" width="65.906%" class="whs18">
+<p class="normal-table">Displays settings of the current profile.</p>
+</td>
+<td colspan="1" rowspan="1" width="8.192%" class="whs19">
+<p class="normal-table"><a href="../../Scanning/Scanning/profiles.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs20" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td colspan="1" rowspan="1" width="6.035%" class="whs15">
+<p class="normal-table">Listbox</p>
+</td>
+<td colspan="1" rowspan="1" width="17.065%" class="whs17">
+<p class="normal-table" style="font-weight:bold;">Surface materials</p>
+</td>
+<td colspan="1" rowspan="1" width="65.906%" class="whs18">
+<p class="normal-table">Selects a profile from the list.</p>
+<p class="normal-table"><img src="../Images/image01.gif" width="240px" height="24px" border="0" class="img_whs21" alt=""></p>
+</td>
+<td colspan="1" rowspan="1" width="8.192%" class="whs19">
+<p class="normal-table"><a href="../../Scanning/Scanning/profiles.htm#Switching_profiles"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs20" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td width="6.035%" class="whs15">
+<p class="normal-table"><span lang="EN-US"><img src="../Images/image011.gif" width="40px" height="36px" border="0" class="img_whs22" alt=""></span></p>
+</td>
+<td width="17.065%" class="whs17">
+<p class="normal-table" style="font-weight:bold;"><span class="Button">Save</span></p>
+</td>
+<td colspan="1" rowspan="1" width="65.906%" class="whs18">
+<p class="normal-table"><span lang="EN-US">Saves the current inspection and</span> the active document in 3D Scanners format document - sab2 file.</p>
+</td>
+<td width="8.192%" class="whs19">
+<p class="normal-table"><a href="../../References/Save_(As).htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs20" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td colspan="1" rowspan="1" width="6.035%" class="whs15">
+<p class="normal-table"><span lang="EN-US"><img src="../Images/image013.gif" width="32px" height="37px" border="0" class="img_whs23" alt=""></span></p>
+</td>
+<td colspan="1" rowspan="1" width="17.065%" class="whs17">
+<p class="normal-table" style="font-weight:bold;"><span class="Button">Zoom window</span></p>
+</td>
+<td colspan="1" rowspan="1" width="65.906%" class="whs18">
+<p class="normal-table">Resets the view extents to fit the visible data in the rectangle that is drawn by the mouse.</p>
+</td>
+<td colspan="1" rowspan="1" width="8.192%" class="whs19">
+<p class="normal-table"><a href="../../References/zoom_window.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs20" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td width="6.035%" class="whs15">
+<p class="normal-table"><span lang="EN-US"><img src="../Images/image012.gif" width="33px" height="34px" border="0" class="img_whs24" alt=""></span></p>
+</td>
+<td width="17.065%" class="whs17">
+<p class="normal-table" style="font-weight:bold;"><span class="Button">Zoom mode</span></p>
+</td>
+<td colspan="1" rowspan="1" width="65.906%" class="whs18">
+<p class="normal-table">Zooms in or out depending on the mouse move – up or down. The significant destination for the mouse move can be swapped in <i style="font-style:normal;"><span class="Path">System &gt; Preferences &gt; Display &gt; Rotate/Pan/Zoom</span></i> dialog.</p>
+</td>
+<td width="8.192%" class="whs19">
+<p class="normal-table"><a href="../../References/Zoom_Mode.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs20" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td width="6.035%" class="whs15">
+<p class="normal-table"><span lang="EN-US"><img src="../Images/image014.gif" width="33px" height="35px" border="0" class="img_whs25" alt=""></span></p>
+</td>
+<td width="17.065%" class="whs17">
+<p class="normal-table" style="font-weight:bold;"><span class="Button">Rotate</span></p>
+</td>
+<td colspan="1" rowspan="1" width="65.906%" class="whs18">
+<p class="normal-table">Rotates the scene by the mouse. When this mode is enabled and you press the left mouse button on the viewable area, a dashed circle will appear. If mouse pointer is within this circle, the rotation is on all three axes; otherwise the rotation is clockwise or counter-clockwise towards the viewport.</p>
+</td>
+<td width="8.192%" class="whs19">
+<p class="normal-table"><a href="../../References/Rotate.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs20" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td width="6.035%" class="whs15">
+<p class="normal-table"><span lang="EN-US"><img src="../Images/image015.gif" width="33px" height="34px" border="0" class="img_whs24" alt=""></span></p>
+</td>
+<td width="17.065%" class="whs17">
+<p class="normal-table" style="font-weight:bold;"><span class="Button">Pan</span></p>
+</td>
+<td colspan="1" rowspan="1" width="65.906%" class="whs18">
+<p class="normal-table">Translates the scene by the mouse.</p>
+<p class="normal-table">&#160;</p>
+</td>
+<td width="8.192%" class="whs19">
+<p class="normal-table"><a href="../../References/Pan.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs20" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td width="6.035%" class="whs15">
+<p class="normal-table"><span lang="EN-US"><img src="../Images/image016.gif" width="35px" height="33px" border="0" class="img_whs26" alt=""></span></p>
+</td>
+<td width="17.065%" class="whs17">
+<p class="normal-table" style="font-weight:bold;"><span class="Button">Edit labels mode</span></p>
+</td>
+<td colspan="1" rowspan="1" width="65.906%" class="whs18">
+<p class="normal-table"><span lang="EN-US">In this mode labels can be created, arranged, deleted etc.</span></p>
+</td>
+<td width="8.192%" class="whs19">
+<p class="normal-table"><a href="../References/Edit_Mode_for_Labels.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs20" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td colspan="1" rowspan="1" width="6.035%" class="whs15">
+<p class="normal-table"><img src="../Images/Image14.gif" width="33px" height="31px" border="0" class="img_whs27" alt=""></p>
+</td>
+<td colspan="1" rowspan="1" width="17.065%" class="whs17">
+<p class="normal-table" style="font-weight:bold;">Edit annotations mode</p>
+</td>
+<td colspan="1" rowspan="1" width="65.906%" class="whs18">
+<p class="normal-table">In this mode annotations can be created, modified and deleted.</p>
+</td>
+<td colspan="1" rowspan="1" width="8.192%" class="whs19">
+<p class="normal-table"><a href="../References/Edit_Mode_for_Annotations.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs28" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td width="6.035%" class="whs15">
+<p class="normal-table"><span lang="EN-US"><img src="../Images/image017.gif" width="32px" height="33px" border="0" class="img_whs29" alt=""></span></p>
+</td>
+<td width="17.065%" class="whs17">
+<p class="normal-table" style="font-weight:bold;"><span class="Button">Adjust section plane</span></p>
+</td>
+<td colspan="1" rowspan="1" width="65.906%" class="whs18">
+<p class="normal-table"><span lang="EN-US">Launches the Define cross section function – used to create and edit section plane in the current view.</span></p>
+</td>
+<td width="8.192%" class="whs19">
+<p class="normal-table"><a href="../References/Define_2D_Section.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs20" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td width="6.035%" class="whs15">
+<p class="normal-table"><span lang="EN-US"><img src="../Images/image018.gif" width="36px" height="32px" border="0" class="img_whs30" alt=""></span></p>
+</td>
+<td width="17.065%" class="whs17">
+<p class="normal-table" style="font-weight:bold;"><span class="Button">Align view to section plane</span></p>
+</td>
+<td colspan="1" rowspan="1" width="65.906%" class="whs18">
+<p class="normal-table"><span lang="EN-US">Used to display only points lying on the cutting plane.</span></p>
+</td>
+<td width="8.192%" class="whs19">
+<p class="normal-table"><a href="../References/Align_View_to_Plane.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs20" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td width="6.035%" class="whs15">
+<p class="normal-table"><span lang="EN-US"><img src="../Images/image019.gif" width="37px" height="33px" border="0" class="img_whs31" alt=""></span></p>
+</td>
+<td width="17.065%" class="whs17">
+<p class="normal-table" style="font-weight:bold;"><span class="Button">Colour plot Settings</span></p>
+</td>
+<td colspan="1" rowspan="1" width="65.906%" class="whs18">
+<p class="normal-table"><span lang="EN-US">Allows to customise the colour plot scheme and splits.</span></p>
+</td>
+<td width="8.192%" class="whs19">
+<p class="normal-table"><a href="../References/Colour_Plot_Settings.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs20" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td width="6.035%" class="whs15">
+<p class="normal-table"><span lang="EN-US"><img src="../Images/image020.gif" width="36px" height="34px" border="0" class="img_whs32" alt=""></span></p>
+</td>
+<td width="17.065%" class="whs17">
+<p class="normal-table" style="font-weight:bold;"><span class="Button">More info</span></p>
+</td>
+<td colspan="1" rowspan="1" width="65.906%" class="whs18">
+<p class="normal-table"><span lang="EN-US">Provides additional statistics information.</span></p>
+</td>
+<td width="8.192%" class="whs19">
+<p class="normal-table"><a href="../References/More_Info.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs20" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td width="6.035%" class="whs15">
+<p class="normal-table"><span lang="EN-US"><img src="../Images/image021.gif" width="33px" height="32px" border="0" class="img_whs33" alt=""></span></p>
+</td>
+<td width="17.065%" class="whs17">
+<p class="normal-table" style="font-weight:bold;"><span class="Button">Plot window</span></p>
+</td>
+<td colspan="1" rowspan="1" width="65.906%" class="whs18">
+<p class="normal-table"><span lang="EN-US">Displays the distribution of the point according to their distance to the reference mesh.</span></p>
+</td>
+<td width="8.192%" class="whs19">
+<p class="normal-table"><a href="../References/Plot_Window.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs20" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td width="6.035%" class="whs15">
+<p class="normal-table"><span lang="EN-US"><img src="../Images/image022.gif" width="38px" height="32px" border="0" class="img_whs34" alt=""></span></p>
+</td>
+<td width="17.065%" class="whs17">
+<p class="normal-table" style="font-weight:bold;"><span class="Button">Save a snapshot</span></p>
+</td>
+<td colspan="1" rowspan="1" width="65.906%" class="whs18">
+<p class="normal-table"><span lang="EN-GB">Captures the whole viewport and saves it as image file.</span></p>
+</td>
+<td width="8.192%" class="whs19">
+<p class="normal-table"><a href="../../References/snapshot.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs20" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td colspan="1" rowspan="1" width="6.035%" class="whs35">
+<p class="normal-table"><span lang="EN-US"><img src="../Images/image023.gif" width="33px" height="32px" border="0" class="img_whs33" alt=""></span></p>
+</td>
+<td colspan="1" rowspan="1" width="17.065%" class="whs36">
+<p class="normal-table" style="font-weight:bold;"><span class="Button">Generate report</span></p>
+</td>
+<td colspan="1" rowspan="1" width="65.906%" class="whs18">
+<p class="normal-table"><span lang="EN-US">Launches the wizard for report generation.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="8.192%" class="whs19">
+<p class="normal-table"><a href="../References/Report_Generation.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs20" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td colspan="1" rowspan="1" width="6.035%" class="whs35">
+<p class="normal-table"><img src="../Images/image02.gif" width="36px" height="35px" border="0" class="img_whs37" alt=""></p>
+</td>
+<td colspan="1" rowspan="1" width="17.065%" class="whs36">
+<p class="normal-table" style="font-weight:bold;">Hardware Settings</p>
+</td>
+<td colspan="1" rowspan="1" width="65.906%" class="whs18">
+<p class="normal-table">Displays <span style="font-weight:bold;"><b>Hardware Settings</b></span> dialog. This dialog offer different options for each sensor model, as follows: MMZ -<a href="../../Scanning/Hardware/MMZ/Settings/hardware_settings_mmz.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs20" alt=""></a>; MMX - <a href="../../Scanning/Hardware/MMX/Settings/hardware_settings_mmx.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs20" alt=""></a>; MMD -<a href="../../Scanning/Hardware/MMD/Settings/hardware_settings_mmd.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs20" alt=""></a>; MMC -<a href="../../Scanning/Hardware/MMC/Settings/Hardware_Settings_MMC.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs20" alt=""></a></p>
+</td>
+<td colspan="1" rowspan="1" width="8.192%" class="whs19">
+<p class="normal-table">&#160;</p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td colspan="1" rowspan="1" width="6.035%" class="whs35">
+<p class="normal-table"><img src="../Images/IMAGE069.gif" width="36px" height="35px" border="0" class="img_whs37" alt=""></p>
+</td>
+<td colspan="1" rowspan="1" width="17.065%" class="whs36">
+<p class="normal-table" style="font-weight:bold;">Preferences</p>
+</td>
+<td colspan="1" rowspan="1" width="65.906%" class="whs18">
+<p class="normal-table">Displays <span style="font-weight:bold;"><b>Preferences</b></span> dialog.</p>
+</td>
+<td colspan="1" rowspan="1" width="8.192%" class="whs19">
+<p class="normal-table"><a href="../../References/display_settings.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs20" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs10">
+<td width="6.035%" class="whs35">
+<p class="normal-table"><span lang="EN-US"><img src="../Images/image024.gif" width="34px" height="32px" border="0" class="img_whs38" alt=""></span></p>
+</td>
+<td width="17.065%" class="whs36">
+<p class="normal-table" style="font-weight:bold;"><span class="Button">Exit</span></p>
+</td>
+<td colspan="1" rowspan="1" width="65.906%" class="whs18">
+<p class="normal-table"><span lang="EN-US">Exits the</span> <span class="Mode">Inspection</span> <span lang="EN-US">mode and returns to main edit mode.</span></p>
+</td>
+<td width="8.192%" class="whs19">
+<p class="normal-table"><a href="../References/Exit_Inspection.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs20" alt=""></a></p>
+</td>
+</tr>
+</table>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B0212000000496E7370656374696F6E20546F6F6C6261720C0290010000416C69676E0A416E6E6F746174696F6E730A417265610A417272616E67650A436170747572650A436972636C650A636F6C6F75720A4372656174650A43726F73730A43726F73732053656374696F6E730A446566696E650A44656C6574650A446973706C61790A446F776E0A456469740A45646974204D6F64650A457869740A46617374205363616E6E696E670A466F726D61740A47656E65726174650A48617264776172650A496E7370656374696F6E204D6F64650A496E7370656374696F6E20546F6F6C6261720A4C6162656C730A4C6566740A4D6174657269616C0A4D6573680A4D4D430A4D4D440A4D4D580A4D4D5A0A4D6F646966790A4D6F76652055700A50616E0A506C616E650A507265666572656E6365730A50726F66696C65730A5265706F72742047656E65726174696F6E0A526F746174650A526F746174652F50616E2F5A6F6F6D0A536176650A53656C6563740A53656E736F720A53656E736F72204D6F64656C0A53657474696E67730A536E617073686F740A53797374656D0A546F6F6C6261720A5A6F6F6D0D0212000000496E7370656374696F6E20546F6F6C626172110214000000496E7370656374696F6E20496E74657266616365120207000000546F6F6C6261721302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

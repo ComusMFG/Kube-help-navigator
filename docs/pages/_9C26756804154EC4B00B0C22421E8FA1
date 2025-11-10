@@ -1,0 +1,266 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Export Entities</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+p.whs4 { margin-left:40px; }
+img_whs5 { border:none; float:none; border-style:none; width:1083px; height:400px; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nWorking with Data\nExport Entities");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Export Entities</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p>The properties of all visible entities in KUBE can be exported in CSV (comma-separated) file format, which can be read by any spreadsheet software (like Microsoft Excel, OpenOffice, etc.) or other statistical software. Formatting of the data is set-up from the <span style="font-weight:bold; font-style:italic;"><i><b><a href="Preferences_-_CSV_File_Export.htm">Preferences &gt; CSV File Export</a></b></i></span> dialog. KUBE uses the decimal symbol defined in Windows Regional Settings.</p>
+<p><span style="margin-left:80px;">The exported f</span>ile contains the following information:</p>
+<p class="parameterstitle">Common Section:</p>
+<p class="whs4"><span style="font-weight:bold;"><b>FileName</b></span>, String<span style="font-weight:bold;"><b><br>
+Created</b></span>, Date <span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>(in format of the current system settings)</i></font></span><span style="font-weight:bold;"><b><br>
+Modified</b></span>, Date <span style="font-size:8pt; font-style:italic;"><font size="1" style="font-size:8pt;"><i>(in format of the current system settings)</i></font></span><span style="font-weight:bold;"><b><br>
+ReportDate</b></span>, Date <span style="font-size:8pt; font-style:italic;"><font size="1" style="font-size:8pt;"><i>(in format of the current system settings)</i></font></span></p>
+<p><span style="font-weight:bold;"><b>Operator</b></span>, String<span style="font-weight:bold;"><b><br>
+Object Name</b></span>, String<span style="font-weight:bold;"><b><br>
+Object No</b></span>, String<span style="font-weight:bold;"><b><br>
+Software</b></span>, String <span style="font-size:8pt; font-style:italic;"><font size="1" style="font-size:8pt;"><i>(name &amp; version)</i></font></span><span style="font-weight:bold;"><b><br>
+Localiser Type</b></span>, String<span style="font-weight:bold;"><b><br>
+Localiser Version</b></span>, String <span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>(BIOS version)</i></font></span><span style="font-weight:bold;"><b><br>
+Localiser S/N</b></span>, String<span style="font-weight:bold;"><b><br>
+Sensor Type</b></span>, String<span style="font-weight:bold;"><b><br>
+Sensor S/N</b></span>, String<span style="font-weight:bold;"><b><br>
+Length Units</b></span>, Enum <span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>(one of: meter, decimeter, centimeter, millimeter, micrometer, yard, foot, inch, point)</i></font></span><span style="font-weight:bold;"><b><br>
+Angle Units</b></span>, Enum <span style="font-size:8pt; font-style:italic;"><font size="1" style="font-size:8pt;"><i>(one of: degree, radian, grad)</i></font></span><span style="font-weight:bold;"><b><br>
+Angle Units Decimal</b></span>, Yes/No <span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>(always Yes when AngleUnits=radian)</i></font></span><span style="font-weight:bold;"><b><br>
+RoundSlotLength</b></span>, Enum <span style="font-size:8pt; font-style:italic;"><font size="1" style="font-size:8pt;"><i>(one of: Full Length, Centre-to-Centre)</i></font></span><span style="font-weight:bold;"><b><br>
+Comments</b></span>, String<span style="font-weight:bold;"><b><br>
+CurrentCS</b></span>, String <span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>(“World Coord Sys (WCS)” or name_of_transformation)</i></font></span><br>
+&#160;</p>
+<p class="parameterstitle"><span style="font-weight:bold;"><b>Entities Table Section:</b></span></p>
+<p><span style="font-weight:bold;"><b>Mesh_Name</b></span>, Type, Group, IsLocked, Extents(MinX, MaxX, MinY MaxY, MinZ, MaxZ), Size(X, Y, Z), NumPoints, NumTriangles, Colour(R, G, B)<span style="font-weight:bold;"><b><br>
+ScanData_Name</b></span>, Type, Group, IsLocked, Extents(MinX, MaxX, MinY MaxY, MinZ, MaxZ), Size(X, Y, Z), NumPoints, NumStripes, NumPatches, Colour(R, G, B)<span style="font-weight:bold;"><b><br>
+ProbePoints_Name</b></span>, Type, Group, IsLocked, Extents(MinX, MaxX, MinY MaxY, MinZ, MaxZ), Size(X, Y, Z), NumPoints, Colour(R, G, B)<span style="font-weight:bold;"><b><br>
+PointCloud_Name</b></span>, Type, Group, IsLocked, Extents(MinX, MaxX, MinY MaxY, MinZ, MaxZ), Size(X, Y, Z), NumPoints, Colour(R, G, B)<span style="font-weight:bold;"><b><br>
+Polyline_Name</b></span>, Type, Group, IsLocked, Extents(MinX, MaxX, MinY MaxY, MinZ, MaxZ), Size(X, Y, Z), NumPoints, Colour(R, G, B)<span style="font-weight:bold;"><b><br>
+Point_Name</b></span>, Type, Group, IsLocked, Extents(MinX, MaxX, MinY MaxY, MinZ, MaxZ), Size(X, Y, Z), Centre(X, Y, Z), Colour(R, G, B)<span style="font-weight:bold;"><b><br>
+Line_Name</b></span>, Type, Group, IsLocked, Extents(MinX, MaxX, MinY MaxY, MinZ, MaxZ), Size(X, Y, Z), Centre(X, Y, Z)<span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>- mid point</i></font></span>, Orientation(I, J, K)<span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>- tangent</i></font></span>, StartPoint (X, Y, Z), EndPoint (X, Y, Z), Length, Colour(R, G, B)<span style="font-weight:bold;"><b><br>
+Plane_Name</b></span>, Type, Group, IsLocked, Extents(MinX, MaxX, MinY MaxY, MinZ, MaxZ), Size(X, Y, Z), Centre(X, Y, Z), Point (X, Y, Z), Orientation(I, J, K) <span style="font-size:8pt; font-style:italic;"><font size="1" style="font-size:8pt;"><i>- normal</i></font></span>, Offset, Colour(R, G, B)<span style="font-weight:bold;"><b><br>
+Cylinder_Name</b></span>, Type, Group, IsLocked, Extents(MinX, MaxX, MinY MaxY, MinZ, MaxZ), Size(X, Y, Z), Centre(X, Y, Z)<span style="font-size:8pt;"><font size="1" style="font-size:8pt;">- mid point</font></span>, Orientation(I, J, K)<span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>- axis</i></font></span>, StartPoint (X, Y, Z), EndPoint (X, Y, Z), Length<span style="font-size:8pt; font-style:italic;"><font size="1" style="font-size:8pt;"><i>- axis length</i></font></span>, Radius, Perimeter<span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>- base circumference</i></font></span>, Area, LateralArea, BaseArea, Volume, Colour(R, G, B)<span style="font-weight:bold;"><b><br>
+Sphere_Name</b></span>, Type, Group, IsLocked, Extents(MinX, MaxX, MinY MaxY, MinZ, MaxZ), Size(X, Y, Z), Centre(X, Y, Z), Radius, Perimeter<span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>- equator circumference</i></font></span>, Area, Volume, Colour(R, G, B)<span style="font-weight:bold;"><b><br>
+Circle_Name</b></span>, Type, Group, IsLocked, Extents(MinX, MaxX, MinY MaxY, MinZ, MaxZ), Size(X, Y, Z), Centre(X, Y, Z), Orientation(I, J, K)<span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>- plane normal</i></font></span>, Radius, Perimeter<span style="font-size:8pt; font-style:italic;"><font size="1" style="font-size:8pt;"><i>- circumference</i></font></span>, Area, Colour(R, G, B)<span style="font-weight:bold;"><b><br>
+Cone_Name</b></span>, Type, Group, IsLocked, Extents(MinX, MaxX, MinY MaxY, MinZ, MaxZ), Size(X, Y, Z), Orientation(I, J, K)<span style="font-size:8pt; font-style:italic;"><font size="1" style="font-size:8pt;"><i>- axis</i></font></span>, StartPoint(X, Y, Z)<span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>- apex</i></font></span>, EndPoint(X, Y, Z)<span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>- base</i></font></span>, Length<span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>- axis length</i></font></span>, Radius, Perimeter<span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>- base circumference</i></font></span>, SlantLength, Angle, SlantAngle, Area, LateralArea, BaseArea, Volume, Colour(R, G, B)<span style="font-weight:bold;"><b><br>
+RectangularSlot_Name</b></span>, Type, Group, IsLocked, Extents(MinX, MaxX, MinY MaxY, MinZ, MaxZ), Size(X, Y, Z), Centre(X, Y, Z), Orientation(I, J, K)<span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>- plane normal</i></font></span>, Length, Radius/Width<span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>- width</i></font></span>, Perimeter, Area, Colour(R, G, B)<span style="font-weight:bold;"><b><br>
+RoundSlot_Name</b></span>, Type, Group, IsLocked, Extents(MinX, MaxX, MinY MaxY, MinZ, MaxZ), Size(X, Y, Z), Centre(X, Y, Z), Orientation(I, J, K)<span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>- plane normal</i></font></span>, Length, Radius/Width<span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>- radius</i></font></span>, Perimeter, Area, Colour(R, G, B)<span style="font-weight:bold;"><b><br>
+ViewPosition_Name</b></span>, Type, Group, Centre(X, Y, Z)<span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>- view point</i></font></span>, Axis(I, J, K)<span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>- direction</i></font></span>, Matrix(a11, a12, a13, t1, a21, a22, a23, t2, a31, a32, a33, t3)<span style="font-weight:bold;"><b><br>
+Transformation_Name</b></span>, Type, Group, Centre(X, Y, Z)<span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>- origin/offset from the WCS origin</i></font></span>, Axis(I, J, K) <span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>- Z axis direction</i></font></span>, Matrix(a11, a12, a13, t1, a21, a22, a23, t2, a31, a32, a33, t3)</p>
+<p class="parameterstitle"><span style="font-weight:bold;"><b>Column titles and description of Entities Table Section:</b></span></p>
+<p><span style="font-weight:bold;"><b>EntityName</b></span> - name of the entity (String)<span style="font-weight:bold;"><b><br>
+Type</b></span> - type of the entity (Enum<span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>(one of: Mesh, Scan Data, Probe points, Point cloud, Polyline, Polyline, Polyline, Polyline, Polyline, Polyline, Point, Line, Plane, Cylinder, Sphere, Circle, Cone, Rectangular slot, Round slot, Viewport, Transformation)</i></font></span>)<span style="font-weight:bold;"><b><br>
+Group</b></span> - name of the group, which the entity belongs to (String)<span style="font-weight:bold;"><b><br>
+IsLocked</b></span> - locked status of the entity (Yes/No)<span style="font-weight:bold;"><b><br>
+Extents</b></span>(MinX, MaxX, MinY, MaxY, MinZ, MaxZ) - XYZ extents of the entity (6 x Float)<span style="font-weight:bold;"><b><br>
+Size</b></span>(X, Y, Z) - XYZ size of the entity (3 x Float)<span style="font-weight:bold;"><b><br>
+Centre</b></span>(X, Y, Z) - centre of XYZ extents of the entity (3 x Float)<span style="font-weight:bold;"><b><br>
+Orientation</b></span>(I, J, K) - direction of line, cylinder axis, cone axis; normal of plane, rectangular/round slot; orientation of viewport, transformation (3 x Float <span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>(IJK = -1.0 ... +1.0)</i></font></span>)<span style="font-weight:bold;"><b><br>
+Axis</b></span>(I, J, K) - axis of rectangular/round slot (3 x Float<span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>(IJK = -1.0 ... +1.0)</i></font></span>)<span style="font-weight:bold;"><b><br>
+StartPoint</b></span>(X, Y, Z) - first point of line, cylinder axis, cone axis (apex) (3 x Float)<span style="font-weight:bold;"><b><br>
+EndPoint</b></span>(X, Y, Z) - second point of line, cylinder axis, cone axis (base centre) (3 x Float)<span style="font-weight:bold;"><b><br>
+Length</b></span> - length of line, cylinder axis, cone axis, rectangular/round slot (Float)<span style="font-weight:bold;"><b><br>
+Radius/Width</b></span> - radius of circle, sphere, cylinder, cone, round slot (could be full length or centre-to-centre); half width of rectangular slot (Float)<span style="font-weight:bold;"><b><br>
+Perimeter</b></span> - circumference of circle, cylinder base, cone base; perimeter of rectangular/round slot (Float)<span style="font-weight:bold;"><b><br>
+Offset</b></span> - offset of plane, circle plane, rectangular/round slot plane from the origin (Float)<span style="font-weight:bold;"><b><br>
+SlantLength</b></span> - slant length of cone (Float)<span style="font-weight:bold;"><b><br>
+Angle</b></span> - apex angle of cone (Float/String<span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>(XXdXXmXX.XXXXs – degrees, XXgXXcXX.XXXXcc – grads)</i></font></span>)<span style="font-weight:bold;"><b><br>
+SlantAngle</b></span> - slant angle of cone (Float/String <span style="font-size:8pt; font-style:italic;"><font size="1" style="font-size:8pt;"><i>(XXdXXmXX.XXXXs – degrees, XXgXXcXX.XXXXcc – grads)</i></font></span>)<span style="font-weight:bold;"><b><br>
+Area</b></span> - area of circle, rectangular/round slot, sphere; full area of cylinder, cone (Float)<span style="font-weight:bold;"><b><br>
+LateralArea</b></span> - lateral area of cylinder, cone (Float)<span style="font-weight:bold;"><b><br>
+BaseArea</b></span> - base area of cylinder, cone (Float)<span style="font-weight:bold;"><b><br>
+Volume</b></span> - volume of sphere, cylinder, cone (Float)<span style="font-weight:bold;"><b><br>
+Matrix</b></span>(A11, A12, A13, T1, A21, A22, A23, T2, A31, A32, A33, T3) - transformation matrix of viewport, transformation (12 x Float <span style="font-style:italic; font-size:8pt;"><font size="1" style="font-size:8pt;"><i>(Aij = -1.0 ... + 1.0)</i></font></span>)<span style="font-weight:bold;"><b><br>
+NumPoints</b></span> - number of vertices of scan data, mesh, point cloud, probe points, polyline entity (Integer)<span style="font-weight:bold;"><b><br>
+NumTriangles</b></span> - number of triangles of scan data, mesh entity (Integer)<span style="font-weight:bold;"><b><br>
+NumStripes</b></span> - number of stripes of scan data entity (Integer)<span style="font-weight:bold;"><b><br>
+Colour</b></span>(Red, Green, Blue) - RGB colour of the entity (with exception of viewports and transformations) in decimal format (3 x Integer)<br>
+&#160;</p>
+<p class="ExampleCode">Dimensions Table Section:</p>
+<p class="ExampleCode"><span style="font-weight:bold;"><b>DimensionNumber</b></span>, Point1(X, Y, Z), Point2(X, Y, Z), 1D(X, Y, Z), 2D(XY, YZ, ZX), 3D(XYZ)</p>
+<p class="ExampleCode">&#160;</p>
+<p class="ExampleCode">Column titles and description of Dimensions Table Section:</p>
+<p class="ExampleCode"><span style="font-weight:bold;"><b>DimensionNumber</b></span> - consecutive number of the dimension (Integer)<span style="font-weight:bold;"><b><br>
+Point1</b></span>(X, Y, Z) - co-ordinates of the first point (3 x Float)<span style="font-weight:bold;"><b><br>
+Point2</b></span>(X, Y, Z) - co-ordinates of the second point (3 x Float)<span style="font-weight:bold;"><b><br>
+1D</b></span>(X, Y, Z) - distance between the two points projected on OX, OY, and OZ axis (3 x Float)<span style="font-weight:bold;"><b><br>
+2D</b></span>(XY, YZ, ZX) - distance between the two points projected on OXY, OYZ, and OZX planes (3 x Float)<span style="font-weight:bold;"><b><br>
+3D</b></span>(XYZ) - distance between the two points in 3D space (Float)<br>
+&#160;</p>
+<p class="parameterstitle">Gap and Flush Table Section:</p>
+<p><span style="font-weight:bold;"><b>Gap&amp;FlushNumber</b></span>, Point1(X, Y, Z), Point2(X, Y, Z), Direction(I, J, K), Point3(X, Y, Z), Value</p>
+<p class="parameterstitle">Column titles and description of Gap and Flush Table Section:</p>
+<p><span style="font-weight:bold;"><b>Gap&amp;FlushNumber</b></span> - consecutive number of the Gap &amp; Flush dimension (Integer)<span style="font-weight:bold;"><b><br>
+Point1</b></span>(X, Y, Z) - co-ordinates of the first point (3 x Float)<span style="font-weight:bold;"><b><br>
+Point2</b></span>(X, Y, Z) - co-ordinates of the second point (3 x Float)<span style="font-weight:bold;"><b><br>
+Direction</b></span>(I, J, K) - direction of the line defined by Point1 and Point2 (3 x Float <span style="font-size:8pt; font-style:italic;"><font size="1" style="font-size:8pt;"><i>(IJK = -1.0 ... +1.0)</i></font></span>)<span style="font-weight:bold;"><b><br>
+Point3</b></span>(X, Y, Z) - co-ordinates of the third point (3 x Float)<span style="font-weight:bold;"><b><br>
+Value</b></span> - value of Gap and Flush dimension, e.g. 3D distance from Point3 to the line defined by Point1 and Point2 (Float)</p>
+<p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Example CSV File</a></p>
+<div class="droptext" id="POPUP171521849" style="display:'none'; x-ss-type:dropdown;">
+<p class="Normal" style="font-family:'Courier New' , monospace; font-size:8pt; text-align:left; margin-left:40px;" align="left">FileName,all_entities1.sab2<br>
+Created,3/13/00<br>
+Modified,3/13/00<br>
+ReportDate,01/11/06<span style="text-align:justify;"><br>
+<br>
+Operator,John Smith<br>
+Object Name,Model-A<br>
+Object No,00001<br>
+Software,KUBE v13.0.0 Build 225<br>
+Localiser Type,FARO Platinum<br>
+Localiser Version,152<br>
+Localiser S/N,P08-05-04-01042<br>
+Sensor Type,MM X70<br>
+Sensor S/N,23000<br>
+Length Units,millimetre<br>
+Angle Units,degree<br>
+Angle Units Decimal,Yes<br>
+RoundSlotLength,Full Length<br>
+Comments, This is an example CSV file.<br>
+Current CS,World Coord Sys (WCS)</span><br>
+<br>
+EntityName,Type,Group,IsLocked,Extents,,,,,,Size,,,Centre,,,Orientation,,,Axis,,,StartPoint,,,EndPoint,,,Length,Radius/Width,Perimeter,Offset,SlantLength,Angle,SlantAngle,Area,LateralArea,BaseArea,Volume,Matrix,,,,,,,,,,,,NumPoints,NumTriangles,NumStripes,Colour,,<span style="font-family:'Courier New' , monospace; font-size:8pt; text-align:left; margin-left:40px;"><font size="1" style="font-size:8pt;"><br>
+,,,,MinX,MaxX,MinY,MaxY,MinZ,MaxZ,X,Y,Z,X,Y,Z,I,J,K,I,J,K,X,Y,Z,X,Y,Z,,,,,,,,,,,,A11,A12,A13,T1,A21,A22,A23,T2,A31,A32,A33,T3,,,,Red,Green,Blue</font></span></p>
+<p class="Normal" style="font-family:'Courier New' , monospace; font-size:8pt; text-align:left; margin-left:40px;" align="left">Probe points,Probe points,Probe points,Yes,40.793,70.463,-3.16,5.22,32.4,82.074,29.67,8.38,49.674,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,58,,,255,255,255<br>
+Stripe,Point cloud,Point Clouds,Yes,-9.219,58.962,-22.217,-20.92,10.524,61.505,68.181,1.297,50.981,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,570,,,255,255,255<br>
+Scan data,Scan Data,Scans,Yes,0,35,0,55,1,9.596,35,55,8.596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,193,752,704,117,117,255<br>
+Point 1,Point,Datuming,Yes,23,23,2,2,5,5,0,0,0,23,2,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,255,51,255<br>
+Line 1,Line,Datuming,Yes,10,34,2,4,4,15,24,2,11,,,,0.906,0.076,0.415,,,,10,2,4,34,4,15,26.476,,,,,,,,,,,,,,,,,,,,,,,,,,0,102,204<br>
+Sphere 1,Sphere,Datuming,Yes,19.5,26.5,1.5,8.5,7.5,14.5,7,7,7,23,5,11,,,,,,,,,,,,,,3.5,21.991,,,,,153.938,,,179.594,,,,,,,,,,,,,,,,140,140,242<br>
+Cylinder 1,Cylinder,Datuming,Yes,-1.331,4.331,2.63,7.37,2.479,12.521,5.663,4.74,10.041,,,,0.309,0.206,0.928,,,,0,4,3,3,6,12,9.695,1.4,8.796,,,,,97.6,85.285,6.158,59.699,,,,,,,,,,,,,,,,5,186,196<br>
+Polyline 0,Polyline,Polylines,Yes,0,35,10,10,1,5.351,35,0,4.351,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,220,,,255,255,255<br>
+Polyline 1,Polyline,Polylines,Yes,0,35,20,20,1,6.829,35,0,5.829,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,195,,,255,255,255<br>
+Polyline 2,Polyline,Polylines,Yes,0,35,30,30,1,9.104,35,0,8.104,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,249,,,255,255,255<br>
+Polyline 3,Polyline,Polylines,Yes,0,35,40,40,1,8.922,35,0,7.922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,193,,,255,255,255<br>
+Mesh,Mesh,Meshes,Yes,4.5,13.5,22.3,30.088,1,8.654,9,7.788,7.654,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,983,596,,192,192,192<br>
+Point cloud,Point cloud,Point Clouds,Yes,0.2,35,0.2,55,1,9.593,34.8,54.8,8.593,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,879,,,255,255,255<br>
+Circle 1,Circle,Datuming,Yes,25.358,34.642,1.652,8.348,5.848,14.152,9.285,6.695,8.305,30,5,10,0.371,0.743,0.557,,,,,,,,,,,5,31.416,-20.426,,,,78.54,,,,,,,,,,,,,,,,,,,255,255,255<br>
+Viewport,Viewport,View Position,,,,,,,,,,,-3.161,-7.776,-5.103,-0.289,-0.691,0.663,,,,,,,,,,,,,,,,,,,,,0.942,-0.081,0.326,-3.161,-0.171,0.718,0.674,-7.776,-0.289,-0.691,0.663,-5.103,,,,,,<br>
+Alignment,Transformation,Transformations,,,,,,,,,,,96.881,-471.330,709.277,-0.331,-0.595,0.732,,,,,,,,,,,,,,,,,,,,,0.884,0.075,0.461,96.881,-0.329,0.800,0.502,-471.330,-0.331,-0.595,0.732,709.277,,,,,,<span style="font-family:'Courier New' , monospace; font-size:8pt; text-align:left; margin-left:40px;"><font size="1" style="font-size:8pt;"><br>
+Cone 1,Cone,Datuming,Yes,-14.287,14.287,-3.962,50,-14.287,14.287,28.573,53.962,28.573,,,,-0.192,-0.962,-0.192,,,,10,50,10,0,0,0,51.962,14.559,91.476,,53.963,15.652,82.174,3,134.021,2,468.132,665.889,11,533.529,,,,,,,,,,,,,178,255,178<br>
+Rectangular slot 1,Rectangular Slot,Datuming,Yes,15,25,5,35,20,20,10,30,0,20,20,20,0,0,1,0,1,0,,,,,,,30,10,80,-20,,,,300,,,,,,,,,,,,,,,,,,,252,147,81<br>
+Round slot 1,Round Slot,Datuming,Yes,-20,-20,-30,-10,-25,-15,0,20,10,-20,-20,-20,1,0,0,0,1,0,,,,,,,20,5,51.416,20,,,,178.54,,,,,,,,,,,,,,,,,,,196,204,132</font></span></p>
+<p class="Normal" style="font-family:'Courier New' , monospace; font-size:8pt; text-align:left; margin-left:40px;" align="left">DimensionNumber,Point1,,,Point2,,,1D,,,2D,,,3D<span style="font-family:'Courier New' , monospace; font-size:8pt; text-align:left; margin-left:40px;"><font size="1" style="font-size:8pt;"><br>
+,X,Y,Z,X,Y,Z,X,Y,Z,XY,YZ,ZX,XYZ</font></span></p>
+<p class="Normal" style="font-family:'Courier New' , monospace; font-size:8pt; text-align:left; margin-left:40px;" align="left">1,0.234,-234.213,129.45,234.345,-234.23,2394.234,234.111,0.017,2264.784,234.111,2264.784,2276.851,2276.852<span style="font-family:'Courier New' , monospace; font-size:8pt; text-align:left; margin-left:40px;"><font size="1" style="font-size:8pt;"><br>
+2,0,0,0,1,1,1,1,1,1,1.414,1.414,1.414,1.732<br>
+3,-234.232,4567.46,-0.003,-3459.34,-345.234,234.53,3225.108,4912.694,234.533,5876.723,4918.289,3233.624,5881.402<br>
+4,24.234,-456.332,-345.23,-566.54,-345.345,-2345.345,590.774,110.987,2000.115,601.109,2003.192,2085.539,2088.49<br>
+5,2,3,4,6,7,8,4,4,4,5.656,5.657,5.657,6.928<br>
+6,-234.232,-0.003,-3459.34,-2345.345,0.234,4567.46,2111.113,0.237,8026.8,2111.113,8026.8,8299.778,8299.778</font></span></p>
+<p class="Normal" style="font-family:'Courier New' , monospace; font-size:8pt; text-align:left; margin-left:40px;" align="left">Gap&amp;FlushNumber,Point1,,,Point2,,,Direction,,,Point3,,,Value<span style="font-family:'Courier New' , monospace; font-size:8pt; text-align:left; margin-left:40px;"><font size="1" style="font-size:8pt;"><br>
+,X,Y,Z,X,Y,Z,I,J,K,X,Y,Z</font></span></p>
+<p class="Normal" style="font-family:'Courier New' , monospace; font-size:8pt; text-align:left; margin-left:40px;" align="left">1,34.4,345.23,543.234,65.034,-43.2,543.3,0.021,0.452,-0.943,34.234,2,4.544,234.231<span style="font-family:'Courier New' , monospace; font-size:8pt; text-align:left; margin-left:40px;"><font size="1" style="font-size:8pt;"><br>
+2,0.234,-234.213,129.45,234.345,-234.23,2394.234,0.111,0.017,0.784,234.111,2264.784,2276.851,2276.852<br>
+&#160;</font></span></p>
+</div>
+<p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2" style="text-decoration:underline;">Example CSV File formatted in a spreadsheet</a></p>
+<div class="droptext" id="POPUP164353204" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs4"><img src="Images/CSV_file_example.gif" width="1083px" height="400px" border="0" class="img_whs5" alt=""></p>
+</div>
+<p class="Warning">Exported CSV files do not store information for the individual points of the compound entities such as scan data, meshes, point clouds, probe points, and polylines.</p>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a1','POPUP171521849');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a2','POPUP164353204');
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B02270000004578706F727420456E74697469657320696E666F20696E204353562066696C6520666F726D61740C0248010000417265610A436972636C650A636F6C6F75720A436F6E650A4372656174650A4353560A43796C696E6465720A446566696E650A456E7469746965730A4578706F72740A4578706F727420456E7469746965730A46696C654E616D650A466C7573680A466F726D61740A4761700A47617026466C7573684E756D6265720A4C696E650A6C6F63616C697365720A6C6F63616C69736572094C6F63616C6973657220547970650A4C6F636B0A4D61747269780A4D6573680A4D6F646966790A506C616E650A506F6C796C696E650A50726F62650A50726F706572746965730A52656374616E67756C61720A526F756E6420536C6F740A5363616E0A5363616E20446174610A53656E736F720A53656E736F7220547970650A53657474696E67730A53797374656D0A5472616E73666F726D6174696F6E206D61747269780A556E6974730A566F6C756D650D020F0000004578706F727420456E746974696573110211000000576F726B696E672077697468204461746112020F0000004578706F727420456E7469746965731302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

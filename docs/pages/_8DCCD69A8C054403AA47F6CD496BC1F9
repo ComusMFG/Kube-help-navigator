@@ -1,0 +1,323 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>CimCore Localiser Set-up</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+h2.whs4 { font-style:normal; }
+img_whs5 { border:none; width:406px; height:109px; float:none; border-style:none; }
+img_whs6 { border:none; float:none; border-style:none; width:451px; height:325px; }
+table.whs7 { left:0px; top:16px; width:713px; border-spacing:5px; }
+tr.whs8 {  }
+td.whs9 { padding-left:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; }
+img_whs10 { width:150px; height:149px; border-style:none; }
+img_whs11 { width:150px; height:150px; border-style:none; }
+table.whs12 { left:0px; top:199px; border-spacing:5px; }
+img_whs13 { border:none; width:568px; height:426px; float:none; border-style:none; }
+table.whs14 { margin-left:24px; left:0px; top:80px; width:708px; border-spacing:0px; }
+img_whs15 { border:none; float:none; width:364px; height:265px; border-style:none; }
+table.whs16 { margin-left:60px; left:0px; top:3672px; width:697px; border-spacing:5px; }
+p.whs17 { margin-left:40px; }
+img_whs18 { border:none; float:none; width:600px; height:324px; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nScanning\nSystem Set-Up\nLocaliser Set-Up\nCimCore\nCimCore Localiser Set-up");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>CimCore Localiser Set-up</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<h2 class="whs4">Installing a CimCore localiser</h2>
+<p>CimCore localiser installation consists of hardware set-up and configuration of WinRDS utility software.</p>
+<p>&#160;</p>
+<p class="sub-head">Handling your localiser</p>
+<p class="Warning" id="P1"><font id="font1">The localiser is a precision measuring instrument, please treat it with care.</font></p>
+<p>The localiser has also been designed to withstand a typical shop-floor environment, nevertheless, please ensure that it is handled with care according to the manufacturer's instructions.</p>
+<p>&#160;</p>
+<p class="sub-head">CimCore localiser firmware</p>
+<p>KUBE will only scan if the correct WinRDS is being used and firmware versions installed in the 3000i or INFINITE localiser.</p>
+<p id="P2" class="Warning"><font id="font2">Please use:<br></font><font id="font3">WinRDS v5.0.3 and encoders firmware Run Code 178.</font></p>
+<p>To check the firmware version: Double click on the 'Localiser Utilities' shortcut icon on desktop and follow the procedure step by step as shown below:</p>
+<ol>
+<li class="kadov-p-Csteps">
+<p class="steps">Click on the 'About Arm Utilities' button.<br>
+<img src="ArmUtilitiesAbout1.JPG" width="406px" height="109px" border="0" class="img_whs5" alt=""></p>
+</li>
+<li class="kadov-p-Csteps">
+<p class="steps">A new window will appear called <span style="margin-left:40px;">'Arm Diagnosis'. Check the firmware version as displayed:</span><br>
+<img src="ArmUtilitiesAbout2.JPG" width="451px" height="325px" border="0" class="img_whs6" alt=""></p>
+</li>
+</ol>
+<p>For instructions on how to upgrade firmware, please contact the localiser distributor.</p>
+<h2>CimCore localiser set-up process</h2>
+<p class="sub-head">CimCore 3000i:</p>
+<ul class="body1">
+<li class="kadov-p-CBullet">
+<p class="Bullet">Ensure the localiser is rigidly mechanically mounted (as per CimCore manual).</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Ensure WinRDS is installed according to the manufacturers instructions.</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Ensure that all the power switches on the CimCore 3000i components are turned off before conducting assembly.</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Connect all the cables:</p>
+<table cellspacing="5" width="713" class="whs7">
+<col>
+<col>
+<tr valign="middle" class="whs8">
+<td colspan="1" rowspan="1" class="whs9">
+<p class="normal-table"><span class="subheading1"><img src="cimcore_1.jpg" width="150px" height="149px" border="0" class="img_whs10" alt=""></span></p>
+</td>
+<td colspan="1" rowspan="1" class="whs9">
+<p class="normal-table">Align the red dots of the <b><span style="font-weight:bold;"><b>serial cable's</b></span></b> end and the connector on the back panel of the arm. Gently push the serial cable into the socket until a firm connection is established.</p>
+</td>
+</tr>
+<tr valign="middle" class="whs8">
+<td class="whs9">
+<p class="normal-table"><img src="cimcore_2.jpg" width="150px" height="150px" border="0" class="img_whs11" alt=""></p>
+</td>
+<td class="body1" style="padding-left:0px; padding-top:0px; padding-right:0px; padding-bottom:0px;">
+<p class="normal-table">Connect the <b>3 PIN male cable</b> to the female adapter from power supply.</p>
+</td>
+</tr>
+</table>
+&#160;</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Connect the <b><span style="font-weight:normal;">serial cable</span> t</b>o the PC's serial port.</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Connect the <b><span style="font-weight:normal;">AC power cord</span> to</b> the power supply.</p>
+</li>
+</ul>
+<p class="sub-head">CimCore INFINITE:</p>
+<ul class="body1">
+<li class="kadov-p-CBullet">
+<p class="Bullet">Ensure the localiser is rigidly mechanically mounted (as per CimCore manual).</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Ensure WinRDS is installed according to the manufacturers instructions.</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Ensure that all the power switches on the CimCore INFINTE components are turned off before conducting assembly.</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Connect all the cables:</p>
+</li>
+</ul>
+<table cellspacing="5" class="whs12">
+<col>
+<col>
+<tr valign="middle" class="whs8">
+<td colspan="1" rowspan="1" class="whs9">
+<p class="normal-table"><img src="CimCoreINFINITE_1.jpg" width="568px" height="426px" border="0" class="img_whs13" alt=""></p>
+</td>
+<td colspan="1" rowspan="1" class="whs9">
+<p class="normal-table">Plug the <span style="font-weight:bold;"><b>USB cable</b></span> on the back panel of the arm and gently tighten up the white screw. Connect its second end to the laptop.</p>
+</td>
+</tr>
+<tr valign="middle" class="whs8">
+<td class="whs9">
+<p class="normal-table"><img src="CimCoreINFINITE_2.jpg" width="568px" height="426px" border="0" class="img_whs13" alt=""></p>
+</td>
+<td class="body1" style="padding-left:0px; padding-top:0px; padding-right:0px; padding-bottom:0px;">
+<p class="normal-table">Connect the <span style="font-weight:bold;"><b>trigger cable</b></span> to the „scanner“ lead on the back panel and to a network outlet of the laptop.</p>
+</td>
+</tr>
+</table>
+<ul class="body1">
+<li class="kadov-p-CBullet">
+<p class="Bullet">Connect the <b><span style="font-weight:normal;">AC power cord</span> to</b> the power supply.</p>
+</li>
+</ul>
+<p class="sub-head">Starting the CimCore 3000i/INFINITE</p>
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet">Before powering up your CimCore 3000i/INFINITE system, you should check the AC outlet that it to be used.</p>
+</li>
+</ul>
+<p class="Warning" id="P3">If an outlet is used that does not produce the "Correct" code on the circuit tester, there us a &#160;risk of damaging all or part of the CimCore 3000i/INFINITE system.</p>
+<ul class="body1">
+<li class="kadov-p-CBullet">
+<p class="Bullet">After checking the outlet, plug in the PC's power cord and the power cord that goes with the power supply.</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Check all connections.</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Power up the computer unit.</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Power up the CimCore 3000i/INFINITE localiser. It's switch is located on the back panel. The localiser power switch will illuminate a green light and the localiser will also beep once to indicate that it is receiving power.</p>
+</li>
+</ul>
+<h2>Confirming communications</h2>
+<ul class="body1">
+<li class="kadov-p-CBullet">
+<p class="Bullet">Ensure that the WinRDS software key is properly placed on the printer parallel port.</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Power up the complete system.</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Connect the 15mm ball probe to the localiser by aligning the pins at the base of the probe with the sockets and the guide pins with the guide slots.</p>
+</li>
+<li style="list-style: none">
+<table cellspacing="0" width="708" class="whs14">
+<col>
+<col>
+<col>
+<tr>
+<td class="whs9">
+<p class="normal-table"><span class="subheading1"><img src="cimcore_3.jpg" width="150px" height="150px" border="0" class="img_whs11" alt=""></span></p>
+</td>
+<td class="whs9">
+<p class="normal-table">&#160;</p>
+</td>
+<td class="body1" style="padding-left:0px; padding-top:0px; padding-right:0px; padding-bottom:0px;">
+<p class="normal-table">Correct alignment is assisted by matching the alignment hole on the localiser's socket with the slightly recessed hole on the shaft of the probe.</p>
+</td>
+</tr>
+</table>
+&#160;<br></li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Insert the probe straight and lock it snugly in place by twisting the probe adapter (black twisting handle).</p>
+</li>
+</ul>
+<p class="Warning" id="P4">Do not force the probe. <span style="margin-left:0px;">Do not over-tighten probe adapter, but ensure it is well attached.</span></p>
+<ul class="body1">
+<li class="kadov-p-CBullet">
+<p class="Bullet">Double click on the 'Arm Utilities' shortcut icon on desktop screen. WinRDS will begin to communicate with the localiser.</p>
+</li>
+<li style="list-style: none">
+<p><img src="ArmReset.jpg" width="364px" height="265px" border="0" class="img_whs15" alt=""></p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Place the localiser in the '<b>home'</b> position to reset the axes.</p>
+</li>
+</ul>
+<table cellspacing="5" width="697" class="whs16">
+<col>
+<col>
+<tr valign="middle" class="whs8">
+<td colspan="1" rowspan="1" class="whs9">
+<p class="normal-table"><img src="cimcore_5.jpg" width="150px" height="150px" border="0" class="img_whs11" alt=""></p>
+</td>
+<td colspan="1" rowspan="1">
+<p class="normal-table">The 'home' position is obtained by placing the A, B and C axes (shoulder to elbow) parallel to the surface and D, E and F axes (elbow to finger) perpendicular to the surface.</p>
+</td>
+</tr>
+<tr valign="middle" class="whs8">
+<td class="whs9">
+<p class="normal-table"><span class="subheading1"><img src="cimcore_6.jpg" width="150px" height="149px" border="0" class="img_whs10" alt=""></span></p>
+</td>
+<td class="body1">
+<p class="normal-table">Rotate the localiser by moving all the axes. As each axes is set, the bars will turn blue.</p>
+</td>
+</tr>
+</table>
+<ul class="body1">
+<li style="list-style: none">
+<p>&#160;</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Once all the bars have turned blue, the localiser now acts as a 3 dimensional mouse for screen selections while in WinRDS. The movement of the wrist and finger (E and F axes) allows fluid mouse control. The localiser's middle button acts as the left mouse button.</p>
+</li>
+<li class="kadov-p-CBullet">
+<p class="Bullet">Verify the WinRDS ArmSpecs conversion by lacing the probe in a hole that cups the 15mm ball probe while moving the elbow axis and watching the movement of the Z value on the screen.</p>
+</li>
+</ul>
+<p class="whs17"><img src="ArmUtilities.jpg" width="600px" height="324px" border="0" class="img_whs18" alt=""></p>
+<p class="whs17"><span style="margin-left:40px;">There should be very little variation if the data was correctly translated.</span></p>
+<ul class="body1">
+<li class="kadov-p-CBullet">
+<p class="Bullet">To exit WinRDS, place the screen pointer on the box with the x in the upper right corner of the screen (Windows close button) and press the localiser's middle button.</p>
+</li>
+</ul>
+<p class="Note" id="p5"><b style="font-weight:bold;">Note:</b> ArmSpecs data is located in a folder ARMDATA under C:\Program Files\CimCore\WinRDS\. This folder also contains each of the probe profiles.</p>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B021200000043696D436F72652041726D205365742D75700C02CC000000416C69676E0A416C69676E6D656E740A41726D0A4261636B0A426F780A43696D636F72650A436C6F73650A446973706C61790A457869740A48617264776172650A494E46494E4954450A4C6566740A4C696768740A6C6F63616C697365720A4C6F636B0A4D6561737572650A4E65770A50616E656C730A506172616C6C656C0A50726F62650A50726F66696C65730A52696768740A526F746174650A526F74617465096C6F63616C697365720A5363616E0A53656C656374696F6E0A53797374656D0A556E6974730A5553420D021800000043696D436F7265204C6F63616C69736572205365742D757011020700000043696D436F726512021800000043696D436F7265204C6F63616C69736572205365742D75701302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

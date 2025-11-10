@@ -1,0 +1,457 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>New Plane</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+img_whs4 { border:none; float:none; width:32px; height:29px; border-style:none; }
+img_whs5 { border:none; width:691px; height:549px; float:none; border-style:none; }
+p.whs6 { font-style:normal; }
+table.whs7 { width:100%; border-spacing:0px; }
+col.whs8 { width:50%; }
+tr.whs9 {  }
+td.whs10 { width:50%; border-left-width:1px; border-left-color:#000000; border-left-style:Solid; border-top-style:Solid; border-top-color:#000000; border-top-width:1px; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; }
+img_whs11 { border:none; float:none; width:248px; height:200px; border-style:none; }
+td.whs12 { width:50%; border-top-style:Solid; border-top-color:#000000; border-top-width:1px; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; }
+img_whs13 { border:none; width:251px; height:200px; float:none; border-style:none; }
+td.whs14 { width:50%; border-left-width:1px; border-left-color:#000000; border-left-style:Solid; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; }
+td.whs15 { width:50%; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; }
+img_whs16 { border:none; width:255px; height:200px; float:none; border-style:none; }
+img_whs17 { border:none; width:248px; height:200px; float:none; border-style:none; }
+img_whs18 { border:none; width:708px; height:551px; float:none; border-style:none; }
+img_whs19 { border:none; width:718px; height:548px; float:none; border-style:none; }
+img_whs20 { border:none; width:627px; height:555px; float:none; border-style:none; }
+p.whs21 { background-color:Transparent; }
+img_whs22 { border:none; width:283px; height:196px; float:none; border-style:none; }
+img_whs23 { border:none; width:337px; height:354px; float:none; border-style:none; }
+img_whs24 { border:none; width:88px; height:21px; float:none; border-style:none; }
+img_whs25 { border:none; width:609px; height:621px; float:none; border-style:none; }
+img_whs26 { border:none; width:32px; height:29px; float:none; border-style:none; }
+img_whs27 { border:none; width:664px; height:550px; float:none; border-style:none; }
+img_whs28 { border:none; width:660px; height:549px; float:none; border-style:none; }
+img_whs29 { border:none; width:490px; height:408px; float:none; border-style:none; }
+p.whs30 { margin-left:40px; font-style:italic; }
+img_whs31 { border:none; width:711px; height:653px; float:none; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs21 {background-color:white; }";
+  strNSS +="<\/style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1><span lang="EN-GB">New Plane</span></h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p><i style="font-style:normal;"><span lang="EN-US">T</span>his command is accessible from</i> <span class="Path" style="font-weight:bold;"><b>Datuming &gt; Plane</b></span><span class="Path">,</span> by using the shortcut <span class="Shortcut" style="font-weight:bold;"><b>Shift + Alt + 3</b></span> <span class="Shortcut">or by choosing the</span> <span class="Shortcut" style="font-weight:bold;"><b>Circle tab</b></span> <span class="Shortcut">in the</span> <span class="Shortcut" style="text-decoration:underline;"><u>Datum creation</u></span> <span class="Shortcut">mode (if it is currently active).</span></p>
+<p class="description"><span style="font-weight:bold;"><b>Description:</b></span> New Plane command creates new datum plane by one of the 6 available methods. Here below these methods are explained followed by examples.</p>
+<h2><i style="font-style:normal;"><span lang="EN-US">M</span></i><i style="font-style:normal;"><span lang="EN-US">ethods:</span></i></h2>
+<p class="sub-head"><i style="font-style:normal;"><span lang="EN-US">Interactive</span></i></p>
+<p><i style="font-style:normal;"><span lang="EN-US"><img src="Images/new_plane_interactive.gif" width="32px" height="29px" border="0" class="img_whs4" alt=""></span></i> <i style="font-style:normal;"><span lang="EN-US">: standard plane construction using one of the available 4</span></i> <i style="font-style:normal;"><span lang="EN-US">definition</span></i> <i style="font-style:normal;"><span lang="EN-US">methods (pick from viewport is enabled by default) and additional offset parameter. For more details about the define section, see <a href="../Working_with_Data/Descriptions/define_plane.htm">Define Plane</a>.</span></i></p>
+<p id="p4"><i><span lang="EN-US" style="font-style:italic; font-weight:bold;"><i><b>H</b>ow it works</i></span></i>:</p>
+<ol>
+<li class="kadov-p-Csteps-Ip5">
+<p class="steps" id="p5">The user defines a plane.</p>
+</li>
+<li class="kadov-p-Csteps-Ip5">
+<p class="steps" id="p5">The offset parameter can be set to any positive or negative value or left as 0.</p>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet-Ip5">
+<p class="bullet" id="p5">If the parameter is left as 0, then the result plane will be identical to the defined one.</p>
+</li>
+<li class="kadov-p-Cbullet-Ip5">
+<p class="bullet" id="p5">If the parameter is set to any positive value, then the result plane will be offset with the same value in direction of the normal.</p>
+</li>
+<li class="kadov-p-Cbullet-Ip5">
+<p class="bullet" id="p5">If the parameter is set to any negative value, then the result plane will be offset with the same value in direction opposite to the normal.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p id="p18"><i style="font-style:normal;"><span lang="EN-US">C</span></i>hanges of all values can be applied at any time. Flip the normal of the final datum using the "<span style="font-weight:bold;"><b>+/-</b></span>" button in the result section, if necessary.</p>
+<p class="Example" style="font-style:normal; text-decoration:underline;"><i style="font-style:normal;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a3" style="text-decoration:underline;">Example</a></span></i></p>
+<div class="droptext" id="POPUP171377225" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/InteractivePlane.gif" width="691px" height="549px" border="0" class="img_whs5" alt=""></p>
+</div>
+<p class="whs6">&#160;</p>
+<p class="sub-head">Two lines</p>
+<p><img src="Images/new_plane_2lines.gif" width="32px" height="29px" border="0" class="img_whs4" alt=""> : This method includes definition of 2 construction lines and selection of result plane position. <i style="font-style:normal;"><span lang="EN-US">For more details about the define section, see <a href="../Working_with_Data/Descriptions/define_line.htm">Define Line</a>.</span></i></p>
+<p id="p2"><span style="font-weight:bold; font-style:italic;"><i><b>How it works</b></i></span>:</p>
+<ol>
+<li class="kadov-p-Csteps-Ip3">
+<p class="steps" id="p3">The user defines both lines one by one.</p>
+</li>
+<li class="kadov-p-Csteps-Ip3">
+<p class="steps" id="p3">Selection for plane position (parallel or secant) should be made. The parallel option is set by default.</p>
+</li>
+<li class="kadov-p-Csteps-Ip3">
+<p class="steps" id="p3">The result plane will have central point in the middle of the transversal of both lines. If the lines form a single plane, then the centre of the result plane will be the intersection between the lines. Depending on the selected position option, there are two possible solutions for the result plane:</p>
+</li>
+</ol>
+<ul>
+<li style="list-style:none; display:inline;">
+<ol start="1">
+<li class="kadov-p-Cbullet-Ip3">
+<p class="bullet" id="p3">If parallel option is selected, then the normal of the result plane will be identical to the transversal with direction following the right hand rule.</p>
+</li>
+</ol>
+</li>
+</ul>
+<p id="p3" class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Parallel option schematic:</a></p>
+<div class="droptext" id="POPUP234767065" style="display:'none'; x-ss-type:dropdown;">
+<p>&#160;</p>
+<table cellspacing="0" width="100%" class="whs7">
+<col class="whs8">
+<col class="whs8">
+<tr valign="top" class="whs9">
+<td width="50%" class="whs10">
+<p><img src="Images/Plane_schematic1.gif" width="248px" height="200px" border="0" class="img_whs11" alt=""></p>
+</td>
+<td width="50%" class="whs12">
+<p><img src="Images/Plane_schematic1a.gif" width="251px" height="200px" border="0" class="img_whs13" alt=""></p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td width="50%" class="whs14">
+<p>Plane centre definition (isometric view)</p>
+</td>
+<td width="50%" class="whs15">
+<p>Plane normal definition (up view)</p>
+</td>
+</tr>
+</table>
+</div>
+<ul>
+<li style="list-style:none; display:inline;">
+<ol start="2">
+<li class="kadov-p-Cbullet-Ip20">
+<p class="bullet" id="p20">If secant option is selected, then the result plane will be secant of the angle between line1 and line2, with normal direction pointing from the positive direction of line1 to the positive direction of line2.</p>
+</li>
+</ol>
+</li>
+</ul>
+<p id="p13" class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2" style="text-decoration:underline;">Secant option schematic:</a></p>
+<div class="droptext" id="POPUP234773802" style="display:'none'; x-ss-type:dropdown;">
+<p>&#160;</p>
+<table cellspacing="0" width="100%" class="whs7">
+<col class="whs8">
+<col class="whs8">
+<tr valign="top" class="whs9">
+<td width="50%" class="whs10">
+<p><img src="Images/Plane_schematic2.gif" width="255px" height="200px" border="0" class="img_whs16" alt=""></p>
+</td>
+<td width="50%" class="whs12">
+<p><img src="Images/Plane_schematic2a.gif" width="248px" height="200px" border="0" class="img_whs17" alt=""></p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td width="50%" class="whs14">
+<p>Plane centre definition (isometric view)</p>
+</td>
+<td width="50%" class="whs15">
+<p>Plane normal definition (up view)</p>
+</td>
+</tr>
+</table>
+</div>
+<p id="p19">Changes of all values can be applied at any time. Flip the normal of the final datum using the "<span style="font-weight:bold;"><b>+/-</b></span>" button in the result section, if necessary.</p>
+<p id="P1" class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a4" style="text-decoration:underline;">Example for parallel option</a></p>
+<div class="droptext" id="POPUP164209600" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/PlaneByTwoLinesPar.gif" width="708px" height="551px" border="0" class="img_whs18" alt=""></p>
+</div>
+<p class="Example" id="p22" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a5" style="text-decoration:underline;">Example for secant option</a></p>
+<div class="droptext" id="POPUP227492727" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/PlaneByTwoLinesSec.gif" width="718px" height="548px" border="0" class="img_whs19" alt=""></p>
+</div>
+<p>&#160;</p>
+<p class="sub-head">Three points</p>
+<p><img src="Images/new_plane_3points.gif" width="32px" height="29px" border="0" class="img_whs4" alt=""> : This method includes definition of 3 construction points. <i style="font-style:normal;"><span lang="EN-US">For more details about the define section, see <a href="../Working_with_Data/Descriptions/define_point.htm">Define Point</a>.</span></i></p>
+<p id="p6"><span style="font-weight:bold; font-style:italic;"><i><b>How it works</b></i></span>:</p>
+<ol>
+<li class="kadov-p-Csteps-Ip6">
+<p id="p6" class="steps">The user defines the 3 points one by one.</p>
+</li>
+<li class="kadov-p-Csteps-Ip6">
+<p id="p6" class="steps">The result plane passes through all of them, its normal direction is set using the right hand rule.</p>
+</li>
+</ol>
+<p class="Example" id="p8" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a6" style="text-decoration:underline;">Example</a></p>
+<div class="droptext" id="POPUP167348179" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/PlaneByThreePoints.gif" width="627px" height="555px" border="0" class="img_whs20" alt=""></p>
+</div>
+<p>Changes of all values can be applied at any time. Flip the normal of the final datum using the "<span style="font-weight:bold;"><b>+/-</b></span>" button in the result section, if necessary.</p>
+<p>&#160;</p>
+<p class="sub-head">Two planes</p>
+<p><img src="Images/new_plane_2planes.gif" width="32px" height="29px" border="0" class="img_whs4" alt=""> : This method includes definition of 2 construction planes. <i style="font-style:normal;"><span lang="EN-US">For more details about the define section, see <a href="../Working_with_Data/Descriptions/define_plane.htm">Define Plane</a>.</span></i></p>
+<p id="p9" class="whs21"><span style="font-weight:bold; font-style:italic;"><i><b>How it works</b></i></span>:</p>
+<ol>
+<li class="kadov-p-Csteps-Ip10">
+<p class="steps" id="p10">The user defines two planes one by one.</p>
+</li>
+<li class="kadov-p-Csteps-Ip10">
+<p class="steps" id="p10">Depending on the construction planes position, there are following cases:</p>
+</li>
+<li class="kadov-p-Cbullet-Ip10">
+<p class="bullet" id="p10">In case of 2 parallel planes, the result plane will be in the middle of them and its normal will be identical to the one of the first defined plane.</p>
+</li>
+</ol>
+<p id="p10" class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a9" style="text-decoration:underline;">Parallel Planes Schematic</a></p>
+<div class="droptext" id="POPUP235236593" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Images/TwoParPlanes_sch.gif" width="283px" height="196px" border="0" class="img_whs22" alt=""></p>
+</div>
+<ul>
+<li class="kadov-p-Cbullet-Ip10">
+<p class="bullet" id="p10">In case of 2 crossed planes, the result plane will:</p>
+</li>
+</ul>
+<ol>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Ip10">
+<p id="p10">pass through the planes intersection,</p>
+</li>
+<li class="kadov-p-Ip10">
+<p id="p10">have central point lying on the line connecting the plane centres</p>
+</li>
+<li class="kadov-p-Ip10">
+<p id="p10">halve the angle between the planes</p>
+</li>
+<li class="kadov-p-Ip10">
+<p id="p10">have normal closest to plane1 normal</p>
+</li>
+</ul>
+</li>
+</ol>
+<p id="p23" class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a10" style="text-decoration:underline;">Crossed Planes Schematic</a></p>
+<div class="droptext" id="POPUP936453464" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Images/TwoCroPlanes_sch.gif" width="337px" height="354px" border="0" class="img_whs23" alt=""></p>
+</div>
+<ul>
+<li class="kadov-p-Cbullet-Ip23">
+<p class="bullet" id="p23">In case of 2 crossed planes with centres lying on the plane intersection, the result plane can not be defined using the above criteria. Then the first possible solution is visualised, the user can switch to the alternative solution using the button <img src="Examples/UseResult.gif" width="88px" height="21px" border="0" class="img_whs24" alt=""></p>
+</li>
+</ul>
+<p id="p24">Changes of all values can be applied at any time. Flip the normal of the final datum using the "<span style="font-weight:bold;"><b>+/-</b></span>" button in the result section, if necessary.</p>
+<p class="Example" id="p11" style="background-color:Transparent; text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a11" style="text-decoration:underline;">Example for crossed planes</a></p>
+<div class="droptext" id="POPUP289932155" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/PlaneByTwoPlanes.gif" width="609px" height="621px" border="0" class="img_whs25" alt=""></p>
+</div>
+<p>&#160;</p>
+<p class="sub-head">Line and Point</p>
+<p><span style="font-weight:bold;"><b><img src="Images/new_plane_point_line.gif" width="32px" height="29px" border="0" class="img_whs26" alt=""></b></span> : This method includes definition of 2 construction entities - point and line. <i style="font-style:normal;"><span lang="EN-US">For more details about the define section, see <a href="../Working_with_Data/Descriptions/define_point.htm">Define Point</a> and <a href="../Working_with_Data/Descriptions/define_line.htm">Define Line</a>.</span></i></p>
+<p id="p12"><span style="font-weight:bold; font-style:italic;"><i><b>How it works</b></i></span>:</p>
+<ol>
+<li class="kadov-p-Csteps-Ip12">
+<p id="p12" class="steps">The user defines a point and a line.</p>
+</li>
+<li class="kadov-p-Csteps-Ip12">
+<p id="p12" class="steps">The result plane passes through both construction entities and the normal is defined using the right hand rule.</p>
+</li>
+</ol>
+<p id="p21">Changes of all values can be applied at any time. Flip the normal of the final datum using the "<span style="font-weight:bold;"><b>+/-</b></span>" button in the result section, if necessary.</p>
+<p class="Example" id="p14" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a7" style="text-decoration:underline;">Example</a></p>
+<div class="droptext" id="POPUP226732291" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/PlaneByLinePoint.gif" width="664px" height="550px" border="0" class="img_whs27" alt=""></p>
+</div>
+<p>&#160;</p>
+<p class="sub-head">Point and plane</p>
+<p><span style="font-weight:bold;"><b><img src="Images/new_plane_point_plane.gif" width="32px" height="29px" border="0" class="img_whs26" alt=""></b></span> : This method includes definition of 2 construction entities - point and plane. <i style="font-style:normal;"><span lang="EN-US">For more details about the define section, see <a href="../Working_with_Data/Descriptions/define_point.htm">Define Point</a> and <a href="../Working_with_Data/Descriptions/define_plane.htm">Define Plane</a>.</span></i></p>
+<p id="p15"><span style="font-weight:bold; font-style:italic;"><i><b>How it works</b></i></span>:</p>
+<ol>
+<li class="kadov-p-Csteps-Ip16">
+<p class="steps" id="p16">The user defines a point and a plane.</p>
+</li>
+<li class="kadov-p-Csteps-Ip16">
+<p class="steps" id="p16">The result plane will pass through the point and will be parallel to the construction plane.</p>
+</li>
+<li class="kadov-p-Csteps-Ip16">
+<p class="steps" id="p16">The result plane normal is identical to the one of the construction plane.</p>
+</li>
+</ol>
+<p id="p7">Changes of all values can be applied at any time. Flip the normal of the final datum using the "<span style="font-weight:bold;"><b>+/-</b></span>" button in the result section, if necessary.</p>
+<p class="Example" id="p17" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a8" style="text-decoration:underline;">Example</a></p>
+<div class="droptext" id="POPUP238121167" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/PlaneByPlanePoint.gif" width="660px" height="549px" border="0" class="img_whs28" alt=""></p>
+</div>
+<p class="Normal" style="text-align:justify;">&#160;</p>
+<p class="sub-head">Three points and offsets</p>
+<p><img src="Images/new_plane_3points_offsets.gif" width="32px" height="29px" border="0" class="img_whs26" alt=""> : This method includes definition of 3 construction points and three offsets. <i style="font-style:normal;"><span lang="EN-US">For more details about the define section, see <a href="../Working_with_Data/Descriptions/define_point.htm">Define Point</a>.</span></i></p>
+<p id="p25"><span style="font-weight:bold; font-style:italic;"><i><b>How it works</b></i></span>:</p>
+<ol>
+<li class="kadov-p-Csteps-Ip26">
+<p class="steps" id="p26">The user defines the 3 points and 3 positive or negative offsets one by one.</p>
+</li>
+<li class="kadov-p-Csteps-Ip27">
+<p class="steps" id="p27">The result plane will be at a distance to every point, equal to the corresponding offset. There are two possible solutions – the plane can be constructed above or below the three points, so the order of the selected points determines where the plane to be created and follows the right-hand rule. To get the second solution, simply select the points in the reverse order.</p>
+</li>
+</ol>
+<p class="Example" id="p29" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a13" style="text-decoration:underline;">Schematic</a></p>
+<div class="droptext" id="POPUP936733463" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="using_datums_files/plane_-_points_and_offsets_-_scheme.gif" width="490px" height="408px" border="0" class="img_whs29" alt=""></p>
+</div>
+<p>There are some relations that must be observed in order to construct plane using this method:</p>
+<p class="whs30">| Offset 3 – Offset 1 |&#160; &lt;&#160; distance ( Point 3, Point 1)</p>
+<p class="whs30">| Offset 2 – Offset 1 |&#160; &lt;&#160; distance ( Point 2, Point 1)</p>
+<p class="whs30">| Offset 3 – Offset 2 |&#160; &lt;&#160; distance ( Point 3, Point 2)</p>
+<p class="Example" id="p28" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a12" style="text-decoration:underline;">Example</a></p>
+<div class="droptext" id="POPUP225370166" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/PlaneByThreePointsOffsets.gif" width="711px" height="653px" border="0" class="img_whs31" alt=""></p>
+</div>
+<p>Changes of all values can be applied at any time. Flip the normal of the final datum using the "<span style="font-weight:bold;"><b>+/-</b></span>" button in the result section, if necessary.</p>
+<p class="Normal" style="text-align:justify; font-style:normal;"><i style="font-style:normal;"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Interactive Datum Interface Description','../User_Interface/Interactive_datum_interface_description.htm','New Circle','New_Circle.htm','New Cone','New_Cone.htm','New Cylinder','New_Cylinder.htm','New Line','New_Line.htm','New Point','New_Point.htm','New Rectangular Slot','New_Rectangular_Slot.htm','New Round Slot','New_Round_Slot.htm','New Sphere','New_Sphere.htm');return false;" title=""><img src="../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></i></p>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a3','POPUP171377225');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a1','POPUP234767065');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a2','POPUP234773802');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a4','POPUP164209600');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a5','POPUP227492727');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a6','POPUP167348179');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a9','POPUP235236593');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a10','POPUP936453464');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a11','POPUP289932155');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a7','POPUP226732291');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a8','POPUP238121167');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a13','POPUP936733463');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a12','POPUP225370166');
+//-->
+</script><script type="text/javascript" language="JavaScript">
+<!--
+if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
+  WritePopupMenuLayer();
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B02090000004E657720506C616E650C02B70000004170706C790A436972636C650A4372656174650A43726F73730A446174756D20506C616E650A446174756D696E670A446566696E650A456E7469746965730A466C69700A46726F6D2056696577706F72740A49736F6D65747269630A4C6566740A4C696E650A4E65770A4E657720446174756D730A4E657720506C616E650A506172616C6C656C0A506172616D65746572730A506C616E650A526576657273650A52696768740A53656C6563740A53656C656374696F6E0D02090000004E657720506C616E651102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

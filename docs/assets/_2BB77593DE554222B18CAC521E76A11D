@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<tocdata>
+<book name="KUBE" url="KUBE_help/Introduction_KUBEHelp.htm" >
+  <book name="User Interface" >
+    <item name="Panels" url="User_Interface/panels.htm" />
+    <item name="Toolbar" url="User_Interface/Toolbar2.htm" />
+    <item name="Mouse Operations" url="User_Interface/Mouse_Operations.htm" />
+    <item name="Context Menus" url="User_Interface/context_menus.htm" />
+    <item name="Viewport" url="User_Interface/Viewport.htm" />
+    <item name="Scroll Bars" url="User_Interface/Scroll_Bars.htm" />
+    <item name="Shortcut Keys" url="User_Interface/Shortcut_Keys.htm" />
+    <item name="Tree" url="User_Interface/Tree.htm" />
+    <book name="Menus" >
+      <item name="File Menu" url="User_Interface/file_menu.htm" />
+      <item name="Edit Menu" url="User_Interface/edit_menu.htm" />
+      <item name="View Menu" url="User_Interface/view_menu.htm" />
+      <item name="Select Menu" url="User_Interface/select_menu.htm" />
+      <item name="Scan Data Menu" url="User_Interface/scan_data_menu.htm" />
+      <item name="Mesh Menu" url="User_Interface/mesh_menu.htm" />
+      <item name="Polylines Menu" url="User_Interface/polylines_menu.htm" />
+      <item name="Registration Menu" url="User_Interface/registration_menu.htm" />
+      <item name="Datuming Menu" url="User_Interface/datuming_menu.htm" />
+      <item name="Modules Menu" url="User_Interface/Modules_Menu.htm" />
+      <item name="Transformations Menu" url="User_Interface/menu_transformations.htm" />
+      <item name="3D Inspection Menu" url="Inspection_Mode/inspection_mode.htm" />
+      <item name="Measure Menu" url="User_Interface/measure_menu.htm" />
+      <item name="System Menu" url="User_Interface/system_menu.htm" />
+      <item name="Window Menu" url="User_Interface/window_menu.htm" />
+      <item name="Help Menu" url="User_Interface/help_menu.htm" />
+    </book>
+  </book>
+  <book name="Scanning" >
+    <book name="Hardware" >
+      <book name="MMD" >
+        <item name="Hardware Description" url="Scanning/Hardware/MMD/hardware_description_mmd.htm" />
+        <item name="System Contents" url="Scanning/Hardware/MMD/package_contents_mmd.htm" />
+        <item name="MMD Hardware Assembly" url="Scanning/Hardware/MMD/mm_hardware_assembly.htm" />
+        <item name="Hardware Settings" url="Scanning/Hardware/MMD/Settings/hardware_settings_mmd.htm" />
+      </book>
+      <book name="MMC" >
+        <item name="Hardware Description" url="Scanning/Hardware/MMC/Hardware_Description_MMC.htm" />
+        <item name="System Contents" url="Scanning/Hardware/MMC/System_Contents_MMC.htm" />
+        <item name="MMC Hardware Assembly" url="Scanning/Hardware/MMD/mm_hardware_assembly.htm" />
+        <item name="Hardware Settings" url="Scanning/Hardware/MMC/Settings/Hardware_Settings_MMC.htm" />
+      </book>
+      <book name="MMZ" >
+        <item name="Hardware Description" url="Scanning/Hardware/MMZ/hardware_description_mmz.htm" />
+        <item name="System Contents" url="Scanning/Hardware/MMZ/package_contents_mmz.htm" />
+        <item name="MMZ Hardware Assembly" url="Scanning/Hardware/MMZ/mm_hardware_assembly.htm" />
+        <item name="Cabling Z System" url="Scanning/Hardware/MMZ/Hardware_Description_Z_system.htm" />
+        <item name="Hardware Settings" url="Scanning/Hardware/MMZ/Settings/hardware_settings_mmz.htm" />
+      </book>
+      <book name="MMX" >
+        <item name="Hardware Description" url="Scanning/Hardware/MMX/hardware_description_mmx.htm" />
+        <item name="MMX Hardware Assembly" url="Scanning/Hardware/MMX/mm_hardware_assembly.htm" />
+        <item name="Cabling X System" url="Scanning/Hardware/MMX/Hardware_Description_X_System.htm" />
+        <item name="Hardware Settings" url="Scanning/Hardware/MMX/Settings/hardware_settings_mmx.htm" />
+      </book>
+    </book>
+    <book name="System Set-Up" url="Scanning/Localiser/system_setup.htm" >
+      <book name="Localiser Set-Up" >
+        <book name="FARO Serial" >
+          <item name="FARO Localiser Set-up" url="Scanning/Localiser/FARO/faro_arm_set-up.htm" />
+          <item name="Localiser Probe Calibration" url="Scanning/Localiser/FARO/localiser_probe_calibration_faro.htm" />
+        </book>
+        <book name="FARO USB" >
+          <item name="FARO USB Localiser Set-up" url="Scanning/Localiser/FARO_USB/faro_localiser_set_up.htm" />
+          <item name="Localiser Probe Calibration" url="Scanning/Localiser/FARO_USB/localiser_probe_calibration_faro_usb.htm" />
+        </book>
+        <book name="CimCore" >
+          <item name="CimCore Localiser Set-up" url="Scanning/Localiser/CimCore/cimcore_arm_set-up.htm" />
+          <item name="Localiser Probe Calibration" url="Scanning/Localiser/CimCore/localiser_probe_calibration_cimcore.htm" />
+        </book>
+        <book name="KScan" >
+          <item name="K-Scan Localisers" url="Scanning/Localiser/KScan/kscan_localisers.htm" />
+        </book>
+        <book name="MetrisMCA" >
+          <item name="Metris MCA Localiser Set-Up" url="Scanning/Localiser/Metris_MCA/Metris_MCA_Localiser_Set-Up.htm" />
+          <item name="Localiser Probe Calibration" url="Scanning/Probe_Calibration/Localiser_Probe_Calibration_-_Metris_MCA.htm" />
+        </book>
+        <item name="Localiser Performance Check" url="Scanning/Localiser/localiser_performance_check.htm" />
+      </book>
+      <book name="Alignment" url="Scanning/Alignment/alignment.htm" >
+        <item name="Alignment Preparation" url="Scanning/Alignment/Alignment_Preparation.htm" />
+        <item name="Alignment Procedure" url="Scanning/Alignment/Alignment_Procedure.htm" />
+        <item name="Sphere Alignment Procedure" url="Scanning/Alignment/sphere_alignment_procedure.htm" />
+        <item name="Alignment Check" url="Scanning/Alignment/Alignment_Check.htm" />
+      </book>
+    </book>
+    <book name="Scanning Process" >
+      <item name="Basic Scanning Introduction" url="Scanning/Scanning/Basic_Scanning_Introduction.htm" />
+      <item name="Basic Scanning Rules and Useful Tips" url="Scanning/Scanning/Basic_Scanning_Rules_and_Useful_Tips.htm" />
+      <item name="Scanning Strategy" url="Scanning/Scanning/Scanning_Strategy.htm" />
+      <item name="Scanning Over Defined Area" url="Scanning/Scanning/scanning_over_defined_area.htm" />
+      <item name="Profiles" url="Scanning/Scanning/profiles.htm" />
+      <book name="Multisite Scanning" >
+        <item name="Introduction" url="Scanning/Scanning/Multisite/multisite_scanning_intro.htm" />
+        <item name="Preparation" url="Scanning/Scanning/Multisite/Multisite_Scanning_Preparation.htm" />
+        <item name="Procedure" url="Scanning/Scanning/Multisite/multisite_scanning_procedure.htm" />
+      </book>
+    </book>
+    <book name="Probe Points Capture" >
+      <item name="Capture Dynamic Points" url="Scanning/Probe_Points_Capture/capture_dynamic_points.htm" />
+      <item name="Capture Static Points" url="Scanning/Probe_Points_Capture/capture_static_points.htm" />
+      <item name="Capture Static Stripes" url="Scanning/Probe_Points_Capture/capture_static_stripes.htm" />
+    </book>
+    <book name="Datum Capture" >
+      <item name="Capture Point" url="Scanning/Capture/capture_point.htm" />
+      <item name="Capture 2D Point" url="Scanning/Capture/capture_surface_point.htm" />
+      <item name="Capture Line" url="Scanning/Capture/capture_line.htm" />
+      <item name="Capture 2D Line" url="Scanning/Capture/capture_2d_line.htm" />
+      <item name="Capture Plane" url="Scanning/Capture/Capture_Plane.htm" />
+      <item name="Capture Sphere" url="Scanning/Capture/capture_sphere.htm" />
+      <item name="Capture Circle" url="Scanning/Capture/capture_circle.htm" />
+      <item name="Capture Cylinder" url="Scanning/Capture/capture_cylinder.htm" />
+      <item name="Capture Cone" url="Scanning/Capture/capture_cone.htm" />
+      <item name="Capture Round Slot" url="Scanning/Capture/capture_round_slot.htm" />
+      <item name="Capture Rectangular Slot" url="Scanning/Capture/capture_rectangular_slot.htm" />
+    </book>
+  </book>
+  <book name="Working with Data" >
+    <item name="Entity Types" url="Working_with_Data/Descriptions/entity_types.htm" />
+    <book name="Processing Data" >
+      <item name="Scan Data" url="User_Interface/scan_data_menu.htm" />
+      <item name="Meshes" url="Working_with_Data/Descriptions/processing_meshes.htm" />
+      <item name="Polylines" url="User_Interface/polylines_menu.htm" />
+    </book>
+    <book name="Define Datums" >
+      <item name="Interactive Datum Interface Description" url="User_Interface/Interactive_datum_interface_description.htm" />
+      <item name="Define Point" url="Working_with_Data/Descriptions/define_point.htm" />
+      <item name="Define Line" url="Working_with_Data/Descriptions/define_line.htm" />
+      <item name="Define Plane" url="Working_with_Data/Descriptions/define_plane.htm" />
+      <item name="Define Sphere" url="Working_with_Data/Descriptions/define_sphere.htm" />
+      <item name="Define Cylinder" url="Working_with_Data/Descriptions/define_cylinder.htm" />
+      <item name="Define Circle" url="Working_with_Data/Descriptions/define_circle.htm" />
+      <item name="Define Cone" url="Working_with_Data/Descriptions/define_cone.htm" />
+      <item name="Define Rectangular Slot" url="Working_with_Data/Descriptions/define_rectangular_slot.htm" />
+      <item name="Define Round Slot" url="Working_with_Data/Descriptions/define_round_slot.htm" />
+      <item name="Datum Commands in Tree Context Menus" url="User_Interface/Tree_Context_Menus.htm#Specific_Commands_for_Datuming" />
+    </book>
+    <book name="Co-ordinate Systems" >
+      <item name="Create Transformations" url="User_Interface/menu_transformations.htm" />
+      <item name="Commands for current CS in Tree Context Menus" url="User_Interface/Tree_Context_Menus.htm#Transformations1" />
+      <item name="Commands for Transformations in Tree Context Menus" url="User_Interface/Tree_Context_Menus.htm#Transformations" />
+      <item name="Register &amp; Align Entities" url="User_Interface/registration_menu.htm" />
+      <item name="Rotate &amp; Translate" url="References/Rotate_and_Translate.htm" />
+    </book>
+    <book name="Measurements" >
+      <item name="Labeling" url="References/labeling.htm" />
+      <item name="Dimensioning" url="References/dimensioning.htm" />
+      <item name="Gap and Flush" url="References/gap_and_flush.htm" />
+      <item name="Measure Context Menus" url="User_Interface/Measure_Context_Menus.htm" />
+      <book name="Measure Distance" >
+        <item name="Pick Pair of Points" url="References/pick_pair_of_points.htm" />
+        <item name="Pick Pair of Planes" url="References/pick_pair_of_planes.htm" />
+      </book>
+      <book name="Measure Geometry" >
+        <item name="Fit Point" url="References/fit_point.htm" />
+        <item name="Fit Line" url="References/fit_line.htm" />
+        <item name="Fit Plane" url="References/fit_plane.htm" />
+        <item name="Fit Sphere" url="References/fit_sphere.htm" />
+        <item name="Fit Cylinder" url="References/fit_cylinder.htm" />
+        <item name="Fit Circle" url="References/fit_circle.htm" />
+        <item name="Fit Cone" url="References/fit_cone.htm" />
+      </book>
+    </book>
+    <book name="Working in Inspection Mode" >
+      <item name="Inspection Mode" url="Inspection_Mode/inspection_mode.htm" />
+      <item name="Instant Inspection" url="Inspection_Mode/Instant_Inspection.htm" />
+    </book>
+    <item name="Visualisation" url="Working_with_Data/Descriptions/visualisation.htm" />
+    <item name="Export Entities" url="References/Export_Entities.htm" />
+  </book>
+  <book name="Inspection Mode" url="Inspection_Mode/inspection_mode.htm" >
+    <book name="Inspection Interface" url="Inspection_Mode/inspection_interface.htm" >
+      <item name="Inspection Pane" url="Inspection_Mode/User_Interface/Inspection_Pane.htm" />
+      <item name="Scan Pane" url="Inspection_Mode/User_Interface/Scan_Pane.htm" />
+      <item name="Toolbar" url="Inspection_Mode/User_Interface/Inspection_Toolbar.htm" />
+      <item name="Viewport" url="Inspection_Mode/User_Interface/Viewport.htm" />
+      <item name="Context Menus" url="Inspection_Mode/User_Interface/Inspection_Context_Menus.htm" />
+      <book name="Menus" >
+        <item name="File Menu" url="Inspection_Mode/Menus/File_Menu_Inspection.htm" />
+        <item name="View Menu" url="User_Interface/view_menu.htm" />
+        <item name="Pages Menu" url="Inspection_Mode/Menus/Pages_Menu_Inspection.htm" />
+        <item name="2D Sections" url="Inspection_Mode/Menus/2D_Sections.htm" />
+        <item name="Labels Menu" url="Inspection_Mode/Menus/Labels_Menu_Inspection.htm" />
+        <item name="Annotations Menu" url="Inspection_Mode/Menus/Annotations_Menu.htm" />
+        <item name="Reports Menu" url="Inspection_Mode/Menus/Reports_Menu_Inspection.htm" />
+        <item name="Settings Menu" url="Inspection_Mode/Menus/Settings_Menu_Inspection.htm" />
+        <item name="System Menu" url="Inspection_Mode/Menus/System_Menu_Inspection.htm" />
+        <item name="Help Menu" url="User_Interface/help_menu.htm" />
+      </book>
+    </book>
+    <item name="Instant Inspection" url="Inspection_Mode/Instant_Inspection.htm" />
+  </book>
+  <book name="Corrosion Module" url="Corrosion/overview_Corrosion.htm" >
+    <item name="Merging" url="Corrosion/Merging_Corrosion.htm" />
+    <item name="Inspection" url="Corrosion/Inspection_Corrosion.htm" />
+    <item name="Printing" url="Corrosion/printing_Corrosion.htm" />
+  </book>
+  <book name="Macros Module" url="Macros/macro_module.htm" >
+    <item name="Macro Syntax" url="Macros/Macro_Syntax.htm" />
+    <item name="Parameter Types" url="Macros/Parameter_Types.htm" />
+    <item name="Special Symbols and Abbreviations" url="Macros/Special_Symbols_and_Abbreviations.htm" />
+    <item name="Type Conventions" url="Macros/type_conventions.htm" />
+    <item name="Script Generation" url="Macros/Script_Generation.htm" />
+    <item name="Run Script from File" url="Macros/Macros_Menu/run_script_from_file.htm" />
+    <item name="Call Script at KUBE start-up" url="Macros/Call_Script_at_KUBE_start-up.htm" />
+  </book>
+  <book name="References" >
+    <item name="Index of UI Commands" url="References/index_of_commands.htm" />
+    <item name="Index of Inspection Mode Commands" url="Inspection_Mode/index_of_inspection_commands.htm" />
+    <item name="Shortcut Keys" url="User_Interface/Shortcut_Keys.htm" />
+    <item name="Index of Macro Commands" url="Macros/macro_commands.htm" />
+    <item name="Index of COM client Commands" url="Macros/Special_Commands.htm" />
+  </book>
+  <book name="Troubleshooting" >
+    <item name="Troubleshooting (Hardware)" url="Troubleshooting/Troubleshooting_Hardware.htm" />
+    <item name="Troubleshooting (Software)" url="Troubleshooting/troubleshooting_software.htm" />
+    <item name="Known Bugs and Problems" url="Troubleshooting/known_bugs_and_problems_in_kube.htm" />
+    <item name="Technical Support" url="Troubleshooting/technical_support.htm" />
+  </book>
+</book>
+
+</tocdata>

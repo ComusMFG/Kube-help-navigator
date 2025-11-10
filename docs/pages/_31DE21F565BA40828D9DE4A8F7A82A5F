@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Type Conventions</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript" src="../ehlpdhtm.js">
+</script>
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nMacros Module\nType Conventions");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Type Conventions</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p>One of the common parameters for macro commands, that corresponds to the commands from the tree context menus, is <b><i>Type</i></b>. Its value represents specific type or name of a group. The entities hierarchy in KUBE is organised based on the types. For example, all mesh entities belong to Mesh group, all scan data entities belong to Scans group, etc. The only exception are the polylines. They are placed in separate groups depending on the way of creation.</p>
+<p>The following strings (which are the predefined values for Type parameter) represent the types used in KUBE:</p>
+<p><i style="font-style:italic;">Mesh</i> – meshes (Meshes group).</p>
+<p><i style="font-style:italic;">PtStripe</i> – scan data (Scans group).</p>
+<p><i style="font-style:italic;">PtProbes</i> – probe points (Probe points group).</p>
+<p><i style="font-style:italic;">PtCloud</i> – point clouds, which include static points and static stripes (Point cloud group).</p>
+<p><i style="font-style:italic;">ViewPos</i> – viewport positions (Viewport Position group).</p>
+<p><i style="font-style:italic;">Transform</i> – transformations (Transformations group).</p>
+<p><i style="font-style:italic;">Polyline</i> – polylines (custom groups).</p>
+<p><span style="font-style:italic;"><i>Point</i></span> – datum points (Datuming group).</p>
+<p><span style="font-style:italic;"><i>Sphere</i></span> – datum spheres (Datuming group).</p>
+<p><span style="font-style:italic;"><i>Line</i></span> – datum lines (Datuming group).</p>
+<p><span style="font-style:italic;"><i>Plane</i></span> – datum planes (Datuming group).</p>
+<p><span style="font-style:italic;"><i>Cylinder</i></span> – datum cylinders (Datuming group).</p>
+<p><span style="font-style:italic;"><i>Circle</i></span> – datum circles (Datuming group).</p>
+<p><span style="font-style:italic;"><i>Cone</i></span> – datum datum cones (Datuming group).</p>
+<p><span style="font-style:italic;"><i>RoundSlot</i></span> – datum round slots (Datuming group).</p>
+<p><i><span style="font-style:italic;"><i>RectSlot</i></span></i> – datum rectangular slots (Datuming group).</p>
+<p><i>Group</i> – groups to which datums and section polylines belong. Note that in contrast to the other groups Datuming group and polylines groups can be renamed. But only one Datuming group can exist in the scene.</p>
+<p><span style="font-style:italic;"><i>GroupMesh</i></span> - group to which all meshes belong. If this parameter is used, the Name parameter should have the same string value.</p>
+<p><span style="font-style:italic;"><i>GroupScan</i></span> - group to which all scans belong. If this parameter is used, the Name parameter should have the same string value.</p>
+<p><span style="font-style:italic;"><i>GroupPolyline</i></span> - group to which manual polylines, polylines extracted from boundaries and interactive polylines belong. If this parameter is used, the Name parameter should have the same string value.</p>
+<p><span style="font-style:italic;"><i>GroupPtProbe</i></span> - group to which all probe points belong. If this parameter is used, the Name parameter should have the same string value.</p>
+<p><span style="font-style:italic;"><i>GroupPtCloud</i></span> - group to which all point clouds belong. If this parameter is used, the Name parameter should have the same string value.</p>
+<p>&#160;</p>
+<p>The following examples represent how to deal with groups and entities using tree context menu commands. Please, note that the same rules apply for all commands (SelEntity, UnSelEntity, HideEntity, HideEntitySel, ShowEntity, Lock and Unlock) even if the examples contain only SelEntity command.</p>
+<p class="ExampleCode">Example for select mesh entity named Merged_Object:</p>
+<p class="ExampleCode" style="font-family:Courier New;">SelEntity( Type="Mesh", Name="Merged_Object" )</p>
+<p class="ExampleCode">&#160;</p>
+<p class="ExampleCode">Example for select scan data entity named Scanned_Object:</p>
+<p class="ExampleCode"><span style="font-family:Courier New;">SelEntity( Type="PtStripe", Name="Scanned_Object" )</span></p>
+<p>&#160;</p>
+<p>If you want to select all entities in a group there are two ways of achieving this:</p>
+<p>1. Call SelEntity command for all of them.</p>
+<p class="ExampleCode">For example, if there are three meshes in the scene named MyMesh_1, MyMesh_2, and MyMesh_3, the following sequence of commands will select the whole Meshes group:</p>
+<p class="ExampleCode"><span style="font-family:Courier New;">SelEntity( Type="Mesh", Name="MyMesh_1" )<br>
+SelEntity( Type="Mesh", Name="MyMesh_2" )<br>
+SelEntity( Type="Mesh", Name="MyMesh_3" )</span></p>
+<p>2. Call SelEntityType command:</p>
+<p class="ExampleCode">SelEntityType( Type="Mesh" )</p>
+<p>or</p>
+<p class="ExampleCode">SelEntity( Type="GroupMesh", Name="GroupMesh" )</p>
+<p>&#160;</p>
+<p>It is different situation with the polylines and the datums. You can select particular polyline/datum or the whole group with a single command.</p>
+<p class="ExampleCode">Example for polylines:</p>
+<p class="ExampleCode">Select polylines group named X_Section. Use Group value for the Type parameter:<span style="font-family:Courier New;"><br>
+SelEntity( Type="Group", Name="X_Section" )</span><br>
+<br>
+Select polyline named Polyline 0. Use Polyline values for Type parameter:<span style="font-family:Courier New;"><br>
+SelEntity( Type="Polyline", Name="Polyline 0" )<br>
+<br>
+Select all manual polylines, polylines extracted from boundaries and interactive polylines, that appear under the Polyline group in the Entity tree:<br>
+SelEntity( Type="GroupPolyline", Name="GroupPolyline")</span></p>
+<p class="ExampleCode">&#160;</p>
+<p class="ExampleCode">Example for datums:</p>
+<p class="ExampleCode">Select datuming group named Targets. Use Group for Type parameter:<span style="font-family:Courier New;"><br>
+SelEntity( Type="Group", Name="Targets" )</span><br>
+<br>
+Select datum point named Point_1. Use Point value for Type parameter:<span style="font-family:Courier New;"><br>
+SelEntity( Type="Point", Name="Point_1" )</span><br>
+<br>
+Select datum sphere named Sphere_1. Use Sphere value for Type parameter:<span style="font-family:Courier New;"><br>
+SelEntity( Type="Sphere", Name="Sphere_1" )<br>
+<br>
+Select all datums:<br>
+SelEntity(</span> Type="Group", Name="Datuming")</p>
+<p><span style="font-style:italic;"><i><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Macro Commands','macro_commands.htm','Macro Module','macro_module.htm','Macro Syntax','Macro_Syntax.htm','Parameter Types','Parameter_Types.htm','Script Generation','Script_Generation.htm','Special Symbols and Abbreviations','Special_Symbols_and_Abbreviations.htm');return false;" title=""><img src="../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></i></span> &#160;</p>
+<script type="text/javascript" language="JavaScript">
+<!--
+if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
+  WritePopupMenuLayer();
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B02100000005479706520436F6E76656E74696F6E730C02A20100004170706C790A426F756E6461726965730A436972636C650A436F6E650A43796C696E6465720A446174756D20706F696E740A446174756D205370686572650A446174756D696E670A456E7469746965730A47726F75704D6573680A47726F7570506F6C796C696E650A47726F75705074436C6F75640A47726F7570507450726F62650A47726F75705363616E0A48696465456E746974790A48696465456E7469747953656C0A696E74657261637469766520706F6C796C696E65730A4C696E650A4C6F636B0A4D6163726F730A4D6573680A506172616D65746572730A506C616E650A506F6C796C696E650A50726F62650A52656374616E67756C61720A52656E616D650A5363616E0A5363616E20446174610A73656374696F6E20706F6C796C696E65730A53656C6563740A53656C65637420416C6C0A53656C65637420506F6C796C696E65730A53656C456E746974790A53656C456E74697479547970650A53686F77456E746974790A5374617469630A547265650A5472656520436F6E74657874204D656E75730A5479706520436F6E76656E74696F6E730A556E6C6F636B0D02100000005479706520436F6E76656E74696F6E7311020D0000004D6163726F73204D6F64756C651202100000005479706520436F6E76656E74696F6E731302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

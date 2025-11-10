@@ -1,0 +1,228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Comparison</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { float:aligncenter; height:5px; }
+table.whs4 { width:84.257%; border-spacing:0px; }
+col.whs5 { width:42.178%; }
+col.whs6 { width:49.941%; }
+tr.whs7 { height:346px; }
+td.whs8 { width:42.178%; padding-right:10px; padding-left:10px; border-bottom-style:none; border-right-style:none; border-left-style:none; border-top-style:none; }
+img_whs9 { border:none; width:401px; height:650px; float:none; border-style:none; }
+td.whs10 { width:49.941%; padding-right:10px; padding-left:10px; border-bottom-style:none; border-top-style:none; border-right-style:none; }
+tr.whs11 { height:9px; }
+td.whs12 { width:42.178%; padding-right:10px; padding-left:10px; border-right-style:none; border-left-style:none; border-bottom-style:none; }
+td.whs13 { width:49.941%; padding-right:10px; padding-left:10px; border-bottom-style:none; border-right-style:none; }
+p.whs14 { font-weight:normal; }
+ol.whs15 { list-style:decimal; }
+img_whs16 { border:none; width:278px; height:269px; float:none; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Comparison</h1>
+<hr align="center" size="5" class="whs3">
+<p><span class="Command" style="font-weight:normal;">T</span>his command is accessible from:</p>
+<p>1. Main <span style="text-decoration:underline;"><u>edit</u></span> mode - <span class="Path" style="font-weight:bold;"><b>3D Inspection &gt; Comparison</b></span> <span class="Path">command or by pressing the</span> <span class="Path" style="font-weight:bold;"><b>3D comparison</b></span> <span class="Path">button on the toolbar</span>.</p>
+<p>2. <span style="text-decoration:underline;"><u>Inspection</u></span> mode - <span style="font-weight:bold;"><b>Settings &gt; Inspection</b></span> command.</p>
+<p class="Description" style="font-weight:bold;"><span lang="EN-US">Description:</span></p>
+<p class="Description"><span class="Command">Comparison</span> <span lang="EN-GB">function is the start point of a new session for the</span> Inspection process when called from main edit mode or changes inspection parameters (Max distance, inspection method, and point sampling) when called from <span style="text-decoration:underline;"><u>Inspection</u></span> mode.</p>
+<p class="Use"><span style="font-weight:bold;"><b>Use</b></span>: It is used for online as well as for offline inspection, i.e.:</p>
+<p class="Use" style="margin-left:40px;"><span lang="EN-GB">1.</span> <span lang="EN-GB" style="font-weight:bold;"><b>Online</b></span> <span lang="EN-GB">- only a reference (CAD model or datum entity) is needed and Current CS should be registered to that reference. When enter Inspection mode KUBE us ready to scan. Every patch is immediately coloured depending on the selected settings.</span></p>
+<p class="Use" style="margin-left:40px;"><span lang="EN-GB">2.</span> <span lang="EN-GB" style="font-weight:bold;"><b>Offline</b></span> <span lang="EN-GB">- the scene contains previously scanned data and now user needs to compare it to a CAD model, for example. Before starting the inspection process both surfaces (model and inspected) must be properly registered or there must be proper transformation activated for scanning.</span></p>
+<p class="Note" id="P1"><span lang="EN-GB" style="font-weight:bold;"><b>Note</b></span><span lang="EN-GB">: If you don't have a visible reference entity, then the function will be disabled.</span></p>
+<p><span lang="EN-GB">Go to <span class="Path">3D Inspection &gt; Comparison</span> to invoke the 3D Comparison Settings dialog. This function inspects a selection or a whole selected entity using reference mesh or datum entity.</span> If no selection is made it can be done within the dialog - simply choose one or more entities to compare and confirm.</p>
+<p class="Note" id="p3"><span lang="EN-GB" style="font-weight:bold;"><b>Notes</b></span><span lang="EN-GB">:</span> &#160;If no entity is selected for inspection KUBE will do online inspection.</p>
+<p id="p3">&#160;</p>
+<p class="sub-head"><b style="font-weight:bold;"><a name="Inspection_Settings"></a>Input parameters section</b></p>
+<table cellspacing="0" width="84.257%" class="whs4">
+<col class="whs5">
+<col class="whs6">
+<tr valign="top" class="whs7">
+<td colspan="1" rowspan="1" width="42.178%" class="whs8">
+<p class="normal-table"><img src="../INSPECTION_MODE_FILES/3d_comparison_2.gif" width="401px" height="650px" border="0" class="img_whs9" alt=""></p>
+</td>
+<td colspan="1" rowspan="1" width="49.941%" class="whs10">
+<p class="normal-table"><img src="../INSPECTION_MODE_FILES/3d_comparison_3.gif" width="401px" height="650px" border="0" class="img_whs9" alt=""></p>
+</td>
+</tr>
+<tr valign="top" class="whs11">
+<td width="42.178%" class="whs12">
+<p class="normal-table">Dialog when called from main edit mode (Entities and Reference lists are enabled).</p>
+<p class="Note"><span style="font-weight:bold;"><b>Note:</b></span> All inspection entities could be removed from the Entity section, if necessary. In this case Instant inspection only can be performed in Inspection mode.</p>
+</td>
+<td width="49.941%" class="whs13">
+<p class="normal-table">Dialog when called from <span style="text-decoration:underline;"><u>Inspection</u></span> mode (Entities and Reference lists are disabled)</p>
+</td>
+</tr>
+</table>
+<p class="whs14">&#160;</p>
+<p class="parameterstitle"><b style="font-weight:bold;"><span lang="EN-GB">Reference section</span></b></p>
+<p class="parameterdescription"><span lang="EN-GB">Select the entity to be used as a reference for comparison. Reference entities can be mesh, point, line, circle, plane, cylinder and sphere. Only visible entities will be available as reference entities. If no entities are available in the list, check if you have not selected all entities available or all entities are hidden. If there is</span> <span class="Mode">Inspection</span> <span lang="EN-GB">mode saved in this file, its reference entity will be displayed by default. When this dialog is called via</span> <span lang="EN-GB" style="font-weight:bold; font-style:italic;"><i><b>Settings &gt; Inspection</b></i></span> <span lang="EN-GB">command this listbox is grayed, i.e. in</span> <span lang="EN-GB" style="text-decoration:underline;"><u>Inspection</u></span> <span lang="EN-GB">mode user cannot change the reference.</span></p>
+<p class="parameterstitle"><span lang="EN-GB"><b style="font-weight:bold;">D</b><span lang="EN-GB">istance section</span></span></p>
+<p class="parameterdescription"><b><span lang="EN-GB" style="font-weight:normal;">Sets the maximum distance for comparison and the comparison method.</span></b></p>
+<p class="parameterdescription"><span lang="EN-GB"><b style="font-weight:bold;">Maximum distance -</b></span> <span lang="EN-GB">no points from the inspection surface, that are further apart from the reference surface, beyond the value in that field, are compared.</span></p>
+<p class="parameterdescription"><span lang="EN-GB" style="font-weight:bold;"><b>Method</b></span> <span lang="EN-GB">- to select the method for calculating the distance from the inspected points to the reference surface. The available methods are:</span></p>
+<ol type="1" class="whs15">
+<li style="list-style:none; display:inline;">
+<ol type="1" class="whs15">
+<li class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-GB">Normal to surface (Default) - the distance is a normal to the reference surface, i.e. orthogonal to it (distance is D).</span></p>
+</li>
+<li class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-GB">Along Ox - the distance is projected to Ox axis (distance is Dx).</span></p>
+</li>
+<li class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-GB">Along Oy - the distance is projected to Oy axis (distance is Dy).</span></p>
+</li>
+<li class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-GB">Along Oz - the distance is projected to Oz axis (distance is Dz).</span></p>
+</li>
+</ol>
+</li>
+</ol>
+<p class="bullet" style="margin-left:120px;"><span lang="EN-GB"><img src="../INSPECTION_MODE_FILES/Distance_scheme.gif" width="278px" height="269px" border="0" class="img_whs16" alt=""></span></p>
+<p class="parameterstitle"><span lang="EN-GB" style="font-weight:bold;"><b>Point sampling section</b></span></p>
+<p class="parameterdescription"><span lang="EN-GB">When having big meshes, it is not necessary to compare each their point. Sufficiency of information we can get even if we compare every third or second point of them. But in this case we may have significant improvement of comparison speed. That's why KUBE provides point sampling mechanism.</span></p>
+<p class="parameterdescription"><b style="font-weight:bold;"><span lang="EN-GB">Use …% of the points</span></b> <span lang="EN-GB">– select this if you want manually to define how many points to be used in inspection process. Leave this value to 100% and each point will be compared.</span></p>
+<p class="parameterdescription"><b style="font-weight:bold;"><span lang="EN-GB">Auto sample</span> – KUBE</b> will determinate the optimal number of points to be compared in order to get the maximum comparison speed while keeping the same quality.</p>
+<p class="parameterstitle"><b style="font-weight:bold;"><span lang="EN-GB">Overwrite existing values section</span></b></p>
+<p class="parameterdescription"><span lang="EN-GB">Sets whether to use the following parameters from the previous inspection (if there is one) or to use new values. If these is previous inspection this options will be disabled.</span></p>
+<p class="parameterdescription"><span lang="EN-US" style="font-weight:bold;"><b>Reference</b></span> <span lang="EN-US">– select a display mode for the reference entity. Six modes are available:</span></p>
+<ul>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-US" style="font-weight:bold;"><b>None</b></span> <span lang="EN-US">– does not display the reference at all.</span></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-US" style="font-weight:bold;"><b>Boundary</b></span> <span lang="EN-US">– displays the reference as boundary. This option is available only for pages aligned to cross sections.</span></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-US" style="font-weight:bold;"><b>Flat</b></span> <span lang="EN-US">– displays the reference in flat shaded mode.</span></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-US" style="font-weight:bold;"><b>Smooth</b></span> <span lang="EN-US">– displays the reference in smooth shaded mode.</span></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-US" style="font-weight:bold;"><b>Flat and transparent</b></span> <span lang="EN-US">– displays the reference in flat shaded mode with transparency.</span></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-US" style="font-weight:bold;"><b>Smooth and transparent</b></span> <span lang="EN-US">– displays the reference in smooth shaded mode with transparency.</span></p>
+</li>
+</ul>
+</li>
+</ul>
+<p class="Note" id="p4"><b style="font-weight:bold;"><span lang="EN-US">Note:</span> The transparency for the last two modes is controlled from</b> <span lang="EN-US" style="font-weight:bold; font-style:italic;"><i><b>System &gt; Preferences &gt; General</b></i></span> <span lang="EN-US">tab -</span> <span lang="EN-US" style="font-weight:bold;"><b>Inspection mode rendering</b></span> <span lang="EN-US">group.</span></p>
+<p class="parameterdescription"><span lang="EN-US" style="font-weight:bold;"><b>Ranges</b></span> <span lang="EN-US">– the next</span> <span lang="EN-GB">options define the range of the colour scale and t</span><span lang="EN-US">he zero range - all points within this range will be coloured as zero points.</span></p>
+<ul>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><b style="font-weight:bold;"><span lang="EN-GB">Max</span> - the upper border of the colour scale. All points, higher than this value will be coloured as Above Max values.</b></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><b style="font-weight:bold;"><span lang="EN-GB">Min</span> - the lower border of the colour scale. All points, lower than this value will be coloured as Below Min values.</b></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><b style="font-weight:bold;"><span lang="EN-GB">Max Zero</span> - the upper border of the zero range.</b></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><b style="font-weight:bold;"><span lang="EN-GB">Min Zero</span> - the lower border of the zero range.</b></p>
+</li>
+<li class="kadov-p-CNotes-Ip5">
+<p class="Notes" id="p5"><b style="font-weight:bold;"><span lang="EN-US">Note:</span></b> <span lang="EN-US">The minus sign for the Min values in this section is not taken for granted, so you need to type it if you mean it.</span></p>
+</li>
+</ul>
+</li>
+</ul>
+<p><span lang="EN-US">When ready with the inspection settings, click on the OK button to enter the</span> <span class="Mode" style="text-decoration:underline;"><u>Inspection</u></span> <span lang="EN-US">mode:</span></p>
+<p><span lang="EN-GB">The comparison process can take a few minutes if the inspected entities are big. When it ends you will get the results in coloured error map. This means that the</span> <span class="Mode">Inspection</span> <span lang="EN-GB">mode is <a href="../inspection_interface.htm">started</a>.</span></p>
+<p class="Note" id="P2"><span style="font-weight:bold;"><b>Note:</b></span> When enter <span style="text-decoration:underline;"><u>Inspection</u></span> mode the default colour setting is discrete. Default Min and Max values equal to the range divided by the number of sections of colour plot.</p>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B020A000000436F6D70617269736F6E0D020A000000436F6D70617269736F6E1102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

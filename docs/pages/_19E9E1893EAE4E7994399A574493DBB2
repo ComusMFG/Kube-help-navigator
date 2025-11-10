@@ -1,0 +1,389 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Sphere Alignment Procedure</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+body { background-color:#ffffff; }
+A:visited { color:#800080; }
+A:link { color:#000080; }
+-->
+</style>
+
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { float:aligncenter; height:5px; }
+ol.whs4 { margin-top:0in; }
+p.whs5 { font-size:10.0pt; }
+img_whs6 { border:none; width:851px; height:142px; float:none; border-style:none; }
+ol.whs7 { list-style:decimal; margin-top:0in; }
+img_whs8 { border:none; width:79px; height:120px; float:none; border-style:none; }
+img_whs9 { border:none; width:406px; height:245px; float:none; border-style:none; }
+img_whs10 { border:none; width:640px; height:297px; float:none; border-style:none; }
+img_whs12 { border:none; width:851px; height:493px; float:none; border-style:none; }
+img_whs13 { border:none; width:400px; height:321px; float:none; border-style:none; }
+ol.whs11 { list-style:decimal; margin-top:0in; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "ol.whs4 {margin-top:1pt; }";
+  strNSS += "ol.whs7 {margin-top:1pt; }";
+  strNSS += "ul.whs11 {margin-top:1pt; }";
+  strNSS +="<\/style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
+</script>
+</head>
+<body lang="BG" style="line-break:strict;">
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nScanning\nSystem Set-Up\nAlignment\nSphere Alignment Procedure");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Sphere Alignment Procedure</h1>
+<hr align="center" size="5" class="whs3">
+<p class="Description"><span style="font-weight:bold;"><b>Description:</b></span> Alignment Procedure specifies how to do alignment.</p>
+<p class="stepstitle">First steps</p>
+<ol>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">Ensure the localiser hardware and software setup is complete</font></span></p>
+</li>
+</ul>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">Run KUBE</font></span></p>
+</li>
+</ul>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li style="font-size:10.0pt;" class="kadov-p-Cbullet">
+<p class="bullet">Leave the sensor switched on for <span lang="EN-US">30</span> minutes before starting the alignment procedure.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p class="Note" id="P1"><span style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;"><b style="font-weight:bold;">Note:</b> This is not applied to MM D and newer sensors</font></span></p>
+<ol>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">Ensure the Laser power is set to its default value (Hardware settings\Sensor tab\Laser power).</font></span></p>
+</li>
+</ul>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">Enable the option Display Command window in View menu or by pressing F11 functional key</font></span></p>
+</li>
+</ul>
+</li>
+</ol>
+<p class="Note" id="P2"><span lang="EN-GB" style="font-weight:bold;"><b>Note</b></span><span lang="EN-GB">: at this stage the sphere alignment procedure can be started by macro command only (no menu item or toolbar icon available).</span></p>
+<p class="TableContents" style="margin-bottom:14.15pt;"><span lang="EN-GB" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">You are ready now to follow the alignment wizard</font></span></p>
+<p class="stepstitle">Alignment wizard (Manual Qualification)</p>
+<ol start="1" class="whs4">
+<li class="kadov-p-Csteps">
+<p class="steps">Type the command <span lang="EN-US"><a href="../../Macros/Commands/Dospherequalification.htm">DoSphereQualification()</a> with correct parameters in the KUBE command line to start alignment procedure.</span></p>
+</li>
+<li class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-US"><span lang="EN-US">C</span>onfirm the appearing message to initialise the qualification:</span></p>
+</li>
+</ol>
+<p class="whs5"><span lang="EN-US"><font size="2" style="font-size:10pt;"><span lang="EN-US"><img src="SPh1.bmp" width="851px" height="142px" border="0" class="img_whs6" alt=""></span></font></span></p>
+<p>Alignment procedure includes capturing patches on the sphere</p>
+<ol start="3" type="1" class="whs7">
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-US">in 3 directions (approx 90 degrees between them)</span></p>
+</li>
+</ol>
+<p class="whs5"><img src="ispc049060_str1.JPG" width="79px" height="120px" border="0" class="img_whs8" alt=""></p>
+<ul>
+<li style="font-size:10.0pt;" class="kadov-p-Cbullet">
+<p class="bullet">and in 4 quadrants for each direction (near left "quadrant 1" , near right "quadrant 2", distant right "quadrant 3" and distant left "quadrant 4"), as displayed on the pictures below (direction 1)</p>
+</li>
+</ul>
+<p><span lang="EN-US"><span style="font-size:10.0pt;"><font size="2" style="font-size:10pt;"><img src="ispc049060_str.bmp" width="406px" height="245px" border="0" class="img_whs9" alt=""></font></span></span></p>
+<ol start="3" type="1" class="whs7">
+<li class="kadov-p-Csteps">
+<p class="steps"><span style="font-size:10.0pt;"><font size="2" style="font-size:10pt;">Point the sensor</font></span>&#160;<span style="font-size:10.0pt;"><font size="2" style="font-size:10pt;">to fit the laser stripe to the sphere diameter (1<sup>st</sup></font></span>&#160; <span style="font-size:10.0pt;"><font size="2" style="font-size:10pt;">position, 1<sup>st</sup> quadrant). In KUBE the laser stripe should lie on the circle drawn in the view window as shown on the picture below.</font></span></p>
+</li>
+</ol>
+<p><span lang="EN-US"><img src="SPh2a.bmp" width="640px" height="297px" border="0" class="img_whs10" alt=""></span></p>
+<ol start="4" type="1" class="whs7">
+<li style="font-size:10.0pt; font-family:Arial;" class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-US"><span style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">Hold the sensor firmly and scan a patch by pressing B button</font></span></span></p>
+</li>
+<li class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">The stripe counter starts increasing the number of captured stripes. When this number exceeds 12, the current quadrant and the stripes number will be coloured in green. The patch is captured successfully.</font></span></p>
+</li>
+<li style="font-size:10.0pt; font-family:Arial;" class="kadov-p-Csteps">
+<p class="steps" style="font-size:10.0pt; font-family:Arial;">If the scan is successful then ignore the „Remove last patch“ message by pressing B button again. If you need to repeat the same scan, then confirm the Remove last patch“ message and capture the data once again.</p>
+</li>
+<li style="font-size:10.0pt; font-family:Arial;" class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-US"><span style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">Follow steps 4 to 6 for the 4 quadrants in all 3 directions.</font></span></span></p>
+</li>
+<li style="font-size:10.0pt; font-family:Arial;" class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-US"><span style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">Next step is to capture 4 Velocity scans in one scanner orientation.</font></span><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">To take into account the motion of the scanner at the highest used velocity, some scans are made. The laser stripe is pointed to the sphere diameter and is moved in the direction of the laser plane:</font></span></span></p>
+</li>
+<li style="list-style:none; display:inline;">
+<ol type="1" class="whs11">
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-US"><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">from position 1 (quadrant 1 or closer to the scanner) to 4 (quadrant 4 or further from the scanner) and back at high speed, i.e 2 velocity scans captured</font></span></span></p>
+</li>
+</ol>
+</li>
+<li style="list-style:none; display:inline;">
+<ol type="1" class="whs11">
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-US"><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">from position 2 (quadrant 2 or closer to the scanner) to 3 (quadrant 3 or further from the scanner) and back at high speed, i.e 2 more velocity scans captured</font></span></span></p>
+</li>
+</ol>
+</li>
+<li class="kadov-p-Csteps" value="9">
+<p class="steps"><span lang="EN-US">When 16 successful patches are measured, the Finish button becomes available</span></p>
+</li>
+</ol>
+<p><span lang="EN-US"><img src="SPh8.bmp" width="851px" height="493px" border="0" class="img_whs12" alt=""></span></p>
+<ol start="9" type="1" class="whs7">
+<li class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-US"><span lang="EN-US" style="font-size:10.0pt;"><font size="2" style="font-size:10pt;">At this stage there are 2 possibilities: some additional patches can be taken (no limit for orientation, number or speed), or the sphere alignment can be calculated.</font></span></span></p>
+</li>
+<li style="font-size:10.0pt; font-family:Arial;" class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-US"><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">Press the "Finish" button to end the capture wizard, then confirm the appearing message to calculate the sphere qualification.</font></span></span></p>
+</li>
+<li style="font-size:10.0pt; font-family:Arial;" class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-US"><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">When the alignment is calculated, results will be displayed in a window.</font></span></span></p>
+</li>
+<li class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-US"><span lang="EN-US">If the std dev and condition number values are below warning level values, the qualification will be accepted and saved.</span></span></p>
+</li>
+</ol>
+<p class="Note" id="P3"><span lang="EN-US"><span lang="EN-US" style="font-weight:bold;"><b>Note</b></span><span lang="EN-US">: If no name has been set, you will be prompted for alignment name</span></span></p>
+<ol start="13" class="whs4">
+<li class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-US"><span lang="EN-US" style="font-size:10.0pt;"><font size="2" style="font-size:10pt;">If</font></span>&#160; <span lang="EN-US" style="font-size:10.0pt;"><font size="2" style="font-size:10pt;">the std dev or condition number values are in the warning level ranges, a warning message will appear asking whether to accept or reject the alignment.</font></span></span></p>
+</li>
+<li class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-US"><span lang="EN-US" style="font-size:10.0pt;"><font size="2" style="font-size:10pt;">If</font></span>&#160;<span lang="EN-US" style="font-size:10.0pt;"><font size="2" style="font-size:10pt;">the std dev or condition number values are above the error level, the sphere qualification will be automatically rejected.</font></span></span></p>
+</li>
+</ol>
+<p><span lang="EN-US"><span lang="EN-US">Although the results screen can indicate whether the alignment has been successful, it is necessary to perform a</span> <span lang="EN-US" style="text-underline:none;"><a href="Alignment_Check.htm">system certification check</a></span> <span lang="EN-US">to certify performance.</span></span></p>
+<p>&#160;</p>
+<p class="stepstitle"><span lang="EN-US">Alignment wizard (Teaching Robot)</span></p>
+<ol>
+<li class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-US">Type the command <a href="../../Macros/Commands/Dospherequalification.htm">DoSphereQualification()</a> with correct parameters in the COM interface command line to start alignment procedure.</span><span lang="EN-US"><br>
+Alignment procedure includes capturing patches on the sphere</span></p>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-US">in 3 directions (approx 90 degrees between them)</span></p>
+</li>
+</ul>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-US">and in 4 quadrants for each direction (near left "quadrant 1" , near right "quadrant 2", distant right "quadrant 3" and distant left "quadrant 4"), as displayed on the picture for direction 1 in the previous section</span></p>
+</li>
+</ul>
+</li>
+<li class="kadov-p-Csteps" value="2">
+<p class="steps"><span lang="EN-US"><span lang="EN-US" style="font-size:10.0pt;"><font size="2" style="font-size:10pt;">The scanner starts measuring the laser line in order to feedback the reflection of the laser line on the sphere in the GUI . The robot programmer moves the RoboScan to the sphere and tries to fit the laser line onto the ideal sphere that is visible in the GUI. Thus projecting the laser line on the largest diameter of the physical sphere.</font></span></span></p>
+</li>
+<li style="font-size:10.0pt;" class="kadov-p-Csteps">
+<p class="steps" style="font-size:10.0pt;"><span lang="EN-US">If the fit is sufficient, the robot programmer moves the robot perpendicular to the laser plane</span></p>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet" style="font-size:10.0pt;"><span lang="EN-US">to the beginning of the sphere with and additional 10 mm and saves this point in the robot. This is the "start point" (see picture below)<br>
+<img src="vel_scans.bmp" width="400px" height="321px" border="0" class="img_whs13" alt=""><br>
+&#160;</span></p>
+</li>
+</ul>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-US"><span lang="EN-US" style="font-size:10.0pt;"><font size="2" style="font-size:10pt;">to the end of the sphere width additional 10 mm and saves this point in the robot.</font></span> <span lang="FR" style="font-size:10.0pt;"><font size="2" style="font-size:10pt;">This is the "End Point" (see picture above)</font></span></span></p>
+</li>
+</ul>
+</li>
+<li style="font-size:10.0pt; font-family:Arial;" class="kadov-p-Csteps" value="4">
+<p class="steps" style="font-size:10.0pt; font-family:Arial;"><span lang="EN-US">The robot programmer now replays this scan path while measuring data</span></p>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet" style="font-size:10.0pt; font-family:Arial;"><span lang="EN-US">move robot to start point</span></p>
+</li>
+</ul>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet" style="font-size:10.0pt; font-family:Arial;"><span lang="EN-US">press "start patch" in Kube GUI</span></p>
+</li>
+</ul>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet" style="font-size:10.0pt; font-family:Arial;"><span lang="EN-US">start robot motion until it stops</span></p>
+</li>
+</ul>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet" style="font-size:10.0pt; font-family:Arial;"><span lang="EN-US">press "stop patch" in Kube GUI</span><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;"><br>
+the patch is verified and the programmer receives an OK/green lamp for this patch.</font></span></p>
+</li>
+</ul>
+</li>
+<li style="font-size:10.0pt; font-family:Arial;" class="kadov-p-Csteps" value="5">
+<p class="steps"><span lang="EN-US"><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">Steps 3 and 4 are repeated 3 more times to complete the 4 quadrants</font></span></span></p>
+</li>
+<li style="font-size:10.0pt; font-family:Arial;" class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-US"><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">Steps 3, 4 and 5 are repeated completely 2 more times to complete the 3 orientations of the scanner.</font></span></span></p>
+</li>
+<li style="font-size:10.0pt; font-family:Arial;" class="kadov-p-Csteps">
+<p class="steps" style="font-size:10.0pt; font-family:Arial;"><span lang="EN-US">Next step is to take velocity scans<br>
+The RoboScan is moved in order that the sphere moves in the FOV in the direction of the laser plane,&#160;</span></p>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet" style="font-size:10.0pt; font-family:Arial;"><span lang="EN-US">from position 1 (or closer to the scanner) to 4 (or further from the scanner) and back at high speed</span></p>
+</li>
+</ul>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet" style="font-size:10.0pt; font-family:Arial;"><span lang="EN-US"><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">from position 2 (or closer to the scanner) to 3 (or further from the scanner) and back at high speed<br>
+This leads to 4 additional scan patches</font></span></span></p>
+</li>
+</ul>
+</li>
+<li style="font-size:10.0pt; font-family:Arial;" class="kadov-p-Csteps" value="8">
+<p class="steps"><span lang="EN-US"><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">After the 16<sup>th</sup> patch there is a possibility to capture as many patches as necessary (additional patches).</font></span> <span lang="FR" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">At this stage the alignment can be calculated</font></span></span></p>
+</li>
+<li class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-US">Type</span> <span lang="EN-US" style="font-weight:bold;"><b>ScanCalculate()</b></span> <span lang="EN-US">in the COM interface command line to get alignment results.</span></p>
+</li>
+<li class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-US"><span lang="EN-US">The alignment results are shown in the COM interface window. If the std dev and condition number values are below warning level values, the qualification will be accepted and saved.</span></span></p>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-US"><span lang="EN-US">If&#160;the std dev or condition number values are in the warning level ranges, the qualification will be accepted or rejected depending on the</span> <span lang="EN-GB">AcceptAboveWarningLevel value</span><span lang="EN-US">.</span></span></p>
+</li>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-US"><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">If&#160;the std dev or condition number values are above the error level, the sphere qualification will be automatically rejected.</font></span></span></p>
+</li>
+</ul>
+</li>
+<li style="font-size:10.0pt; font-family:Arial;" class="kadov-p-Csteps" value="11">
+<p class="steps"><span lang="EN-US"><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">The robot programmer now edits the robot path program by inserting the correct RoboScan commands.</font></span></span></p>
+</li>
+<li style="font-size:10.0pt; font-family:Arial;" class="kadov-p-Csteps">
+<p class="steps"><span lang="EN-US"><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">The complete qualification with robot commands is tested.</font></span></span></p>
+</li>
+</ol>
+<p class="BodyText" style="margin-left:42.55pt; text-indent:-14.2pt;">&#160;</p>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0C0229010000416C69676E6D656E740A416C69676E6D656E7409416C69676E6D656E742050726F6365647572650A4170706C790A4261636B0A436170747572650A436972636C650A434F4D0A446973706C61790A446973706C617920436F6D6D616E642077696E646F770A456469740A464F560A48617264776172650A4C617365720A4C6173657220506F7765720A4C6566740A4C696E650A6C6F63616C697365720A6D6163726F20636F6D6D616E64730A4D6163726F730A4D6561737572650A506172616D65746572730A50617463680A506572666F726D616E63650A506C616E650A52696768740A536176650A5363616E0A53656E736F720A53706865726520416C69676E6D656E742050726F6365647572650A737464206465760A546F6F6C6261720A56696577204D656E750D021A00000053706865726520416C69676E6D656E742050726F636564757265110209000000416C69676E6D656E7412021A00000053706865726520416C69676E6D656E742050726F6365647572651302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

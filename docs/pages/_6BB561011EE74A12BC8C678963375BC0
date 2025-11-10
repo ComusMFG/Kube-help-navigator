@@ -1,0 +1,289 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Pages Menu</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+img_whs4 { width:177px; height:229px; border-style:none; }
+table.whs5 { border-spacing:0px; margin-left:24px; width:90.191%; }
+col.whs6 { width:27.719%; }
+col.whs7 { width:59.765%; }
+col.whs8 { width:12.516%; }
+tr.whs9 {  }
+td.whs10 { padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; background-color:#eae8d6; }
+td.whs11 { padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; background-color:#eae8d6; }
+td.whs12 { padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs13 { padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs14 { border:none; width:23px; height:16px; border-style:none; }
+td.whs15 { padding-right:10px; padding-left:10px; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; }
+col.whs16 { width:59.897%; }
+col.whs17 { width:12.384%; }
+col.whs18 { width:60.162%; }
+col.whs19 { width:12.119%; }
+table.whs20 { border-spacing:0px; margin-left:24px; width:90.431%; }
+col.whs21 { width:27.646%; }
+col.whs22 { width:60.268%; }
+col.whs23 { width:12.086%; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nInspection Mode\nInspection Interface\nMenus\nPages Menu");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Pages Menu</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p><span lang="EN-US">The Pages menu is divided in 4 sections</span></p>
+<p><span lang="EN-US"><img src="../Images/image006.gif" width="177px" height="229px" border="0" class="img_whs4" alt=""></span></p>
+<p class="sub-head"><span lang="EN-US">Create/Modify pages section with 4 functions</span></p>
+<table width="90.191%" cellspacing="0" class="whs5">
+<col class="whs6">
+<col class="whs7">
+<col class="whs8">
+<tr valign="top" class="whs9">
+<td bgcolor="#EAE8D6" width="27.719%" class="whs10">
+<p class="caption">Command</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="59.765%" class="whs11">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="12.516%" class="whs11">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td width="27.719%" class="whs12">
+<p class="normal-table-func"><span class="Command">Create</span></p>
+</td>
+<td colspan="1" rowspan="1" width="59.765%" class="whs13">
+<p class="normal-table"><span lang="EN-US">Adds current view to a new page in the list</span></p>
+</td>
+<td width="12.516%" class="whs13">
+<p class="normal-table"><a href="../References/Create_Page.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs14" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td colspan="1" rowspan="1" width="27.719%" class="whs15">
+<p class="normal-table-func"><span class="Command">Insert standard pages</span></p>
+</td>
+<td colspan="1" rowspan="1" width="59.765%" class="whs13">
+<p class="normal-table"><span lang="EN-US">Adds 6 new pages with predefined views to the page list</span></p>
+</td>
+<td colspan="1" rowspan="1" width="12.516%" class="whs13">
+<p class="normal-table"><a href="../References/Insert_Standard_Pages.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs14" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td colspan="1" rowspan="1" width="27.719%" class="whs15">
+<p class="normal-table-func"><span class="Command">Update current</span></p>
+</td>
+<td colspan="1" rowspan="1" width="59.765%" class="whs13">
+<p class="normal-table"><span lang="EN-US">Saves changes made in the current page</span></p>
+</td>
+<td colspan="1" rowspan="1" width="12.516%" class="whs13">
+<p class="normal-table"><a href="../References/Update_Current_Page.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs14" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td colspan="1" rowspan="1" width="27.719%" class="whs15">
+<p class="normal-table-func"><span class="Command">Auto Update</span></p>
+</td>
+<td colspan="1" rowspan="1" width="59.765%" class="whs13">
+<p class="normal-table"><span lang="EN-US">Automatically saves all changes in the pages without prompt</span></p>
+</td>
+<td colspan="1" rowspan="1" width="12.516%" class="whs13">
+<p class="normal-table"><a href="../References/Auto_Update_Pages.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs14" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p class="sub-head"><span lang="EN-US">Manage page position section with 2 functions</span></p>
+<table width="90.191%" cellspacing="0" class="whs5">
+<col class="whs6">
+<col class="whs16">
+<col class="whs17">
+<tr valign="top" class="whs9">
+<td bgcolor="#EAE8D6" width="27.719%" class="whs10">
+<p class="caption">Command</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="59.897%" class="whs11">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="12.384%" class="whs11">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td width="27.719%" class="whs12">
+<p class="normal-table-func"><span class="Command">Move Up</span></p>
+</td>
+<td colspan="1" rowspan="1" width="59.897%" class="whs13">
+<p class="normal-table"><span lang="EN-US">Moves the current page one position up</span></p>
+</td>
+<td width="12.384%" class="whs13">
+<p class="normal-table"><a href="../References/Move_Up_Pages.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs14" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td colspan="1" rowspan="1" width="27.719%" class="whs15">
+<p class="normal-table-func"><span class="Command">Move Down</span></p>
+</td>
+<td colspan="1" rowspan="1" width="59.897%" class="whs13">
+<p class="normal-table"><span lang="EN-US">Moves the current page one position down</span></p>
+</td>
+<td colspan="1" rowspan="1" width="12.384%" class="whs13">
+<p class="normal-table"><a href="../References/Move_Down_Pages.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs14" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p class="sub-head">Outline Pages</p>
+<table width="90.191%" cellspacing="0" class="whs5">
+<col class="whs6">
+<col class="whs18">
+<col class="whs19">
+<tr valign="top" class="whs9">
+<td bgcolor="#EAE8D6" width="27.719%" class="whs10">
+<p class="caption">Command</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="60.162%" class="whs11">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="12.119%" class="whs11">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td width="27.719%" class="whs12">
+<p class="Command"><span class="Command">Outline pages</span></p>
+</td>
+<td colspan="1" rowspan="1" width="60.162%" class="whs13">
+<p class="normal-table"><span lang="EN-US">Assigns pages with partial zoom to their common page.</span></p>
+</td>
+<td width="12.119%" class="whs13">
+<p class="normal-table"><a href="../References/Outline_Pages.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs14" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p class="sub-head"><span lang="EN-US">Rename/Delete pages section with 2 functions</span></p>
+<table width="90.431%" cellspacing="0" class="whs20">
+<col class="whs21">
+<col class="whs22">
+<col class="whs23">
+<tr valign="top" class="whs9">
+<td bgcolor="#EAE8D6" width="27.646%" class="whs10">
+<p class="caption">Command</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="60.268%" class="whs11">
+<p class="caption">Description</p>
+</td>
+<td bgcolor="#EAE8D6" width="12.086%" class="whs11">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td colspan="1" rowspan="1" width="27.646%" class="whs12">
+<p class="normal-table-func"><span class="Command">Rename</span></p>
+</td>
+<td colspan="1" rowspan="1" width="60.268%" class="whs13">
+<p class="normal-table"><span lang="EN-US">Renames the current page</span></p>
+</td>
+<td colspan="1" rowspan="1" width="12.086%" class="whs13">
+<p class="normal-table"><a href="../References/Rename_Pages.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs14" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs9">
+<td colspan="1" rowspan="1" width="27.646%" class="whs12">
+<p class="normal-table-func"><span class="Command">Delete</span></p>
+</td>
+<td colspan="1" rowspan="1" width="60.268%" class="whs13">
+<p class="normal-table"><span lang="EN-US">Deletes the current page</span></p>
+</td>
+<td colspan="1" rowspan="1" width="12.086%" class="whs13">
+<p class="normal-table"><a href="../References/Delete_Page.htm"><img src="../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs14" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0C025B0000004175746F0A4372656174650A44656C6574650A446F776E0A4D6F766520446F776E0A4D6F76652055700A4E65770A4F75746C696E652050616765730A52656E616D650A536176650A5570646174652043757272656E740A5A6F6F6D0D020A0000005061676573204D656E751102050000004D656E757312020A0000005061676573204D656E751302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

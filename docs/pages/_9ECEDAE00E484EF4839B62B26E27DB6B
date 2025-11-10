@@ -1,0 +1,474 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Datuming Menu</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { float:aligncenter; height:5px; }
+table.whs4 { border-spacing:0px; margin-left:24px; }
+col.whs5 { width:216px; }
+col.whs6 { width:385px; }
+tr.whs7 { height:174px; }
+td.whs8 { padding-right:10px; padding-left:10px; border-right-style:None; border-left-style:None; border-top-style:None; border-bottom-style:None; }
+img_whs9 { border:none; width:199px; height:252px; float:none; border-style:none; }
+td.whs10 { padding-right:10px; padding-left:10px; }
+table.whs11 { width:100%; height:270px; left:0px; top:0px; border-spacing:0px; }
+col.whs12 { width:100%; }
+tr.whs13 { height:208px; }
+td.whs14 { width:100%; padding-right:10px; padding-left:10px; }
+tr.whs15 { height:62px; }
+table.whs16 { border-spacing:0px; margin-left:24px; left:0px; top:498px; width:742px; }
+col.whs17 { width:23.405%; }
+col.whs18 { width:62.229%; }
+col.whs19 { width:14.366%; }
+tr.whs20 { height:36px; }
+td.whs21 { width:23.405%; padding-right:10px; padding-left:10px; background-color:#eae8d6; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; }
+td.whs22 { width:62.229%; padding-right:10px; padding-left:10px; background-color:#eae8d6; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; }
+td.whs23 { width:14.366%; padding-right:10px; padding-left:10px; background-color:#eae8d6; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+tr.whs24 {  }
+td.whs25 { width:23.405%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs26 { width:62.229%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs27 { width:14.366%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs28 { width:23px; height:16px; border-style:none; }
+img_whs29 { border:none; width:386px; height:146px; float:none; border-style:none; }
+table.whs30 { border-spacing:0px; margin-left:24px; left:0px; top:981px; width:738px; }
+col.whs31 { width:23.126%; }
+col.whs32 { width:62.827%; }
+col.whs33 { width:14.047%; }
+td.whs34 { width:23.126%; padding-right:10px; padding-left:10px; background-color:#eae8d6; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; }
+td.whs35 { width:62.827%; padding-right:10px; padding-left:10px; background-color:#eae8d6; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; }
+td.whs36 { width:14.047%; padding-right:10px; padding-left:10px; background-color:#eae8d6; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs37 { width:23.126%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs38 { width:62.827%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs39 { width:14.047%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+img_whs40 { border:none; width:23px; height:16px; border-style:none; }
+img_whs41 { border:none; width:281px; height:127px; float:none; border-style:none; }
+table.whs42 { border-spacing:0px; margin-left:24px; left:0px; top:1419px; width:740px; }
+col.whs43 { width:22.523%; }
+col.whs44 { width:63.469%; }
+col.whs45 { width:14.009%; }
+td.whs46 { width:22.523%; padding-right:10px; padding-left:10px; background-color:#eae8d6; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; }
+td.whs47 { width:63.469%; padding-right:10px; padding-left:10px; background-color:#eae8d6; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; }
+td.whs48 { width:14.009%; padding-right:10px; padding-left:10px; background-color:#eae8d6; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-top-color:#000080; border-top-width:3px; border-top-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs49 { width:22.523%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; border-left-color:#000080; border-left-width:3px; border-left-style:Double; }
+td.whs50 { width:63.469%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+td.whs51 { width:14.009%; padding-right:10px; padding-left:10px; border-bottom-color:#000080; border-bottom-width:3px; border-bottom-style:Double; border-right-color:#000080; border-right-width:3px; border-right-style:Double; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nUser Interface\nMenus\nDatuming Menu");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1><span lang="EN-GB">Datuming</span> <span lang="EN-GB">Menu</span></h1>
+<hr align="center" size="5" class="whs3">
+<p><span lang="EN-GB">Use Datuming menu to create datum entities, which can be used for creating transformations and aligning entities.&#160;</span>The Datuming menu is divided in three sections as follow:</p>
+<table cellspacing="0" class="whs4">
+<col class="whs5">
+<col class="whs6">
+<tr valign="top" class="whs7">
+<td width="216" class="whs8">
+<p class="normal-table"><img src="Images/datuming_menu.gif" width="199px" height="252px" border="0" class="img_whs9" alt=""></p>
+</td>
+<td valign="bottom" width="385" class="whs10">
+<table cellspacing="0" width="100%" class="whs11">
+<col class="whs12">
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" valign="middle" width="100%" class="whs14">
+<p class="normal-table"><a href="#New_Entity_commands">New entity commands</a></p>
+</td>
+</tr>
+<tr valign="top" class="whs15">
+<td valign="middle" width="100%" class="whs14">
+<p class="normal-table"><a href="#Auto">Auto Extract commands</a></p>
+<p class="normal-table"><a href="#Non-interactive">Non-interactive new entity commands</a></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<p class="sub-head"><span lang="EN-GB"><a name="New_Entity_commands"></a>New Entity commands</span></p>
+<p><span lang="EN-GB">A</span>ll New Entity commands have similar interface and allow creating entities by different methods. The design and the common functionality are described in the section "<a href="Interactive_datum_interface_description.htm">Interactive Datum Interface</a>".</p>
+<table cellspacing="0" width="742" class="whs16">
+<col class="whs17">
+<col class="whs18">
+<col class="whs19">
+<tr valign="top" class="whs20">
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="23.405%" class="whs21">
+<p class="caption">Command</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="62.229%" class="whs22">
+<p class="caption">Description</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="14.366%" class="whs23">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td colspan="1" rowspan="1" width="23.405%" class="whs25">
+<p class="normal-table-func"><span class="Command">Point</span></p>
+</td>
+<td colspan="1" rowspan="1" width="62.229%" class="whs26">
+<p class="normal-table">Creates new datum point.</p>
+</td>
+<td colspan="1" rowspan="1" width="14.366%" class="whs27">
+<p class="normal-table"><a href="../References/New_Point.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs28" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td colspan="1" rowspan="1" width="23.405%" class="whs25">
+<p class="normal-table-func"><span class="Command">Line</span></p>
+</td>
+<td colspan="1" rowspan="1" width="62.229%" class="whs26">
+<p class="normal-table"><span lang="EN-GB">Creates new datum line.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="14.366%" class="whs27">
+<p class="normal-table"><a href="../References/New_Line.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs28" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td colspan="1" rowspan="1" width="23.405%" class="whs25">
+<p class="normal-table-func"><span class="Command">Plane</span></p>
+</td>
+<td colspan="1" rowspan="1" width="62.229%" class="whs26">
+<p class="normal-table"><span lang="EN-GB">Creates new datum plane.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="14.366%" class="whs27">
+<p class="normal-table"><a href="../References/New_Plane.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs28" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td colspan="1" rowspan="1" width="23.405%" class="whs25">
+<p class="normal-table-func"><span class="Command">Sphere</span></p>
+</td>
+<td colspan="1" rowspan="1" width="62.229%" class="whs26">
+<p class="normal-table"><span lang="EN-GB">Creates new datum sphere.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="14.366%" class="whs27">
+<p class="normal-table"><a href="../References/New_Sphere.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs28" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td colspan="1" rowspan="1" width="23.405%" class="whs25">
+<p class="normal-table-func"><span class="Command">Cylinder</span></p>
+</td>
+<td colspan="1" rowspan="1" width="62.229%" class="whs26">
+<p class="normal-table"><span lang="EN-GB">Creates new datum cylinder.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="14.366%" class="whs27">
+<p class="normal-table"><a href="../References/New_Cylinder.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs28" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td colspan="1" rowspan="1" width="23.405%" class="whs25">
+<p class="normal-table-func"><span class="Command">Circle</span></p>
+</td>
+<td colspan="1" rowspan="1" width="62.229%" class="whs26">
+<p class="normal-table"><span lang="EN-GB">Creates new datum circle.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="14.366%" class="whs27">
+<p class="normal-table"><a href="../References/New_Circle.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs28" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td colspan="1" rowspan="1" width="23.405%" class="whs25">
+<p class="normal-table-func">Cone</p>
+</td>
+<td colspan="1" rowspan="1" width="62.229%" class="whs26">
+<p class="normal-table">Creates new datum cone.</p>
+</td>
+<td colspan="1" rowspan="1" width="14.366%" class="whs27">
+<p class="normal-table"><a href="../References/New_Cone.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs28" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td colspan="1" rowspan="1" width="23.405%" class="whs25">
+<p class="normal-table-func">Rectangular Slot</p>
+</td>
+<td colspan="1" rowspan="1" width="62.229%" class="whs26">
+<p class="normal-table">Creates new datum rectangular slot.</p>
+</td>
+<td colspan="1" rowspan="1" width="14.366%" class="whs27">
+<p class="normal-table"><a href="../References/New_Rectangular_Slot.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs28" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td width="23.405%" class="whs25">
+<p class="normal-table-func">Round Slot</p>
+</td>
+<td width="62.229%" class="whs26">
+<p class="normal-table">Creates new datum round slot.</p>
+</td>
+<td width="14.366%" class="whs27">
+<p class="normal-table"><a href="../References/New_Round_Slot.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs28" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<p class="sub-head"><a name="Auto"></a>Auto Extract Commands</p>
+<p><img src="Images/datuming_menu_autoextract.gif" width="386px" height="146px" border="0" class="img_whs29" alt=""></p>
+<table cellspacing="0" width="738" class="whs30">
+<col class="whs31">
+<col class="whs32">
+<col class="whs33">
+<tr valign="top" class="whs20">
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="23.126%" class="whs34">
+<p class="caption">Command</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="62.827%" class="whs35">
+<p class="caption">Description</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="14.047%" class="whs36">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td colspan="1" rowspan="1" width="23.126%" class="whs37">
+<p class="normal-table-func"><span class="Command">Plane</span></p>
+</td>
+<td colspan="1" rowspan="1" width="62.827%" class="whs38">
+<p class="normal-table">Extracts datum planes from selection.</p>
+</td>
+<td colspan="1" rowspan="1" width="14.047%" class="whs39">
+<p class="normal-table"><a href="../References/auto_extract_plane.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs40" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td colspan="1" rowspan="1" width="23.126%" class="whs37">
+<p class="normal-table-func"><span class="Command">Sphere</span></p>
+</td>
+<td colspan="1" rowspan="1" width="62.827%" class="whs38">
+<p class="normal-table">Extracts datum spheres from selection.</p>
+</td>
+<td colspan="1" rowspan="1" width="14.047%" class="whs39">
+<p class="normal-table"><a href="../References/auto_extract_sphere.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs40" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td colspan="1" rowspan="1" width="23.126%" class="whs37">
+<p class="normal-table-func"><span class="Command">Cylinder</span></p>
+</td>
+<td colspan="1" rowspan="1" width="62.827%" class="whs38">
+<p class="normal-table">Extracts datum cylinders from selection.</p>
+</td>
+<td colspan="1" rowspan="1" width="14.047%" class="whs39">
+<p class="normal-table"><a href="../References/auto_extract_cylinder.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs40" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td colspan="1" rowspan="1" width="23.126%" class="whs37">
+<p class="normal-table-func"><span class="Command">Circle</span></p>
+</td>
+<td colspan="1" rowspan="1" width="62.827%" class="whs38">
+<p class="normal-table">Extracts internal and external datum circles from selection.</p>
+</td>
+<td colspan="1" rowspan="1" width="14.047%" class="whs39">
+<p class="normal-table"><a href="../References/autoextract_circle.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs40" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td colspan="1" rowspan="1" width="23.126%" class="whs37">
+<p class="normal-table-func">Cone</p>
+</td>
+<td colspan="1" rowspan="1" width="62.827%" class="whs38">
+<p class="normal-table">Extracts datum cones from selection.</p>
+</td>
+<td colspan="1" rowspan="1" width="14.047%" class="whs39">
+<p class="normal-table"><a href="../References/auto_extract_cone.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs40" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td colspan="1" rowspan="1" width="23.126%" class="whs37">
+<p class="normal-table-func">Rectangular Slot</p>
+</td>
+<td colspan="1" rowspan="1" width="62.827%" class="whs38">
+<p class="normal-table">Extracts datum rectangular slots from selection.</p>
+</td>
+<td colspan="1" rowspan="1" width="14.047%" class="whs39">
+<p class="normal-table"><a href="../References/auto_extract_rectangular_slot.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs40" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td colspan="1" rowspan="1" width="23.126%" class="whs37">
+<p class="normal-table-func">Round Slot</p>
+</td>
+<td colspan="1" rowspan="1" width="62.827%" class="whs38">
+<p class="normal-table">Extracts datum round slots from selection.</p>
+</td>
+<td colspan="1" rowspan="1" width="14.047%" class="whs39">
+<p class="normal-table"><a href="../References/auto_extract_round_slot.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs40" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<p class="sub-head"><a name="Non-interactive"></a>Non-interactive New Entity Commands</p>
+<p><img src="Images/datuming_menu_noninteractive.gif" width="281px" height="127px" border="0" class="img_whs41" alt=""></p>
+<p>The section allows creating new datums by non-interactive way (available in all precedent KUBE versions).</p>
+<table cellspacing="0" width="740" class="whs42">
+<col class="whs43">
+<col class="whs44">
+<col class="whs45">
+<tr valign="top" class="whs20">
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="22.523%" class="whs46">
+<p class="caption">Command</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="63.469%" class="whs47">
+<p class="caption">Description</p>
+</td>
+<td colspan="1" rowspan="1" bgcolor="#EAE8D6" width="14.009%" class="whs48">
+<p class="caption">Details</p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td colspan="1" rowspan="1" width="22.523%" class="whs49">
+<p class="normal-table-func"><span class="Command">Point</span></p>
+</td>
+<td colspan="1" rowspan="1" width="63.469%" class="whs50">
+<p class="normal-table">Creates new datum point.</p>
+</td>
+<td colspan="1" rowspan="1" width="14.009%" class="whs51">
+<p class="normal-table"><a href="../References/New_Point_-_Non-Interactive.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs28" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td colspan="1" rowspan="1" width="22.523%" class="whs49">
+<p class="normal-table-func"><span class="Command">Line</span></p>
+</td>
+<td colspan="1" rowspan="1" width="63.469%" class="whs50">
+<p class="normal-table"><span lang="EN-GB">Creates new datum line.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="14.009%" class="whs51">
+<p class="normal-table"><a href="../References/New_Line_-_Non-Interactive.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs28" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td colspan="1" rowspan="1" width="22.523%" class="whs49">
+<p class="normal-table-func"><span class="Command">Plane</span></p>
+</td>
+<td colspan="1" rowspan="1" width="63.469%" class="whs50">
+<p class="normal-table"><span lang="EN-GB">Creates new datum plane.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="14.009%" class="whs51">
+<p class="normal-table"><a href="../References/New_Plane_-_Non-Interactive.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs28" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td colspan="1" rowspan="1" width="22.523%" class="whs49">
+<p class="normal-table-func"><span class="Command">Sphere</span></p>
+</td>
+<td colspan="1" rowspan="1" width="63.469%" class="whs50">
+<p class="normal-table"><span lang="EN-GB">Creates new datum sphere.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="14.009%" class="whs51">
+<p class="normal-table"><a href="../References/New_Sphere_-_Non-Interactive.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs28" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td colspan="1" rowspan="1" width="22.523%" class="whs49">
+<p class="normal-table-func"><span class="Command">Cylinder</span></p>
+</td>
+<td colspan="1" rowspan="1" width="63.469%" class="whs50">
+<p class="normal-table"><span lang="EN-GB">Creates new datum cylinder.</span></p>
+</td>
+<td colspan="1" rowspan="1" width="14.009%" class="whs51">
+<p class="normal-table"><a href="../References/New_Cylinder_-_Non-Interactive.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs28" alt=""></a></p>
+</td>
+</tr>
+<tr valign="top" class="whs24">
+<td width="22.523%" class="whs49">
+<p class="normal-table-func"><span class="Command">Circle</span></p>
+</td>
+<td width="63.469%" class="whs50">
+<p class="normal-table"><span lang="EN-GB">Creates new datum circle.</span></p>
+</td>
+<td width="14.009%" class="whs51">
+<p class="normal-table"><a href="../References/New_Circle_-_Non-Interactive.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs28" alt=""></a></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B020D000000446174756D696E67204D656E750C020D000000446174756D696E67204D656E750D020D000000446174756D696E67204D656E751102050000004D656E757312020D000000446174756D696E67204D656E751302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

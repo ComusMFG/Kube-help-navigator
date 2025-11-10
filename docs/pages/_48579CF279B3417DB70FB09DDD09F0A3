@@ -1,0 +1,327 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Inspection</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { height:5px; float:alignleft; }
+img_whs4 { border:none; width:368px; height:696px; float:none; border-style:none; }
+img_whs5 { border:none; width:390px; height:222px; float:none; border-style:none; }
+p.whs6 { text-align:left; }
+ol.whs7 { list-style:decimal; }
+p.whs8 { margin-left:40px; }
+img_whs9 { border:none; width:717px; height:415px; float:none; border-style:none; }
+p.whs10 { margin-left:40px; text-align:left; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body lang="BG">
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nCorrosion Module\nInspection");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1><span lang="EN-US">Inspection</span></h1>
+<hr size="5" align="left" class="whs3">
+<p class="description"><i style="font-style:italic;"><span lang="EN-US" style="font-style:normal; font-weight:bold;"><b>Description:</b></span> <span lang="EN-US" style="font-style:normal;">The second step analyses the surface, locates corrosion areas and calculates their characteristics.</span> </i></p>
+<p class="sub-head"><i><span lang="EN-US" style="font-style:normal;">Inspection Description and procedure:</span></i></p>
+<p><img src="Images/Inspect_dialog.gif" width="368px" height="696px" border="0" class="img_whs4" alt=""></p>
+<p class="parameterstitle">Skip</p>
+<p class="parameterdescription">If this option is enabled the processing goes straight to the next step, i.e. Print.</p>
+<p class="normal-table"><span lang="EN-US">The parameters are explained below by the order of their using in the inspection algorithm.</span></p>
+<p class="parameterstitle"><span lang="EN-US">Input</span> File</p>
+<p class="parameterdescription">Specifies the file from where the input data is loaded. If the previous step has not been skipped there is a file name provided by default.</p>
+<p class="parameterstitle">Nominal Wall Thickness</p>
+<p class="parameterdescription">Used for calculating the Corrosion Threshold if the latter is specified as percentage of the wall thickness. Default value is 10mm.</p>
+<p class="parameterstitle"><span style="font-weight:bold;"><b>Corrosion Threshold</b></span> section</p>
+<p class="parameterdescription">In this section the threshold value can be set by two different ways. This parameter is obligatory for the correct corrosion detection.</p>
+<p class="parameterdescription"><span style="font-weight:bold;"><b>Absolute Value</b></span> – areas deeper than this value are assumed corrosion areas. Default value is 1mm.</p>
+<p class="parameterdescription"><span style="font-weight:bold;"><b>% of Wall Thickness</b></span> – areas deeper than the given percentage of the wall thickness are assumed corrosion areas. By default it is set to 10% of the wall thickness.</p>
+<p class="Example"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a6" style="text-decoration:underline;">Schematic</a></p>
+<div class="droptext" id="POPUP168012371" style="display:'none'; x-ss-type:dropdown;">
+<p class="bullet" style="margin-left:40px; text-align:left;" align="left"><img src="Images/Corrosion_Threshold.gif" width="390px" height="222px" border="0" class="img_whs5" alt=""></p>
+</div>
+<p class="parameterstitle">Analysis Area Size</p>
+<p class="parameterdescription"><span style="font-weight:normal;">Specifies the size of the square neighborhood area around each point, which is analysed to determine whether the point should be treated as normal or uneven surface. The result is used as initial guess by a further step performing more precise analysis, non-relying on the Analysis Area Size parameter. Overall this parameter affects mainly the speed of the process but not the quality, unless its value is too extreme. A default value is automatically calculated for each data set and using it is highly recommended. For faster inspection it is recommended to use values between 5mm and 10mm. But if the algorithm failed you may increase this value, which leads to slower but more precise processing.</span></p>
+<p class="parameterstitle">Average Welding Width</p>
+<p class="parameterdescription"><span style="font-weight:normal;">This parameter is used to qualify data as welding or not (</span><span style="font-weight:normal; font-style:italic;"><i>see explanation below</i></span><span style="font-weight:normal;">). Default value is 8mm.</span></p>
+<p class="parameterstitle">Min Welding Length</p>
+<p class="parameterdescription"><span style="font-weight:normal;">This parameter is used to qualify data as welding or not (</span><span style="font-weight:normal; font-style:italic;"><i>see explanation below</i></span><span style="font-weight:normal;">). Default value is 100mm.</span></p>
+<p>The next stage of the process is analysing the uneven surfaces in order to classify them as weldings or potential corrosion. In order to qualify as a welding an uneven area must have length greater than <span style="font-style:italic;"><i>Min Welding Length</i></span> and width comparable to the <span style="font-style:italic;"><i>Average Welding Width</i></span>. Areas which were suspected weldings but did not qualify as such are treated as normal surface areas.</p>
+<p>The weldings found are used to separate the whole surface into sub-surfaces, the potential corrosion points are removed from the data and then the whole surface is reconstructed in order to create the so called reference (reconstructed) surface, which represents a guess of what the surface looked like before the corrosion took place.</p>
+<p>Each point of the input data is compared to its corresponding reconstructed point and if the difference is greater than the <span style="font-style:italic;"><i>Corrosion Threshold</i></span> AND the point belongs to the data that was originally selected (<span style="font-style:italic;"><i>see First step – Merging</i></span>) it is marked as corrosion.</p>
+<p>The corrosion points are then segmented into corrosion areas by applying the selected <span style="font-style:italic;"><i>Rules of Interaction</i></span>.</p>
+<p class="parameterstitle"><span lang="EN-US">Rules of Interaction</span></p>
+<p class="parameterdescription"><span lang="EN-US">Selects the rules that determine the segmentation of the corrosion areas. Currently available rules are.</span></p>
+<ol>
+<li class="kadov-p-Csteps">
+<p class="steps">ASME RSTRENG.</p>
+</li>
+<li class="kadov-p-Csteps">
+<p class="steps">Custom GU version 10.01.2005.</p>
+</li>
+<li class="kadov-p-Csteps">
+<p class="steps">Custom GdF.</p>
+</li>
+</ol>
+<p class="parameterstitle">Gas Flow from … to …</p>
+<p class="parameterdescription">These values are not used in the calculations but are only saved in the output file so that they can be passed on to the next step. They designate the direction of the gas flow that is printed on the report pages containing different representations of the full unfolded surface.</p>
+<p class="parameterdescription">Output File <span style="font-weight:normal;">– Resulting file is output into a .pir file which contains all the parameters and results of the inspection calculations. The default file name is the same as the original file. This file is the input to the next step (if enabled).</span></p>
+<p>Dialog parameters are automatically saved in a log file having the same name as the original file with ‘_inspect’ suffix and .log as extension. This is a text file and its contents could be as follows:</p>
+<p class="Code"><span style="font-weight:bold;"><b>Inspect Stage Input Parameters</b></span><br>
+<br>
+Nominal Wall Thickness 10.000 mm<br>
+Corrosion Threshold 0.500 mm<br>
+Analysis Area Size 30.000 mm<br>
+Average Welding Width 10.000 mm<br>
+Min Welding Length 90.000 mm<br>
+ASME RSTRENG Rules of Interaction<br>
+Input File: C:\Corrosion\Pipe_01.pii<br>
+Output File: C:\Corrosion\Pipe_01.pir</p>
+<p align="left" class="whs6">&#160;</p>
+<p class="sub-head"><i><span lang="EN-US" style="font-style:normal;">Intermediate Files:</span></i></p>
+<p><span style="font-weight:bold;"><b>FileName_inspected.sab2</b></span> – this file contains mesh entities of the different surfaces, where FileName is the name of the original file.</p>
+<ol type="1" class="whs7">
+<li style="list-style:none; display:inline;">
+<ol start="1">
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>Reference</b></span> – this is the reference surface, representing the outer surface of the pipe as it is calculated according to the input data.</p>
+</li>
+</ol>
+</li>
+</ol>
+<p class="Example" style="text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP260577829" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs8"><img src="Images/i_Reference.gif" width="717px" height="415px" border="0" class="img_whs9" alt=""><br>
+Example of Reference mesh entity</p>
+</div>
+<ol type="1" class="whs7">
+<li style="list-style:none; display:inline;">
+<ol start="2">
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>Potential Corrosion</b></span> – extraction of the merged pipe surface representing areas of potential corrosion. These are the areas below the reference surface.</p>
+</li>
+</ol>
+</li>
+</ol>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a8" style="text-decoration:underline;">Schematic</a></span></p>
+<div class="droptext" id="POPUP240792451" style="display:'none'; x-ss-type:dropdown;">
+<p class="Numbered" style="margin-left:80px; text-align:left;" align="left"><img src="Images/Potential_Corrosion.gif" width="390px" height="222px" border="0" class="img_whs5" alt=""></p>
+<p class="Numbered" style="margin-left:80px; text-align:left;" align="left">Potential corrosion surface includes the corrosion areas.</p>
+</div>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP226272947" style="display:'none'; x-ss-type:dropdown;">
+<p class="Numbered" style="text-align:left; margin-left:40px;" align="left"><img src="Images/i_Potential_Corrosion.gif" width="717px" height="415px" border="0" class="img_whs9" alt=""><br>
+Example of Potential Corrosion mesh entity</p>
+</div>
+<ol type="1" class="whs7">
+<li style="list-style:none; display:inline;">
+<ol start="3">
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>Potential Welding</b></span> – extraction of the merged pipe surface representing areas of potential welding between two pipes. These are the areas above the reference surface and falling in zone that can be satisfied in size defined by <span style="font-style:italic;"><i>Average Welding Width</i></span> and <span style="font-style:italic;"><i>Min Welding Length</i></span> parameters.</p>
+</li>
+</ol>
+</li>
+</ol>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a9" style="text-decoration:underline;">Schematic</a></span></p>
+<div class="droptext" id="POPUP237604711" style="display:'none'; x-ss-type:dropdown;">
+<p class="bullet" style="margin-left:40px; text-align:left;" align="left"><img src="Images/Potential_Welding.gif" width="390px" height="222px" border="0" class="img_whs5" alt=""></p>
+</div>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a3" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP162361975" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs8"><img src="Images/i_Potential_Welding.gif" width="717px" height="415px" border="0" class="img_whs9" alt=""><br>
+Example of Potential Welding mesh entity</p>
+</div>
+<ol type="1" class="whs7">
+<li style="list-style:none; display:inline;">
+<ol start="4">
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>Normal Surface</b></span> – extraction of the merged pipe surface that is not potential corrosion and potential welding.</p>
+</li>
+</ol>
+</li>
+</ol>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a4" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP221517894" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs8"><img src="Images/i_Normal_Surface.gif" width="717px" height="415px" border="0" class="img_whs9" alt=""><br>
+Example of Normal Surface mesh entity</p>
+</div>
+<ol type="1" class="whs7">
+<li style="list-style:none; display:inline;">
+<ol start="5">
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>Corrosion Area #N</b></span> – extraction of the merged pipe surface representing areas of corrosion. These are the areas below the reference surface and below the corrosion threshold (see description of Corrosion Threshold section). N is number of the corrosion area.</p>
+</li>
+</ol>
+</li>
+</ol>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a5" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP160625966" style="display:'none'; x-ss-type:dropdown;">
+<p class="whs8"><img src="Images/i_Corrosion_Area.gif" width="717px" height="415px" border="0" class="img_whs9" alt=""><br>
+Example of Corrosion Area mesh entity (coloured in violet)</p>
+</div>
+<ol type="1" class="whs7">
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet">
+<p class="bullet"><span style="font-weight:bold;"><b>Pipe Surface</b></span> – extraction of the merged pipe surface that is not corrosion area and potential welding.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a7" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP227086288" style="display:'none'; x-ss-type:dropdown;">
+<p class="bullet" style="margin-left:40px; text-align:left;" align="left"><img src="Images/i_Pipe_Surface.gif" width="717px" height="415px" border="0" class="img_whs9" alt=""><br>
+Example of Pipe Surface</p>
+</div>
+<p class="Example" style="font-size:10.0pt; font-family:Arial; text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a10" style="text-decoration:underline;">Example of all surfaces</a></span></p>
+<div class="droptext" id="POPUP162256117" style="display:'none'; x-ss-type:dropdown;">
+<p class="bullet" style="margin-left:40px; text-align:left;" align="left"><img src="Images/i_Surfaces.gif" width="717px" height="415px" border="0" class="img_whs9" alt=""><br>
+Example of Potential Corrosion (in orange), Potential Welding (in light blue), Normal Surface (in yellow), and Corrosion Areas (in violet) mesh entities <span style="font-size:8pt;"><font size="1" style="font-size:8pt;">(please note that KUBE automatically paints Reference, Potential Corrosion, Potential Welding, Normal Surface, and Corrosion &#160;Areas in unique colours; colour of Pipe Surface remains by default.)</font></span></p>
+</div>
+<p>Note that this file is not saved automatically. It remains loaded in KUBE after finishing the Inspection phase and user should have to manually save it if needed.</p>
+<p>&#160;</p>
+<p align="left" class="whs6"><span style="font-weight:bold; font-style:italic;"><i><b>FileName</b></i></span><span style="font-weight:bold;"><b>_</b></span><span style="font-weight:bold; font-style:italic;"><i><b>Rule</b></i></span><span style="font-weight:bold;"><b>_Zone#</b></span><span style="font-weight:bold; font-style:italic;"><i><b>N</b></i></span><span style="font-weight:bold;"><b>_wcp_x.csv</b></span> and <span style="font-weight:bold; font-style:italic;"><i><b>FileName</b></i></span><span style="font-weight:bold;"><b>_</b></span><span style="font-weight:bold; font-style:italic;"><i><b>Rule</b></i></span><span style="font-weight:bold;"><b>_Zone#</b></span><span style="font-weight:bold; font-style:italic;"><i><b>N</b></i></span><span style="font-weight:bold;"><b>_wcp_y.csv</b></span> – pair of CSV files representing Worst Case X- and Y-profiles for each corrosion area (See <a href="printing_Corrosion.htm">Printing</a> section for explanation of Worst Case Profiles). <span style="font-style:italic;"><i>FileName</i></span> is the name of the original file, <span style="font-style:italic;"><i>Rule</i></span> is the used Rule of Interaction, and <span style="font-style:italic;"><i>N</i></span> is the name of the corrosion area.</p>
+<p class="Code">Example of Worst Case X-Profile:</p>
+<p class="Code">188.500; 1.437<span style="margin-left:40px; font-family:'Courier New' , monospace;"><br>
+189.000; 1.513<br>
+189.500; 1.574<br>
+190.000; 1.628<br>
+190.500; 1.613<br>
+191.000; 1.529<br>
+191.500; 1.467</span></p>
+<p align="left" class="whs10">First column represents the X coordinates in mm and second column represents the Z coordinates (depth) in mm of the points in this profile.</p>
+<p align="left" class="whs10">&#160;</p>
+<p class="Code">Example of Worst Case Y-Profile:</p>
+<p class="Code">-51.500; 1.526<span style="margin-left:40px; font-family:'Courier New' , monospace;"><br>
+-52.000; 1.628<br>
+-52.500; 1.625<br>
+-53.000; 1.583<br>
+-53.500; 1.511</span></p>
+<p align="left" class="whs10">First column represents the Y coordinates in mm and second column represents the Z coordinates (depth) in mm of the points in this profile.</p>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a6','POPUP168012371');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a1','POPUP260577829');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a8','POPUP240792451');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a2','POPUP226272947');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a9','POPUP237604711');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a3','POPUP162361975');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a4','POPUP221517894');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a5','POPUP160625966');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a7','POPUP227086288');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a10','POPUP162256117');
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0C02A40000004170706C790A417265610A41534D452052535452454E470A417665726167650A636F6C6F75720A436F6D706172650A436F72726F73696F6E0A4372656174650A4353560A446566696E650A456E7469746965730A46696C654E616D650A496E73706563740A4C696768740A4D657267650A4D6573680A4E6F726D616C20537572666163650A506172616D65746572730A50726F66696C65730A536176650A53656C6563740D020A000000496E7370656374696F6E110210000000436F72726F73696F6E204D6F64756C6512020A000000496E7370656374696F6E1302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

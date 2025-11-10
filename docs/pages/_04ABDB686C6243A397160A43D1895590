@@ -1,0 +1,222 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Radial Cross Sections</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { float:alignleft; width:98.974%; height:6px; }
+img_whs4 { border:none; width:220px; height:565px; float:none; border-style:none; }
+ul.whs5 { margin-top:0mm; }
+img_whs6 { float:none; width:413px; height:302px; border-style:none; }
+img_whs7 { border:none; width:413px; height:302px; border-style:none; }
+p.whs8 { margin-left:40px; }
+img_whs9 { border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "ul.whs5 {margin-top:1pt; }";
+  strNSS +="<\/style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1><span lang="EN-GB">Radial Cross Sections</span></h1>
+<hr align="left" width="98.974%" size="6" class="whs3">
+<p><span lang="EN-GB">This command is accessible from</span> <i style="font-style:normal;"><span class="Path" style="font-weight:bold;"><b>Polylines &gt; Cross Sections &gt; Radial</b></span></i><span lang="EN-GB">.</span></p>
+<p class="description"><span lang="EN-GB" class="Command" style="font-weight:bold;"><b>Description:</b></span> <span class="Command">Radial Cross Sections</span> <span lang="EN-GB">command creates a number of radial cross sections through the visible selection. In this method the sections are arranged in a circle around a user defined centre point. The angular separation between the planes and the inner and outer radii of the circles enclosing them can also be set. You can use points from scan data and meshes only. All polylines created by this method will be placed in separate group called Section 0.</span></p>
+<p><span class="Command">Radial Cross Sections</span> <span lang="EN-GB">command is grayed if there are no scan data or mesh selections or all selections are hidden. It works on wholly selected entities as well as on partial selections. In case of partial selection only those parts of polylines are extracted that are within the selection although the parameters are calculated for all objects with selections.&#160;</span></p>
+<p class="Normal" style="text-align:justify;"><img src="Images/radial_cross_section.gif" width="220px" height="565px" border="0" class="img_whs4" alt=""></p>
+<p class="parameterstitle"><span lang="EN-GB">Cross sections:</span></p>
+<ul class="whs5">
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Angle</b></span> <span lang="EN-GB">– section spacing in degrees. Default value is 10 degrees.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Width</b></span> <span lang="EN-GB">– section width. This parameter is calculated automatically and is based on the size of the object in both horizontal and vertical direction from the current view.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>X radius</b></span> <span lang="EN-GB">– radius of the inner circle (ellipse) in the horizontal direction. Default value is 1mm.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Y radius</b></span> <span lang="EN-GB">– radius of the inner circle (ellipse) in the vertical direction. Default value is 1mm.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Lock radii</b></span> <span lang="EN-GB">– maintains a constant ratio between the X and Y radii when some of them is changed. It is enabled by default.</span></p>
+</li>
+</ul>
+<p class="parameterstitle"><span lang="EN-GB">Starting parameters:</span></p>
+<ul class="whs5">
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Starting point</b></span><span lang="EN-GB">:</span> <span lang="EN-GB" style="font-weight:bold;"><b>X</b></span><span lang="EN-GB">,</span> <span lang="EN-GB" style="font-weight:bold;"><b>Y</b></span><span lang="EN-GB">,</span> <span lang="EN-GB" style="font-weight:bold;"><b>Z</b></span> <span lang="EN-GB">– pick a point from the screen or type-in the co-ordinates of the centre of the sectioning. These parameters are calculated automatically and are based on the parameters from Cross section group and current orientation of the viewport.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Direction</b></span><span lang="EN-GB">:</span> <span lang="EN-GB" style="font-weight:bold;"><b>X</b></span><span lang="EN-GB">,</span> <span lang="EN-GB" style="font-weight:bold;"><b>Y</b></span><span lang="EN-GB">,</span> <span lang="EN-GB" style="font-weight:bold;"><b>Z</b></span> <span lang="EN-GB">– pick a line/normal/axis from the screen or type-in the normal of the plane where the starting section lays. These parameters are calculated automatically and are based on the parameters from Cross section group and current orientation of the viewport.</span></p>
+</li>
+</ul>
+<p class="parameterstitle"><span lang="EN-GB">Extract parameters:</span></p>
+<ul class="whs5">
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Tolerancing</b></span> <span lang="EN-GB">– chordal tolerance. This is the maximum error tolerance for polyline deviation from the original profile of the data. See</span> <u><span lang="EN-GB"><a href="chordal_tolerancing.htm">Chordal Tolerancing</a></span></u> <span lang="EN-GB">for details. Default value is 0.001mm.&#160;</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Weld</b></span> <span lang="EN-GB">– distance below which sections will be welded together. This will form continuous sections, for example, on patch boundaries where the scan data does not overlap perfectly. Default value is 0.1mm.</span></p>
+</li>
+</ul>
+<p class="Example" style="text-decoration:underline;"><span lang="EN-GB"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Example</a></span></p>
+<div class="droptext" id="POPUP225735249" style="display:'none'; x-ss-type:dropdown;">
+<p class="Normal" style="text-align:justify;"><span lang="EN-GB"><img src="processing_polylines_files/image070.jpg" width="413px" height="302px" border="0" class="img_whs6" alt=""></span><img src="processing_polylines_files/image070.jpg" width="413px" height="302px" border="0" class="img_whs7" alt=""></p>
+</div>
+<p class="parameterstitle"><span lang="EN-GB" style="font-weight:bold;"><b>Align</b></span><span lang="EN-GB">:</span></p>
+<ul class="whs5">
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet" style="font-weight:bold;"><span lang="EN-GB">Reference</span> <span lang="EN-GB" style="font-weight:normal;">– select a reference object for aligning (viewport, world, plane, or plane reducible entity). Then use</span> <span lang="EN-GB">X</span><span lang="EN-GB" style="font-weight:normal;">,</span> <span lang="EN-GB">Y</span><span lang="EN-GB" style="font-weight:normal;">, or</span> <span lang="EN-GB">Z</span> <span lang="EN-GB" style="font-weight:normal;">buttons to choose the direction. For datum entities</span> <span lang="EN-GB">Z</span> <span lang="EN-GB" style="font-weight:normal;">button always defines section plane parallel to the plane where the entity lie.</span></p>
+</li>
+</ul>
+<p class="Warning">If a datum entity is selected as reference it should be close to the object from, which radial polylines will be extracted. In this case the extraction extents are defined by the datum.</p>
+<ul class="whs5">
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet" style="font-weight:bold;"><span lang="EN-GB">Direction</span></p>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>X</b></span> <span lang="EN-GB">– X-axis along which the radial polylines will be aligned.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Y</b></span> <span lang="EN-GB">– Y-axis along which the radial polylines will be aligned.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Z</b></span> <span lang="EN-GB">– Z-axis along which the radial polylines will be aligned.</span></p>
+</li>
+</ul>
+</li>
+</ul>
+<p class="whs8"><span lang="EN-GB">See</span> Scroll Bars <span lang="EN-GB">for explanation of the viewport axes.</span></p>
+<p class="parameterstitle"><span lang="EN-GB" style="font-weight:bold;"><b>Buttons</b></span><span lang="EN-GB">:</span></p>
+<ul class="whs5">
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Extract</b></span> <span lang="EN-GB">– extracts the polylines as separate entities according to the current axis and settings.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Close</b></span> <span lang="EN-GB">– closes this dialog.</span></p>
+</li>
+</ul>
+<p><span lang="EN-GB">You may freely rotate, pan, and zoom the viewport while</span> <span lang="EN-GB" style="font-weight:bold;"><b>Cross Section - Radial</b></span> <span lang="EN-GB">dialog is open. You may also change the selection, delete, and perform other visualisation commands.</span></p>
+<p><span lang="EN-GB">After extracting polylines you will get the <a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2" style="text-decoration:underline;">following polylines</a>:</span></p>
+<div class="droptext" id="POPUP224096743" style="display:'none'; x-ss-type:dropdown;">
+<p>&#160;</p>
+<p class="Normal" style="text-align:justify;"><span lang="EN-GB"><img src="processing_polylines_files/image074.jpg" border="0" class="img_whs9" alt=""></span></p>
+<p class="Normal" style="text-align:justify;"><span lang="EN-GB"><img src="processing_polylines_files/image076.jpg" border="0" class="img_whs9" alt=""></span></p>
+</div>
+<p><span lang="EN-GB">Each polyline section has the same colour as its original mesh. If you have more than two meshes with different colours, then their correspondent polylines can be easily recognised. Anyway, if you have more than one polyline section on a single mesh, you may paint each section in different colour in order to distinguish them.</span></p>
+<p class="Use"><span lang="EN-GB" style="font-weight:bold;"><b>Use</b></span> <span class="Command">Radial Cross Section</span><span lang="EN-GB">s to create sections from point data for export to a CAD or other computer system. This sectioning is normally used to extract polylines from circular objects such as wheel trims.</span></p>
+<p class="Normal" style="text-align:justify;"><span lang="EN-GB"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Create from Probe Points','create_from_probe_points.htm','Create Polyline (Manual)','create_polyline_(manual).htm','Extract from Boundaries','extract_from_boundaries.htm','Interactive Cross Sections','interactive_cross_sections.htm','Parallel Cross Sections','parallel_cross_sections.htm','Scroll Bars','../User_Interface/Scroll_Bars.htm','Tree Context Menus','../User_Interface/Tree_Context_Menus.htm');return false;" title=""><img src="../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></span></p>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a1','POPUP225735249');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a2','POPUP224096743');
+//-->
+</script><script type="text/javascript" language="JavaScript">
+<!--
+if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
+  WritePopupMenuLayer();
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B021500000052616469616C2043726F73732053656374696F6E730C0222010000416C69676E0A417272616E67650A426F756E6461726965730A4341440A436972636C650A436C6F73650A636F6C6F75720A4372656174650A43726F73730A43726F73732053656374696F6E730A446174756D696E670A446566696E650A44656C6574650A456C6C697073650A456E7469746965730A4578706F72740A4C6F636B0A4D6573680A50616E0A506172616C6C656C0A506172616D65746572730A50617463680A506C616E650A506F6C796C696E650A50726F66696C65730A52616469616C0A52616469616C0952616469616C2043726F73732053656374696F6E730A526F746174650A5363616E0A5363616E20446174610A5363726F6C6C0A53656C6563740A53656C656374696F6E0A53657474696E67730A53797374656D0A5A6F6F6D0D021500000052616469616C2043726F73732053656374696F6E731102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

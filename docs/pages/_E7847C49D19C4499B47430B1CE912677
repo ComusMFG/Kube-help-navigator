@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Project Properties</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { float:alignleft; width:98.974%; height:6px; }
+img_whs4 { width:314px; height:544px; float:none; border-style:none; }
+img_whs5 { width:338px; height:432px; float:none; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1><span lang="EN-GB">Properties (root)</span></h1>
+<hr align="left" width="98.974%" size="6" class="whs3">
+<p><span lang="EN-GB">This command is accessible from the</span> <i style="font-style:normal;"><span class="Path" style="font-weight:bold;"><b>tree context menu for the root &gt; Properties</b></span></i><span lang="EN-GB">.</span></p>
+<p class="description"><span lang="EN-GB" class="Command" style="font-weight:bold;"><b>Description:</b></span> <span class="Command">Properties (root)</span> <span lang="EN-GB">command is available when you call the context menu for the root of tree in</span> <u><span lang="EN-GB"><a href="../User_Interface/Entities_Pane.htm">Entities pane</a></span></u><span lang="EN-GB">. The dialog contains the following information about the data in the file:</span></p>
+<p class="parameterstitle"><span lang="EN-GB" style="font-weight:bold;"><b>Manually edited fields</b></span><span lang="EN-GB">:</span></p>
+<ul>
+<li style="text-align:justify;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Operator</b></span> <span lang="EN-GB">– <i>Unknown Author</i> by default.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Object name</b></span> <span lang="EN-GB">– <i>Unknown Name</i> by default.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Object number</b></span> <span lang="EN-GB">– empty by default.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Comments</b></span> <span lang="EN-GB">– empty by default.</span></p>
+</li>
+</ul>
+<p class="parameterstitle"><span lang="EN-GB" style="font-weight:bold;"><b>Automatically filled fields</b></span><span lang="EN-GB">:</span></p>
+<ul>
+<li style="text-align:justify;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Created</b></span> <span lang="EN-GB">– date when the file was created; date format is according to the current Windows settings.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Modified</b></span> <span lang="EN-GB">– last date when the file was modified.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Software</b></span> <span lang="EN-GB">– KUBE version, which was used to scan or process the data.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Arm type</b></span> <span lang="EN-GB">– type of the arm, which was used to scan the data. <i>Null Localiser</i> if file was created (or data were copied, or imported) offline, i.e. without arm attached to the PC.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Arm serial number</b></span> <span lang="EN-GB">– serial number of the arm, which was used to scan the data. Empty if file was created (or data were copied, or imported) offline, i.e. without arm attached to the PC.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB" style="font-weight:bold;"><b>MM type</b></span> <span lang="EN-GB">– type of the sensor, which was used to scan the data. <i>Not detected</i> if file was created (or data were copied, or imported) offline, i.e. without sensor attached to the PC.</span></p>
+</li>
+<li style="text-align:justify;" class="kadov-p-Cbullet">
+<p class="bullet"><span lang="EN-GB" style="font-weight:bold;"><b>MM serial number</b></span> <span lang="EN-GB">– serial of the sensor, which was used to scan the data. <i>Not detected</i> if file was created (or data were copied, or imported) offline, i.e. without sensor attached to the PC.</span></p>
+</li>
+</ul>
+<p class="Normal" style="text-align:justify;"><span lang="EN-GB"><img src="../view_menu/Commands_files/image160.gif" width="314px" height="544px" border="0" class="img_whs4" alt=""></span></p>
+<p><span lang="EN-GB">Press OK button to add manually entered information to the project and close Project Notes dialog or press Cancel button to discard this information and close Project Notes dialog. Press Print button to print the project notes and the alignment log.</span></p>
+<p><span lang="EN-GB">Press Alignment log button to see the alignment parameters and results.</span></p>
+<p class="Normal" style="text-align:justify;"><span lang="EN-GB"><img src="../view_menu/Commands_files/image162.gif" width="338px" height="432px" border="0" class="img_whs5" alt=""></span></p>
+<p><span lang="EN-GB">Press OK button to close Alignment Info dialog or Save log button to save this information as text file. If there was no alignment loaded when file was created, this dialog is empty.</span></p>
+<p class="Use"><span lang="EN-GB" style="font-weight:bold;"><b>Use</b></span> <span class="Command">Properties (root)</span> <span lang="EN-GB">command to save textual information for the data.</span></p>
+<p class="Normal" style="text-align:justify;"><span lang="EN-GB" style="font-weight:bold;"><b>Related topics:</b></span> <span lang="EN-GB">&#160;<a href="Properties.htm">Properties</a></span></p>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B021200000050726F6A6563742050726F706572746965730C02BA000000416C69676E6D656E740A416C69676E6D656E7409416C69676E6D656E7420496E666F206469616C6F670A436C6F73650A436F6E74657874204D656E75730A436F70790A4372656174650A456469740A46696C6C0A466F726D61740A496D706F72740A6C6F63616C697365720A4D6F646966790A506172616D65746572730A50726F706572746965730A536176650A5363616E0A53656E736F720A53657474696E67730A547265650A5472656520436F6E74657874204D656E75730D021200000050726F6A6563742050726F706572746965731102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

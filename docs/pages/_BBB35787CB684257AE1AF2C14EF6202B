@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Hardware Settings - Localiser (Faro Platinum Advanced Settings)</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+h2.whs4 { font-style:normal; }
+img_whs5 { border:none; width:423px; height:285px; float:none; border-style:none; }
+img_whs6 { border:none; width:443px; height:546px; float:none; border-style:none; }
+img_whs7 { border:none; width:512px; height:454px; float:none; border-style:none; }
+img_whs8 { border:none; width:606px; height:390px; float:none; border-style:none; }
+img_whs9 { border:none; width:533px; height:170px; float:none; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../../../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../../../../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Hardware Settings - Localiser (Faro Platinum Advanced Settings)</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<h2 class="whs4">Advanced Settings in Localiser Tab</h2>
+<p>When the FARO Platinum localiser is connected to the PC, click the 'Advanced Setting's button and the following window will appear:</p>
+<p><img src="../plat_adv_1.jpg" width="423px" height="285px" border="0" class="img_whs5" alt=""></p>
+<p class="sub-head">'Configuration' section</p>
+<p class="parameterdescription">Contains information about arm diagnostics and arm buttons functionality.</p>
+<p class="parameterstitle"><span class="Button">'Diagnostics'</span> button</p>
+<p class="parameterdescription">Loads the FARO diagnostics' window.</p>
+<p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Example</a></p>
+<div class="droptext" id="POPUP173918866" style="display:'none'; x-ss-type:dropdown;">
+<p class="Normal" style="text-align:justify;"><img src="../plat_adv_2.jpg" width="443px" height="546px" border="0" class="img_whs6" alt=""></p>
+</div>
+<p class="Note"><span style="font-weight:bold;"><b>Note:</b></span> For full description of the window, please refer to the help file for FaroArmUSB.</p>
+<p>&#160;</p>
+<p class="sub-head">Localiser buttons assignment' section</p>
+<p class="parameterdescription">Allows the user to change the correspondence between localiser buttons and remote control buttons. By default the 'Front-A Rear-B' radio button is enabled. That means the default correspondence of the localiser buttons is:</p>
+<p class="parameterstitle">'Front arm' button</p>
+<p class="parameterdescription">Duplicates functionality of the 'A' button of the remote control</p>
+<p class="parameterstitle"><span style="font-weight:bold;"><b>'</b></span>Back arm' button</p>
+<p class="parameterdescription">Duplicates functionality of the 'B' button of the remote control</p>
+<p>&#160;</p>
+<p class="sub-head">'Probe Calibration' section</p>
+<p class="parameterdescription">Displays information about the current probe and enables starting new probe calibration.</p>
+<p class="parameterstitle">'Enable scan mode during probe calibration<span style="font-weight:bold;"><b>'</b></span> checkbox</p>
+<p class="parameterdescription">Enables the feedback, so the captured points can be seen.</p>
+<p class="parameterstitle">'Select probe' button</p>
+<p class="parameterdescription">Enables changing the current probe settings. Click on this button and the following dialogue will appear:</p>
+<p><img src="../plat_adv_3.jpg" width="512px" height="454px" border="0" class="img_whs7" alt=""></p>
+<p class="parameterstitle"><span class="Button">'Hole Calibration'</span> button</p>
+<p class="parameterdescription">Starts a new hole calibration procedure for the current probe.</p>
+<p class="parameterstitle"><span class="Button">'Sphere Calibration'</span> button</p>
+<p class="parameterdescription">Starts a new sphere calibration procedure for the current probe.</p>
+<p class="parameterstitle"><span class="Button">'View log'</span> button</p>
+<p class="parameterdescription">Displays the calibration log file.</p>
+<p class="parameterstitle">'Current probe' listbox</p>
+<p class="parameterdescription">Allows the user to select the appropriate probe from the drop-down list.</p>
+<p class="parameterstitle"><span class="Button">'Edit'</span> button</p>
+<p class="parameterdescription">Opens a window allowing different probe modifications.</p>
+<p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a3" style="text-decoration:underline;">Edit window example</a></p>
+<div class="droptext" id="POPUP169435494" style="display:'none'; x-ss-type:dropdown;">
+<p class="Normal" style="text-align:justify;"><img src="../plat_adv_4.jpg" width="606px" height="390px" border="0" class="img_whs8" alt=""></p>
+</div>
+<p class="Note"><span style="font-weight:bold;"><b>Note:</b></span> For full description of the window, please refer to the help file for FaroArmUSB.</p>
+<p>&#160;</p>
+<p class="sub-head">Stress stop section</p>
+<p>If enabled lets you define the sensitivity of the stress stops</p>
+<h2 class="whs4">Adjoining Information Section in Localiser tab</h2>
+<p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2" style="text-decoration:underline;">Example</a></p>
+<div class="droptext" id="POPUP169975218" style="display:'none'; x-ss-type:dropdown;">
+<p class="Normal" style="text-align:justify;"><img src="../plat_adv_5.jpg" width="533px" height="170px" border="0" class="img_whs9" alt=""></p>
+</div>
+<p class="parameterstitle">'Summary of the Platinum advanced settings'</p>
+<p class="parameterdescription"><span>Displays certification date, calibration date, current temperature, probe name, arm accuracy and description of the last occurred error (if any).</span></p>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a1','POPUP173918866');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a3','POPUP169435494');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a2','POPUP169975218');
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B022100000048617264776172652053657474696E6773202D204C6F63616C69736572205461620C02DF000000416476616E6365642053657474696E677320627574746F6E0A4261636B0A43616C6962726174696F6E0A436170747572650A446566696E650A446973706C61790A456469740A4641524F0A46726F6E740A48617264776172650A48656C700A6C6F63616C697365720A6C6F63616C69736572094C6F63616C69736572205461620A4E65770A4E6577205370686572650A50726F62650A50726F62650950726F62652043616C6962726174696F6E0A5363616E0A5363616E204D6F64650A53656C6563740A53657474696E67730A5370686572652043616C6962726174696F6E0D023F00000048617264776172652053657474696E6773202D204C6F63616C6973657220284661726F20506C6174696E756D20416476616E6365642053657474696E6773291102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Activate for Scanning</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { float:aligncenter; height:5px; }
+img_whs4 { width:159px; height:48px; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body lang="BG">
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1><span lang="EN-US">Activate for Scanning</span></h1>
+<hr align="center" size="5" class="whs3">
+<p><span lang="EN-GB">This command is accessible from the</span> <b><i style="font-style:normal; font-weight:normal;"><span class="Path">tree context menu for Transformation &gt; <a class="glossterm" href="javascript:kadovTextPopup(this)" id="HotSpot20791">Activate for Scanning</a> <span class="glosstext" style="display:'none';" id="POPUP168864481">If Activate for Scanning command is enabled all new scans and captured data will pass through the activated transformation, their co-ordinates will not be in the global space.</span></span></i></b><span lang="EN-GB">.</span></p>
+<p class="Description"><b><span lang="EN-GB" style="font-weight:bold;"><b>Description:</b></span></b> <span lang="EN-GB"><b style="font-weight:bold;">If</b><span lang="EN-GB" style="font-weight:bold;"><b>Activate for Scanning</b></span></span> <span lang="EN-GB">command is enabled all new scans and captured data will pass through the activated transformation, their co-ordinates will not be in the global space. The active transformation does not affects the existing data, it is applied on new scans only.</span></p>
+<p>&#160;</p>
+<p><span lang="EN-GB">In a document there could be maximum one active transformation and it is marked with bold characters, as shown below:</span></p>
+<p><span lang="EN-GB"><img src="../transformation_menu/Transformations_files/image036.gif" width="159px" height="48px" border="0" class="img_whs4" alt="">&#160;</span></p>
+<p class="Note" id="P1"><span style="font-weight:bold;"><b>Note</b></span>: To use this command scanning should be enabled in your dongle options.</p>
+<p class="Use"><b style="font-weight:bold;"><span lang="EN-US">Use</span></b> <span lang="EN-US">this command when you need to scan in a specific co-ordinate system.</span></p>
+<p>Related topic: <a href="Deactivate.htm">Deactivate</a></p>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('HotSpot20791','POPUP168864481');
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B0215000000416374697661746520666F72207363616E6E696E670C024E00000041637469766174650A4170706C790A436170747572650A436F6D6D616E64730A446F6E676C650A4E65770A5363616E0A53797374656D0A547265650A5472656520436F6E74657874204D656E75730D0215000000416374697661746520666F72205363616E6E696E671102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

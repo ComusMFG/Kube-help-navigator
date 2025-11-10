@@ -1,0 +1,431 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>New Line</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+h2.whs4 { font-style:normal; }
+img_whs5 { border:none; float:none; width:33px; height:30px; border-style:none; }
+img_whs6 { border:none; width:495px; height:552px; float:none; border-style:none; }
+p.whs7 { font-style:normal; }
+img_whs8 { border:none; width:32px; height:29px; float:none; border-style:none; }
+img_whs9 { border:none; width:587px; height:549px; float:none; border-style:none; }
+img_whs10 { border:none; width:655px; height:549px; float:none; border-style:none; }
+img_whs11 { border:none; float:none; width:32px; height:29px; border-style:none; }
+img_whs12 { border:none; width:633px; height:546px; float:none; border-style:none; }
+img_whs13 { border:none; float:none; width:34px; height:30px; border-style:none; }
+img_whs14 { border:none; width:139px; height:97px; float:none; border-style:none; }
+img_whs15 { border:none; width:513px; height:551px; float:none; border-style:none; }
+img_whs16 { border:none; width:192px; height:69px; float:none; border-style:none; }
+table.whs17 { border-spacing:0px; }
+tr.whs18 {  }
+td.whs19 { border-left-width:1px; border-left-color:#000000; border-left-style:Solid; border-top-style:Solid; border-top-color:#000000; border-top-width:1px; border-right-width:1px; border-right-color:#000000; border-right-style:Solid; border-bottom-style:Solid; border-bottom-color:#000000; border-bottom-width:1px; padding-right:10px; padding-left:10px; }
+p.whs20 { margin-bottom:0pt; }
+img_whs21 { border:none; width:320px; height:212px; float:none; border-style:none; }
+p.whs22 { font-size:6pt; margin-top:0pt; margin-bottom:0pt; }
+img_whs23 { border:none; width:753px; height:553px; float:none; border-style:none; }
+img_whs24 { border:none; width:740px; height:560px; float:none; border-style:none; }
+ul.whs25 { list-style:disc; }
+img_whs26 { border:none; width:529px; height:548px; float:none; border-style:none; }
+img_whs27 { border:none; width:622px; height:550px; float:none; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs20 {margin-bottom:1pt; }";
+  strNSS += "p.whs22 {margin-top:1pt;margin-bottom:1pt; }";
+  strNSS +="<\/style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1><span lang="EN-GB">New Line</span></h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p id="P1"><span lang="EN-US">This command is accessible from</span> <span class="Path" style="font-weight:bold;"><b>Datuming &gt; Line</b></span><span class="Path">,</span> by using the shortcut <span class="Shortcut" style="font-weight:bold;"><b>Shift + Alt + 2</b></span> <span class="Shortcut">or by choosing the</span> <span class="Shortcut" style="font-weight:bold;"><b>Line</b></span> <span class="Shortcut">tab in the</span> <span class="Shortcut" style="text-decoration:underline;"><u>Datum creation</u></span> <span class="Shortcut">mode (if it is currently active).</span></p>
+<p class="description"><span class="Command" style="font-weight:bold;"><b>Description:</b></span> New Line command creates new datum line by one of the 8 available methods. Here below these methods are explained followed by examples.</p>
+<h2 class="whs4"><i style="font-style:normal;"><span lang="EN-US">Methods:</span></i></h2>
+<p class="sub-head"><i style="font-style:normal;"><span lang="EN-US">Interactive</span></i></p>
+<p><i style="font-style:normal;"><span lang="EN-US"><img src="Images/new_line_interactive.gif" width="33px" height="30px" border="0" class="img_whs5" alt=""></span></i> <i style="font-style:normal;"><span lang="EN-US">: standard line construction using one of the available 4</span></i> <i style="font-style:normal;"><span lang="EN-US">definition</span></i> <i style="font-style:normal;"><span lang="EN-US">methods (pick from viewport is enabled by default). For more details about the define section, see <a href="../Working_with_Data/Descriptions/define_line.htm">Define Line</a>.</span></i></p>
+<p class="Example" style="font-style:normal; text-decoration:underline;"><i style="font-style:normal;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Example</a></span></i></p>
+<div class="droptext" id="POPUP937360477" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/InteractiveLine.gif" width="495px" height="552px" border="0" class="img_whs6" alt=""></p>
+</div>
+<p class="whs7">Changes of all values can be applied at any time. Flip the direction of the final datum using the "<span style="font-weight:bold;"><b>+/-</b></span>" button in the result section, if necessary.</p>
+<p class="sub-head">By 2 points</p>
+<p class="whs7">&#160;</p>
+<p><img src="Images/new_line_2points.gif" width="32px" height="29px" border="0" class="img_whs8" alt=""> : This method includes definition of 2 construction points.</p>
+<p id="p24"><span style="font-style:italic; font-weight:bold;"><i><b>How it works</b></i></span>:</p>
+<ol>
+<li class="kadov-p-Csteps-Ip25">
+<p class="steps" id="p25">The user defines the points one by one. For more details about circle definition, see <i style="font-style:normal;"><span lang="EN-US"><a href="../Working_with_Data/Descriptions/define_point.htm">Define Point</a>.</span></i></p>
+</li>
+<li class="kadov-p-Csteps-Ip26">
+<p class="steps" id="p26">The result line is defined by the two points. Its direction is from point 1 to point 2.</p>
+</li>
+</ol>
+<p id="p28">Changes of all values can be applied at any time. Flip the direction of the final datum using the "<span style="font-weight:bold;"><b>+/-</b></span>" button in the result section, if necessary.</p>
+<p class="Example" id="p29" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a11" style="text-decoration:underline;">Example</a></p>
+<div class="droptext" id="POPUP225450023" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/LineByTwoPoints.gif" width="587px" height="549px" border="0" class="img_whs9" alt=""></p>
+</div>
+<p class="whs7">&#160;</p>
+<p class="sub-head">Intersection of 2 planes</p>
+<p><img src="Images/new_line_2planes.gif" width="33px" height="30px" border="0" class="img_whs5" alt=""> : This method includes definition of 2 construction planes.</p>
+<p id="p2"><span style="font-style:italic; font-weight:bold;"><i><b>How it works</b></i></span>:</p>
+<ol>
+<li class="kadov-p-Csteps-Ip3">
+<p class="steps" id="p3">The user defines the planes one by one. For more details about circle definition, see <i style="font-style:normal;"><span lang="EN-US"><a href="../Working_with_Data/Descriptions/define_plane.htm">Define Plane</a>.</span></i></p>
+</li>
+<li class="kadov-p-Csteps-Ip4">
+<p class="steps" id="p4">The result line represent intersection between the two planes. Its direction is defined by the plane normals and following the right hand rule.</p>
+</li>
+<li class="kadov-p-Csteps-Ip4">
+<p class="steps" id="p4">If the planes are parallel, line can not be created.</p>
+</li>
+</ol>
+<p id="p9">Changes of all values can be applied at any time. Flip the direction of the final datum using the "<span style="font-weight:bold;"><b>+/-</b></span>" button in the result section, if necessary.</p>
+<p class="Example" id="p10" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2" style="text-decoration:underline;">Example</a></p>
+<div class="droptext" id="POPUP226725446" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/LineByTwoPlanes.gif" width="655px" height="549px" border="0" class="img_whs10" alt=""></p>
+</div>
+<p>&#160;</p>
+<p class="sub-head">Projection on a plane</p>
+<p><img src="Images/new_line_projection.gif" width="32px" height="29px" border="0" class="img_whs11" alt=""> : This method includes definition of 2 construction entities: line and plane. For more details about construction entity definitions, see <i style="font-style:normal;"><span lang="EN-US"><a href="../Working_with_Data/Descriptions/define_line.htm">Define Line</a> and <a href="../Working_with_Data/Descriptions/define_plane.htm">Define Plane</a>.</span></i></p>
+<p id="p5"><span style="font-style:italic; font-weight:bold;"><i><b>How it works</b></i></span>:</p>
+<ol>
+<li class="kadov-p-Csteps-Ip12">
+<p class="steps" id="p12">The user defines a line and a plane.</p>
+</li>
+<li class="kadov-p-Csteps-Ip13">
+<p class="steps" id="p13">The line is projected to the plane.</p>
+</li>
+<li class="kadov-p-Csteps-Ip13">
+<p class="steps" id="p13">This projection is the result line.</p>
+</li>
+<li class="kadov-p-Csteps-Ip13">
+<p class="steps" id="p13">If the construction line is perpendicular to the plane, then line projection can not be created (no result line in this case).</p>
+</li>
+</ol>
+<p id="p15">Changes of all values can be applied at any time. Flip the direction of the final datum using the "<span style="font-weight:bold;"><b>+/-</b></span>" button in the result section, if necessary.</p>
+<p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a3" style="text-decoration:underline;">Example</a></p>
+<div class="droptext" id="POPUP289905094" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/LineProjection.gif" width="633px" height="546px" border="0" class="img_whs12" alt=""></p>
+</div>
+<p id="p5">&#160;</p>
+<p class="sub-head">Normal of</p>
+<p><img src="Images/new_line_normal.gif" width="34px" height="30px" border="0" class="img_whs13" alt=""> : This method includes selection of entity type, definition of the construction entity itself and setting length parameter.</p>
+<p id="p6"><span style="font-style:italic; font-weight:bold;"><i><b>How it works</b></i></span>:</p>
+<ol>
+<li class="kadov-p-Csteps-Ip14">
+<p class="steps" id="p14">The user selects entity type using the drop-down list (just below the method buttons)</p>
+</li>
+<li class="kadov-p-Csteps-Ip14">
+<p class="steps" id="p14">A particular entity of the selected type (plane or circle for this method) should be defined. For more details about construction entity definitions, see <i style="font-style:normal;"><span lang="EN-US"><a href="../Working_with_Data/Descriptions/define_circle.htm">Define Circle</a> and <a href="../Working_with_Data/Descriptions/define_plane.htm">Define Plane</a>.</span></i></p>
+</li>
+</ol>
+<p id="p14" class="whs7"><i style="font-style:normal;"><span lang="EN-US">Alternative way of steps 1 and 2 is:</span></i></p>
+<ol>
+<li class="kadov-p-Csteps-Ip14">
+<p id="p14" class="steps">Enable the option 'Pick from screen' in the drop-down list (just below the method buttons)</p>
+</li>
+</ol>
+<p id="p14"><img src="Images/pickscr_normal.gif" width="139px" height="97px" border="0" class="img_whs14" alt=""></p>
+<ol start="2">
+<li class="kadov-p-Csteps-Ip14">
+<p id="p14" class="steps">Select and define simultaneously the type and values for the construction entity. This procedure is very suitable for quick selection of predefined datums.</p>
+</li>
+</ol>
+<p id="p14">Common for both procedures:</p>
+<ol start="3">
+<li class="kadov-p-Csteps-Ip14">
+<p id="p14" class="steps">The start point and the line direction are set now. Type value for the line length and the result line will appear in the viewport.</p>
+</li>
+</ol>
+<p id="p16">Changes of all values can be applied at any time. Flip the direction of the final datum using the "<span style="font-weight:bold;"><b>+/-</b></span>" button in the result section, if necessary.</p>
+<p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a4" style="text-decoration:underline;">Example for Normal of Plane</a></p>
+<div class="droptext" id="POPUP164303518" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/LineByNormal.gif" width="513px" height="551px" border="0" class="img_whs15" alt=""></p>
+</div>
+<p>&#160;</p>
+<p class="sub-head">Points and offsets</p>
+<p><span style="font-weight:bold;"><b><img src="Images/new_line_points_offsets.gif" width="32px" height="29px" border="0" class="img_whs8" alt=""></b></span> : This method includes definition of 3 construction entities: 2 points and a plane and selection of result line position.</p>
+<p id="p7"><span style="font-style:italic; font-weight:bold;"><i><b>How it works</b></i></span>:</p>
+<ol>
+<li class="kadov-p-Csteps-Ip20">
+<p class="steps" id="p20">The user defines 2 construction points and distance for each of them.</p>
+</li>
+<li class="kadov-p-Csteps-Ip20">
+<p class="steps" id="p20">The user defines a plane.</p>
+</li>
+<li class="kadov-p-Csteps-Ip20">
+<p class="steps" id="p20">Both points are projected on the plane.</p>
+</li>
+<li class="kadov-p-Csteps-Ip20">
+<p class="steps" id="p20">For each point is created a circle with centre=projected point and radius=input distance. Both circles lie on the plane.</p>
+</li>
+<li class="kadov-p-Csteps-Ip20">
+<p class="steps" id="p20">The user chooses result line position as Tangent or Orthogonal, using the radio buttons (below define section).</p>
+</li>
+</ol>
+<p id="p20"><img src="Images/tang_orth.gif" width="192px" height="69px" border="0" class="img_whs16" alt=""></p>
+<ol start="6">
+<li class="kadov-p-Csteps-Ip20">
+<p class="steps" id="p20">In case of Tangent position, the result line is created as tangent to both constructed circles. The line direction depends on the distance signs set for the initial points and follows the right hand rule.</p>
+</li>
+</ol>
+<p id="p20" class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a9" style="text-decoration:underline;">Tangent schematic</a></p>
+<div class="droptext" id="POPUP167339689" style="display:'none'; x-ss-type:dropdown;">
+<table cellspacing="0" class="whs17">
+<col>
+<tr valign="top" class="whs18">
+<td class="whs19">
+<p class="whs20"><img src="Images/LinetangSchem.gif" width="320px" height="212px" border="0" class="img_whs21" alt=""></p>
+<p class="whs22">&#160;</p>
+</td>
+</tr>
+</table>
+</div>
+<ol start="7">
+<li class="kadov-p-Csteps-Ip20">
+<p class="steps" id="p20">In case of Orthogonal position, the result line is created as connection of the radiuses perpendicular to the line connecting the circle centres.</p>
+</li>
+</ol>
+<p id="p23" class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a10" style="text-decoration:underline;">Orthogonal schematic</a></p>
+<div class="droptext" id="POPUP225370532" style="display:'none'; x-ss-type:dropdown;">
+<table cellspacing="0" class="whs17">
+<col>
+<tr valign="top" class="whs18">
+<td class="whs19">
+<p class="whs20"><img src="Images/LineorthSchem.gif" width="320px" height="212px" border="0" class="img_whs21" alt=""></p>
+<p class="whs22">&#160;</p>
+</td>
+</tr>
+</table>
+</div>
+<p>&#160;</p>
+<p class="Warning" id="p20">In case of concentric or identical circles tangent or orthogonal line can not be created.</p>
+<p id="p22">Changes of all values can be applied at any time. Flip the direction of the final datum using the "<span style="font-weight:bold;"><b>+/-</b></span>" button in the result section, if necessary.</p>
+<p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a5" style="text-decoration:underline;">Example for tangent line</a></p>
+<div class="droptext" id="POPUP227498198" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/LinePointsOffsetsTang.gif" width="753px" height="553px" border="0" class="img_whs23" alt=""></p>
+</div>
+<p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a6" style="text-decoration:underline;">Example for orthogonal line</a></p>
+<div class="droptext" id="POPUP164183592" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/LinePointsOffsetsOrth.gif" width="740px" height="560px" border="0" class="img_whs24" alt=""></p>
+</div>
+<p>&#160;</p>
+<p class="sub-head">Point and Line</p>
+<p><span style="font-weight:bold;"><b><img src="Images/new_line_point_line.gif" width="32px" height="29px" border="0" class="img_whs8" alt=""></b></span> : This method includes definition of 2 construction entities: point and line and selection of line position. For more details about construction entity definitions, see <a href="../Working_with_Data/Descriptions/define_point.htm">Define Point</a> and <i style="font-style:normal;"><span lang="EN-US"><a href="../Working_with_Data/Descriptions/define_line.htm">Define Line</a>.</span></i></p>
+<p id="p8"><span style="font-style:italic; font-weight:bold;"><i><b>How it works</b></i></span>:</p>
+<ol>
+<li class="kadov-p-Csteps-Ip19">
+<p class="steps" id="p19">The user defines construction point and line.</p>
+</li>
+<li class="kadov-p-Csteps-Ip19">
+<p class="steps" id="p19">The position of the result line should be set to Parallel or Orthogonal, using the radio buttons (below define section).</p>
+</li>
+<li class="kadov-p-Csteps-Ip19">
+<p class="steps" id="p19">The result line will:</p>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet-Ip19">
+<p class="bullet" id="p19">lie in the plane defined by the point and the line</p>
+</li>
+</ul>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet-Ip19">
+<p class="bullet" id="p19">pass through the defined point and will be parallel or orthogonal to the construction line, depending on the choice at step2.</p>
+</li>
+</ul>
+</li>
+<li style="list-style:none; display:inline;">
+<ul>
+<li class="kadov-p-Cbullet-Ip19">
+<p class="bullet" id="p19">Line direction: in case of parallel option, the result line direction is identical to the original one; in case of orthogonal option, the result line direction goes always from the point to the original line.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p class="Warning">If the point lies on the construction line, then:</p>
+<ul type="disc" class="whs25">
+<li class="kadov-p-CWarning">
+<p class="Warning">the result parallel line will be identical to the construction line</p>
+</li>
+<li class="kadov-p-CWarning">
+<p class="Warning">the result orthogonal line can not be created, because length and direction are missing.</p>
+</li>
+</ul>
+<p id="p21">Changes of all values can be applied at any time. Flip the direction of the final datum using the "<span style="font-weight:bold;"><b>+/-</b></span>" button in the result section, if necessary.</p>
+<p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a7" style="text-decoration:underline;">Example for parallel positioned line</a></p>
+<div class="droptext" id="POPUP289856339" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/LineByLinePoint.gif" width="529px" height="548px" border="0" class="img_whs26" alt=""></p>
+</div>
+<p>&#160;</p>
+<p class="sub-head">Transversal</p>
+<p><img src="Images/new_line_transversal.gif" width="32px" height="29px" border="0" class="img_whs11" alt=""> : This method includes definition of 2 construction lines. For more details about construction line definition, see <i style="font-style:normal;"><span lang="EN-US"><a href="../Working_with_Data/Descriptions/define_line.htm">Define Line</a>.</span></i></p>
+<p id="p11"><span style="font-style:italic; font-weight:bold;"><i><b>How it works</b></i></span>:</p>
+<ol>
+<li class="kadov-p-Csteps-Ip17">
+<p class="steps" id="p17">The user defines the lines one by one.</p>
+</li>
+<li class="kadov-p-Csteps-Ip17">
+<p class="steps" id="p17">The result line is the transversal between both lines. The line direction is defined by the right hand rule.</p>
+</li>
+<li class="kadov-p-Csteps-Ip17">
+<p class="steps" id="p17">If the lines form a single plane (they are parallel or intersect), then result line can not be created.</p>
+</li>
+</ol>
+<p id="p18">Changes of all values can be applied at any time. Flip the direction of the final datum using the "<span style="font-weight:bold;"><b>+/-</b></span>" button in the result section, if necessary.</p>
+<p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a8" style="text-decoration:underline;">Example</a></p>
+<div class="droptext" id="POPUP222530627" style="display:'none'; x-ss-type:dropdown;">
+<p><img src="Examples/LineTransversal.gif" width="622px" height="550px" border="0" class="img_whs27" alt=""></p>
+</div>
+<p class="Normal" style="text-align:justify; font-style:normal;"><i style="font-style:italic;"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Interactive Datum Interface Description','../User_Interface/Interactive_datum_interface_description.htm','New Circle','New_Circle.htm','New Cone','New_Cone.htm','New Cylinder','New_Cylinder.htm','New Plane','New_Plane.htm','New Point','New_Point.htm','New Rectangular Slot','New_Rectangular_Slot.htm','New Round Slot','New_Round_Slot.htm','New Sphere','New_Sphere.htm');return false;" title=""><img src="../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></i></p>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a1','POPUP937360477');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a11','POPUP225450023');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a2','POPUP226725446');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a3','POPUP289905094');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a4','POPUP164303518');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a9','POPUP167339689');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a10','POPUP225370532');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a5','POPUP227498198');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a6','POPUP164183592');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a7','POPUP289856339');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a8','POPUP222530627');
+//-->
+</script><script type="text/javascript" language="JavaScript">
+<!--
+if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
+  WritePopupMenuLayer();
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B02080000004E6577204C696E650C02B00000004170706C790A436972636C650A4372656174650A437265617465204C696E650A446174756D204C696E650A446174756D696E670A446566696E650A456E7469746965730A456E7469747920547970650A466C69700A46726F6D2056696577706F72740A4C696E650A4E65770A4E657720446174756D730A4E6577204C696E650A506172616C6C656C0A506172616D65746572730A506C616E650A52696768740A53656C6563740A53656C656374696F6E0D02080000004E6577204C696E651102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

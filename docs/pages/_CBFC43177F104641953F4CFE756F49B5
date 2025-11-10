@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>Scan Pane</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+col.whs4 { width:669px; }
+tr.whs5 { height:486px; }
+td.whs6 { padding:0mm 5.4pt 0mm 5.4pt; }
+img_whs7 { border:none; width:218px; height:639px; float:none; border-style:none; }
+td.whs8 { width:669px; padding:0mm 0pt 0mm 5.4pt; }
+table.whs9 { left:0px; top:20px; width:653px; border-spacing:0px; }
+col.whs10 { width:100%; }
+tr.whs11 { height:110px; }
+td.whs12 { width:100%; padding-right:10px; padding-left:10px; }
+tr.whs13 { height:97px; }
+td.whs14 { width:100%; padding-right:10px; padding-left:10px; border-right-width:1px; border-right-color:#000000; border-bottom-color:#000000; border-bottom-width:1px; }
+td.whs15 { width:100%; padding-right:10px; padding-left:10px; border-right-color:#000000; border-right-width:1px; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nInspection Mode\nInspection Interface\nScan Pane");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Scan Pane</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p><span lang="EN-US">The</span> <span lang="EN-US" style="font-weight:bold;"><b>Scan</b></span> <span lang="EN-US">pane is available in</span> <span class="Mode">Inspection</span> <span lang="EN-US">mode. It is also located in the left hand side of the KUBE’s window. The two panes (Scan and Inspect) are overlapped and user can switch between them by clicking on their tabs (which are in the lower left hand side). User can switch to Scan pane in order to do online inspection, i.e. a scanned patch is immediately inspected and coloured according to the current ranges and inspection scheme.</span></p>
+<p><span lang="EN-US">The available buttons are as follows:</span></p>
+<div align="left">
+<table class="TableGrid" style="left:0px; top:230px; float:alignleft; width:905px; border-spacing:0px;" cellspacing="0" width="905">
+<col>
+<col class="whs4">
+<tr valign="middle" class="whs5">
+<td colspan="1" rowspan="1" class="whs6">
+<p class="normal-table"><img src="../INSPECTION_MODE_FILES/scan_pane.gif" width="218px" height="639px" border="0" class="img_whs7" alt=""></p>
+</td>
+<td colspan="1" rowspan="1" width="669px" class="whs8">
+<table cellspacing="0" width="653" class="whs9">
+<col class="whs10">
+<tr valign="top" class="whs11">
+<td valign="middle" width="100%" class="whs12">
+<p class="description" style="margin-left:0px;"><span style="font-weight:bold;"><b>Scan</b></span> generates data in the form of points from the object being scanned.</p>
+<p class="parameterdescription">Press the 'A' button to select. KUBE is automatically in 'Pause' mode. The '<span class="Mode">Pause'</span> mode is represented on the PC display as a '<span class="Button">Pause'</span> button. Press '<span style="font-weight:bold;"><b>B</b></span>' button to select 'Scan' mode. (Using the '<span style="font-weight:bold;"><b>B</b></span>' button toggle, ModelMaker can be repositioned between passes at the object.) Move scanner around the object and acquire data until happy with results. Press the '<span style="font-weight:bold;"><b>A</b></span>' button to finish the scan.</p>
+<p class="Note" id="p1"><span style="font-weight:bold;"><b>Note:</b></span> In online inspection a new scan data entity is generated each time user exits Scan mode.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td valign="middle" width="100%" class="whs12">
+<p class="description" style="margin-left:0px;"><span style="font-weight:bold;"><b>Autoset Laser</b></span> determines the proper laser power level for scanning different surfaces (dark, light, shiny, etc.).</p>
+<p class="parameterdescription">Press the '<span style="font-weight:bold;"><b>A</b></span>' button to select. Point the sensor somewhere to the object surface. Press the '<span style="font-weight:bold;"><b>B</b></span>' button to start. Hold the sensor still during detection. When done, press the '<span style="font-weight:bold;"><b>B</b></span>' button to set the new laser power level.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td valign="middle" width="100%" class="whs14">
+<p class="description" style="margin-left:0px;"><span style="font-weight:bold;"><b>View</b></span> displays the data acquired in Scan from the current location of the sensor. Used to position the sensor to the optimum scanning position.</p>
+<p class="parameterdescription">Press the '<span style="font-weight:bold;"><b>A</b></span>' button too select. Move the sensor, and the data of the object will be presented on the PC, viewed from the current location of the sensor. Press the '<span style="font-weight:bold;"><b>A</b></span>' button to exit this mode.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" valign="middle" width="100%" class="whs15">
+<p class="description" style="margin-left:0px;"><span style="font-weight:bold;"><b>Save</b></span> allows the scan data to be saved while scanning.</p>
+<p class="parameterdescription">If it is new scan data, the file will be saved in the KUBE installation directory under the name "KubeSave.sab2". If a file with the same exist, KUBE will prompt to replace the file. If the file has already been saved, it will be saved now under its original name.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td colspan="1" rowspan="1" valign="middle" width="100%" class="whs14">
+<p class="description" style="margin-left:0px;"><span style="font-weight:bold;"><b>Profiles</b></span> allows the user to quickly change the scanning settings.</p>
+<p class="parameterdescription">User can select predefined profiles from the menu by using the localiser. Hardware Settings dialog allows the user to configure ModelMaker once for a certain type of object and save those settings for future use. For example, when scanning black leather the laser power is likely to be higher than scanning grey fabric.</p>
+</td>
+</tr>
+<tr valign="top" class="whs13">
+<td valign="middle" width="100%" class="whs14">
+<p class="description" style="margin-left:0px;"><span style="font-weight:bold;"><b>Standby</b></span> is a position, which is automatically highlighted when the arm is idle for certain amount of time.</p>
+<p class="parameterdescription">Any button operation in this position is ignored. This is a safety feature to protect any recent scan data from accidental modification. The localiser will automatically select this item when in a standby position.</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<p><span style="font-weight:bold;"><b>Related topic:</b></span> <a href="Inspection_Pane.htm">Inspection Pane</a></p>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B02090000005363616E2050616E650C02D60000004175746F736574204C617365720A446973706C61790A456E7469746965730A457869740A47656E65726174650A48617264776172650A496E73706563740A496E7370656374696F6E204D6F64650A4C617365720A4C6173657220506F7765720A4C6566740A4C696768740A6C6F63616C697365720A4D6F64656C4D616B65720A4E65770A50616E650A50617463680A50726F66696C65730A536176650A5363616E0A5363616E20446174610A5363616E204D6F64650A5363616E2050616E650A53656C6563740A53656E736F720A53657474696E67730D02090000005363616E2050616E65110214000000496E7370656374696F6E20496E746572666163651202090000005363616E2050616E651302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>

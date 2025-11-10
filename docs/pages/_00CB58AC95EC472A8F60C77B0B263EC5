@@ -1,0 +1,201 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-style-type" content="text/css">
+<title>profiles</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+div.whs1 { width:100%; }
+p.whs2 { text-align:right; }
+hr.whs3 { text-align:justify; float:alignleft; width:100.526%; height:5px; }
+table.whs4 { width:100%; border-spacing:0px; }
+col.whs5 { width:100%; }
+tr.whs6 {  }
+td.whs7 { width:100%; padding-right:10px; padding-left:10px; border-left-style:None; border-top-style:None; border-bottom-style:None; border-right-style:None; }
+img_whs8 { width:405px; height:271px; border-style:none; }
+p.whs9 { font-size:10.0pt; }
+p.whs10 { font-size:10.0pt; font-family:Arial; }
+img_whs11 { width:469px; height:236px; border-style:none; }
+p.whs12 { font-size:10.0pt; text-align:left; }
+img_whs13 { border:none; width:551px; height:485px; border-style:none; }
+img_whs14 { border:none; width:834px; height:150px; float:none; border-style:none; }
+p.whs15 { font-size:10.0pt; font-family:Arial; margin-left:40px; }
+table.whs16 { border-spacing:0px; }
+td.whs17 { padding-right:10px; padding-left:10px; border-left-style:None; border-top-style:None; border-bottom-style:None; border-right-style:None; }
+img_whs18 { border:none; width:338px; height:432px; border-style:none; }
+-->
+</style>
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
+</script>
+<script type="text/javascript" language="javascript" src="../../whver.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
+</script>
+<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+        if (window.addTocInfo)
+        {
+        addTocInfo("KUBE\nScanning\nScanning Process\nProfiles");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(1);
+
+        if (window.setRelStartPage)
+        {
+        setRelStartPage("../../KUBE_Help.htm");
+addSearchFormHref("javascript:document.ehelpform.submit()");
+
+                autoSync(1);
+                sendSyncInfo();
+                sendAveInfoOut();
+        }
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" src="../../ehlpdhtm.js">
+</script><script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+<div id="header" class="whs1">
+<p align="right" class="whs2">&#160;</p>
+</div>
+<h1>Profiles</h1>
+<hr align="left" width="100.526%" size="5" class="whs3">
+<p>It happens often to scan an object with different level of details areas or painted in different colours. In similar cases it is very useful to create a scanning profile for each area and then easily to switch between the available parameters during the scanning process.</p>
+<p class="sub-head"><span lang="EN-US">Profile creation</span></p>
+<p><span lang="EN-US">A profile can be created and saved in</span> <span lang="EN-US" style="font-weight:bold;"><b>System &gt; Hardware Settings dialog</b></span> <span lang="EN-US">(the scanning related Tabs). User can set an appropriate values for ambient threshold, laser power level, stripe width, linear and area sampling, max distance between points and stripes, max scan angle, and so on for a particular surface. Then this set of values can be saved as a profile.</span></p>
+<p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Example procedure for object containing surfaces with different colours and different shininess</a></p>
+<div class="droptext" id="POPUP159678794" style="display:'none'; x-ss-type:dropdown;">
+<table cellspacing="0" width="100%" class="whs4">
+<col class="whs5">
+<tr valign="top" class="whs6">
+<td width="100%" class="whs7">
+<p><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">The object below is ready for scanning:</font></span></p>
+<p><span lang="EN-US"><img src="Using_Profiles_files/image002.jpg" width="405px" height="271px" border="0" class="img_whs8" alt=""></span></p>
+<p>1. Go to the Scan pane and use the localiser to select Autoset Laser from the localiser driven menu.</p>
+<p>2. Follow the wizard to set laser power for the black surface.</p>
+<p>3. Go to System &gt; Hardware Settings dialog and select some of the tabs from ‘Sensor’ to ‘Calibration and Alignment’. Press on Save as button and enter the name of the profile that you are creating.</p>
+<p>4. Repeat the procedure to create a profile for the cyan surface.</p>
+<p>5. You have created two profiles and these will appear in the profile list when selected.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="Example" style="color:#000000; text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2" style="text-decoration:underline;">Example procedure for object containing surfaces with different level of details</a></p>
+<div class="droptext" id="POPUP164722731" style="display:'none'; x-ss-type:dropdown;">
+<table cellspacing="0" width="100%" class="whs4">
+<col class="whs5">
+<tr valign="top" class="whs6">
+<td width="100%" class="whs7">
+<p class="whs9">If you have an object with mixed flat areas and areas with features you can set two profiles for scanning with different area sampling.</p>
+<p class="whs10"><span lang="EN-US"><font size="2" style="font-size:10pt;"><img src="Using_Profiles_files/image012.jpg" width="469px" height="236px" border="0" class="img_whs11" alt=""></font></span></p>
+<p align="left" class="whs12"><span lang="EN-US"><font size="2" style="font-size:10pt;">1. Go to System &gt; Hardware Settings &gt; Postprocessing Tab</font></span></p>
+<p align="left" class="whs12"><span lang="EN-US"><font size="2" style="font-size:10pt;"><img src="images/profiles.gif" width="551px" height="485px" border="0" class="img_whs13" alt=""></font></span></p>
+<p class="whs10"><span lang="EN-US"><font size="2" style="font-size:10pt;">2. Uncheck Certified settings box</font></span></p>
+<p class="whs10"><span lang="EN-US"><font size="2" style="font-size:10pt;">3. Enable Custom area sampling with UV = 0.2mm for scanning the features in the object.</font></span></p>
+<p class="whs10"><span lang="EN-US"><font size="2" style="font-size:10pt;">4. Save the settings as a new profile with appropriate name.</font></span></p>
+<p class="whs10"><span lang="EN-US"><font size="2" style="font-size:10pt;">5. Repeat steps 4 and 5, but this time giving UV = 1mm values for area sampling - for scanning flat areas.</font></span></p>
+</td>
+</tr>
+</table>
+</div>
+<p>&#160;</p>
+<p class="sub-head"><a name="Switching_profiles"></a>Switching profiles</p>
+<p><span lang="EN-US" style="color:#000000;"><font color="black"><span lang="EN-US">Profiles can be switched by two ways:</span></font></span></p>
+<ul>
+<li style="font-size:10.0pt; font-family:Arial;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-US">Click on the drop-down</span><span lang="EN-US" style="font-weight:bold;"><b>profile list</b></span> <span lang="EN-US">in the toolbar and select a profile.</span></p>
+</li>
+</ul>
+<p><span lang="EN-US" style="color:#000000;"><font color="black"><span lang="EN-US">or</span></font></span></p>
+<ul>
+<li style="font-size:10.0pt; font-family:Arial;" class="kadov-p-CBullet">
+<p class="Bullet"><span lang="EN-US">Select Profiles in the Scan pane by using the localiser. A window showing all available profiles will appear:</span></p>
+</li>
+</ul>
+<p><img src="images/profiles_2.gif" width="834px" height="150px" border="0" class="img_whs14" alt=""></p>
+<p><span lang="EN-US">Select the most appropriate profile and press the '</span><span lang="EN-US" style="font-weight:bold;"><b>B</b></span><span lang="EN-US">' button.</span></p>
+<p class="whs15">&#160;</p>
+<p class="sub-head"><a name="Profile_info"></a>Profile info</p>
+<p><span lang="EN-US">Information about the current profile will be shown using the information button on the toolbar.</span></p>
+<p class="Example" style="color:#000000; text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a3" style="text-decoration:underline;">Example for profile information</a></p>
+<div class="droptext" id="POPUP164903887" style="display:'none'; x-ss-type:dropdown;">
+<table cellspacing="0" class="whs16">
+<col>
+<tr valign="top" class="whs6">
+<td class="whs17">
+<p>Profile settings for Cyan profile and scanning flat area:</p>
+<p><img src="images/profiles_3.gif" width="338px" height="432px" border="0" class="img_whs18" alt=""></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+</div>
+<script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a1','POPUP159678794');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a2','POPUP164722731');
+//-->
+</script><script language="javascript1.2" type="text/javascript">
+<!--
+kadovTextPopupInit('a3','POPUP164903887');
+//-->
+</script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+//-->
+</script>
+<form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B020800000050726F66696C65730C020800000050726F66696C65730D020800000050726F66696C65731102100000005363616E6E696E672050726F6365737312020800000050726F66696C65731302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
+</body>
+</html>
