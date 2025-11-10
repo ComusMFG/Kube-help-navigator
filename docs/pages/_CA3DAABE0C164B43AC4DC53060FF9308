@@ -4,7 +4,7 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
-<base target="bsscright">
+
 <style>
 <!--
 body {margin-left:1pt; margin-top:1pt; margin-right:1pt;font-family:Arial; font-size:9pt;}
@@ -34,8 +34,31 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 body {background-color:#9ea0a3; } 
 -->
 </style>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body marginheight="0"  marginwidth="0" bgproperties="fixed">
+<body>
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
+
 
 <p class="ftsheader"><a name="subkey_X"></a> <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a> <a href="whlstf68.htm#bm_X" target="ftslist" title="search letter X "><b>X </b></a> <a href="whlstf68.htm#bms_XA" target="ftslist" title="search letter XA"><b>XA</b></a> <a href="whlstf68.htm#bms_XD" target="ftslist" title="search letter XD"><b>XD</b></a> <a href="whlstf68.htm#bms_XM" target="ftslist" title="search letter XM"><b>XM</b></a> <a href="whlstf68.htm#bms_XN" target="ftslist" title="search letter XN"><b>XN</b></a> <a href="whlstf68.htm#bms_XO" target="ftslist" title="search letter XO"><b>XO</b></a> <a href="whlstf68.htm#bms_XP" target="ftslist" title="search letter XP"><b>XP</b></a> <a href="whlstf68.htm#bms_XX" target="ftslist" title="search letter XX"><b>XX</b></a> <a href="whlstf68.htm#bms_XY" target="ftslist" title="search letter XY"><b>XY</b></a>  <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a></p>
 

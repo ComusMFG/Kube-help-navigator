@@ -4,7 +4,7 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
-<base target="bsscright">
+
 <style>
 <!--
 body {margin-left:1pt; margin-top:1pt; margin-right:1pt;font-family:Arial; font-size:9pt;}
@@ -34,8 +34,31 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 body {background-color:#9ea0a3; } 
 -->
 </style>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body marginheight="0"  marginwidth="0" bgproperties="fixed">
+<body>
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
+
 
 <p class="ftsheader"><a name="subkey_B"></a> <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a> <a href="whlstf6.htm#bm_B" target="ftslist" title="search letter B "><b>B </b></a> <a href="whlstf6.htm#bms_BA" target="ftslist" title="search letter BA"><b>BA</b></a> <a href="whlstf6.htm#bms_BE" target="ftslist" title="search letter BE"><b>BE</b></a> <a href="whlstf7.htm#bms_BI" target="ftslist" title="search letter BI"><b>BI</b></a> <a href="whlstf7.htm#bms_BL" target="ftslist" title="search letter BL"><b>BL</b></a> <a href="whlstf7.htm#bms_BM" target="ftslist" title="search letter BM"><b>BM</b></a> <a href="whlstf7.htm#bms_BN" target="ftslist" title="search letter BN"><b>BN</b></a> <a href="whlstf7.htm#bms_BO" target="ftslist" title="search letter BO"><b>BO</b></a> <a href="whlstf7.htm#bms_BR" target="ftslist" title="search letter BR"><b>BR</b></a> <a href="whlstf7.htm#bms_BU" target="ftslist" title="search letter BU"><b>BU</b></a> <a href="whlstf8.htm#bms_BY" target="ftslist" title="search letter BY"><b>BY</b></a>  <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a></p>
 

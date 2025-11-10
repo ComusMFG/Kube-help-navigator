@@ -5,13 +5,8 @@
 <title>Localiser Probe Calibration - Metris MCA</title>
 <meta http-equiv="content-type" content="text/html; charset=windows-1252">
 <meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
-<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
-<script type="text/javascript" language="JavaScript">
-<!--
-if (navigator.appName !="Netscape")
-{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.whs1 { width:100%; }
@@ -31,74 +26,44 @@ img_whs14 { border:none; width:402px; height:270px; float:none; }
 -->
 </style>
 
-<script type="text/javascript" language="JavaScript">
-<!--
-function reDo() {
-  if (innerWidth != origWidth || innerHeight != origHeight)
-     location.reload();
-}
-if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
-        origWidth = innerWidth;
-        origHeight = innerHeight;
-        onresize = reDo;
-}
-onerror = null; 
-//-->
-</script>
+
 <style type="text/css">
 <!--
 div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
 -->
 </style>
 
-<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
-</script>
-<script type="text/javascript" language="javascript" src="../../whver.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
-</script>
+
+
+
+
+
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.gbWhTopic)
-{
-        if (window.addTocInfo)
-        {
-        addTocInfo("KUBE\nScanning\nSystem Set-Up\nLocaliser Set-Up\nMetrisMCA\nLocaliser Probe Calibration");
-addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+    <a href="../index.html" class="back-to-index">â† Back to Index</a>
 
-        }
-        if (window.writeBtnStyle)
-                writeBtnStyle();
 
-        if (window.writeIntopicBar)
-                writeIntopicBar(1);
-
-        if (window.setRelStartPage)
-        {
-        setRelStartPage("../../KUBE_Help.htm");
-addSearchFormHref("javascript:document.ehelpform.submit()");
-
-                autoSync(1);
-                sendSyncInfo();
-                sendAveInfoOut();
-        }
-}
-else
-        if (window.gbIE4)
-                document.location.reload();
-//-->
-</script><script type="text/javascript" language="JavaScript1.2" src="../../ehlpdhtm.js">
-</script><script type="text/javascript" language="JavaScript1.2">
-<!-- 
-if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
- //-->
-</script>
 <div id="header" class="whs1">
 <p align="right" class="whs2">&#160;</p>
 </div>
@@ -107,7 +72,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="description"><span style="font-weight:bold;"><b>Description:</b></span> <span lang="EN-GB">Localiser Probe Calibration is necessary to maintain a high degree of accuracy.</span></p>
 <ul>
 <li class="kadov-p-Cbullet">
-<p class="bullet"><span lang="EN-GB">Run KUBE. Enter</span> <span lang="EN-GB" style="font-weight:bold; font-style:italic;"><i><b>System &gt; Hardware Settings</b></i></span><span lang="EN-GB">. Go to ”Localiser” page and press <a href="../Hardware/MMD/Settings/hardware_settings_-_localiser_(Metris_MCA_advanced_settings).htm">“Advanced Settings...”</a> button. In the MetrisMCA advanced settings dialog choose "</span>Probe settings..." button, then in the dialog <a href="../Hardware/MMD/Settings/hardware_settings_-_localiser_(Metris_MCA_advanced_settings).htm#Probe_settings">"Probe settings"</a> press "Calibrate" button.</p>
+<p class="bullet"><span lang="EN-GB">Run KUBE. Enter</span> <span lang="EN-GB" style="font-weight:bold; font-style:italic;"><i><b>System &gt; Hardware Settings</b></i></span><span lang="EN-GB">. Go to Localiser page and press <a href="../Hardware/MMD/Settings/hardware_settings_-_localiser_(Metris_MCA_advanced_settings).htm">Advanced Settings...</a> button. In the MetrisMCA advanced settings dialog choose "</span>Probe settings..." button, then in the dialog <a href="../Hardware/MMD/Settings/hardware_settings_-_localiser_(Metris_MCA_advanced_settings).htm#Probe_settings">"Probe settings"</a> press "Calibrate" button.</p>
 </li>
 </ul>
 <p>&#160;</p>
@@ -124,7 +89,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p>The points are collected by single pressing on one of the capturing buttons</p>
 </td>
 <td class="whs7">
-<p class="normal-table"><img src="Images/calibr_st.png" width="402px" height="270px" border="0" class="img_whs8" alt=""></p>
+<p class="normal-table"><img src="../images/calibr_st.png" width="402px" height="270px" border="0" class="img_whs8" alt=""></p>
 </td>
 </tr>
 <tr valign="top" class="whs5">
@@ -137,7 +102,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="parameterdescription" style="margin-right:0px;">For the dynamic points method a value for angle limit is required. This parameter defines the max angle for capturing points downwards in each direction. Its value could vary between 5 and 90 degrees.</p>
 </td>
 <td class="whs10">
-<p class="normal-table"><img src="Images/calibr_d.png" width="402px" height="270px" border="0" class="img_whs8" alt=""></p>
+<p class="normal-table"><img src="../images/calibr_d.png" width="402px" height="270px" border="0" class="img_whs8" alt=""></p>
 </td>
 </tr>
 <tr valign="top" class="whs5">
@@ -150,7 +115,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="parameterdescription" style="margin-right:0px;">If sphere calibration method is chosen, then it is required to use a sphere with known diameter. Type the diameter value (in mm) in the "sphere diameter" field, then continue the wizard.</p>
 </td>
 <td class="whs10">
-<p class="normal-table"><img src="Images/calibr_sph.png" width="402px" height="270px" border="0" class="img_whs8" alt=""></p>
+<p class="normal-table"><img src="../images/calibr_sph.png" width="402px" height="270px" border="0" class="img_whs8" alt=""></p>
 </td>
 </tr>
 </table>
@@ -206,7 +171,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <li class="kadov-p-Cbullet">
 <p class="bullet" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;"><span style="font-weight:bold;"><b>Cone</b></span> calibration with <span style="font-weight:bold;"><b>static points</b></span></a></p>
 <div class="droptext" id="POPUP164066663" style="display:'none'; x-ss-type:dropdown;">
-<p class="parameterdescription"><img src="Images/calibr_st1.png" width="402px" height="270px" border="0" class="img_whs8" alt=""></p>
+<p class="parameterdescription"><img src="../images/calibr_st1.png" width="402px" height="270px" border="0" class="img_whs8" alt=""></p>
 <ol>
 <li class="kadov-p-Csteps">
 <p class="steps">Place the probe in the inner cone of the probe calibration piece.</p>
@@ -242,7 +207,7 @@ The target positions for the probe are exemplary, larger position tolerances are
 <li class="kadov-p-Cbullet">
 <p class="bullet" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2" style="text-decoration:underline;"><span style="font-weight:bold;"><b>Cone</b></span> calibration with <span style="font-weight:bold;"><b>dynamic points</b></span></a></p>
 <div class="droptext" id="POPUP163777969" style="display:'none'; x-ss-type:dropdown;">
-<p class="parameterdescription"><img src="Images/calibr_d1.png" width="402px" height="270px" border="0" class="img_whs8" alt=""></p>
+<p class="parameterdescription"><img src="../images/calibr_d1.png" width="402px" height="270px" border="0" class="img_whs8" alt=""></p>
 <ol>
 <li class="kadov-p-Csteps">
 <p class="steps">Place the probe in the inner cone of the probe calibration tip.</p>
@@ -268,7 +233,7 @@ The target positions for the probe are exemplary, larger position tolerances are
 <li class="kadov-p-Cbullet">
 <p class="bullet" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a3" style="text-decoration:underline;"><span style="font-weight:bold;"><b>Sphere</b></span> calibration</a></p>
 <div class="droptext" id="POPUP165601833" style="display:'none'; x-ss-type:dropdown;">
-<p class="parameterdescription"><img src="Images/calibr_sph1.png" width="402px" height="270px" border="0" class="img_whs12" alt=""></p>
+<p class="parameterdescription"><img src="../images/calibr_sph1.png" width="402px" height="270px" border="0" class="img_whs12" alt=""></p>
 <ol>
 <li class="kadov-p-Csteps">
 <p class="steps">Place the probe on the sphere as shown above - first position in first direction. The target position is defined by the probe model on the picture above. Touch the surface (electronic probe) or press the capture button to get the first point.</p>
@@ -285,10 +250,10 @@ The target positions for the probe are exemplary, larger position tolerances are
 <p class="parameterstitle">Directions description:</p>
 <p><span style="font-weight:bold;"><b>First</b></span> =&gt; The points should be captured perpendicular to the surface and around the sphere equator (see picture above).</p>
 <p><span style="font-weight:bold;"><b>Second and fourth</b></span> =&gt; The points should be captured perpendicular to the surface and following two perpendicular sphere meridians (see picture below).</p>
-<p><img src="Images/calibr_sph2.png" width="402px" height="270px" border="0" class="img_whs14" alt=""></p>
+<p><img src="../images/calibr_sph2.png" width="402px" height="270px" border="0" class="img_whs14" alt=""></p>
 <p>&#160;</p>
 <p><span style="font-weight:bold;"><b>Third and fifth</b></span> =&gt; The points should be captured tangential to the surface and following the same perpendicular sphere meridians as for direction 2 and 4 (see picture below).</p>
-<p><img src="Images/calibr_sph3.png" width="402px" height="270px" border="0" class="img_whs14" alt=""></p>
+<p><img src="../images/calibr_sph3.png" width="402px" height="270px" border="0" class="img_whs14" alt=""></p>
 <ol start="4" type="1" class="whs13">
 <li class="kadov-p-Csteps">
 <p class="steps">When the last point is captured, the result is automatically calculated and displayed. The <span style="font-weight:bold;"><b>Finish</b></span> button becomes enabled.</p>
@@ -302,30 +267,9 @@ The target positions for the probe are exemplary, larger position tolerances are
 <p class="parameterdescription">If you are satisfied with the results, then press the <span style="font-weight:bold;"><b>Finish</b></span> button.</p>
 <p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a4" style="text-decoration:underline;">Example for result window</a></p>
 <div class="droptext" id="POPUP167338112" style="display:'none'; x-ss-type:dropdown;">
-<p><img src="Images/calibr_res.png" width="402px" height="270px" border="0" class="img_whs12" alt=""></p>
+<p><img src="../images/calibr_res.png" width="402px" height="270px" border="0" class="img_whs12" alt=""></p>
 </div>
-<script language="javascript1.2" type="text/javascript">
-<!--
-kadovTextPopupInit('a1','POPUP164066663');
-//-->
-</script><script language="javascript1.2" type="text/javascript">
-<!--
-kadovTextPopupInit('a2','POPUP163777969');
-//-->
-</script><script language="javascript1.2" type="text/javascript">
-<!--
-kadovTextPopupInit('a3','POPUP165601833');
-//-->
-</script><script language="javascript1.2" type="text/javascript">
-<!--
-kadovTextPopupInit('a4','POPUP167338112');
-//-->
-</script><script type="text/javascript" language="javascript1.2">
-<!--
-if (window.writeIntopicBar)
-        writeIntopicBar(0);
-//-->
-</script>
+
 <form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0C02CB0000004261636B0A43616C6962726174696F6E0A436170747572650A4361707475726520506F696E740A436C6F73650A436F6E650A446566696E650A44656C6574650A446973706C61790A446F776E0A46726F6E740A48617264776172650A4C6566740A4C696E650A6C6F63616C697365720A4D65747269730A4D65747269734D43410A4E65770A506172616D65746572730A50726F62650A536176650A53656C6563740A53657474696E67730A5370686572652043616C6962726174696F6E0A5374617469630A53797374656D0D02280000004C6F63616C697365722050726F62652043616C6962726174696F6E202D204D6574726973204D43411102090000004D65747269734D434112021B0000004C6F63616C697365722050726F62652043616C6962726174696F6E1302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
 </body>
 </html>

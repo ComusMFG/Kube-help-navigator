@@ -5,13 +5,8 @@
 <title>Preferences - Arm Menu Appearance - Multi-site</title>
 <meta http-equiv="content-type" content="text/html; charset=windows-1252">
 <meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
-<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
-<script type="text/javascript" language="JavaScript">
-<!--
-if (navigator.appName !="Netscape")
-{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.whs1 { width:100%; }
@@ -21,75 +16,51 @@ img_whs4 { border:none; float:none; width:593px; height:367px; border-style:none
 -->
 </style>
 
-<script type="text/javascript" language="JavaScript">
-<!--
-function reDo() {
-  if (innerWidth != origWidth || innerHeight != origHeight)
-     location.reload();
-}
-if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
-        origWidth = innerWidth;
-        origHeight = innerHeight;
-        onresize = reDo;
-}
-onerror = null; 
-//-->
-</script>
+
 <style type="text/css">
 <!--
 div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
 -->
 </style>
 
-<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
-</script>
-<script type="text/javascript" language="javascript" src="../whver.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whutils.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
-</script>
+
+
+
+
+
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.gbWhTopic)
-{
-        if (window.addTocInfo)
-        {
-        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
 
-        }
-        if (window.writeBtnStyle)
-                writeBtnStyle();
 
-        if (window.writeIntopicBar)
-                writeIntopicBar(1);
-
-        if (window.setRelStartPage)
-        {
-        setRelStartPage("../KUBE_Help.htm");
-addSearchFormHref("javascript:document.ehelpform.submit()");
-
-                autoSync(1);
-                sendSyncInfo();
-                sendAveInfoOut();
-        }
-}
-else
-        if (window.gbIE4)
-                document.location.reload();
-//-->
-</script>
 <div id="header" class="whs1">
 <p align="right" class="whs2">&#160;</p>
 </div>
 <h1>Preferences - Arm Menu Appearance - Multi-site</h1>
 <hr align="left" width="100.526%" size="5" class="whs3">
 <p>Arm Menu Appearance - Multi-site settings let you customise the Multi-site localiser driven menu of KUBE. Buttons can be added or removed so that the menu can appear in the way that user prefers.</p>
-<p><img src="Images/preferences_armmenu_multisite.gif" width="593px" height="367px" border="0" class="img_whs4" alt=""></p>
+<p><img src="../images/preferences_armmenu_multisite.gif" width="593px" height="367px" border="0" class="img_whs4" alt=""></p>
 <p class="sub-head">Localiser driven menu Group</p>
 <p class="parameterstitle">Available buttons</p>
 <p class="parameterdescription"><span style="font-weight:normal;">List of available buttons for this menu, i.e. the buttons that will not be displayed. Currently only the StandBy button is not shown by default.</span></p>
@@ -106,12 +77,7 @@ else
 <p class="Note" id="p1"><span lang="EN-GB" style="font-weight:bold;"><b>Note</b></span><span lang="EN-GB">: Double-click on a button from Available buttons list to move it to Current buttons list. Double-click on a button from Current buttons list to move it to Available buttons list</span></p>
 <p class="parameterstitle"><span style="font-weight:bold;"><b>Default</b></span> button</p>
 <p class="parameterdescription">Press this button to set the default appearance of the localiser driven menu. It will move all buttons from Available buttons list to the Current buttons list and will arrange them in the default order.</p>
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.writeIntopicBar)
-        writeIntopicBar(0);
-//-->
-</script>
+
 <form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B022E000000507265666572656E636573202D2041726D204D656E7520417070656172616E6365202D204D756C74692D736974650C02A300000041726D0A41726D204D656E750A41726D204D656E7520417070656172616E63650A417272616E67650A446973706C61790A446F776E0A4C6566740A6C6F63616C697365720A4D756C74692D736974650A4D756C74692D73697465094D756C74692D736974652073657474696E67730A4E65770A507265666572656E6365730A52696768740A53656C6563740A53657474696E67730A5374616E64427920627574746F6E0D022E000000507265666572656E636573202D2041726D204D656E7520417070656172616E6365202D204D756C74692D736974651102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
 </body>
 </html>

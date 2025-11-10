@@ -5,13 +5,8 @@
 <title>View Menu</title>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
-<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
-<script type="text/javascript" language="JavaScript">
-<!--
-if (navigator.appName !="Netscape")
-{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.whs1 { width:100%; }
@@ -71,86 +66,45 @@ img_whs54 { border:none; float:none; width:23px; height:16px; border-style:none;
 -->
 </style>
 
-<script type="text/javascript" language="JavaScript">
-<!--
-if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
-{
-  var strNSS = "<style type='text/css'>";
-  strNSS += "p.whs14 {margin-top:1pt;margin-bottom:1pt; }";
-  strNSS +="<\/style>";
-  document.write(strNSS);
-}
-//-->
-</script>
-<script type="text/javascript" language="JavaScript">
-<!--
-function reDo() {
-  if (innerWidth != origWidth || innerHeight != origHeight)
-     location.reload();
-}
-if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
-        origWidth = innerWidth;
-        origHeight = innerHeight;
-        onresize = reDo;
-}
-onerror = null; 
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
 -->
 </style>
 
-<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
-</script>
-<script type="text/javascript" language="javascript" src="../whver.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whutils.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
-</script>
+
+
+
+
+
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.gbWhTopic)
-{
-        if (window.addTocInfo)
-        {
-        addTocInfo("KUBE\nUser Interface\nMenus\nView Menu");
-addTocInfo("KUBE\nInspection Mode\nInspection Interface\nMenus\nView Menu");
-addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
 
-        }
-        if (window.writeBtnStyle)
-                writeBtnStyle();
 
-        if (window.writeIntopicBar)
-                writeIntopicBar(1);
-
-        if (window.setRelStartPage)
-        {
-        setRelStartPage("../KUBE_Help.htm");
-addSearchFormHref("javascript:document.ehelpform.submit()");
-
-                autoSync(1);
-                sendSyncInfo();
-                sendAveInfoOut();
-        }
-}
-else
-        if (window.gbIE4)
-                document.location.reload();
-//-->
-</script><script type="text/javascript" language="JavaScript1.2" src="../ehlpdhtm.js">
-</script><script type="text/javascript" language="JavaScript1.2">
-<!-- 
-if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
- //-->
-</script>
 <div id="header" class="whs1">
 <p align="right" class="whs2">&#160;</p>
 </div>
@@ -162,7 +116,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <col class="whs6">
 <tr valign="top" class="whs7">
 <td width="256px" class="whs8">
-<p><img src="Images/view_menu.gif" width="234px" height="512px" border="0" class="img_whs9" alt=""></p>
+<p><img src="../images/view_menu.gif" width="234px" height="512px" border="0" class="img_whs9" alt=""></p>
 </td>
 <td valign="middle" width="385px" class="whs10">
 <table cellspacing="0" width="100%" class="whs11">
@@ -236,7 +190,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Resets the view extents to fit the visible data.</p>
 </td>
 <td width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/Zoom_All.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/Zoom_All.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -247,7 +201,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Magnifies the visible data twice.</p>
 </td>
 <td width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/Zoom_In.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/Zoom_In.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -258,7 +212,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Recedes the visible data twice.</p>
 </td>
 <td width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/Zoom_Out.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/Zoom_Out.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -269,7 +223,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Resets the view extents to fit the visible selected data. This command is N/A in <span style="font-style:italic;"><i>Inspection mode</i></span></p>
 </td>
 <td width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/Zoom_Selected.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/Zoom_Selected.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 </table>
@@ -298,7 +252,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Reloads the viewport in order to display the latest actual state.</p>
 </td>
 <td width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/Refresh_View.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/Refresh_View.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 </table>
@@ -328,7 +282,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Hides all entities or those parts of them that are selected. This command is grayed there is no selection or all selection is hidden.</p>
 </td>
 <td width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/hide_selection_and_hide_selected.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/hide_selection_and_hide_selected.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -340,7 +294,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="Note" id="P1"><span lang="EN-US" style="font-weight:bold;"><b>N</b></span><span style="font-weight:bold;"><b>ote:</b></span> Hiding entities (or parts of them) is not stored, i.e. next time when you open the file all entities will be displayed there will be no hidden parts.</p>
 </td>
 <td width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/Show_All.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/Show_All.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 </table>
@@ -370,7 +324,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Viewport is <a class="glossterm" href="javascript:kadovTextPopup(this)" id="HotSpot30185">orthogonal</a> <span class="glosstext" style="display:'none';" id="POPUP175560205">Constructed with right angles or perpendicular lines. An orthogonal shape contains only right angles. Planes or vectors that are mutually perpendicular.</span> to OXZ plane from +Y side.</p>
 </td>
 <td width="9.375%" class="whs30">
-<p class="normal-table"><span style="font-weight:bold;"><b><a href="../References/Up.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></b></span></p>
+<p class="normal-table"><span style="font-weight:bold;"><b><a href="../References/Up.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></b></span></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -381,7 +335,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Viewport is orthogonal to OXZ plane from -Y side.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/down.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/down.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -392,7 +346,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Viewport is orthogonal to OYZ plane from -X side.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/Left.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/Left.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -403,7 +357,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Viewport is orthogonal to OYZ plane from +X side.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/Right.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/Right.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -414,7 +368,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Viewport is orthogonal to OXY plane from +Z side.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/front.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/front.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -425,7 +379,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Viewport is orthogonal to OXY plane from -Z side.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/back.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/back.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -436,7 +390,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Viewport is from 45 degrees on all three axes: +X, +Y, and -Z.</p>
 </td>
 <td width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/Isometric.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/Isometric.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 </table>
@@ -465,7 +419,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Using this command an object can be rotated by an exact entry of degree around a specified axes.</p>
 </td>
 <td width="9.375%" class="whs30">
-<p class="normal-table" style="text-align:center;" align="center"><a href="../References/Rotate_Viewport.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table" style="text-align:center;" align="center"><a href="../References/Rotate_Viewport.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -475,10 +429,10 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <td colspan="1" rowspan="1" width="73.596%" class="whs29">
 <p class="normal-table">This command creates an entity that stores the current viewport orientation. This entity can be selected at any time to restore the view.</p>
 <p class="normal-table">This entity is located in <u style="font-weight:bold; text-decoration:none;"><span style="font-weight:bold; text-decoration:none;"><b>View Position</b></span></u> group. It is not graphically represented in the scene; its appearance is in the <u><a href="Entities_Pane.htm" target="_self">Entities pane</a></u> only. Viewport entity can be reselected at any time to restore the view - right click on the viewport name and select Use from the <u><a href="Tree_Context_Menus.htm#Specific_commands_for_View_Positions" target="_self">tree context menu</a></u>. If you select Set to Current View, you will change the viewport orientation to the current one.</p>
-<p class="normal-table"><img src="Images/custom_views.jpg" width="245px" height="236px" border="0" class="img_whs39" alt=""></p>
+<p class="normal-table"><img src="../images/custom_views.jpg" width="245px" height="236px" border="0" class="img_whs39" alt=""></p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs30">
-<p class="normal-table" style="text-align:center;" align="center"><a href="../References/Create_Viewport_Entity.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table" style="text-align:center;" align="center"><a href="../References/Create_Viewport_Entity.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -489,7 +443,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table"><span lang="EN-GB">Aligns view direction orthogonal to the selected datum plane or plane reducible datum entity (cylinder, circle, cone, slots).</span> This command is N/A in <span style="font-style:italic;"><i>Inspection mode</i></span>.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs30">
-<p class="normal-table" style="text-align:center;" align="center"><a href="../References/align_to_plane.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table" style="text-align:center;" align="center"><a href="../References/align_to_plane.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 </table>
@@ -518,7 +472,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Captures the whole viewport and saves it in a graphic file format.</p>
 </td>
 <td width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/snapshot.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/snapshot.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 </table>
@@ -545,10 +499,10 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table-func"><span class="Command">Adjust</span></p>
 </td>
 <td width="73.596%" class="whs29">
-<p class="normal-table">Adjusts the light direction in the scene. The mouse pointer changes to bulb<img src="Visualisation_menu_files/image004.gif" width="33px" height="35px" border="0" class="img_whs42" alt="">. While holding the left mouse button, drag the mouse pointer to a desired position. Light changing is valid for the active window only. Direction of the light is stored so next time when you run KUBE , the new lighting will be used for the scenes of all open documents.</p>
+<p class="normal-table">Adjusts the light direction in the scene. The mouse pointer changes to bulb<img src="../images/image004.gif" width="33px" height="35px" border="0" class="img_whs42" alt="">. While holding the left mouse button, drag the mouse pointer to a desired position. Light changing is valid for the active window only. Direction of the light is stored so next time when you run KUBE , the new lighting will be used for the scenes of all open documents.</p>
 </td>
 <td width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/Light_Adjust.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/Light_Adjust.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -559,13 +513,13 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Resets the light direction to its original orientation.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/Light_Reset.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/Light_Reset.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 </table>
 <p><span lang="EN-US"><b style="font-weight:bold;">Use in</b>:</span> Adjusting light is useful when some areas of an object are shaded and you want to see the details.<span lang="EN-US">&#160;</span></p>
 <p class="sub-head"><span style="text-decoration:underline;"><u><a name="Play"></a></u></span>Play</p>
-<p>Displays an animated rotated view of the visible entities in the current document. During rotation scan data are displayed as points, meshes as polygons, all other types as their current state. This mode acts as a screensaver press a button on the keyboard or move the mouse to exit. This command is N/A in <span style="font-style:italic;"><i>Inspection mode</i></span>.<span lang="EN-US">&#160;</span><a href="../References/Play.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p>Displays an animated rotated view of the visible entities in the current document. During rotation scan data are displayed as points, meshes as polygons, all other types as their current state. This mode acts as a screensaver press a button on the keyboard or move the mouse to exit. This command is N/A in <span style="font-style:italic;"><i>Inspection mode</i></span>.<span lang="EN-US">&#160;</span><a href="../References/Play.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 <p class="sub-head"><a name="Display"></a>Display Visual Aids</p>
 <table cellspacing="0" width="810" class="whs43">
 <col class="whs22">
@@ -590,7 +544,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Shows/hides the grid.</p>
 </td>
 <td width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/display_grid.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/display_grid.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs45">
@@ -602,7 +556,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table"><b><span lang="EN-US" style="font-weight:bold;"><b>Use in</b>:</span></b> <span class="Command">Display Normals</span> is useful when importing 3D data in other formats. Sometimes orientation of the normals in KUBE does not correspond to other CAD applications. It is better to see which areas are faulty before unifying normals.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/display_normals.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/display_normals.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 </table>
@@ -631,7 +585,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Hides/shows the workspace window that contain &#160;Entities, and Output panes.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/Display_Workspace.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/Display_Workspace.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs44">
@@ -642,7 +596,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Hides/shows the Toolbar.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs30">
-<p class="normal-table"><a href="Toolbar2.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="Toolbar2.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs44">
@@ -651,10 +605,10 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 </td>
 <td colspan="1" rowspan="1" width="73.532%" class="whs52">
 <p class="normal-table">Hides/shows the Localiser position as docked window in the Scan Pane or as floating window.</p>
-<p class="normal-table"><img src="Images/view_menu_localiser.gif" width="326px" height="66px" border="0" class="img_whs53" alt=""></p>
+<p class="normal-table"><img src="../images/view_menu_localiser.gif" width="326px" height="66px" border="0" class="img_whs53" alt=""></p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/display_localiser_position.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/display_localiser_position.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs44">
@@ -665,7 +619,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Displays Intensity view for ModelMaker D sensor.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/dislpay_intensity.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/dislpay_intensity.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs44">
@@ -676,7 +630,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Hides/shows the sensor window in the scan pane.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/display_sensor.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/display_sensor.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs44">
@@ -687,7 +641,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Hides/shows the laser button in the scan pane.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/display_laser_button.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs54" alt=""></a></p>
+<p class="normal-table"><a href="../References/display_laser_button.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs54" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs44">
@@ -698,7 +652,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Hides/shows the Command Window.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs30">
-<p class="normal-table"><a href="../Macros/Macros_Menu/show_command_window.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../Macros/Macros_Menu/show_command_window.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs44">
@@ -709,21 +663,12 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="normal-table">Hides/shows the Macro SpeedBar.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs30">
-<p class="normal-table"><a href="../References/Macro_SpeedBar.htm" target="_self"><img src="Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
+<p class="normal-table"><a href="../References/Macro_SpeedBar.htm" target="_self"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs31" alt=""></a></p>
 </td>
 </tr>
 </table>
 <p>&#160;&#160;</p>
-<script language="javascript1.2" type="text/javascript">
-<!--
-kadovTextPopupInit('HotSpot30185','POPUP175560205');
-//-->
-</script><script type="text/javascript" language="javascript1.2">
-<!--
-if (window.writeIntopicBar)
-        writeIntopicBar(0);
-//-->
-</script>
+
 <form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B020900000056696577204D656E750C020900000056696577204D656E750D020900000056696577204D656E751102050000004D656E757312020900000056696577204D656E751302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
 </body>
 </html>

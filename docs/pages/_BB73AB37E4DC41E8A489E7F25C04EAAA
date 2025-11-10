@@ -4,7 +4,7 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
-<base target="bsscright">
+
 <style>
 <!--
 body {margin-left:1pt; margin-top:1pt; margin-right:1pt;font-family:Arial; font-size:9pt;}
@@ -34,8 +34,31 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 body {background-color:#9ea0a3; } 
 -->
 </style>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body marginheight="0"  marginwidth="0" bgproperties="fixed">
+<body>
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
+
 
 <p class="ftsheader"><a name="subkey_W"></a> <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a> <a href="whlstf66.htm#bm_W" target="ftslist" title="search letter W "><b>W </b></a> <a href="whlstf66.htm#bms_WA" target="ftslist" title="search letter WA"><b>WA</b></a> <a href="whlstf66.htm#bms_WC" target="ftslist" title="search letter WC"><b>WC</b></a> <a href="whlstf66.htm#bms_WE" target="ftslist" title="search letter WE"><b>WE</b></a> <a href="whlstf66.htm#bms_WH" target="ftslist" title="search letter WH"><b>WH</b></a> <a href="whlstf67.htm#bms_WI" target="ftslist" title="search letter WI"><b>WI</b></a> <a href="whlstf68.htm#bms_WO" target="ftslist" title="search letter WO"><b>WO</b></a> <a href="whlstf68.htm#bms_WR" target="ftslist" title="search letter WR"><b>WR</b></a> <a href="whlstf68.htm#bms_WW" target="ftslist" title="search letter WW"><b>WW</b></a>  <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a></p>
 

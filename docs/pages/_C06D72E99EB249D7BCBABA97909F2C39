@@ -5,13 +5,8 @@
 <title>Use Last Settings</title>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
-<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
-<script type="text/javascript" language="JavaScript">
-<!--
-if (navigator.appName !="Netscape")
-{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.whs1 { width:100%; }
@@ -21,68 +16,44 @@ img_whs4 { border:none; width:284px; height:126px; float:none; border-style:none
 -->
 </style>
 
-<script type="text/javascript" language="JavaScript">
-<!--
-function reDo() {
-  if (innerWidth != origWidth || innerHeight != origHeight)
-     location.reload();
-}
-if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
-        origWidth = innerWidth;
-        origHeight = innerHeight;
-        onresize = reDo;
-}
-onerror = null; 
-//-->
-</script>
+
 <style type="text/css">
 <!--
 div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
 -->
 </style>
 
-<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
-</script>
-<script type="text/javascript" language="javascript" src="../../whver.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
-</script>
+
+
+
+
+
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.gbWhTopic)
-{
-        if (window.addTocInfo)
-        {
-        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
 
-        }
-        if (window.writeBtnStyle)
-                writeBtnStyle();
 
-        if (window.writeIntopicBar)
-                writeIntopicBar(1);
-
-        if (window.setRelStartPage)
-        {
-        setRelStartPage("../../KUBE_Help.htm");
-addSearchFormHref("javascript:document.ehelpform.submit()");
-
-                autoSync(1);
-                sendSyncInfo();
-                sendAveInfoOut();
-        }
-}
-else
-        if (window.gbIE4)
-                document.location.reload();
-//-->
-</script>
 <div id="header" class="whs1">
 <p align="right" class="whs2">&#160;</p>
 </div>
@@ -93,7 +64,7 @@ else
 <p class="Use"><span lang="EN-GB">It is useful for multiple offline inspections. For example, we have scanned 10 details of a flow production and we want to compare them all to the original CAD model. The procedure will be reduced to a single new inspection of the first scan data to the CAD model, followed by 9 comparison by template for the rest of the details. The advantage of this function is that all inspection settings (ranges, labels, etc.) are kept during the initial session, then these are applied to all other sessions without additional adjustment.</span></p>
 <p class="Note" id="P1"><span lang="EN-GB" style="font-weight:bold;"><b>Note</b></span><span lang="EN-GB">: If you don't have saved inspection in the current document or if you have deleted the last reference, then the function</span> <span lang="EN-GB" style="font-weight:bold;"><b>Use Last Settings</b></span> <span lang="EN-GB">is not enabled.</span></p>
 <p><span lang="EN-GB">Go to</span> <b><span class="Path">3D Inspection &gt; Use Last Settings</span> to enter inspection mode. The function works on selection or on entirely selected entity using the reference of the former inspection.</b> If no selection is made, the following warning will appear:</p>
-<p><img src="../Images/CompareTpt_warning.gif" width="284px" height="126px" border="0" class="img_whs4" alt=""></p>
+<p><img src="../images/CompareTpt_warning.gif" width="284px" height="126px" border="0" class="img_whs4" alt=""></p>
 <p>Choose one or more entities to compare and confirm:</p>
 <ul>
 <li class="kadov-p-Cbullet">
@@ -107,12 +78,7 @@ else
 </li>
 </ul>
 <p><span lang="EN-GB" style="font-weight:bold;"><b>For more details see</b></span> <span lang="EN-GB"><a href="../inspection_interface.htm">Inspection Interface</a>.</span></p>
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.writeIntopicBar)
-        writeIntopicBar(0);
-//-->
-</script>
+
 <form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B0225000000436F6D70617269736F6E2054656D706C6174650A557365204C6173742053657474696E67730C02B1000000334420496E7370656374696F6E0A4170706C790A4341440A636F6C6F75720A436F6D706172650A436F6D70617269736F6E0A436F6D70617269736F6E2054656D706C6174650A44656C6574650A456E7469746965730A496E73706563740A496E7370656374696F6E204D6F64650A4C6162656C730A4E65770A4E657720456E746974790A536176650A5363616E0A5363616E20446174610A53656C6563740A53656C656374696F6E0A53657474696E67730D0211000000557365204C6173742053657474696E67731102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
 </body>
 </html>

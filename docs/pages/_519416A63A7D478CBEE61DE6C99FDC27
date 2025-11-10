@@ -4,7 +4,7 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
-<base target="bsscright">
+
 <style>
 <!--
 body {margin-left:1pt; margin-top:1pt; margin-right:1pt;font-family:Arial; font-size:9pt;}
@@ -34,8 +34,31 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 body {background-color:#9ea0a3; } 
 -->
 </style>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body marginheight="0"  marginwidth="0" bgproperties="fixed">
+<body>
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
+
 
 <p class="ftsheader"><a name="subkey_S"></a> <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a> <a href="whlstf49.htm#bm_S" target="ftslist" title="search letter S "><b>S </b></a> <a href="whlstf49.htm#bms_SA" target="ftslist" title="search letter SA"><b>SA</b></a> <a href="whlstf50.htm#bms_SC" target="ftslist" title="search letter SC"><b>SC</b></a> <a href="whlstf51.htm#bms_SD" target="ftslist" title="search letter SD"><b>SD</b></a> <a href="whlstf51.htm#bms_SE" target="ftslist" title="search letter SE"><b>SE</b></a> <a href="whlstf52.htm#bms_SH" target="ftslist" title="search letter SH"><b>SH</b></a> <a href="whlstf53.htm#bms_SI" target="ftslist" title="search letter SI"><b>SI</b></a> <a href="whlstf53.htm#bms_SK" target="ftslist" title="search letter SK"><b>SK</b></a> <a href="whlstf53.htm#bms_SL" target="ftslist" title="search letter SL"><b>SL</b></a> <a href="whlstf54.htm#bms_SM" target="ftslist" title="search letter SM"><b>SM</b></a> <a href="whlstf54.htm#bms_SN" target="ftslist" title="search letter SN"><b>SN</b></a> <a href="whlstf54.htm#bms_SO" target="ftslist" title="search letter SO"><b>SO</b></a> <a href="whlstf54.htm#bms_SP" target="ftslist" title="search letter SP"><b>SP</b></a> <a href="whlstf55.htm#bms_SQ" target="ftslist" title="search letter SQ"><b>SQ</b></a> <a href="whlstf55.htm#bms_SR" target="ftslist" title="search letter SR"><b>SR</b></a> <a href="whlstf55.htm#bms_ST" target="ftslist" title="search letter ST"><b>ST</b></a> <a href="whlstf56.htm#bms_SU" target="ftslist" title="search letter SU"><b>SU</b></a> <a href="whlstf56.htm#bms_SW" target="ftslist" title="search letter SW"><b>SW</b></a> <a href="whlstf57.htm#bms_SY" target="ftslist" title="search letter SY"><b>SY</b></a>  <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a></p>
 

@@ -4,7 +4,7 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
-<base target="bsscright">
+
 <style>
 <!--
 body {margin-left:1pt; margin-top:1pt; margin-right:1pt;font-family:Arial; font-size:9pt;}
@@ -34,8 +34,31 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 body {background-color:#9ea0a3; } 
 -->
 </style>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body marginheight="0"  marginwidth="0" bgproperties="fixed">
+<body>
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
+
 
 <p class="ftsheader"><a name="subkey_U"></a> <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a> <a href="whlstf61.htm#bm_U" target="ftslist" title="search letter U "><b>U </b></a> <a href="whlstf61.htm#bms_UC" target="ftslist" title="search letter UC"><b>UC</b></a> <a href="whlstf62.htm#bms_UI" target="ftslist" title="search letter UI"><b>UI</b></a> <a href="whlstf62.htm#bms_UN" target="ftslist" title="search letter UN"><b>UN</b></a> <a href="whlstf63.htm#bms_UP" target="ftslist" title="search letter UP"><b>UP</b></a> <a href="whlstf63.htm#bms_US" target="ftslist" title="search letter US"><b>US</b></a> <a href="whlstf64.htm#bms_UT" target="ftslist" title="search letter UT"><b>UT</b></a> <a href="whlstf64.htm#bms_UV" target="ftslist" title="search letter UV"><b>UV</b></a>  <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a></p>
 

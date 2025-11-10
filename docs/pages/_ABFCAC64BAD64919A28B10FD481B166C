@@ -5,13 +5,8 @@
 <title>Capture Plane</title>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
-<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
-<script type="text/javascript" language="JavaScript">
-<!--
-if (navigator.appName !="Netscape")
-{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.whs1 { width:100%; }
@@ -23,74 +18,44 @@ img_whs6 { border:none; width:1152px; height:834px; float:none; border-style:non
 -->
 </style>
 
-<script type="text/javascript" language="JavaScript">
-<!--
-function reDo() {
-  if (innerWidth != origWidth || innerHeight != origHeight)
-     location.reload();
-}
-if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
-        origWidth = innerWidth;
-        origHeight = innerHeight;
-        onresize = reDo;
-}
-onerror = null; 
-//-->
-</script>
+
 <style type="text/css">
 <!--
 div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
 -->
 </style>
 
-<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
-</script>
-<script type="text/javascript" language="javascript" src="../../whver.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
-</script>
+
+
+
+
+
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.gbWhTopic)
-{
-        if (window.addTocInfo)
-        {
-        addTocInfo("KUBE\nScanning\nDatum Capture\nCapture Plane");
-addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
 
-        }
-        if (window.writeBtnStyle)
-                writeBtnStyle();
 
-        if (window.writeIntopicBar)
-                writeIntopicBar(1);
-
-        if (window.setRelStartPage)
-        {
-        setRelStartPage("../../KUBE_Help.htm");
-addSearchFormHref("javascript:document.ehelpform.submit()");
-
-                autoSync(1);
-                sendSyncInfo();
-                sendAveInfoOut();
-        }
-}
-else
-        if (window.gbIE4)
-                document.location.reload();
-//-->
-</script><script type="text/javascript" language="JavaScript1.2" src="../../ehlpdhtm.js">
-</script><script type="text/javascript" language="JavaScript1.2">
-<!-- 
-if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
- //-->
-</script>
 <div id="header" class="whs1">
 <p align="right" class="whs2">&#160;</p>
 </div>
@@ -99,7 +64,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="Description"><span class="Command" style="font-weight:bold;"><b>Description:</b></span> Capture Plane allows a datum plane to be captured using the localiser probe or to be extracted by scanning using the sensor. It is used to build datum alignments from point, line, and plane (from single plane, or from three planes) It is also useful for measuring flatness of surfaces. This command is accessible from the <i style="font-style:normal;">Localiser Menu Datum &gt; Plane</i>.</p>
 <h2><span lang="EN-GB"><span lang="EN-US">W</span>izard</span></h2>
 <p><span lang="EN-US">When you select</span> <span class="Path">Datum &gt; Plane</span> <span lang="EN-US">from the localiser menu the wizard behaves depending on the settings in <a href="../../References/Preferences_-_Datums_-_Capture_Method.htm">System &gt; Preferences &gt; Datums &gt; Capture Method (Datum Capture Method)</a> dialog. If Plane listbox is set to</span> <span lang="EN-US" style="font-weight:bold;"><b>Prompt</b></span> <span lang="EN-US">the following dialogue will appear:</span></p>
-<p><img src="../Capture_files/capture_method.gif" width="766px" height="150px" border="0" class="img_whs4" alt=""></p>
+<p><img src="../images/capture_method.gif" width="766px" height="150px" border="0" class="img_whs4" alt=""></p>
 <p><span lang="EN-US">At this stage there are offered 2 possibilities for measuring the plane:</span></p>
 <ul>
 <li class="kadov-p-Cbullet">
@@ -112,7 +77,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p>&#160;</p>
 <h3><span lang="EN-US"><a name="Capture_Plane_Wizard"></a>Capture Plane Wizard</span></h3>
 <p><span lang="EN-GB">When</span> <span lang="EN-GB" class="Path" style="font-style:normal;">Tactile</span> <span class="Path" style="font-style:normal; font-weight:normal;">is selected</span><span lang="EN-GB">, the following dialogue will appear:</span></p>
-<p><img src="../Capture_files/capture_define_plane.gif" width="766px" height="150px" border="0" class="img_whs4" alt=""></p>
+<p><img src="../images/capture_define_plane.gif" width="766px" height="150px" border="0" class="img_whs4" alt=""></p>
 <ul>
 <li class="kadov-p-CBullet">
 <p class="Bullet"><span lang="EN-GB">Press '</span><span class="Button">B'</span> <span lang="EN-GB">button at least three times to collect the necessary points. Hold</span> <span lang="EN-GB" style="font-weight:bold;"><b>'B'</b></span> <span lang="EN-GB">button to delete the last captured point if necessary. Press '</span><span class="Button">A'</span> <span lang="EN-GB">button to finish.</span></p>
@@ -124,7 +89,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p><span lang="EN-GB">If the ball probe is used, it will offset the plane with the radius of the probe at the proper direction. This is very important for the correct location of the plane because every localiser returns co-ordinates of the centre of its probe.</span></p>
 <p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a3" style="text-decoration:underline;">Scheme</a></p>
 <div class="droptext" id="POPUP163995127" style="display:'none'; x-ss-type:dropdown;">
-<p><img src="../Alignment/image038.gif" width="337px" height="198px" border="0" class="img_whs5" alt=""></p>
+<p><img src="../images/image038.gif" width="337px" height="198px" border="0" class="img_whs5" alt=""></p>
 </div>
 <p><span lang="EN-GB">If more than three points are captured, KUBE will fit a plane from the set of the captured points, otherwise the three points will be used to construct the plane. The following information about the resulting plane will be displayed:</span></p>
 <ul>
@@ -140,7 +105,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 </ul>
 <p class="Example" style="text-decoration:underline;"><span lang="EN-GB"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Example</a></span></p>
 <div class="droptext" id="POPUP160330692" style="display:'none'; x-ss-type:dropdown;">
-<p><img src="../Capture_files/capture_plane_3.gif" width="766px" height="150px" border="0" class="img_whs4" alt=""></p>
+<p><img src="../images/capture_plane_3.gif" width="766px" height="150px" border="0" class="img_whs4" alt=""></p>
 </div>
 <ul>
 <li class="kadov-p-CBullet">
@@ -150,7 +115,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p><span lang="EN-GB">After finishing the capture procedure, KUBE will issue a dialog, asking you if you will continue capturing planes.</span></p>
 <p class="Example" style="text-decoration:underline;"><span lang="EN-GB"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2" style="text-decoration:underline;">Example</a></span></p>
 <div class="droptext" id="POPUP160195795" style="display:'none'; x-ss-type:dropdown;">
-<p><img src="../Capture_files/continue.gif" width="766px" height="150px" border="0" class="img_whs4" alt=""></p>
+<p><img src="../images/continue.gif" width="766px" height="150px" border="0" class="img_whs4" alt=""></p>
 </div>
 <ul>
 <li class="kadov-p-CBullet">
@@ -160,7 +125,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="Bullet">&#160;</p>
 <h3><span lang="EN-GB"><a name="Scan_Plane_Wizard"></a>Scan</span> <span lang="EN-US">Plane Wizard</span></h3>
 <p><span lang="EN-GB">When</span> <span lang="EN-GB" class="Path" style="font-style:normal;">Scanning</span> <span class="Path" style="font-style:normal; font-weight:normal;">is selected</span><span lang="EN-GB">, an additional window (which displays the scanned data) will pop-up and the following dialogue will appear:</span></p>
-<p><img src="../Capture_files/scan_plane.gif" width="766px" height="150px" border="0" class="img_whs4" alt=""></p>
+<p><img src="../images/scan_plane.gif" width="766px" height="150px" border="0" class="img_whs4" alt=""></p>
 <ul>
 <li class="kadov-p-CBullet">
 <p class="Bullet"><span lang="EN-GB">Press</span> <span lang="EN-GB" style="font-weight:bold;"><b>'B'</b></span> <span lang="EN-GB">button to start scanning. Scanning is performed as in the normal</span> <span lang="EN-GB" style="text-decoration:underline;"><u>Scan</u></span> <span lang="EN-GB">mode, i.e. after you press</span> <span lang="EN-GB" style="font-weight:bold;"><b>'B'</b></span> <span lang="EN-GB">button KUBE starts capturing a patch and after you press it again KUBE will stop scanning and will enter in</span> <span lang="EN-GB" style="text-decoration:underline;"><u>Pause</u></span> <span lang="EN-GB">mode.</span></p>
@@ -168,7 +133,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 </ul>
 <p class="Example" style="text-decoration:underline;"><span lang="EN-GB"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a7" style="text-decoration:underline;">Example</a></span></p>
 <div class="droptext" id="POPUP159249416" style="display:'none'; x-ss-type:dropdown;">
-<p><img src="../Capture_files/scan_plane1.gif" width="1152px" height="834px" border="0" class="img_whs6" alt=""></p>
+<p><img src="../images/scan_plane1.gif" width="1152px" height="834px" border="0" class="img_whs6" alt=""></p>
 </div>
 <ul>
 <li class="kadov-p-CBullet">
@@ -190,7 +155,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="Note" id="p3"><span style="font-weight:bold;"><b>Note</b></span>: Plane detection is controlled by <span style="font-weight:bold;"><b>Tolerance</b></span> parameter. See <span lang="EN-GB"><a href="../../References/Preferences_-_Datums_-_Detection_Tolerances.htm">System &gt; Preferences &gt; Datums &gt; Detection Tolerances</a></span> <span lang="EN-GB">for details.</span></p>
 <p class="Example" style="text-decoration:underline;"><span lang="EN-GB"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a5" style="text-decoration:underline;">Example</a></span></p>
 <div class="droptext" id="POPUP159391423" style="display:'none'; x-ss-type:dropdown;">
-<p><img src="../Capture_files/scan_plane2.gif" width="1152px" height="834px" border="0" class="img_whs6" alt=""></p>
+<p><img src="../images/scan_plane2.gif" width="1152px" height="834px" border="0" class="img_whs6" alt=""></p>
 </div>
 <ul>
 <li class="kadov-p-CBullet">
@@ -200,49 +165,15 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p><span lang="EN-GB">After finishing the scan procedure, KUBE will issue a dialog, asking you if you will continue scanning planes.</span></p>
 <p class="Example" style="text-decoration:underline;"><span lang="EN-GB"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a6" style="text-decoration:underline;">Example</a></span></p>
 <div class="droptext" id="POPUP159090606" style="display:'none'; x-ss-type:dropdown;">
-<p><img src="../Capture_files/continue.gif" width="766px" height="150px" border="0" class="img_whs4" alt=""></p>
+<p><img src="../images/continue.gif" width="766px" height="150px" border="0" class="img_whs4" alt=""></p>
 </div>
 <ul>
 <li class="kadov-p-CBullet">
 <p class="Bullet"><span lang="EN-GB">Press '</span><span class="Button">A'</span> <span lang="EN-GB">button to exit the capture mode or '</span><span class="Button">B'</span> <span lang="EN-GB">button to continue capturing using</span> <span lang="EN-GB" style="font-weight:bold;"><b>Scanning</b></span> <span lang="EN-GB">method.</span></p>
 </li>
 </ul>
-<p class="Normal" style="text-align:justify;"><span lang="EN-GB"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Capture 2D Line','capture_2d_line.htm','Capture 2D Point','capture_surface_point.htm','Capture Circle','capture_circle.htm','Capture Cone','capture_cone.htm','Capture Cylinder','capture_cylinder.htm','Capture Line','capture_line.htm','Capture Point','capture_point.htm','Capture Rectangular Slot','capture_rectangular_slot.htm','Capture Round Slot','capture_round_slot.htm','Capture Sphere','capture_sphere.htm');return false;" title=""><img src="../../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></span></p>
-<script language="javascript1.2" type="text/javascript">
-<!--
-kadovTextPopupInit('a3','POPUP163995127');
-//-->
-</script><script language="javascript1.2" type="text/javascript">
-<!--
-kadovTextPopupInit('a1','POPUP160330692');
-//-->
-</script><script language="javascript1.2" type="text/javascript">
-<!--
-kadovTextPopupInit('a2','POPUP160195795');
-//-->
-</script><script language="javascript1.2" type="text/javascript">
-<!--
-kadovTextPopupInit('a7','POPUP159249416');
-//-->
-</script><script language="javascript1.2" type="text/javascript">
-<!--
-kadovTextPopupInit('a5','POPUP159391423');
-//-->
-</script><script language="javascript1.2" type="text/javascript">
-<!--
-kadovTextPopupInit('a6','POPUP159090606');
-//-->
-</script><script type="text/javascript" language="JavaScript">
-<!--
-if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
-  WritePopupMenuLayer();
-//-->
-</script><script type="text/javascript" language="javascript1.2">
-<!--
-if (window.writeIntopicBar)
-        writeIntopicBar(0);
-//-->
-</script>
+<p class="Normal" style="text-align:justify;"><span lang="EN-GB"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Capture 2D Line','capture_2d_line.htm','Capture 2D Point','capture_surface_point.htm','Capture Circle','capture_circle.htm','Capture Cone','capture_cone.htm','Capture Cylinder','capture_cylinder.htm','Capture Line','capture_line.htm','Capture Point','capture_point.htm','Capture Rectangular Slot','capture_rectangular_slot.htm','Capture Round Slot','capture_round_slot.htm','Capture Sphere','capture_sphere.htm');return false;" title=""><img src="../images/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></span></p>
+
 <form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B020D0000004361707475726520506C616E650C0207000000436170747572650D020D0000004361707475726520506C616E6511020D000000446174756D204361707475726512020D0000004361707475726520506C616E651302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
 </body>
 </html>

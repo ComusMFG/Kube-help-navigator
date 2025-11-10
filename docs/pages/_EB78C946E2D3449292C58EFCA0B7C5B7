@@ -5,13 +5,8 @@
 <title>Alignment Preparation</title>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
-<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
-<script type="text/javascript" language="JavaScript">
-<!--
-if (navigator.appName !="Netscape")
-{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.whs1 { width:100%; }
@@ -26,85 +21,45 @@ img_whs9 { border:none; width:763px; height:538px; float:none; border-style:none
 -->
 </style>
 
-<script type="text/javascript" language="JavaScript">
-<!--
-if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
-{
-  var strNSS = "<style type='text/css'>";
-  strNSS += "p.whs6 {margin-left:1pt; }";
-  strNSS +="<\/style>";
-  document.write(strNSS);
-}
-//-->
-</script>
-<script type="text/javascript" language="JavaScript">
-<!--
-function reDo() {
-  if (innerWidth != origWidth || innerHeight != origHeight)
-     location.reload();
-}
-if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
-        origWidth = innerWidth;
-        origHeight = innerHeight;
-        onresize = reDo;
-}
-onerror = null; 
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
 -->
 </style>
 
-<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
-</script>
-<script type="text/javascript" language="javascript" src="../../whver.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
-</script>
+
+
+
+
+
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body lang="BG">
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.gbWhTopic)
-{
-        if (window.addTocInfo)
-        {
-        addTocInfo("KUBE\nScanning\nSystem Set-Up\nAlignment\nAlignment Preparation");
-addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+<body>
+    <a href="../index.html" class="back-to-index">â† Back to Index</a>
 
-        }
-        if (window.writeBtnStyle)
-                writeBtnStyle();
 
-        if (window.writeIntopicBar)
-                writeIntopicBar(1);
-
-        if (window.setRelStartPage)
-        {
-        setRelStartPage("../../KUBE_Help.htm");
-addSearchFormHref("javascript:document.ehelpform.submit()");
-
-                autoSync(1);
-                sendSyncInfo();
-                sendAveInfoOut();
-        }
-}
-else
-        if (window.gbIE4)
-                document.location.reload();
-//-->
-</script><script type="text/javascript" language="JavaScript1.2" src="../../ehlpdhtm.js">
-</script><script type="text/javascript" language="JavaScript1.2">
-<!-- 
-if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
- //-->
-</script>
 <div id="header" class="whs1">
 <p align="right" class="whs2">&#160;</p>
 </div>
@@ -144,7 +99,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="Warning">In case when sphere qualification procedure will be followed, a certified sphere should be mounted instead of alignment block.</p>
 <ul>
 <li class="kadov-p-Cbullet">
-<p class="bullet">The block should be mounted in the position shown in the diagram. The distance between localiser and block will depend on the localiser type. For an 8' FARO arm it is approximately 500mm (±50mm).</p>
+<p class="bullet">The block should be mounted in the position shown in the diagram. The distance between localiser and block will depend on the localiser type. For an 8' FARO arm it is approximately 500mm (50mm).</p>
 </li>
 </ul>
 <p class="Normal" style="margin-left:40px;"><span lang="EN-US"><img id="_x0000_i1029" src="arm_cube.jpg" width="320px" height="178px" border="0" class="img_whs5" alt="">&#160;</span></p>
@@ -183,7 +138,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="bullet">Use correct versions of K-Interface and K-CMM for particular KUBE version.</p>
 </li>
 <li class="kadov-p-Cbullet">
-<p class="bullet">Respect warm-up times for both sensor (for MM X/Y/Z/C it is 30 minutes) and Kx00 camera (30min + 1h per 10° temperature difference with environmental temperature).</p>
+<p class="bullet">Respect warm-up times for both sensor (for MM X/Y/Z/C it is 30 minutes) and Kx00 camera (30min + 1h per 10 temperature difference with environmental temperature).</p>
 </li>
 <li class="kadov-p-Cbullet">
 <p class="bullet">Have calibration file for the sensor loaded in KUBE.</p>
@@ -208,11 +163,11 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 </ul>
 <p class="Example" style="text-decoration:underline;"><span lang="EN-GB"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Alignment block on the K-Reference tripod</a></span></p>
 <div class="droptext" id="POPUP247100725" style="display:'none'; x-ss-type:dropdown;">
-<p class="whs6"><img src="Alignment_files/tripod1.gif" width="838px" height="694px" border="0" class="img_whs7" alt=""></p>
+<p class="whs6"><img src="../images/tripod1.gif" width="838px" height="694px" border="0" class="img_whs7" alt=""></p>
 </div>
 <p class="Example" style="text-decoration:underline;"><span lang="EN-GB"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2" style="text-decoration:underline;">Mounting the alignment block on the K-Reference tripod</a></span></p>
 <div class="droptext" id="POPUP172006894" style="display:'none'; x-ss-type:dropdown;">
-<p class="whs6"><img src="Alignment_files/Cube-tripod.gif" width="601px" height="567px" border="0" class="img_whs8" alt=""></p>
+<p class="whs6"><img src="../images/Cube-tripod.gif" width="601px" height="567px" border="0" class="img_whs8" alt=""></p>
 </div>
 <ul>
 <li class="kadov-p-Cbullet">
@@ -221,27 +176,10 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 </ul>
 <p class="Example" style="text-decoration:underline;"><span lang="EN-GB"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a3" style="text-decoration:underline;">Alignment block on a table</a></span></p>
 <div class="droptext" id="POPUP245869879" style="display:'none'; x-ss-type:dropdown;">
-<p class="whs6"><img src="Alignment_files/table1.gif" width="763px" height="538px" border="0" class="img_whs9" alt=""></p>
+<p class="whs6"><img src="../images/table1.gif" width="763px" height="538px" border="0" class="img_whs9" alt=""></p>
 </div>
 <p>&#160;</p>
-<script language="javascript1.2" type="text/javascript">
-<!--
-kadovTextPopupInit('a1','POPUP247100725');
-//-->
-</script><script language="javascript1.2" type="text/javascript">
-<!--
-kadovTextPopupInit('a2','POPUP172006894');
-//-->
-</script><script language="javascript1.2" type="text/javascript">
-<!--
-kadovTextPopupInit('a3','POPUP245869879');
-//-->
-</script><script type="text/javascript" language="javascript1.2">
-<!--
-if (window.writeIntopicBar)
-        writeIntopicBar(0);
-//-->
-</script>
+
 <form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0C0205010000416C69676E6D656E740A416C69676E6D656E7409416C69676E6D656E74205072657061726174696F6E0A43616C6962726174696F6E0A446F776E0A4641524F0A46617374205363616E6E696E670A46726F6E740A4B2D434D4D0A4C617365720A4C6173657220506F7765720A4C696768740A6C6F63616C697365720A6C6F63616C69736572094C6F63616C6973657220506572666F726D616E636520436865636B0A4D6561737572650A4D4D440A4D4D580A4D4D590A4D4D5A0A4D6F64656C4D616B65720A4F7074696D6973650A506572666F726D616E63650A506572666F726D616E636520436865636B0A506C616E650A50726F62650A53656E736F720A53797374656D0D0215000000416C69676E6D656E74205072657061726174696F6E110209000000416C69676E6D656E74120215000000416C69676E6D656E74205072657061726174696F6E1302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
 </body>
 </html>

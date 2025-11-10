@@ -4,7 +4,7 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
-<base target="bsscright">
+
 <style>
 <!--
 body {margin-left:1pt; margin-top:1pt; margin-right:1pt;font-family:Arial; font-size:9pt;}
@@ -34,8 +34,31 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 body {background-color:#9ea0a3; } 
 -->
 </style>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body marginheight="0"  marginwidth="0" bgproperties="fixed">
+<body>
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
+
 
 <p class="ftsheader"><a name="subkey_G"></a> <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a> <a href="whlstf23.htm#bm_G" target="ftslist" title="search letter G "><b>G </b></a> <a href="whlstf23.htm#bms_GA" target="ftslist" title="search letter GA"><b>GA</b></a> <a href="whlstf23.htm#bms_GB" target="ftslist" title="search letter GB"><b>GB</b></a> <a href="whlstf23.htm#bms_GD" target="ftslist" title="search letter GD"><b>GD</b></a> <a href="whlstf23.htm#bms_GE" target="ftslist" title="search letter GE"><b>GE</b></a> <a href="whlstf24.htm#bms_GI" target="ftslist" title="search letter GI"><b>GI</b></a> <a href="whlstf24.htm#bms_GL" target="ftslist" title="search letter GL"><b>GL</b></a> <a href="whlstf24.htm#bms_GO" target="ftslist" title="search letter GO"><b>GO</b></a> <a href="whlstf24.htm#bms_GR" target="ftslist" title="search letter GR"><b>GR</b></a> <a href="whlstf25.htm#bms_GT" target="ftslist" title="search letter GT"><b>GT</b></a> <a href="whlstf25.htm#bms_GU" target="ftslist" title="search letter GU"><b>GU</b></a>  <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a></p>
 

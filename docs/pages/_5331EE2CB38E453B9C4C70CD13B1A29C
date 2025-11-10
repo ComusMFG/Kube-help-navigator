@@ -5,13 +5,8 @@
 <title>Rotate and Translate</title>
 <meta http-equiv="content-type" content="text/html; charset=windows-1252">
 <meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
-<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
-<script type="text/javascript" language="JavaScript">
-<!--
-if (navigator.appName !="Netscape")
-{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.whs1 { width:100%; }
@@ -21,71 +16,45 @@ img_whs4 { border:none; width:220px; height:515px; float:none; border-style:none
 -->
 </style>
 
-<script type="text/javascript" language="JavaScript" src="../ehlpdhtm.js">
-</script>
-<script type="text/javascript" language="JavaScript">
-<!--
-function reDo() {
-  if (innerWidth != origWidth || innerHeight != origHeight)
-     location.reload();
-}
-if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
-        origWidth = innerWidth;
-        origHeight = innerHeight;
-        onresize = reDo;
-}
-onerror = null; 
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
 -->
 </style>
 
-<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
-</script>
-<script type="text/javascript" language="javascript" src="../whver.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whutils.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
-</script>
+
+
+
+
+
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.gbWhTopic)
-{
-        if (window.addTocInfo)
-        {
-        addTocInfo("KUBE\nWorking with Data\nCo-ordinate Systems\nRotate & Translate");
-addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+    <a href="../index.html" class="back-to-index">â† Back to Index</a>
 
-        }
-        if (window.writeBtnStyle)
-                writeBtnStyle();
 
-        if (window.writeIntopicBar)
-                writeIntopicBar(1);
-
-        if (window.setRelStartPage)
-        {
-        setRelStartPage("../KUBE_Help.htm");
-addSearchFormHref("javascript:document.ehelpform.submit()");
-
-                autoSync(1);
-                sendSyncInfo();
-                sendAveInfoOut();
-        }
-}
-else
-        if (window.gbIE4)
-                document.location.reload();
-//-->
-</script>
 <div id="header" class="whs1">
 <p align="right" class="whs2">&#160;</p>
 </div>
@@ -94,15 +63,15 @@ else
 <p><span lang="EN-GB">This command is accessible from the</span> <span class="Path" style="font-weight:bold;"><b>Registration &gt; Rotate and Translate</b></span>.</p>
 <p class="description"><span lang="EN-GB" class="Command" style="font-weight:bold;"><b>Description:</b></span> <span class="Command">Rotate and Translate</span> <span lang="EN-GB">command offers possibility for manual adjustment of entity position. The command works with whole entities - no matter if these are entirely or partially selected.</span></p>
 <p><span lang="EN-GB">Select an entity or part of it and call</span> <span class="Command">Rotate and Translate</span><span lang="EN-GB" style="font-weight:bold;"><b>.</b></span> <span lang="EN-GB">The following dialog will appear:</span></p>
-<p><img src="Images/rotate_and_translate.gif" width="220px" height="515px" border="0" class="img_whs4" alt=""></p>
+<p><img src="../images/rotate_and_translate.gif" width="220px" height="515px" border="0" class="img_whs4" alt=""></p>
 <p class="parameterstitle"><span style="font-weight:bold;"><b>Reference</b></span></p>
 <p class="parameterdescription">I<span lang="EN-GB">t is used for defining the rotation and translation axis:</span></p>
 <ul>
 <li class="kadov-p-Cbullet">
-<p class="bullet"><span lang="EN-GB"><b style="font-weight:bold;">World</b> – the axes of the global co-ordinate system.</span></p>
+<p class="bullet"><span lang="EN-GB"><b style="font-weight:bold;">World</b>  the axes of the global co-ordinate system.</span></p>
 </li>
 <li class="kadov-p-Cbullet">
-<p class="bullet"><span lang="EN-GB"><b style="font-weight:bold;">Viewport</b> – the axes of the viewport.</span></p>
+<p class="bullet"><span lang="EN-GB"><b style="font-weight:bold;">Viewport</b>  the axes of the viewport.</span></p>
 </li>
 </ul>
 <p class="Note" id="p3"><span lang="EN-GB"><b style="font-weight:bold;">Note:</b> <span lang="EN-GB" style="font-weight:normal;">If there is an active alignment in the document, the axes of the global co-ordinate system will coincide with the axes of the active alignment (world reference).</span></span></p>
@@ -111,25 +80,25 @@ else
 <p class="parameterdescription">It is used for defining the centre of rotation:</p>
 <ul>
 <li class="kadov-p-Cbullet">
-<p class="bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Selection extents' centre</b></span> <span lang="EN-GB">– this is the point, which is located in the middle of entity’s extents.</span></p>
+<p class="bullet"><span lang="EN-GB" style="font-weight:bold;"><b>Selection extents' centre</b></span> <span lang="EN-GB"> this is the point, which is located in the middle of entitys extents.</span></p>
 </li>
 <li class="kadov-p-Cbullet">
-<p class="bullet"><span lang="EN-GB"><b style="font-weight:bold;">Centre view</b> – this is the point, which is located in the centre of view.</span></p>
+<p class="bullet"><span lang="EN-GB"><b style="font-weight:bold;">Centre view</b>  this is the point, which is located in the centre of view.</span></p>
 </li>
 <li class="kadov-p-Cbullet">
-<p class="bullet"><span lang="EN-GB"><b style="font-weight:bold;">Point (pick point)</b> – when you pick a point, KUBE gets the closest datum point or vertex to the place you picked to.</span></p>
+<p class="bullet"><span lang="EN-GB"><b style="font-weight:bold;">Point (pick point)</b>  when you pick a point, KUBE gets the closest datum point or vertex to the place you picked to.</span></p>
 </li>
 <li class="kadov-p-Cbullet">
-<p class="bullet"><span lang="EN-GB"><b style="font-weight:bold;">Datum point</b> – select a datum point from the drop-down list.</span></p>
+<p class="bullet"><span lang="EN-GB"><b style="font-weight:bold;">Datum point</b>  select a datum point from the drop-down list.</span></p>
 </li>
 <li class="kadov-p-Cbullet">
-<p class="bullet"><span lang="EN-GB"><b style="font-weight:bold;">Line (pick two points)</b> – when you pick two points, KUBE gets the closest datum points or vertices to the places you picked to and defines a rotation axis. In this case all sliders work in the same way – the rotation is around the defined line.</span></p>
+<p class="bullet"><span lang="EN-GB"><b style="font-weight:bold;">Line (pick two points)</b>  when you pick two points, KUBE gets the closest datum points or vertices to the places you picked to and defines a rotation axis. In this case all sliders work in the same way  the rotation is around the defined line.</span></p>
 </li>
 <li class="kadov-p-Cbullet">
-<p class="bullet"><span lang="EN-GB"><b style="font-weight:bold;">Datum line</b> – select a datum line from the drop-down list. In this case all sliders work in the same way – the rotation is around the selected line.</span></p>
+<p class="bullet"><span lang="EN-GB"><b style="font-weight:bold;">Datum line</b>  select a datum line from the drop-down list. In this case all sliders work in the same way  the rotation is around the selected line.</span></p>
 </li>
 <li class="kadov-p-Cbullet">
-<p class="bullet"><span lang="EN-GB"><b style="font-weight:bold;">Origin</b> – this is the point, which is in the origin of the co-ordinate system (with co-ordinates 0, 0, 0).</span></p>
+<p class="bullet"><span lang="EN-GB"><b style="font-weight:bold;">Origin</b>  this is the point, which is in the origin of the co-ordinate system (with co-ordinates 0, 0, 0).</span></p>
 </li>
 </ul>
 <p class="Note" id="p2"><span lang="EN-GB"><b style="font-weight:bold;">Note:</b> <span lang="EN-GB" style="font-weight:normal;">If there is an active alignment in the document, the axes of the origin co-ordinate system will coincide with the axes of the active alignment (origin reference).</span></span></p>
@@ -156,18 +125,8 @@ else
 <p class="parameterdescription"><span lang="EN-GB">Sets a new home position;</span></p>
 <p class="parameterstitle"><span lang="EN-GB"><b style="font-weight:bold;">Go to</b></span></p>
 <p class="parameterdescription"><span lang="EN-GB">Discards any rotations and translations and returns the entity in its home position.</span></p>
-<p><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Align Entities','align_entities.htm','Mouse Operations','../User_Interface/Mouse_Operations.htm','Register','Register.htm','Scroll Bars','../User_Interface/Scroll_Bars.htm');return false;" title=""><img src="../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></p>
-<script type="text/javascript" language="JavaScript">
-<!--
-if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
-  WritePopupMenuLayer();
-//-->
-</script><script type="text/javascript" language="javascript1.2">
-<!--
-if (window.writeIntopicBar)
-        writeIntopicBar(0);
-//-->
-</script>
+<p><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Align Entities','align_entities.htm','Mouse Operations','../User_Interface/Mouse_Operations.htm','Register','Register.htm','Scroll Bars','../User_Interface/Scroll_Bars.htm');return false;" title=""><img src="../images/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></p>
+
 <form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B0214000000526F7461746520616E64205472616E736C6174650C0291000000416C69676E6D656E740A4170706C790A446174756D204C696E650A446174756D20706F696E740A446174756D696E670A446566696E650A446566696E65204C696E650A456E7469746965730A4C696E650A4E65770A526567697374726174696F6E0A526F746174650A536176650A53656C6563740A53656C656374696F6E0A53797374656D0A5472616E736C6174696F6E0D0214000000526F7461746520616E64205472616E736C617465110213000000436F2D6F7264696E6174652053797374656D73120212000000526F746174652026205472616E736C6174651302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
 </body>
 </html>

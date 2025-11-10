@@ -4,7 +4,7 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
-<base target="bsscright">
+
 <style>
 <!--
 body {margin-left:1pt; margin-top:1pt; margin-right:1pt;font-family:Arial; font-size:9pt;}
@@ -29,8 +29,31 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 
 -->
 </style>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body marginheight="0"  marginwidth="0" bgproperties="fixed">
+<body>
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
+
 <p class="ftsbody" align="center"><a href="whlstf24.htm" target="_self" title="previous search group"><b>&lt;&lt;</b></a><br><br></p>
 <p class="ftsbody" style="white-space:nowrap;">
 <a name="bms_GT"></a><a name="subkey_GT"></a><a href="../Inspection_Mode/References/xml_template.htm"><b>gt</b></a> <br><a href="../Troubleshooting/pc_requirements.htm"><b>gts</b></a> <br><a name="bms_GU"></a><a name="subkey_GU"></a><a href="../Corrosion/Inspection_Corrosion.htm"><b>gu</b></a> <br><a href="../Corrosion/Inspection_Corrosion.htm"><b>guess</b></a> <br><a href="../Scanning/Alignment/sphere_alignment_procedure.htm"><b>gui</b></a> <br>guide <a href="../Scanning/Hardware/MMZ/Mounting_On_FARO_Platinum.htm"><b>1</b></a> <a href="../Scanning/Localiser/CimCore/cimcore_arm_set-up.htm"><b>2</b></a> <a href="../KUBE_help/Introduction_KUBEHelp.htm"><b>3</b></a> <a href="../User_Interface/Scan_Pane_(Arm_Menu).htm"><b>4</b></a> <a href="../Scanning/Alignment/Alignment_Procedure.htm"><b>5</b></a> <br><a href="../Scanning/Probe_Calibration/Localiser_Probe_Calibration_-_Metris_MCA.htm"><b>guided</b></a> <br><a href="../Troubleshooting/technical_support.htm"><b>guides</b></a> <br>guiding <a href="../Scanning/Hardware/MMD/Settings/Hardware_Settings_-_Scan_Mode_Tab.htm"><b>1</b></a> <a href="../Scanning/Probe_Calibration/Localiser_Probe_Calibration_-_Metris_MCA.htm"><b>2</b></a> <a href="../Scanning/Hardware/MMC/Settings/Hardware_Settings_-_Scan_Mode_Tab_MMC.htm"><b>3</b></a> <br>gun <a href="../Scanning/Scanning/Multisite/multisite_scanning_procedure.htm"><b>1</b></a> <a href="../Scanning/Scanning/Multisite/Multisite_Scanning_Preparation.htm"><b>2</b></a> <br>

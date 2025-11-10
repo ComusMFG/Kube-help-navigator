@@ -4,7 +4,7 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
-<base target="bsscright">
+
 <style>
 <!--
 body {margin-left:1pt; margin-top:1pt; margin-right:1pt;font-family:Arial; font-size:9pt;}
@@ -29,8 +29,31 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 
 -->
 </style>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body marginheight="0"  marginwidth="0" bgproperties="fixed">
+<body>
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
+
 <p class="ftsbody" align="center"><a href="whlstf65.htm" target="_self" title="previous search group"><b>&lt;&lt;</b></a><br><br></p>
 <p class="ftsbody" style="white-space:nowrap;">
 <a name="bms_VO"></a><a name="subkey_VO"></a>voice <a href="../Scanning/Hardware/MMD/mm_hardware_assembly.htm"><b>1</b></a> <a href="../Scanning/Hardware/MMX/mm_hardware_assembly.htm"><b>2</b></a> <a href="../Scanning/Hardware/MMX/accessories_MMX.htm"><b>3</b></a> <a href="../Scanning/Hardware/MMZ/mm_hardware_assembly.htm"><b>4</b></a> <a href="../Scanning/Hardware/MMX/voice_control_microphone.htm"><b>5</b></a> <a href="../User_Interface/Scan_Pane_(Arm_Menu).htm"><b>6</b></a> <a href="../References/Preferences_-_Audio.htm"><b>7</b></a> <br>void <a href="../Corrosion/Merging_Corrosion.htm"><b>1</b></a> <a href="../Inspection_Mode/References/Export_3D_Points.htm"><b>2</b></a> <br><a href="../Corrosion/Merging_Corrosion.htm"><b>voided</b></a> <br><a href="../Macros/Commands/Export3DPts.htm"><b>voids</b></a> <br><a href="../Macros/Special_Symbols_and_Abbreviations.htm"><b>vol</b></a> <br>volsmp <a href="../Macros/macro_commands.htm"><b>1</b></a> <a href="../Macros/Commands/VolSmp.htm"><b>2</b></a> <br><a href="../Scanning/Hardware/MMZ/Settings/Hardware_Settings_-_Sensor_Tab_MMZ.htm"><b>voltage</b></a> <br>volume <a href="../References/Export_Entities.htm"><b>1</b></a> <a href="../References/index_of_commands.htm"><b>2</b></a> <a href="../Macros/Commands/3DSmp.htm"><b>3</b></a> <a href="../User_Interface/scan_data_menu.htm"><b>4</b></a> <a href="../User_Interface/mesh_menu.htm"><b>5</b></a> <a href="../Working_with_Data/Descriptions/entity_types.htm"><b>6</b></a> <a href="../Working_with_Data/Descriptions/processing_meshes.htm"><b>7</b></a> <a href="../Macros/macro_commands.htm"><b>8</b></a> <a href="../Macros/Commands/VolSmp.htm"><b>9</b></a> <a href="../References/Volume_3D_Sampling_Scan_Data.htm"><b>10</b></a> <a href="../References/volume_3d_sampling_Mesh.htm"><b>11</b></a> <a href="../Macros/Special_Symbols_and_Abbreviations.htm"><b>12</b></a> <br><a href="../References/New_Point.htm"><b>volumetric</b></a> <br><a href="../References/merge.htm"><b>voxels</b></a> <br><a name="bms_VX"></a><a name="subkey_VX"></a>vxx <a href="../Troubleshooting/Hardware/ModelMaker_Y-Z_Installation_Troubleshooting.htm"><b>1</b></a> <a href="../KUBE_help/How_to_Use_KUBE_Help.htm"><b>2</b></a> <br>

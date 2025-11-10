@@ -5,13 +5,8 @@
 <title>Sphere Alignment Procedure</title>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
-<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
-<script type="text/javascript" language="JavaScript">
-<!--
-if (navigator.appName !="Netscape")
-{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 body { background-color:#ffffff; }
@@ -38,82 +33,45 @@ ol.whs11 { list-style:decimal; margin-top:0in; }
 -->
 </style>
 
-<script type="text/javascript" language="JavaScript">
-<!--
-if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
-{
-  var strNSS = "<style type='text/css'>";
-  strNSS += "ol.whs4 {margin-top:1pt; }";
-  strNSS += "ol.whs7 {margin-top:1pt; }";
-  strNSS += "ul.whs11 {margin-top:1pt; }";
-  strNSS +="<\/style>";
-  document.write(strNSS);
-}
-//-->
-</script>
-<script type="text/javascript" language="JavaScript">
-<!--
-function reDo() {
-  if (innerWidth != origWidth || innerHeight != origHeight)
-     location.reload();
-}
-if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
-        origWidth = innerWidth;
-        origHeight = innerHeight;
-        onresize = reDo;
-}
-onerror = null; 
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
 -->
 </style>
 
-<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
-</script>
-<script type="text/javascript" language="javascript" src="../../whver.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
-</script>
+
+
+
+
+
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body lang="BG" style="line-break:strict;">
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.gbWhTopic)
-{
-        if (window.addTocInfo)
-        {
-        addTocInfo("KUBE\nScanning\nSystem Set-Up\nAlignment\nSphere Alignment Procedure");
-addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+<body>
+    <a href="../index.html" class="back-to-index">â† Back to Index</a>
 
-        }
-        if (window.writeBtnStyle)
-                writeBtnStyle();
 
-        if (window.writeIntopicBar)
-                writeIntopicBar(1);
-
-        if (window.setRelStartPage)
-        {
-        setRelStartPage("../../KUBE_Help.htm");
-addSearchFormHref("javascript:document.ehelpform.submit()");
-
-                autoSync(1);
-                sendSyncInfo();
-                sendAveInfoOut();
-        }
-}
-else
-        if (window.gbIE4)
-                document.location.reload();
-//-->
-</script>
 <div id="header" class="whs1">
 <p align="right" class="whs2">&#160;</p>
 </div>
@@ -200,7 +158,7 @@ else
 <p class="steps"><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">The stripe counter starts increasing the number of captured stripes. When this number exceeds 12, the current quadrant and the stripes number will be coloured in green. The patch is captured successfully.</font></span></p>
 </li>
 <li style="font-size:10.0pt; font-family:Arial;" class="kadov-p-Csteps">
-<p class="steps" style="font-size:10.0pt; font-family:Arial;">If the scan is successful then ignore the „Remove last patch“ message by pressing B button again. If you need to repeat the same scan, then confirm the Remove last patch“ message and capture the data once again.</p>
+<p class="steps" style="font-size:10.0pt; font-family:Arial;">If the scan is successful then ignore the Remove last patch message by pressing B button again. If you need to repeat the same scan, then confirm the Remove last patch message and capture the data once again.</p>
 </li>
 <li style="font-size:10.0pt; font-family:Arial;" class="kadov-p-Csteps">
 <p class="steps"><span lang="EN-US"><span style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">Follow steps 4 to 6 for the 4 quadrants in all 3 directions.</font></span></span></p>
@@ -378,12 +336,7 @@ This leads to 4 additional scan patches</font></span></span></p>
 </li>
 </ol>
 <p class="BodyText" style="margin-left:42.55pt; text-indent:-14.2pt;">&#160;</p>
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.writeIntopicBar)
-        writeIntopicBar(0);
-//-->
-</script>
+
 <form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0C0229010000416C69676E6D656E740A416C69676E6D656E7409416C69676E6D656E742050726F6365647572650A4170706C790A4261636B0A436170747572650A436972636C650A434F4D0A446973706C61790A446973706C617920436F6D6D616E642077696E646F770A456469740A464F560A48617264776172650A4C617365720A4C6173657220506F7765720A4C6566740A4C696E650A6C6F63616C697365720A6D6163726F20636F6D6D616E64730A4D6163726F730A4D6561737572650A506172616D65746572730A50617463680A506572666F726D616E63650A506C616E650A52696768740A536176650A5363616E0A53656E736F720A53706865726520416C69676E6D656E742050726F6365647572650A737464206465760A546F6F6C6261720A56696577204D656E750D021A00000053706865726520416C69676E6D656E742050726F636564757265110209000000416C69676E6D656E7412021A00000053706865726520416C69676E6D656E742050726F6365647572651302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
 </body>
 </html>

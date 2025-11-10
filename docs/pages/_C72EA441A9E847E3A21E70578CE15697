@@ -1,50 +1,36 @@
 
 <html>
 <head>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<script type="text/javascript" language="javascript" src="whver.js"></script>
-<script type="text/javascript" language="javascript" src="whutils.js"></script>
-<script type="text/javascript" language="javascript" src="whmsg.js"></script>
-<script type="text/javascript" language="javascript" >
-<!--
-if (!window.gbWhVer||!window.gbWhUtil||!window.gbWhMsg)
-	document.location.reload();
-//-->
-</script>
-
-<script type="text/javascript" language="javascript" src="whproxy.js"></script>
-<script type="text/javascript" language="javascript">
-<!--
-if (!window.gbWhProxy)
-	document.location.reload();
-//-->
-</script>
 
 
-<script language="javascript">
-<!--
-var gsPane="";
-var gnType=3;
 
-var oMsgPane = new whMessage(WH_MSG_GETPANETYPE, this, 1, null);
-if (SendMessage(oMsgPane))
-{
-	gsPane = oMsgPane.oParam.sPaneURL;
-	gnType = oMsgPane.oParam.nType;
-}
-var strHTML = "";
-if (gnType == 4)
-{
-	//no navipane at all
-	strHTML += "<frameset border=\"0\" cols=\"100%,*\">";
-	strHTML += "<frame src='whskin_mbars.htm' id='minibar' frameborder='0' border='0' scrolling='no' marginheight='0' title='Mini Toolbar'></frame>";
-	strHTML += "<frame src=\"whskin_blank.htm\" noresize>";
-	strHTML += "</frameset>";
-}
-else
-	strHTML += "<frameset rows=\"25,*\" hostof=\"parent:minibar|navpane!startpage:no\" frameborder=\"0\" border=\"0\"><frame src=\"whskin_mbars.htm\" id=\"minibar\" frameborder=\"0\" border=\"0\" scrolling=\"no\" marginheight=\"0\" title=\"Mini Toolbar\"></frame><frame src=\""+gsPane+"\" id=\"navpane\" frameborder=\"0\" border=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" title=\"Navigator Pane\"></frame></frameset>";
 
-document.write(strHTML);
-//-->
-</script>
+
+
+
+
+
+
 </html>

@@ -5,13 +5,8 @@
 <title>Measure Context Menus</title>
 <meta http-equiv="content-type" content="text/html; charset=windows-1252">
 <meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
-<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
-<script type="text/javascript" language="JavaScript">
-<!--
-if (navigator.appName !="Netscape")
-{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.whs1 { width:100%; }
@@ -60,69 +55,44 @@ img_whs43 { border:none; float:none; width:23px; height:16px; border-style:none;
 -->
 </style>
 
-<script type="text/javascript" language="JavaScript">
-<!--
-function reDo() {
-  if (innerWidth != origWidth || innerHeight != origHeight)
-     location.reload();
-}
-if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
-        origWidth = innerWidth;
-        origHeight = innerHeight;
-        onresize = reDo;
-}
-onerror = null; 
-//-->
-</script>
+
 <style type="text/css">
 <!--
 div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
 -->
 </style>
 
-<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
-</script>
-<script type="text/javascript" language="javascript" src="../whver.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whutils.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
-</script>
+
+
+
+
+
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.gbWhTopic)
-{
-        if (window.addTocInfo)
-        {
-        addTocInfo("KUBE\nWorking with Data\nMeasurements\nMeasure Context Menus");
-addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
 
-        }
-        if (window.writeBtnStyle)
-                writeBtnStyle();
 
-        if (window.writeIntopicBar)
-                writeIntopicBar(1);
-
-        if (window.setRelStartPage)
-        {
-        setRelStartPage("../KUBE_Help.htm");
-addSearchFormHref("javascript:document.ehelpform.submit()");
-
-                autoSync(1);
-                sendSyncInfo();
-                sendAveInfoOut();
-        }
-}
-else
-        if (window.gbIE4)
-                document.location.reload();
-//-->
-</script>
 <div id="header" class="whs1">
 <p align="right" class="whs2">&#160;</p>
 </div>
@@ -136,7 +106,7 @@ else
 <p>&#160;</p>
 <p class="sub-head"><a name="Tree_labels"></a>Tree context Menu for Labels</p>
 <p><span style="font-weight:bold;"><b>Put Label</b></span> and <span style="font-weight:bold;"><b>Remove Label</b></span> commands are available for every datum entity and for the Datuming group from the Entities tree.</p>
-<p><img src="../Measure/Measure_Menu_files/Tree_context_labels.gif" width="138px" height="366px" border="0" class="img_whs4" alt=""></p>
+<p><img src="../images/Tree_context_labels.gif" width="138px" height="366px" border="0" class="img_whs4" alt=""></p>
 <table cellspacing="0" width="806" class="whs5">
 <col class="whs6">
 <col class="whs7">
@@ -160,7 +130,7 @@ else
 <p class="normal-table">Creates labels for the selected datum entities.</p>
 </td>
 <td width="9.375%" class="whs15">
-<p class="normal-table"><a href="../References/Put_Label.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs16" alt=""></a></p>
+<p class="normal-table"><a href="../References/Put_Label.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs16" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs9">
@@ -171,14 +141,14 @@ else
 <p class="normal-table">Removes labels for the selected datum entities.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs15">
-<p class="normal-table"><a href="../References/remove_label.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs16" alt=""></a></p>
+<p class="normal-table"><a href="../References/remove_label.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs16" alt=""></a></p>
 </td>
 </tr>
 </table>
 <p>&#160;</p>
 <p class="sub-head"><a name="Viewport_Labels"></a>Viewport Context Menu for Labels</p>
 <p>Viewport context menu for labels is available when right-click on a label on the viewport.</p>
-<p><img src="../Measure/Measure_Menu_files/Viewport_context_labels.gif" width="139px" height="82px" border="0" class="img_whs18" alt=""></p>
+<p><img src="../images/Viewport_context_labels.gif" width="139px" height="82px" border="0" class="img_whs18" alt=""></p>
 <table cellspacing="0" width="806" class="whs19">
 <col class="whs20">
 <col class="whs21">
@@ -202,7 +172,7 @@ else
 <p class="normal-table">Deletes the current label.</p>
 </td>
 <td width="9.375%" class="whs15">
-<p class="normal-table"><a href="../References/Delete_Label.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs16" alt=""></a></p>
+<p class="normal-table"><a href="../References/Delete_Label.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs16" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs9">
@@ -213,7 +183,7 @@ else
 <p class="normal-table">Formats the current label.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs15">
-<p class="normal-table"><a href="../References/format_(labels).htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs16" alt=""></a></p>
+<p class="normal-table"><a href="../References/format_(labels).htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs16" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs9">
@@ -224,14 +194,14 @@ else
 <p class="normal-table">Deletes all labels in the scene.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs15">
-<p class="normal-table"><a href="../References/Delete_All_Labels.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs16" alt=""></a></p>
+<p class="normal-table"><a href="../References/Delete_All_Labels.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs16" alt=""></a></p>
 </td>
 </tr>
 </table>
 <p>&#160;</p>
 <p class="sub-head"><a name="Viewport_Dimensions"></a>Viewport Context Menu for Dimensions</p>
 <p>Viewport context menu for dimensions is available when right-click on a dimension on the viewport.</p>
-<p><img src="../Measure/Measure_Menu_files/Viewport_context_dimensions.gif" width="162px" height="82px" border="0" class="img_whs27" alt=""></p>
+<p><img src="../images/Viewport_context_dimensions.gif" width="162px" height="82px" border="0" class="img_whs27" alt=""></p>
 <table cellspacing="0" width="804" class="whs28">
 <col class="whs29">
 <col class="whs30">
@@ -255,7 +225,7 @@ else
 <p class="normal-table">Deletes the current dimension.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs15">
-<p class="normal-table"><a href="../References/Delete_Dimension.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs16" alt=""></a></p>
+<p class="normal-table"><a href="../References/Delete_Dimension.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs16" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs9">
@@ -266,7 +236,7 @@ else
 <p class="normal-table">Formats the current dimension.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs15">
-<p class="normal-table"><a href="../References/Modify_(Dimensions).htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs16" alt=""></a></p>
+<p class="normal-table"><a href="../References/Modify_(Dimensions).htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs16" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs9">
@@ -277,14 +247,14 @@ else
 <p class="normal-table">Deletes all dimensions in the scene.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs15">
-<p class="normal-table"><a href="../References/delete_all_dimensions.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs16" alt=""></a></p>
+<p class="normal-table"><a href="../References/delete_all_dimensions.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs16" alt=""></a></p>
 </td>
 </tr>
 </table>
 <p>&#160;</p>
 <p class="sub-head"><a name="Viewport_GapFlush"></a>Viewport Context Menu for Gap and Flush</p>
 <p>Viewport context menu for Gap and Flush is available when right-click on a Gap and Flush dimension on the viewport.</p>
-<p><img src="../Measure/Measure_Menu_files/Viewport_context_GapFlush.gif" width="177px" height="82px" border="0" class="img_whs35" alt=""></p>
+<p><img src="../images/Viewport_context_GapFlush.gif" width="177px" height="82px" border="0" class="img_whs35" alt=""></p>
 <table cellspacing="0" width="802" class="whs36">
 <col class="whs37">
 <col class="whs38">
@@ -308,7 +278,7 @@ else
 <p class="normal-table">Deletes the current Gap and Flush dimension.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs15">
-<p class="normal-table"><a href="../References/Delete_Gap_and_Flush.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs16" alt=""></a></p>
+<p class="normal-table"><a href="../References/Delete_Gap_and_Flush.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs16" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs9">
@@ -319,7 +289,7 @@ else
 <p class="normal-table">Format the settings of all Gap and Flush measurements in the current document</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs15">
-<p class="normal-table"><a href="../References/Preferences_-_Display_-_Dimensions.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs43" alt=""></a></p>
+<p class="normal-table"><a href="../References/Preferences_-_Display_-_Dimensions.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs43" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs9">
@@ -330,18 +300,13 @@ else
 <p class="normal-table">Deletes all Gap and Flush dimensions in the scene.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs15">
-<p class="normal-table"><a href="../References/delete_all_gap_and_flush.htm"><img src="../Working_with_Data/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs16" alt=""></a></p>
+<p class="normal-table"><a href="../References/delete_all_gap_and_flush.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs16" alt=""></a></p>
 </td>
 </tr>
 </table>
 <p>&#160;</p>
 <p><span style="font-weight:bold;"><b>Related topic:</b></span> <a href="measure_menu.htm#Labels_Dimensions">Measure Menu</a></p>
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.writeIntopicBar)
-        writeIntopicBar(0);
-//-->
-</script>
+
 <form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B02150000004D65617375726520436F6E74657874204D656E75730C021D0000004D6561737572650A4D65617375726520436F6E74657874204D656E75730D02150000004D65617375726520436F6E74657874204D656E757311020C0000004D6561737572656D656E74731202150000004D65617375726520436F6E74657874204D656E75731302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
 </body>
 </html>

@@ -5,13 +5,8 @@
 <title>Define Plane</title>
 <meta http-equiv="content-type" content="text/html; charset=windows-1252">
 <meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
-<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
-<script type="text/javascript" language="JavaScript">
-<!--
-if (navigator.appName !="Netscape")
-{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.whs1 { width:100%; }
@@ -42,74 +37,44 @@ td.whs25 { width:33.333%; border-right-width:1px; border-right-color:#000000; bo
 -->
 </style>
 
-<script type="text/javascript" language="JavaScript">
-<!--
-function reDo() {
-  if (innerWidth != origWidth || innerHeight != origHeight)
-     location.reload();
-}
-if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
-        origWidth = innerWidth;
-        origHeight = innerHeight;
-        onresize = reDo;
-}
-onerror = null; 
-//-->
-</script>
+
 <style type="text/css">
 <!--
 div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
 -->
 </style>
 
-<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
-</script>
-<script type="text/javascript" language="javascript" src="../../whver.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
-</script>
+
+
+
+
+
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.gbWhTopic)
-{
-        if (window.addTocInfo)
-        {
-        addTocInfo("KUBE\nWorking with Data\nDefine Datums\nDefine Plane");
-addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+    <a href="../index.html" class="back-to-index">â† Back to Index</a>
 
-        }
-        if (window.writeBtnStyle)
-                writeBtnStyle();
 
-        if (window.writeIntopicBar)
-                writeIntopicBar(1);
-
-        if (window.setRelStartPage)
-        {
-        setRelStartPage("../../KUBE_Help.htm");
-addSearchFormHref("javascript:document.ehelpform.submit()");
-
-                autoSync(1);
-                sendSyncInfo();
-                sendAveInfoOut();
-        }
-}
-else
-        if (window.gbIE4)
-                document.location.reload();
-//-->
-</script><script type="text/javascript" language="JavaScript1.2" src="../../ehlpdhtm.js">
-</script><script type="text/javascript" language="JavaScript1.2">
-<!-- 
-if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
- //-->
-</script>
 <div id="header" class="whs1">
 <p align="right" class="whs2">&#160;</p>
 </div>
@@ -120,25 +85,25 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <col>
 <tr>
 <td valign="top" class="whs4">
-<p class="normal-table"><img src="../Images/image023.gif" width="203px" height="213px" border="0" class="img_whs5" alt=""></p>
+<p class="normal-table"><img src="../images/image023.gif" width="203px" height="213px" border="0" class="img_whs5" alt=""></p>
 </td>
 <td valign="top" class="whs6">
-<p class="normal-table"><b style="font-weight:normal;"><span class="Button" style="font-weight:bold;"><b>Capture</b></span> <span lang="EN-US" style="font-weight:normal;">button</span></b> <span lang="EN-US">– for delayed definition of a datum plane by probe capture.</span></p>
-<p class="normal-table"><b style="font-weight:normal;"><span lang="EN-US" class="Button" style="font-weight:bold;"><b>Detect</b></span> <span lang="EN-US" style="font-weight:normal;">button</span></b> <span lang="EN-US">– for interactive detection of a plane to selection.</span></p>
+<p class="normal-table"><b style="font-weight:normal;"><span class="Button" style="font-weight:bold;"><b>Capture</b></span> <span lang="EN-US" style="font-weight:normal;">button</span></b> <span lang="EN-US"> for delayed definition of a datum plane by probe capture.</span></p>
+<p class="normal-table"><b style="font-weight:normal;"><span lang="EN-US" class="Button" style="font-weight:bold;"><b>Detect</b></span> <span lang="EN-US" style="font-weight:normal;">button</span></b> <span lang="EN-US"> for interactive detection of a plane to selection.</span></p>
 <p class="Note" id="p4"><span style="font-weight:bold;"><b>Note</b></span>: Plane detection is controlled by <span style="font-weight:bold;"><b>Tolerance</b></span> parameters. See <span lang="EN-GB"><a href="../../References/Preferences_-_Datums_-_Detection_Tolerances.htm">System &gt; Preferences &gt; Datums &gt; Detection Tolerances</a></span> <span lang="EN-GB">for details.</span></p>
-<p class="normal-table"><b style="font-weight:normal;"><span lang="EN-US" class="Button" style="font-weight:bold;"><b>Tolerances</b></span> <span lang="EN-US" style="font-weight:normal;">button</span></b> <span lang="EN-US">– calls</span> <span lang="EN-GB">System&gt;Preferences&gt;Datums&gt;Detection Tolerances</span> <span lang="EN-US">dialog for settings the detection tolerances.</span></p>
+<p class="normal-table"><b style="font-weight:normal;"><span lang="EN-US" class="Button" style="font-weight:bold;"><b>Tolerances</b></span> <span lang="EN-US" style="font-weight:normal;">button</span></b> <span lang="EN-US"> calls</span> <span lang="EN-GB">System&gt;Preferences&gt;Datums&gt;Detection Tolerances</span> <span lang="EN-US">dialog for settings the detection tolerances.</span></p>
 <p class="normal-table"><b style="font-weight:bold;"><span lang="EN-US">Choose entity</span>:</b></p>
-<p class="parameterdescription"><span class="Button" style="font-weight:bold;"><b>Pick</b></span> <span lang="EN-US">button – to pick in the viewport an existing plane,</span> <b><span lang="EN-US" style="font-weight:normal;">CS plane, circle, cylinder plane (top or bottom), cone plane (base plane), or slot</span></b><span lang="EN-US">. The cursor shape for pick mode is</span><img src="../Images/cursor_pick.gif" width="23px" height="24px" border="0" class="img_whs7" alt="">.</p>
+<p class="parameterdescription"><span class="Button" style="font-weight:bold;"><b>Pick</b></span> <span lang="EN-US">button  to pick in the viewport an existing plane,</span> <b><span lang="EN-US" style="font-weight:normal;">CS plane, circle, cylinder plane (top or bottom), cone plane (base plane), or slot</span></b><span lang="EN-US">. The cursor shape for pick mode is</span><img src="../images/cursor_pick.gif" width="23px" height="24px" border="0" class="img_whs7" alt="">.</p>
 <p class="parameterdescription"><span lang="EN-US" style="font-weight:bold;"><b>Pick</b></span> <span lang="EN-US">button</span> <span lang="EN-US" style="font-weight:bold;"><b>extension</b></span> <span lang="EN-US">- click and hold down for a while the pick button. The button extension shown below will appear allowing you to select and use any of the CS planes. In this case all plane values will be automatically set.</span></p>
 <table class="NormalTable" style="margin-left:2px;">
 <col>
 <col>
 <tr valign="middle" class="whs8">
 <td colspan="1" rowspan="1" valign="top" class="whs9">
-<p class="normal-table"><img src="../Images/pick_extension.gif" width="71px" height="69px" border="0" class="img_whs10" alt=""></p>
+<p class="normal-table"><img src="../images/pick_extension.gif" width="71px" height="69px" border="0" class="img_whs10" alt=""></p>
 </td>
 <td colspan="1" rowspan="1" valign="top" class="whs11">
-<p class="normal-table"><img src="../Images/pick_extension_plane.gif" width="71px" height="69px" border="0" class="img_whs10" alt=""></p>
+<p class="normal-table"><img src="../images/pick_extension_plane.gif" width="71px" height="69px" border="0" class="img_whs10" alt=""></p>
 </td>
 </tr>
 <tr valign="middle" class="whs8">
@@ -150,9 +115,9 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 </td>
 </tr>
 </table>
-<p class="parameterdescription"><span lang="EN-US" style="font-weight:bold;"><b>Listbox</b></span> <span lang="EN-US">– to sele</span>c<span lang="EN-US">t from the list a predefined plane</span><b><span lang="EN-US" style="font-weight:normal;">, CS plane, circle or cylinder plane (top or bottom)</span></b><span lang="EN-US">.</span></p>
+<p class="parameterdescription"><span lang="EN-US" style="font-weight:bold;"><b>Listbox</b></span> <span lang="EN-US"> to sele</span>c<span lang="EN-US">t from the list a predefined plane</span><b><span lang="EN-US" style="font-weight:normal;">, CS plane, circle or cylinder plane (top or bottom)</span></b><span lang="EN-US">.</span></p>
 <p class="normal-table-func"><b style="font-weight:bold;"><span lang="EN-US">Point and Normal:</span></b></p>
-<p class="parameterdescription"><span class="Button" style="font-weight:bold;"><b>Pick</b></span><span lang="EN-US" style="font-weight:bold;"><b>point</b></span> <span lang="EN-US">button – to pick points for the plane origin.</span></p>
+<p class="parameterdescription"><span class="Button" style="font-weight:bold;"><b>Pick</b></span><span lang="EN-US" style="font-weight:bold;"><b>point</b></span> <span lang="EN-US">button  to pick points for the plane origin.</span></p>
 <p class="parameterdescription"><span lang="EN-US" style="font-weight:bold;"><b>Pick</b></span> <span lang="EN-US">button for</span> <span lang="EN-US" style="font-weight:bold;"><b>normal</b></span> <span lang="EN-US">- to pick an existing normal (of plane, circle, or slot), line, cylinder, or cone axis.</span></p>
 <p class="parameterdescription"><span lang="EN-US" style="font-weight:bold;"><b>Pick</b></span> <span lang="EN-US">button</span> <span lang="EN-US" style="font-weight:bold;"><b>extension</b></span> <span lang="EN-US">- click and hold down for a while the pick button. The button extension shown below will appear allowing you to select any of the CS axis and use it as normal.</span></p>
 <table class="NormalTable" style="margin-left:2px;">
@@ -160,10 +125,10 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <col>
 <tr valign="middle" class="whs8">
 <td colspan="1" rowspan="1" valign="top" class="whs9">
-<p class="normal-table"><img src="../Images/pick_extension.gif" width="71px" height="69px" border="0" class="img_whs10" alt=""></p>
+<p class="normal-table"><img src="../images/pick_extension.gif" width="71px" height="69px" border="0" class="img_whs10" alt=""></p>
 </td>
 <td colspan="1" rowspan="1" valign="top" class="whs11">
-<p class="normal-table"><img src="../Images/pick_extension_axis.gif" width="71px" height="69px" border="0" class="img_whs10" alt=""></p>
+<p class="normal-table"><img src="../images/pick_extension_axis.gif" width="71px" height="69px" border="0" class="img_whs10" alt=""></p>
 </td>
 </tr>
 <tr valign="middle" class="whs8">
@@ -176,10 +141,10 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 </tr>
 </table>
 <p class="normal-table">&#160;</p>
-<p class="normal-table"><span lang="EN-US" style="font-weight:bold;"><b>Edit boxes</b></span> <span lang="EN-US">– to type co-ordinates of the plane origin and the normal.</span></p>
-<p class="normal-table"><b style="font-weight:normal;"><span class="Button" style="font-weight:bold;"><b>Pick 3 points</b></span> <span lang="EN-US" style="font-weight:normal;">button</span></b> <span lang="EN-US">– for exact plane definition by picking 3 points in the viewport. The plane normal is calculated according to the picked points order and following the right hand rule. The c</span>ursor shape for pick N mode is <span style="font-style:italic;"><i><img src="../Images/cursor_pickNplane.gif" width="33px" height="31px" border="0" class="img_whs14" alt="">.</i></span> To remove a picked point, press the Alt key and click next to the chosen point in the viewport. The <span lang="EN-US">c</span>ursor shape for remove picked point mode is <img src="../Images/cursor_pick_minus.gif" width="20px" height="15px" border="0" class="img_whs15" alt="">.</p>
+<p class="normal-table"><span lang="EN-US" style="font-weight:bold;"><b>Edit boxes</b></span> <span lang="EN-US"> to type co-ordinates of the plane origin and the normal.</span></p>
+<p class="normal-table"><b style="font-weight:normal;"><span class="Button" style="font-weight:bold;"><b>Pick 3 points</b></span> <span lang="EN-US" style="font-weight:normal;">button</span></b> <span lang="EN-US"> for exact plane definition by picking 3 points in the viewport. The plane normal is calculated according to the picked points order and following the right hand rule. The c</span>ursor shape for pick N mode is <span style="font-style:italic;"><i><img src="../images/cursor_pickNplane.gif" width="33px" height="31px" border="0" class="img_whs14" alt="">.</i></span> To remove a picked point, press the Alt key and click next to the chosen point in the viewport. The <span lang="EN-US">c</span>ursor shape for remove picked point mode is <img src="../images/cursor_pick_minus.gif" width="20px" height="15px" border="0" class="img_whs15" alt="">.</p>
 <p class="normal-table">&#160;</p>
-<p class="normal-table"><span style="font-weight:bold;"><b>Detect</b></span> button - to detect a plane shape by picking 1 or more points on the data surface. <span lang="EN-US">&#160;The cursor shape for Detect mode is <img src="../Images/cursor_detectplane.gif" width="33px" height="31px" border="0" class="img_whs16" alt=""></span>. When 1 point is taken, the button caption changes to "Finish [X pts]", where X is updated according to the number of currently picked points. To remove a picked point, press the Alt key and click next to the chosen point in the viewport. The <span lang="EN-US">c</span>ursor shape for remove picked point mode is <img src="../Images/cursor_pick_minus.gif" width="20px" height="15px" border="0" class="img_whs17" alt="">.</p>
+<p class="normal-table"><span style="font-weight:bold;"><b>Detect</b></span> button - to detect a plane shape by picking 1 or more points on the data surface. <span lang="EN-US">&#160;The cursor shape for Detect mode is <img src="../images/cursor_detectplane.gif" width="33px" height="31px" border="0" class="img_whs16" alt=""></span>. When 1 point is taken, the button caption changes to "Finish [X pts]", where X is updated according to the number of currently picked points. To remove a picked point, press the Alt key and click next to the chosen point in the viewport. The <span lang="EN-US">c</span>ursor shape for remove picked point mode is <img src="../images/cursor_pick_minus.gif" width="20px" height="15px" border="0" class="img_whs17" alt="">.</p>
 </td>
 </tr>
 </table>
@@ -210,13 +175,13 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <col class="whs19">
 <tr valign="top" class="whs20">
 <td width="33.333%" class="whs21">
-<p><img src="../Images/tempCplane.gif" width="253px" height="398px" border="0" class="img_whs22" alt=""></p>
+<p><img src="../images/tempCplane.gif" width="253px" height="398px" border="0" class="img_whs22" alt=""></p>
 </td>
 <td width="33.333%" class="whs23">
-<p><img src="../Images/currentCplane.gif" width="253px" height="398px" border="0" class="img_whs22" alt=""></p>
+<p><img src="../images/currentCplane.gif" width="253px" height="398px" border="0" class="img_whs22" alt=""></p>
 </td>
 <td width="33.333%" class="whs23">
-<p><img src="../Images/finalCplane.gif" width="253px" height="398px" border="0" class="img_whs22" alt=""></p>
+<p><img src="../images/finalCplane.gif" width="253px" height="398px" border="0" class="img_whs22" alt=""></p>
 </td>
 </tr>
 <tr valign="top" class="whs20">
@@ -234,16 +199,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p>&#160;</p>
 </div>
 <p>&#160;</p>
-<script language="javascript1.2" type="text/javascript">
-<!--
-kadovTextPopupInit('a1','POPUP162233862');
-//-->
-</script><script type="text/javascript" language="javascript1.2">
-<!--
-if (window.writeIntopicBar)
-        writeIntopicBar(0);
-//-->
-</script>
+
 <form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B020C000000446566696E6520506F696E740C02DC000000426F780A436170747572650A436972636C650A636F6C6F75720A436F6E650A4372656174650A43530A43796C696E6465720A446174756D20506C616E650A446174756D696E670A446566696E650A446574656374206D6F64650A446973706C61790A446F776E0A456469740A456E7469746965730A46696C6C0A4C696768740A4C696E650A4E65770A4E657720506C616E650A506172616D65746572730A506C616E650A507265666572656E6365730A50726F62650A52696768740A53656C6563740A53656C656374696F6E0A53657474696E67730A53797374656D0D020C000000446566696E6520506C616E6511020D000000446566696E6520446174756D7312020C000000446566696E6520506C616E651302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
 </body>
 </html>

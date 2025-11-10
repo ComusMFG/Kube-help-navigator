@@ -3,198 +3,32 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-<script language="javascript" src="whtdata.js"></script>
-<script language="javascript">
-<!--
- aTE(1,184,"KUBE","KUBE_help/Introduction_KUBEHelp.htm");
-   aTE(1,25,"User Interface");
-     aTE(2,0,"Panels","User_Interface/panels.htm");
-     aTE(2,0,"Toolbar","User_Interface/Toolbar2.htm");
-     aTE(2,0,"Mouse Operations","User_Interface/Mouse_Operations.htm");
-     aTE(2,0,"Context Menus","User_Interface/context_menus.htm");
-     aTE(2,0,"Viewport","User_Interface/Viewport.htm");
-     aTE(2,0,"Scroll Bars","User_Interface/Scroll_Bars.htm");
-     aTE(2,0,"Shortcut Keys","User_Interface/Shortcut_Keys.htm");
-     aTE(2,0,"Tree","User_Interface/Tree.htm");
-     aTE(1,16,"Menus");
-       aTE(2,0,"File Menu","User_Interface/file_menu.htm");
-       aTE(2,0,"Edit Menu","User_Interface/edit_menu.htm");
-       aTE(2,0,"View Menu","User_Interface/view_menu.htm");
-       aTE(2,0,"Select Menu","User_Interface/select_menu.htm");
-       aTE(2,0,"Scan Data Menu","User_Interface/scan_data_menu.htm");
-       aTE(2,0,"Mesh Menu","User_Interface/mesh_menu.htm");
-       aTE(2,0,"Polylines Menu","User_Interface/polylines_menu.htm");
-       aTE(2,0,"Registration Menu","User_Interface/registration_menu.htm");
-       aTE(2,0,"Datuming Menu","User_Interface/datuming_menu.htm");
-       aTE(2,0,"Modules Menu","User_Interface/Modules_Menu.htm");
-       aTE(2,0,"Transformations Menu","User_Interface/menu_transformations.htm");
-       aTE(2,0,"3D Inspection Menu","Inspection_Mode/inspection_mode.htm");
-       aTE(2,0,"Measure Menu","User_Interface/measure_menu.htm");
-       aTE(2,0,"System Menu","User_Interface/system_menu.htm");
-       aTE(2,0,"Window Menu","User_Interface/window_menu.htm");
-       aTE(2,0,"Help Menu","User_Interface/help_menu.htm");
-   aTE(1,70,"Scanning");
-     aTE(1,21,"Hardware");
-       aTE(1,4,"MMD");
-         aTE(2,0,"Hardware Description","Scanning/Hardware/MMD/hardware_description_mmd.htm");
-         aTE(2,0,"System Contents","Scanning/Hardware/MMD/package_contents_mmd.htm");
-         aTE(2,0,"MMD Hardware Assembly","Scanning/Hardware/MMD/mm_hardware_assembly.htm");
-         aTE(2,0,"Hardware Settings","Scanning/Hardware/MMD/Settings/hardware_settings_mmd.htm");
-       aTE(1,4,"MMC");
-         aTE(2,0,"Hardware Description","Scanning/Hardware/MMC/Hardware_Description_MMC.htm");
-         aTE(2,0,"System Contents","Scanning/Hardware/MMC/System_Contents_MMC.htm");
-         aTE(2,0,"MMC Hardware Assembly","Scanning/Hardware/MMD/mm_hardware_assembly.htm");
-         aTE(2,0,"Hardware Settings","Scanning/Hardware/MMC/Settings/Hardware_Settings_MMC.htm");
-       aTE(1,5,"MMZ");
-         aTE(2,0,"Hardware Description","Scanning/Hardware/MMZ/hardware_description_mmz.htm");
-         aTE(2,0,"System Contents","Scanning/Hardware/MMZ/package_contents_mmz.htm");
-         aTE(2,0,"MMZ Hardware Assembly","Scanning/Hardware/MMZ/mm_hardware_assembly.htm");
-         aTE(2,0,"Cabling Z System","Scanning/Hardware/MMZ/Hardware_Description_Z_system.htm");
-         aTE(2,0,"Hardware Settings","Scanning/Hardware/MMZ/Settings/hardware_settings_mmz.htm");
-       aTE(1,4,"MMX");
-         aTE(2,0,"Hardware Description","Scanning/Hardware/MMX/hardware_description_mmx.htm");
-         aTE(2,0,"MMX Hardware Assembly","Scanning/Hardware/MMX/mm_hardware_assembly.htm");
-         aTE(2,0,"Cabling X System","Scanning/Hardware/MMX/Hardware_Description_X_System.htm");
-         aTE(2,0,"Hardware Settings","Scanning/Hardware/MMX/Settings/hardware_settings_mmx.htm");
-     aTE(1,21,"System Set-Up","Scanning/Localiser/system_setup.htm");
-       aTE(1,15,"Localiser Set-Up");
-         aTE(1,2,"FARO Serial");
-           aTE(2,0,"FARO Localiser Set-up","Scanning/Localiser/FARO/faro_arm_set-up.htm");
-           aTE(2,0,"Localiser Probe Calibration","Scanning/Localiser/FARO/localiser_probe_calibration_faro.htm");
-         aTE(1,2,"FARO USB");
-           aTE(2,0,"FARO USB Localiser Set-up","Scanning/Localiser/FARO_USB/faro_localiser_set_up.htm");
-           aTE(2,0,"Localiser Probe Calibration","Scanning/Localiser/FARO_USB/localiser_probe_calibration_faro_usb.htm");
-         aTE(1,2,"CimCore");
-           aTE(2,0,"CimCore Localiser Set-up","Scanning/Localiser/CimCore/cimcore_arm_set-up.htm");
-           aTE(2,0,"Localiser Probe Calibration","Scanning/Localiser/CimCore/localiser_probe_calibration_cimcore.htm");
-         aTE(1,1,"KScan");
-           aTE(2,0,"K-Scan Localisers","Scanning/Localiser/KScan/kscan_localisers.htm");
-         aTE(1,2,"MetrisMCA");
-           aTE(2,0,"Metris MCA Localiser Set-Up","Scanning/Localiser/Metris_MCA/Metris_MCA_Localiser_Set-Up.htm");
-           aTE(2,0,"Localiser Probe Calibration","Scanning/Probe_Calibration/Localiser_Probe_Calibration_-_Metris_MCA.htm");
-         aTE(2,0,"Localiser Performance Check","Scanning/Localiser/localiser_performance_check.htm");
-       aTE(1,4,"Alignment","Scanning/Alignment/alignment.htm");
-         aTE(2,0,"Alignment Preparation","Scanning/Alignment/Alignment_Preparation.htm");
-         aTE(2,0,"Alignment Procedure","Scanning/Alignment/Alignment_Procedure.htm");
-         aTE(2,0,"Sphere Alignment Procedure","Scanning/Alignment/sphere_alignment_procedure.htm");
-         aTE(2,0,"Alignment Check","Scanning/Alignment/Alignment_Check.htm");
-     aTE(1,9,"Scanning Process");
-       aTE(2,0,"Basic Scanning Introduction","Scanning/Scanning/Basic_Scanning_Introduction.htm");
-       aTE(2,0,"Basic Scanning Rules and Useful Tips","Scanning/Scanning/Basic_Scanning_Rules_and_Useful_Tips.htm");
-       aTE(2,0,"Scanning Strategy","Scanning/Scanning/Scanning_Strategy.htm");
-       aTE(2,0,"Scanning Over Defined Area","Scanning/Scanning/scanning_over_defined_area.htm");
-       aTE(2,0,"Profiles","Scanning/Scanning/profiles.htm");
-       aTE(1,3,"Multisite Scanning");
-         aTE(2,0,"Introduction","Scanning/Scanning/Multisite/multisite_scanning_intro.htm");
-         aTE(2,0,"Preparation","Scanning/Scanning/Multisite/Multisite_Scanning_Preparation.htm");
-         aTE(2,0,"Procedure","Scanning/Scanning/Multisite/multisite_scanning_procedure.htm");
-     aTE(1,3,"Probe Points Capture");
-       aTE(2,0,"Capture Dynamic Points","Scanning/Probe_Points_Capture/capture_dynamic_points.htm");
-       aTE(2,0,"Capture Static Points","Scanning/Probe_Points_Capture/capture_static_points.htm");
-       aTE(2,0,"Capture Static Stripes","Scanning/Probe_Points_Capture/capture_static_stripes.htm");
-     aTE(1,11,"Datum Capture");
-       aTE(2,0,"Capture Point","Scanning/Capture/capture_point.htm");
-       aTE(2,0,"Capture 2D Point","Scanning/Capture/capture_surface_point.htm");
-       aTE(2,0,"Capture Line","Scanning/Capture/capture_line.htm");
-       aTE(2,0,"Capture 2D Line","Scanning/Capture/capture_2d_line.htm");
-       aTE(2,0,"Capture Plane","Scanning/Capture/Capture_Plane.htm");
-       aTE(2,0,"Capture Sphere","Scanning/Capture/capture_sphere.htm");
-       aTE(2,0,"Capture Circle","Scanning/Capture/capture_circle.htm");
-       aTE(2,0,"Capture Cylinder","Scanning/Capture/capture_cylinder.htm");
-       aTE(2,0,"Capture Cone","Scanning/Capture/capture_cone.htm");
-       aTE(2,0,"Capture Round Slot","Scanning/Capture/capture_round_slot.htm");
-       aTE(2,0,"Capture Rectangular Slot","Scanning/Capture/capture_rectangular_slot.htm");
-   aTE(1,44,"Working with Data");
-     aTE(2,0,"Entity Types","Working_with_Data/Descriptions/entity_types.htm");
-     aTE(1,3,"Processing Data");
-       aTE(2,0,"Scan Data","User_Interface/scan_data_menu.htm");
-       aTE(2,0,"Meshes","Working_with_Data/Descriptions/processing_meshes.htm");
-       aTE(2,0,"Polylines","User_Interface/polylines_menu.htm");
-     aTE(1,11,"Define Datums");
-       aTE(2,0,"Interactive Datum Interface Description","User_Interface/Interactive_datum_interface_description.htm");
-       aTE(2,0,"Define Point","Working_with_Data/Descriptions/define_point.htm");
-       aTE(2,0,"Define Line","Working_with_Data/Descriptions/define_line.htm");
-       aTE(2,0,"Define Plane","Working_with_Data/Descriptions/define_plane.htm");
-       aTE(2,0,"Define Sphere","Working_with_Data/Descriptions/define_sphere.htm");
-       aTE(2,0,"Define Cylinder","Working_with_Data/Descriptions/define_cylinder.htm");
-       aTE(2,0,"Define Circle","Working_with_Data/Descriptions/define_circle.htm");
-       aTE(2,0,"Define Cone","Working_with_Data/Descriptions/define_cone.htm");
-       aTE(2,0,"Define Rectangular Slot","Working_with_Data/Descriptions/define_rectangular_slot.htm");
-       aTE(2,0,"Define Round Slot","Working_with_Data/Descriptions/define_round_slot.htm");
-       aTE(2,0,"Datum Commands in Tree Context Menus","User_Interface/Tree_Context_Menus.htm#Specific_Commands_for_Datuming");
-     aTE(1,5,"Co-ordinate Systems");
-       aTE(2,0,"Create Transformations","User_Interface/menu_transformations.htm");
-       aTE(2,0,"Commands for current CS in Tree Context Menus","User_Interface/Tree_Context_Menus.htm#Transformations1");
-       aTE(2,0,"Commands for Transformations in Tree Context Menus","User_Interface/Tree_Context_Menus.htm#Transformations");
-       aTE(2,0,"Register & Align Entities","User_Interface/registration_menu.htm");
-       aTE(2,0,"Rotate & Translate","References/Rotate_and_Translate.htm");
-     aTE(1,15,"Measurements");
-       aTE(2,0,"Labeling","References/labeling.htm");
-       aTE(2,0,"Dimensioning","References/dimensioning.htm");
-       aTE(2,0,"Gap and Flush","References/gap_and_flush.htm");
-       aTE(2,0,"Measure Context Menus","User_Interface/Measure_Context_Menus.htm");
-       aTE(1,2,"Measure Distance");
-         aTE(2,0,"Pick Pair of Points","References/pick_pair_of_points.htm");
-         aTE(2,0,"Pick Pair of Planes","References/pick_pair_of_planes.htm");
-       aTE(1,7,"Measure Geometry");
-         aTE(2,0,"Fit Point","References/fit_point.htm");
-         aTE(2,0,"Fit Line","References/fit_line.htm");
-         aTE(2,0,"Fit Plane","References/fit_plane.htm");
-         aTE(2,0,"Fit Sphere","References/fit_sphere.htm");
-         aTE(2,0,"Fit Cylinder","References/fit_cylinder.htm");
-         aTE(2,0,"Fit Circle","References/fit_circle.htm");
-         aTE(2,0,"Fit Cone","References/fit_cone.htm");
-     aTE(1,2,"Working in Inspection Mode");
-       aTE(2,0,"Inspection Mode","Inspection_Mode/inspection_mode.htm");
-       aTE(2,0,"Instant Inspection","Inspection_Mode/Instant_Inspection.htm");
-     aTE(2,0,"Visualisation","Working_with_Data/Descriptions/visualisation.htm");
-     aTE(2,0,"Export Entities","References/Export_Entities.htm");
-   aTE(1,18,"Inspection Mode","Inspection_Mode/inspection_mode.htm");
-     aTE(1,16,"Inspection Interface","Inspection_Mode/inspection_interface.htm");
-       aTE(2,0,"Inspection Pane","Inspection_Mode/User_Interface/Inspection_Pane.htm");
-       aTE(2,0,"Scan Pane","Inspection_Mode/User_Interface/Scan_Pane.htm");
-       aTE(2,0,"Toolbar","Inspection_Mode/User_Interface/Inspection_Toolbar.htm");
-       aTE(2,0,"Viewport","Inspection_Mode/User_Interface/Viewport.htm");
-       aTE(2,0,"Context Menus","Inspection_Mode/User_Interface/Inspection_Context_Menus.htm");
-       aTE(1,10,"Menus");
-         aTE(2,0,"File Menu","Inspection_Mode/Menus/File_Menu_Inspection.htm");
-         aTE(2,0,"View Menu","User_Interface/view_menu.htm");
-         aTE(2,0,"Pages Menu","Inspection_Mode/Menus/Pages_Menu_Inspection.htm");
-         aTE(2,0,"2D Sections","Inspection_Mode/Menus/2D_Sections.htm");
-         aTE(2,0,"Labels Menu","Inspection_Mode/Menus/Labels_Menu_Inspection.htm");
-         aTE(2,0,"Annotations Menu","Inspection_Mode/Menus/Annotations_Menu.htm");
-         aTE(2,0,"Reports Menu","Inspection_Mode/Menus/Reports_Menu_Inspection.htm");
-         aTE(2,0,"Settings Menu","Inspection_Mode/Menus/Settings_Menu_Inspection.htm");
-         aTE(2,0,"System Menu","Inspection_Mode/Menus/System_Menu_Inspection.htm");
-         aTE(2,0,"Help Menu","User_Interface/help_menu.htm");
-     aTE(2,0,"Instant Inspection","Inspection_Mode/Instant_Inspection.htm");
-   aTE(1,3,"Corrosion Module","Corrosion/overview_Corrosion.htm");
-     aTE(2,0,"Merging","Corrosion/Merging_Corrosion.htm");
-     aTE(2,0,"Inspection","Corrosion/Inspection_Corrosion.htm");
-     aTE(2,0,"Printing","Corrosion/printing_Corrosion.htm");
-   aTE(1,7,"Macros Module","Macros/macro_module.htm");
-     aTE(2,0,"Macro Syntax","Macros/Macro_Syntax.htm");
-     aTE(2,0,"Parameter Types","Macros/Parameter_Types.htm");
-     aTE(2,0,"Special Symbols and Abbreviations","Macros/Special_Symbols_and_Abbreviations.htm");
-     aTE(2,0,"Type Conventions","Macros/type_conventions.htm");
-     aTE(2,0,"Script Generation","Macros/Script_Generation.htm");
-     aTE(2,0,"Run Script from File","Macros/Macros_Menu/run_script_from_file.htm");
-     aTE(2,0,"Call Script at KUBE start-up","Macros/Call_Script_at_KUBE_start-up.htm");
-   aTE(1,5,"References");
-     aTE(2,0,"Index of UI Commands","References/index_of_commands.htm");
-     aTE(2,0,"Index of Inspection Mode Commands","Inspection_Mode/index_of_inspection_commands.htm");
-     aTE(2,0,"Shortcut Keys","User_Interface/Shortcut_Keys.htm");
-     aTE(2,0,"Index of Macro Commands","Macros/macro_commands.htm");
-     aTE(2,0,"Index of COM client Commands","Macros/Special_Commands.htm");
-   aTE(1,4,"Troubleshooting");
-     aTE(2,0,"Troubleshooting (Hardware)","Troubleshooting/Troubleshooting_Hardware.htm");
-     aTE(2,0,"Troubleshooting (Software)","Troubleshooting/troubleshooting_software.htm");
-     aTE(2,0,"Known Bugs and Problems","Troubleshooting/known_bugs_and_problems_in_kube.htm");
-     aTE(2,0,"Technical Support","Troubleshooting/technical_support.htm");
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
 
-//-->
-</script>
+
+
 </body>
 </html>

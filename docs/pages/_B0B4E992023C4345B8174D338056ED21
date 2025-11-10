@@ -2,7 +2,7 @@
 <head>
 <!-- WebHelp version 5.10 -->
 <title>Content</title>
-<base target="bsscright">
+
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
@@ -32,22 +32,45 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 img {vertial-align:middle;}
 -->
 </style>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body marginheight="0"  marginwidth="0" bgproperties="fixed">
+<body>
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
+
 <table border=0>
 <tr><td>
 <p class="tocbody" style="white-space:nowrap;">
-<a name="1"></a><a href="whlstt0.htm#1" target="_self"><img src="../book2.gif" border="0"></a> <a href="../KUBE_help/Introduction_KUBEHelp.htm">KUBE</a><br>
-&nbsp;&nbsp;&nbsp;<a name="2"></a><a href="whlstt2.htm#2" target="_self" title="closed book"><img src="../book1.gif" border="0"> User Interface</a><br>
-&nbsp;&nbsp;&nbsp;<a name="4"></a><a href="whlstt4.htm#4" target="_self" title="closed book"><img src="../book1.gif" border="0"> Scanning</a><br>
-&nbsp;&nbsp;&nbsp;<a name="22"></a><a href="whlstt22.htm#22" target="_self" title="closed book"><img src="../book1.gif" border="0"> Working with Data</a><br>
-&nbsp;&nbsp;&nbsp;<a name="30"></a><a href="whlstt1.htm#30" target="_self"><img src="../book2.gif" border="0"></a> <a href="../Inspection_Mode/inspection_mode.htm">Inspection Mode</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="31"></a><a href="whlstt31.htm#31" target="_self" title="closed book"><img src="../book1.gif" border="0"> Inspection Interface</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../Inspection_Mode/Instant_Inspection.htm"><img src="../book3.gif" border="0"> Instant Inspection</a><br>
-&nbsp;&nbsp;&nbsp;<a name="33"></a><a href="whlstt33.htm#33" target="_self" title="closed book"><img src="../book1.gif" border="0"> Corrosion Module</a><br>
-&nbsp;&nbsp;&nbsp;<a name="34"></a><a href="whlstt34.htm#34" target="_self" title="closed book"><img src="../book1.gif" border="0"> Macros Module</a><br>
-&nbsp;&nbsp;&nbsp;<a name="35"></a><a href="whlstt35.htm#35" target="_self" title="closed book"><img src="../book1.gif" border="0"> References</a><br>
-&nbsp;&nbsp;&nbsp;<a name="36"></a><a href="whlstt36.htm#36" target="_self" title="closed book"><img src="../book1.gif" border="0"> Troubleshooting</a><br>
+<a name="1"></a><a href="whlstt0.htm#1" target="_self"><img src="../images/book2.gif" border="0"></a> <a href="../KUBE_help/Introduction_KUBEHelp.htm">KUBE</a><br>
+&nbsp;&nbsp;&nbsp;<a name="2"></a><a href="whlstt2.htm#2" target="_self" title="closed book"><img src="../images/book1.gif" border="0"> User Interface</a><br>
+&nbsp;&nbsp;&nbsp;<a name="4"></a><a href="whlstt4.htm#4" target="_self" title="closed book"><img src="../images/book1.gif" border="0"> Scanning</a><br>
+&nbsp;&nbsp;&nbsp;<a name="22"></a><a href="whlstt22.htm#22" target="_self" title="closed book"><img src="../images/book1.gif" border="0"> Working with Data</a><br>
+&nbsp;&nbsp;&nbsp;<a name="30"></a><a href="whlstt1.htm#30" target="_self"><img src="../images/book2.gif" border="0"></a> <a href="../Inspection_Mode/inspection_mode.htm">Inspection Mode</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="31"></a><a href="whlstt31.htm#31" target="_self" title="closed book"><img src="../images/book1.gif" border="0"> Inspection Interface</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../Inspection_Mode/Instant_Inspection.htm"><img src="../images/book3.gif" border="0"> Instant Inspection</a><br>
+&nbsp;&nbsp;&nbsp;<a name="33"></a><a href="whlstt33.htm#33" target="_self" title="closed book"><img src="../images/book1.gif" border="0"> Corrosion Module</a><br>
+&nbsp;&nbsp;&nbsp;<a name="34"></a><a href="whlstt34.htm#34" target="_self" title="closed book"><img src="../images/book1.gif" border="0"> Macros Module</a><br>
+&nbsp;&nbsp;&nbsp;<a name="35"></a><a href="whlstt35.htm#35" target="_self" title="closed book"><img src="../images/book1.gif" border="0"> References</a><br>
+&nbsp;&nbsp;&nbsp;<a name="36"></a><a href="whlstt36.htm#36" target="_self" title="closed book"><img src="../images/book1.gif" border="0"> Troubleshooting</a><br>
 </p>
 
 </td></tr>

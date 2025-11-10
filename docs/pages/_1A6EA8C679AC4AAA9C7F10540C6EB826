@@ -5,13 +5,8 @@
 <title>Parameter Types</title>
 <meta http-equiv="content-type" content="text/html; charset=windows-1252">
 <meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
-<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
-<script type="text/javascript" language="JavaScript">
-<!--
-if (navigator.appName !="Netscape")
-{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.whs1 { width:100%; }
@@ -25,71 +20,45 @@ p.whs8 { font-style:italic; }
 -->
 </style>
 
-<script type="text/javascript" language="JavaScript" src="../ehlpdhtm.js">
-</script>
-<script type="text/javascript" language="JavaScript">
-<!--
-function reDo() {
-  if (innerWidth != origWidth || innerHeight != origHeight)
-     location.reload();
-}
-if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
-        origWidth = innerWidth;
-        origHeight = innerHeight;
-        onresize = reDo;
-}
-onerror = null; 
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
 -->
 </style>
 
-<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
-</script>
-<script type="text/javascript" language="javascript" src="../whver.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whutils.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
-</script>
+
+
+
+
+
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.gbWhTopic)
-{
-        if (window.addTocInfo)
-        {
-        addTocInfo("KUBE\nMacros Module\nParameter Types");
-addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+    <a href="../index.html" class="back-to-index">â† Back to Index</a>
 
-        }
-        if (window.writeBtnStyle)
-                writeBtnStyle();
 
-        if (window.writeIntopicBar)
-                writeIntopicBar(1);
-
-        if (window.setRelStartPage)
-        {
-        setRelStartPage("../KUBE_Help.htm");
-addSearchFormHref("javascript:document.ehelpform.submit()");
-
-                autoSync(1);
-                sendSyncInfo();
-                sendAveInfoOut();
-        }
-}
-else
-        if (window.gbIE4)
-                document.location.reload();
-//-->
-</script>
 <div id="header" class="whs1">
 <p align="right" class="whs2">&#160;</p>
 </div>
@@ -112,14 +81,14 @@ Yes<br>
 C:\temp\Mesh1_ready.sab2</font></span></p>
 <p>Each predefined parameter value in the script will be replaced by its correspondent value (by order of input).</p>
 <p class="ExampleCode">Finally the script will be executed as:</p>
-<p class="ExampleCode">Open( FileName=”<span style="color:#ff00ff; font-weight:bold;"><font color="fuchsia"><b>C:\temp\Mesh1.sab2</b></font></span>” )<br>
+<p class="ExampleCode">Open( FileName=<span style="color:#ff00ff; font-weight:bold;"><font color="fuchsia"><b>C:\temp\Mesh1.sab2</b></font></span> )<br>
 SelAll<br>
 FillHoles( Method="CrvBased", LimitEdges=<span style="color:#ff00ff; font-weight:bold;"><font color="fuchsia"><b>Yes</b></font></span>, MaxEdges=<span style="font-weight:bold; color:#ff00ff;"><font color="fuchsia"><b>50</b></font></span> )<br>
-SaveAs( FileName=”<span style="font-weight:bold; color:#ff00ff;"><font color="fuchsia"><b>C:\temp\Mesh1_ready.sab2</b></font></span>” )<br>
-CloseFile( FileName=”<span style="color:#ff00ff; font-weight:bold;"><font color="fuchsia"><b>C:\temp\Mesh1_ready.sab2</b></font></span>” )</p>
+SaveAs( FileName=<span style="font-weight:bold; color:#ff00ff;"><font color="fuchsia"><b>C:\temp\Mesh1_ready.sab2</b></font></span> )<br>
+CloseFile( FileName=<span style="color:#ff00ff; font-weight:bold;"><font color="fuchsia"><b>C:\temp\Mesh1_ready.sab2</b></font></span> )</p>
 <p>&#160;</p>
 <h2>Predefined parameters</h2>
-<p>In addition to the custom parameter values there are three predefined parameter values – "<span style="font-weight:bold;"><b>%FileName%</b></span>", "<span style="font-weight:bold;"><b>%ShortFileName%</b></span>", and "<span style="font-weight:bold;"><b>%FilePath%</b></span>". They are used only for scripts applied to multiple files and their main purpose is to save multiple files under multiple names. No input values should be specified for these predefined parameters. Their values are extracted automatically depending on the current file in process.</p>
+<p>In addition to the custom parameter values there are three predefined parameter values  "<span style="font-weight:bold;"><b>%FileName%</b></span>", "<span style="font-weight:bold;"><b>%ShortFileName%</b></span>", and "<span style="font-weight:bold;"><b>%FilePath%</b></span>". They are used only for scripts applied to multiple files and their main purpose is to save multiple files under multiple names. No input values should be specified for these predefined parameters. Their values are extracted automatically depending on the current file in process.</p>
 <p>Concatenation between predefined parameters and simple strings is possible and allows flexible setting of file names and paths. The only rule in this case is to remove the quotation marks between the predefined parameter values and string and to leave quotation marks in the beginning and in the end of the concatenated parameter values. See example below.</p>
 <p class="ExampleCode">Example:</p>
 <p class="ExampleCode">Open( FileName="<span style="font-weight:bold; color:#ff0000;"><font color="red"><b>%FileName%</b></font></span>" )<br>
@@ -131,30 +100,30 @@ CloseFile( FileName="<span style="font-weight:bold; color:#ff0000;"><font color=
 <p class="ExampleCode">In <i>Values for custom parameters</i> table we set the two values for the custom parameters %1% and %UV% to:</p>
 <p class="ExampleCode">Yes<br>
 1.5</p>
-<p class="whs4"><img src="Images/Example_multi.gif" width="377px" height="354px" border="0" class="img_whs5" alt=""></p>
+<p class="whs4"><img src="../images/Example_multi.gif" width="377px" height="354px" border="0" class="img_whs5" alt=""></p>
 <p>&#160;</p>
 <p>For multiple file we have selected two files for processing: <span style="color:#0000ff;"><font color="blue">Scan1.sab2</font></span> and <span style="color:#0000ff;"><font color="blue">Scan2.sab2</font></span> both in <span style="color:#0000ff;"><font color="blue">C:\temp</font></span> folder.</p>
 <p>For the first file (Scan1.sab2) the following replacements will be made:</p>
 <p>"<span style="color:#ff0000;"><font color="red">%FileName%</font></span>" replaced with "<span style="color:#0000ff;"><font color="blue">C:\temp\Scan1.sab2</font></span>",</p>
-<p>"<span style="color:#ff0000;"><font color="red">%ShortFileName%</font></span>" with “<span style="color:#0000ff;"><font color="blue">Scan1.sab2</font></span>”, and</p>
-<p>"<span style="color:#ff0000;"><font color="red">%FilePath%</font></span>" with “<span style="color:#0000ff;"><font color="blue">C:\temp\</font></span>”.</p>
+<p>"<span style="color:#ff0000;"><font color="red">%ShortFileName%</font></span>" with <span style="color:#0000ff;"><font color="blue">Scan1.sab2</font></span>, and</p>
+<p>"<span style="color:#ff0000;"><font color="red">%FilePath%</font></span>" with <span style="color:#0000ff;"><font color="blue">C:\temp\</font></span>.</p>
 <p>In this way the command:</p>
 <p class="whs6">SaveAs( FileName="<span style="color:#ff0000; font-weight:bold;"><font color="red"><b>%FilePath%</b></font></span>Merged_<span style="font-weight:bold; color:#ff0000;"><font color="red"><b>%ShortFileName%</b></font></span> ")</p>
 <p class="whs7">will be automatically replaced in the script with:</p>
-<p class="whs6">SaveAs( FileName=”<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>C:\temp\</b></font></span>Merged_<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>Scan1.sab2</b></font></span>” )</p>
+<p class="whs6">SaveAs( FileName=<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>C:\temp\</b></font></span>Merged_<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>Scan1.sab2</b></font></span> )</p>
 <p class="ExampleCode">When the first file (Scan1.sab2) is loaded the script is executed for it as:</p>
-<p class="ExampleCode">Open( FileName=”<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>C:\temp\Scan1.sab2</b></font></span>” )<br>
+<p class="ExampleCode">Open( FileName=<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>C:\temp\Scan1.sab2</b></font></span> )<br>
 SelAll<br>
 Merge( PtSpc=1.000, AreaSmp=<span style="color:#ff00ff; font-weight:bold;"><font color="fuchsia"><b>Yes</b></font></span>, AreaSmpDist=<span style="color:#ff00ff; font-weight:bold;"><font color="fuchsia"><b>1.5</b></font></span>, OptScan=Yes, OptScanDist=1.000, <b><i style="font-weight:normal; font-style:normal;">OptScan</i></b>PtSmp=2<span style="font-weight:bold; font-style:italic;"><i><b><i><b>,</b></i></b></i></span> PolygonRed=Yes, PolygonRedSpc=4.000, InclBndPt=No, EnhanceFeatures=Yes, Sensor="MM Z35" )<br>
-SaveAs( FileName=”<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>C:\temp\</b></font></span>Merged_<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>Scan1.sab2</b></font></span>” )<br>
-CloseFile( FileName=”<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>C:\temp\</b></font></span>Merged_<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>Scan1.sab2</b></font></span>” )</p>
+SaveAs( FileName=<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>C:\temp\</b></font></span>Merged_<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>Scan1.sab2</b></font></span> )<br>
+CloseFile( FileName=<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>C:\temp\</b></font></span>Merged_<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>Scan1.sab2</b></font></span> )</p>
 <p class="ExampleCode">&#160;</p>
 <p class="ExampleCode">For the second file (Scan2.sab2) the script will be executed as:</p>
-<p class="ExampleCode">Open( FileName=”<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>C:\temp\Scan2.sab2</b></font></span>” )<br>
+<p class="ExampleCode">Open( FileName=<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>C:\temp\Scan2.sab2</b></font></span> )<br>
 SelAll<br>
 Merge( PtSpc=1.000, AreaSmp=<span style="color:#ff00ff; font-weight:bold;"><font color="fuchsia"><b>Yes</b></font></span>, AreaSmpDist=<span style="color:#ff00ff; font-weight:bold;"><font color="fuchsia"><b>1.5</b></font></span>, OptScan=Yes, OptScanDist=1.000, <b><i style="font-weight:normal; font-style:normal;">OptScan</i></b>PtSmp=2<span style="font-weight:bold; font-style:italic;"><i><b><i><b>,</b></i></b></i></span> PolygonRed=Yes, PolygonRedSpc=4.000, InclBndPt=No, EnhanceFeatures=Yes, Sensor="MM Z35" )<br>
-SaveAs( FileName=”<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>C:\temp\</b></font></span>Merged_<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>Scan2.sab2</b></font></span>” )<br>
-CloseFile( FileName=”<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>C:\temp\</b></font></span>Merged_<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>Scan2.sab2</b></font></span>” )</p>
+SaveAs( FileName=<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>C:\temp\</b></font></span>Merged_<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>Scan2.sab2</b></font></span> )<br>
+CloseFile( FileName=<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>C:\temp\</b></font></span>Merged_<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>Scan2.sab2</b></font></span> )</p>
 <p class="Note" id="P1"><span style="font-weight:bold;"><b>Note</b></span>: If one of the selected file is missing, cannot be opened, or error in execution, then it will be skipped at the point where the problem is and the script will continue executing the rest of the files in sequence.</p>
 <p id="P1" class="whs8">&#160;</p>
 <h2><a name="Temporary parameters">Temporary parameters</a></h2>
@@ -169,18 +138,8 @@ CloseFile( FileName=”<span style="font-weight:bold; color:#0000ff;"><font color=
 <p class="ExampleCode">Construct_Transformation_321( Name="T1", Plane="Plane 1", CoordFrame=&amp;frame, Line="Line 1", Axis=<span style="font-weight:bold; color:#0000ff;"><font color="blue"><b>&amp;axis</b></font></span>, Point="Point 1", Origin="My Origin", Project=Yes )</p>
 <p>&#160;</p>
 <p>In the above example the predefined parameters (<span style="color:#ff0000; font-weight:bold;"><font color="red"><b>&amp;frame</b></font></span>, <span style="color:#ff0000; font-weight:bold;"><font color="red"><b>&amp;axis</b></font></span>, <span style="font-weight:bold; color:#ff0000;"><font color="red"><b>&amp;x</b></font></span>, <span style="font-weight:bold; color:#ff0000;"><font color="red"><b>&amp;y</b></font></span>, <span style="font-weight:bold; color:#ff0000;"><font color="red"><b>&amp;z</b></font></span>) are initialised through the Get321Settings macro command. Their values are saved and used later by the commands Construct_Point and Construct_Transformation_321 (parameters marked in blue colour).</p>
-<p id="P1" class="whs8"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Macro Commands','macro_commands.htm','Macro Module','macro_module.htm','Macro Syntax','Macro_Syntax.htm','Run Script from File','Macros_Menu/run_script_from_file.htm','Script Generation','Script_Generation.htm','Show Command Window','Macros_Menu/show_command_window.htm','Special Symbols and Abbreviations','Special_Symbols_and_Abbreviations.htm','Type Conventions','type_conventions.htm');return false;" title=""><img src="../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></p>
-<script type="text/javascript" language="JavaScript">
-<!--
-if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
-  WritePopupMenuLayer();
-//-->
-</script><script type="text/javascript" language="javascript1.2">
-<!--
-if (window.writeIntopicBar)
-        writeIntopicBar(0);
-//-->
-</script>
+<p id="P1" class="whs8"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Macro Commands','macro_commands.htm','Macro Module','macro_module.htm','Macro Syntax','Macro_Syntax.htm','Run Script from File','Macros_Menu/run_script_from_file.htm','Script Generation','Script_Generation.htm','Show Command Window','Macros_Menu/show_command_window.htm','Special Symbols and Abbreviations','Special_Symbols_and_Abbreviations.htm','Type Conventions','type_conventions.htm');return false;" title=""><img src="../images/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></p>
+
 <form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B020F000000506172616D657465722054797065730C021A000000506172616D657465722054797065730A506172616D65746572730D020F000000506172616D6574657220547970657311020D0000004D6163726F73204D6F64756C6512020F000000506172616D657465722054797065731302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
 </body>
 </html>

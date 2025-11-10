@@ -5,13 +5,8 @@
 <title>Select Menu</title>
 <meta http-equiv="content-type" content="text/html; charset=windows-1252">
 <meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
-<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
-<script type="text/javascript" language="JavaScript">
-<!--
-if (navigator.appName !="Netscape")
-{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.whs1 { width:100%; }
@@ -101,82 +96,46 @@ td.whs84 { width:72.428%; padding-right:10px; padding-left:10px; border-bottom-c
 -->
 </style>
 
-<script type="text/javascript" language="JavaScript">
-<!--
-if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
-{
-  var strNSS = "<style type='text/css'>";
-  strNSS += "p.whs19 {margin-top:1pt;margin-bottom:1pt; }";
-  strNSS +="<\/style>";
-  document.write(strNSS);
-}
-//-->
-</script>
-<script type="text/javascript" language="JavaScript" src="../ehlpdhtm.js">
-</script>
-<script type="text/javascript" language="JavaScript">
-<!--
-function reDo() {
-  if (innerWidth != origWidth || innerHeight != origHeight)
-     location.reload();
-}
-if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
-        origWidth = innerWidth;
-        origHeight = innerHeight;
-        onresize = reDo;
-}
-onerror = null; 
-//-->
-</script>
+
+
+
 <style type="text/css">
 <!--
 div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
 -->
 </style>
 
-<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
-</script>
-<script type="text/javascript" language="javascript" src="../whver.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whutils.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
-</script>
+
+
+
+
+
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.gbWhTopic)
-{
-        if (window.addTocInfo)
-        {
-        addTocInfo("KUBE\nUser Interface\nMenus\nSelect Menu");
-addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
 
-        }
-        if (window.writeBtnStyle)
-                writeBtnStyle();
 
-        if (window.writeIntopicBar)
-                writeIntopicBar(1);
-
-        if (window.setRelStartPage)
-        {
-        setRelStartPage("../KUBE_Help.htm");
-addSearchFormHref("javascript:document.ehelpform.submit()");
-
-                autoSync(1);
-                sendSyncInfo();
-                sendAveInfoOut();
-        }
-}
-else
-        if (window.gbIE4)
-                document.location.reload();
-//-->
-</script>
 <div id="header" class="whs1">
 <p align="right" class="whs2">&#160;</p>
 </div>
@@ -202,7 +161,7 @@ else
 <col class="whs6">
 <tr valign="top" class="whs7">
 <td width="218px" class="whs8">
-<p><img src="Visualisation_menu_files/Select_Menu.gif" width="217px" height="256px" border="0" class="img_whs9" alt=""></p>
+<p><img src="../images/Select_Menu.gif" width="217px" height="256px" border="0" class="img_whs9" alt=""></p>
 </td>
 <td width="479px" class="whs10">
 <table cellspacing="0" width="100%" class="whs11">
@@ -270,7 +229,7 @@ else
 <p class="normal-table">Selects all visible entities.</p>
 </td>
 <td width="9.375%" class="whs33">
-<p class="normal-table"><a href="../References/Select_All.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+<p class="normal-table"><a href="../References/Select_All.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -281,7 +240,7 @@ else
 <p class="normal-table">Unselects all visible entities.</p>
 </td>
 <td width="9.375%" class="whs33">
-<p class="normal-table"><a href="../References/Select_None.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+<p class="normal-table"><a href="../References/Select_None.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
 </td>
 </tr>
 </table>
@@ -310,7 +269,7 @@ else
 <p class="normal-table"><span lang="EN-GB">selects all visible unselected entities (or parts of them) and deselects all visible selected entities (or parts of them).</span></p>
 </td>
 <td width="9.375%" class="whs33">
-<p class="normal-table"><a href="../References/Invert_Selection.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+<p class="normal-table"><a href="../References/Invert_Selection.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -321,7 +280,7 @@ else
 <p class="normal-table"><span lang="EN-GB">all shape selections will select only the scan data and mesh triangles, which normals face front towards the</span> <span lang="EN-GB"><a href="Viewport.htm">viewport</a>.</span></p>
 </td>
 <td width="9.375%" class="whs33">
-<p class="normal-table"><a href="../References/front_selection.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+<p class="normal-table"><a href="../References/front_selection.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
 </td>
 </tr>
 </table>
@@ -343,7 +302,7 @@ else
 </tr>
 <tr valign="top" class="whs7">
 <td colspan="3" rowspan="1" width="100%" class="whs43">
-<p><span class="Command"><img src="Visualisation_menu_files/Select_Menu_expanded.gif" width="282px" height="110px" border="0" class="img_whs44" alt=""></span></p>
+<p><span class="Command"><img src="../images/Select_Menu_expanded.gif" width="282px" height="110px" border="0" class="img_whs44" alt=""></span></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -363,7 +322,7 @@ else
 </ul>
 </td>
 <td width="9.375%" class="whs33">
-<p class="normal-table"><a href="../References/Polygonal_Selection.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+<p class="normal-table"><a href="../References/Polygonal_Selection.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -383,7 +342,7 @@ else
 </ul>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs33">
-<p class="normal-table"><a href="../References/freehand_(lasso)_selection.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+<p class="normal-table"><a href="../References/freehand_(lasso)_selection.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -403,7 +362,7 @@ else
 </ul>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs33">
-<p class="normal-table"><a href="../References/Rectangular_Selection.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+<p class="normal-table"><a href="../References/Rectangular_Selection.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -423,7 +382,7 @@ else
 </ul>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs33">
-<p class="normal-table"><a href="../References/elliptic_selection.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+<p class="normal-table"><a href="../References/elliptic_selection.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -444,7 +403,7 @@ else
 <p class="Note" id="p2"><span style="font-weight:bold;"><b>Note</b></span>: When use Pick selection, all currently selected areas will be deselected.</p>
 </td>
 <td width="9.375%" class="whs33">
-<p class="normal-table"><a href="../References/Pick_Selection.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+<p class="normal-table"><a href="../References/Pick_Selection.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
 </td>
 </tr>
 </table>
@@ -473,7 +432,7 @@ else
 <p class="normal-table">Selects areas containing triangles having an angle smaller than a given value. Applied to scan data and meshes only</p>
 </td>
 <td width="9.375%" class="whs33">
-<p class="normal-table"><a href="../References/Select_Thin_Triangles.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+<p class="normal-table"><a href="../References/Select_Thin_Triangles.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs58">
@@ -484,7 +443,7 @@ else
 <p class="normal-table">Selects triangles based on the length of their sides. This function allows selection of large triangles, small triangles or both.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs33">
-<p class="normal-table"><a href="../References/Select_Triangles_Based_on_Edge_Length.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+<p class="normal-table"><a href="../References/Select_Triangles_Based_on_Edge_Length.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs15">
@@ -495,7 +454,7 @@ else
 <p class="normal-table">Selects parts of a scan captured while reverse scanning.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs33">
-<p class="normal-table"><a href="../References/Select_Triangles_Based_on_Order.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+<p class="normal-table"><a href="../References/Select_Triangles_Based_on_Order.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs15">
@@ -506,7 +465,7 @@ else
 <p class="normal-table">Selects part of a scan based on the angle at which the points were created.</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs33">
-<p class="normal-table"><a href="../References/Select_by_Point_Normal.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+<p class="normal-table"><a href="../References/Select_by_Point_Normal.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs61">
@@ -517,7 +476,7 @@ else
 <p class="normal-table"><span lang="EN-US">Selects boundary triangles of visible scans and meshes.</span></p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs33">
-<p class="normal-table"><a href="../References/Select_Boundaries.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+<p class="normal-table"><a href="../References/Select_Boundaries.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs15">
@@ -528,7 +487,7 @@ else
 <p class="normal-table">Selects parts of a scan captured while scanning in reverse direction.</p>
 </td>
 <td width="9.375%" class="whs33">
-<p class="normal-table"><a href="../References/Select_Reverse_Scans.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+<p class="normal-table"><a href="../References/Select_Reverse_Scans.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
 </td>
 </tr>
 </table>
@@ -557,7 +516,7 @@ else
 <p class="normal-table">Computes the curvature per point comparing it's normal and it's neighbours normal, decides whether it is a curved or a flat surface, and selects it.</p>
 </td>
 <td width="9.375%" class="whs33">
-<p class="normal-table"><a href="../References/Select_by_Curvature.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+<p class="normal-table"><a href="../References/Select_by_Curvature.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -568,7 +527,7 @@ else
 <p class="normal-table">Selects areas containing triangles having an angle smaller than a given value. Applied to scan data and meshes only</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs33">
-<p class="normal-table"><a href="../References/Select_Thin_Triangles.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+<p class="normal-table"><a href="../References/Select_Thin_Triangles.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -579,7 +538,7 @@ else
 <p class="normal-table"><span lang="EN-US">Selects boundary triangles of visible scans and meshes.</span></p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs33">
-<p class="normal-table"><a href="../References/Select_Boundaries.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+<p class="normal-table"><a href="../References/Select_Boundaries.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
 </td>
 </tr>
 </table>
@@ -608,7 +567,7 @@ else
 <p class="normal-table">Command for additional selection for polylines depending on the number of their vertices.</p>
 </td>
 <td width="9.375%" class="whs33">
-<p class="normal-table"><a href="../References/Select_Polylines.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+<p class="normal-table"><a href="../References/Select_Polylines.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
 </td>
 </tr>
 </table>
@@ -637,7 +596,7 @@ else
 <p class="normal-table">Selects these points that are located in specific box co-ordinates. Applied to compound types of entities</p>
 </td>
 <td colspan="1" rowspan="1" width="9.375%" class="whs33">
-<p class="normal-table"><a href="../References/Select_Box.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+<p class="normal-table"><a href="../References/Select_Box.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
 </td>
 </tr>
 <tr valign="top" class="whs7">
@@ -648,22 +607,12 @@ else
 <p class="normal-table">Selects all visible entities from the chosen type. Applied to all types of entities</p>
 </td>
 <td width="9.375%" class="whs33">
-<p class="normal-table"><a href="../References/Select_by_Type.htm"><img src="../Corrosion/Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
+<p class="normal-table"><a href="../References/Select_by_Type.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs34" alt=""></a></p>
 </td>
 </tr>
 </table>
-<p class="Normal" style="text-align:justify;"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Toolbar','Toolbar2.htm','Tree Context Menus','Tree_Context_Menus.htm');return false;" title=""><img src="../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></p>
-<script type="text/javascript" language="JavaScript">
-<!--
-if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
-  WritePopupMenuLayer();
-//-->
-</script><script type="text/javascript" language="javascript1.2">
-<!--
-if (window.writeIntopicBar)
-        writeIntopicBar(0);
-//-->
-</script>
+<p class="Normal" style="text-align:justify;"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Toolbar','Toolbar2.htm','Tree Context Menus','Tree_Context_Menus.htm');return false;" title=""><img src="../images/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></p>
+
 <form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0C021200000053656C6563740A53656C656374204D656E750D020B00000053656C656374204D656E751102050000004D656E757312020B00000053656C656374204D656E751302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
 </body>
 </html>

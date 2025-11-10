@@ -5,13 +5,8 @@
 <title>MMZ Hardware Assembly</title>
 <meta http-equiv="content-type" content="text/html; charset=windows-1252">
 <meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
-<link rel="stylesheet" href="../../../metris-focus_ns.css" type="text/css">
-<script type="text/javascript" language="JavaScript">
-<!--
-if (navigator.appName !="Netscape")
-{   document.write("<link rel='stylesheet' href='../../../metris-focus.css'>");}
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.whs1 { width:100%; }
@@ -55,81 +50,45 @@ img_whs38 { border:none; width:80px; height:52px; float:none; border-style:none;
 -->
 </style>
 
-<script type="text/javascript" language="JavaScript">
-<!--
-if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
-{
-  var strNSS = "<style type='text/css'>";
-  strNSS += "img_whs11 {margin-left:1pt;margin-right:1pt; }";
-  strNSS += "img_whs14 {margin-left:1pt;margin-right:1pt; }";
-  strNSS +="<\/style>";
-  document.write(strNSS);
-}
-//-->
-</script>
-<script type="text/javascript" language="JavaScript">
-<!--
-function reDo() {
-  if (innerWidth != origWidth || innerHeight != origHeight)
-     location.reload();
-}
-if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
-        origWidth = innerWidth;
-        origHeight = innerHeight;
-        onresize = reDo;
-}
-onerror = null; 
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
 -->
 </style>
 
-<script type="text/javascript" language="javascript1.2" src="../../../whmsg.js">
-</script>
-<script type="text/javascript" language="javascript" src="../../../whver.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../../whproxy.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../../whutils.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../../whtopic.js">
-</script>
+
+
+
+
+
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.gbWhTopic)
-{
-        if (window.addTocInfo)
-        {
-        addTocInfo("KUBE\nScanning\nHardware\nMMZ\nMMZ Hardware Assembly");
-addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
 
-        }
-        if (window.writeBtnStyle)
-                writeBtnStyle();
 
-        if (window.writeIntopicBar)
-                writeIntopicBar(1);
-
-        if (window.setRelStartPage)
-        {
-        setRelStartPage("../../../KUBE_Help.htm");
-addSearchFormHref("javascript:document.ehelpform.submit()");
-
-                autoSync(1);
-                sendSyncInfo();
-                sendAveInfoOut();
-        }
-}
-else
-        if (window.gbIE4)
-                document.location.reload();
-//-->
-</script>
 <div id="header" class="whs1">
 <p align="right" class="whs2">&#160;</p>
 </div>
@@ -177,7 +136,7 @@ else
 <p><img src="ok_-_MM_Z_and_FARO_bracket_on.jpg" width="250px" height="166px" border="0" class="img_whs6" alt=""></p>
 </td>
 <td height="38" class="whs5">
-<p>Mount the sensor to the FARO USB mount. <a href="Sensor_Mount.htm"><img src="../../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs7" alt=""></a></p>
+<p>Mount the sensor to the FARO USB mount. <a href="Sensor_Mount.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs7" alt=""></a></p>
 </td>
 </tr>
 <tr class="whs8">
@@ -186,7 +145,7 @@ else
 </td>
 <td height="78" class="whs9">
 <p>&#160;</p>
-<p>Mount it to the last joint of the localiser and tighten it.<a href="Mounting_On_FARO_Platinum.htm"><img src="../../Images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs7" alt=""></a></p>
+<p>Mount it to the last joint of the localiser and tighten it.<a href="Mounting_On_FARO_Platinum.htm"><img src="../images/i_blue_sm.jpg" width="23px" height="16px" border="0" class="img_whs7" alt=""></a></p>
 </td>
 </tr>
 </table>
@@ -197,14 +156,7 @@ else
 <col>
 <tr class="whs4">
 <td colspan="1" rowspan="1" height="38" class="whs5">
-<p><span lang="EN-GB"><script type="text/javascript" language="JavaScript">
-<!--
-if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) <= 4)) 
-{  if (parseInt(navigator.appVersion) != 2) document.write("<img src='85mm_long_6mm_dia_ball_probe.jpg' id='_x0000_i1034' x-maintain-ratio='TRUE' width='150px' height='70px' border='0' class='img_whs11'>");}
-else
-{   document.write("<img src='85mm_long_6mm_dia_ball_probe.jpg' id='_x0000_i1034' x-maintain-ratio='TRUE' style='margin-left:0px;margin-right:0px;margin-top:2px;margin-bottom:2px;' width='150px' height='70px' border='0' class='img_whs11'>");}
-//-->
-</script></span></p>
+<p><span lang="EN-GB"></span></p>
 </td>
 <td height="38" class="whs5">
 <p><span lang="EN-GB">To be able to use a CimCore localiser with ModelMaker Z, you will need a 85mm</span> <b><span lang="EN-GB" style="font-weight:normal;">probe</span><span lang="EN-GB">.</span><br>
@@ -228,14 +180,7 @@ Please contact your CimCore distributor to purchase this item.</b></p>
 </tr>
 <tr class="whs8">
 <td colspan="1" rowspan="1" height="78" class="whs9">
-<p><span lang="EN-GB"><script type="text/javascript" language="JavaScript">
-<!--
-if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) <= 4)) 
-{  if (parseInt(navigator.appVersion) != 2) document.write("<img src='p23_MM_Z_cimcore_and_probe.jpg' id='_x0000_i1037' x-maintain-ratio='TRUE' width='256px' height='208px' border='0' class='img_whs13'>");}
-else
-{   document.write("<img src='p23_MM_Z_cimcore_and_probe.jpg' id='_x0000_i1037' x-maintain-ratio='TRUE' style='margin-top:2px;margin-bottom:2px;' width='256px' height='208px' border='0' class='img_whs13'>");}
-//-->
-</script></span></p>
+<p><span lang="EN-GB"></span></p>
 </td>
 <td height="78" class="whs9">
 <p>Mount the sensor onto the 85mm CimCore probe</p>
@@ -249,14 +194,7 @@ else
 <col>
 <tr class="whs4">
 <td colspan="1" rowspan="1" height="38" class="whs5">
-<p><span lang="EN-GB"><script type="text/javascript" language="JavaScript">
-<!--
-if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) <= 4)) 
-{  if (parseInt(navigator.appVersion) != 2) document.write("<img src='arm_mount.jpg' id='_x0000_i1030' width='150px' height='150px' border='0' class='img_whs14'>");}
-else
-{   document.write("<img src='arm_mount.jpg' id='_x0000_i1030' style='margin-left:0px;margin-right:0px;margin-top:2px;margin-bottom:2px;' width='150px' height='150px' border='0' class='img_whs14'>");}
-//-->
-</script></span></p>
+<p><span lang="EN-GB"></span></p>
 </td>
 <td height="38" class="whs5">
 <p><span lang="EN-GB">Mount the</span> <b><span lang="EN-GB" style="font-weight:normal;">FARO Gold localiser mount</span></b> <span lang="EN-GB">on the end of the localiser.</span></p>
@@ -265,14 +203,7 @@ else
 </tr>
 <tr class="whs8">
 <td colspan="1" rowspan="1" height="78" class="whs9">
-<p><span lang="EN-GB"><script type="text/javascript" language="JavaScript">
-<!--
-if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) <= 4)) 
-{  if (parseInt(navigator.appVersion) != 2) document.write("<img src='../Hardware_Description/sensor_c.jpg' id='_x0000_i1031' width='150px' height='150px' border='0' class='img_whs14'>");}
-else
-{   document.write("<img src='../Hardware_Description/sensor_c.jpg' id='_x0000_i1031' style='margin-left:0px;margin-right:0px;margin-top:2px;margin-bottom:2px;' width='150px' height='150px' border='0' class='img_whs14'>");}
-//-->
-</script></span></p>
+<p><span lang="EN-GB"></span></p>
 </td>
 <td height="78" class="whs9">
 <p>&#160;</p>
@@ -398,7 +329,7 @@ else
 <col>
 <tr class="whs4">
 <td height="38" class="whs5">
-<p><span lang="EN-GB"><img id="_x0000_i1045" src="../Hardware_Description/Accessories_files/remote_min.jpg" width="150px" height="115px" border="0" class="img_whs36" alt=""></span><span lang="EN-GB" style="font-size:12.0pt;"><font size="3" style="font-size:12pt;">&#160;</font></span></p>
+<p><span lang="EN-GB"><img id="_x0000_i1045" src="../images/remote_min.jpg" width="150px" height="115px" border="0" class="img_whs36" alt=""></span><span lang="EN-GB" style="font-size:12.0pt;"><font size="3" style="font-size:12pt;">&#160;</font></span></p>
 </td>
 <td rowspan="1" height="38" class="whs5">
 <p>Connect the radio antenna to the MMIB-DL</p>
@@ -434,12 +365,7 @@ else
 <p class="bullet">The speech recognition software is developed by Microsoft. Please refer to the Microsoft help files for more information.</p>
 </li>
 </ul>
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.writeIntopicBar)
-        writeIntopicBar(0);
-//-->
-</script>
+
 <form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0C0218010000417564696F0A4261636B0A43696D636F72650A436C6F73650A446F6E676C650A446F776E0A4641524F0A46726F6E740A48617264776172650A486172647761726520417373656D626C790A48656C700A4C617365720A4C696768740A6C6F63616C697365720A4C6F636B0A4D6561737572650A4D4D5A0A4D6F64656C4D616B65720A4D6F64656C4D616B6572094D6F64656C4D616B657220496E7465726661636520426F7820444C0A506172616C6C656C0A50434D4349410A507265666572656E6365730A5072655363616E0A50726F62650A52656D6F74652053776974636865730A526F746174650A5363616E0A5363616E204D6F64650A53656C6563740A53656E736F720A5370656563680A53797374656D0A5553420D02150000004D4D5A20486172647761726520417373656D626C791102030000004D4D5A1202150000004D4D5A20486172647761726520417373656D626C791302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
 </body>
 </html>

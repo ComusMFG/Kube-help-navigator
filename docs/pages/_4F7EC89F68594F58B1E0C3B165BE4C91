@@ -4,7 +4,7 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
-<base target="bsscright">
+
 <style>
 <!--
 body {margin-left:1pt; margin-top:1pt; margin-right:1pt;font-family:Arial; font-size:9pt;}
@@ -34,8 +34,31 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 body {background-color:#9ea0a3; } 
 -->
 </style>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body marginheight="0"  marginwidth="0" bgproperties="fixed">
+<body>
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
+
 
 <p class="ftsheader"><a name="subkey_T"></a> <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a> <a href="whlstf57.htm#bm_T" target="ftslist" title="search letter T "><b>T </b></a> <a href="whlstf57.htm#bms_TA" target="ftslist" title="search letter TA"><b>TA</b></a> <a href="whlstf58.htm#bms_TE" target="ftslist" title="search letter TE"><b>TE</b></a> <a href="whlstf58.htm#bms_TH" target="ftslist" title="search letter TH"><b>TH</b></a> <a href="whlstf59.htm#bms_TI" target="ftslist" title="search letter TI"><b>TI</b></a> <a href="whlstf59.htm#bms_TO" target="ftslist" title="search letter TO"><b>TO</b></a> <a href="whlstf60.htm#bms_TP" target="ftslist" title="search letter TP"><b>TP</b></a> <a href="whlstf60.htm#bms_TR" target="ftslist" title="search letter TR"><b>TR</b></a> <a href="whlstf61.htm#bms_TS" target="ftslist" title="search letter TS"><b>TS</b></a> <a href="whlstf61.htm#bms_TU" target="ftslist" title="search letter TU"><b>TU</b></a> <a href="whlstf61.htm#bms_TW" target="ftslist" title="search letter TW"><b>TW</b></a> <a href="whlstf61.htm#bms_TX" target="ftslist" title="search letter TX"><b>TX</b></a> <a href="whlstf61.htm#bms_TY" target="ftslist" title="search letter TY"><b>TY</b></a>  <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a></p>
 

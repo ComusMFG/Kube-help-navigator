@@ -2,7 +2,7 @@
 <head>
 <!-- WebHelp version 5.10 -->
 <title>Content</title>
-<base target="bsscright">
+
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
@@ -32,33 +32,56 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 img {vertial-align:middle;}
 -->
 </style>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body marginheight="0"  marginwidth="0" bgproperties="fixed">
+<body>
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
+
 <table border=0>
 <tr><td>
 <p class="tocbody" style="white-space:nowrap;">
-<a name="1"></a><a href="whlstt0.htm#1" target="_self"><img src="../book2.gif" border="0"></a> <a href="../KUBE_help/Introduction_KUBEHelp.htm">KUBE</a><br>
-&nbsp;&nbsp;&nbsp;<a name="2"></a><a href="whlstt2.htm#2" target="_self" title="closed book"><img src="../book1.gif" border="0"> User Interface</a><br>
-&nbsp;&nbsp;&nbsp;<a name="4"></a><a href="whlstt4.htm#4" target="_self" title="closed book"><img src="../book1.gif" border="0"> Scanning</a><br>
-&nbsp;&nbsp;&nbsp;<a name="22"></a><a href="whlstt1.htm#22" target="_self"><img src="../book2.gif" border="0"> Working with Data</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../Working_with_Data/Descriptions/entity_types.htm"><img src="../book3.gif" border="0"> Entity Types</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="23"></a><a href="whlstt23.htm#23" target="_self" title="closed book"><img src="../book1.gif" border="0"> Processing Data</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="24"></a><a href="whlstt24.htm#24" target="_self" title="closed book"><img src="../book1.gif" border="0"> Define Datums</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="25"></a><a href="whlstt22.htm#25" target="_self"><img src="../book2.gif" border="0"> Co-ordinate Systems</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../User_Interface/menu_transformations.htm"><img src="../book3.gif" border="0"> Create Transformations</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../User_Interface/Tree_Context_Menus.htm#Transformations1"><img src="../book3.gif" border="0"> Commands for current CS in Tree Context Menus</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../User_Interface/Tree_Context_Menus.htm#Transformations"><img src="../book3.gif" border="0"> Commands for Transformations in Tree Context Menus</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../User_Interface/registration_menu.htm"><img src="../book3.gif" border="0"> Register &amp; Align Entities</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../References/Rotate_and_Translate.htm"><img src="../book3.gif" border="0"> Rotate &amp; Translate</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="26"></a><a href="whlstt26.htm#26" target="_self" title="closed book"><img src="../book1.gif" border="0"> Measurements</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="29"></a><a href="whlstt29.htm#29" target="_self" title="closed book"><img src="../book1.gif" border="0"> Working in Inspection Mode</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../Working_with_Data/Descriptions/visualisation.htm"><img src="../book3.gif" border="0"> Visualisation</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../References/Export_Entities.htm"><img src="../book3.gif" border="0"> Export Entities</a><br>
-&nbsp;&nbsp;&nbsp;<a name="30"></a><a href="whlstt30.htm#30" target="_self" title="closed book"><img src="../book1.gif" border="0"> Inspection Mode</a><br>
-&nbsp;&nbsp;&nbsp;<a name="33"></a><a href="whlstt33.htm#33" target="_self" title="closed book"><img src="../book1.gif" border="0"> Corrosion Module</a><br>
-&nbsp;&nbsp;&nbsp;<a name="34"></a><a href="whlstt34.htm#34" target="_self" title="closed book"><img src="../book1.gif" border="0"> Macros Module</a><br>
-&nbsp;&nbsp;&nbsp;<a name="35"></a><a href="whlstt35.htm#35" target="_self" title="closed book"><img src="../book1.gif" border="0"> References</a><br>
-&nbsp;&nbsp;&nbsp;<a name="36"></a><a href="whlstt36.htm#36" target="_self" title="closed book"><img src="../book1.gif" border="0"> Troubleshooting</a><br>
+<a name="1"></a><a href="whlstt0.htm#1" target="_self"><img src="../images/book2.gif" border="0"></a> <a href="../KUBE_help/Introduction_KUBEHelp.htm">KUBE</a><br>
+&nbsp;&nbsp;&nbsp;<a name="2"></a><a href="whlstt2.htm#2" target="_self" title="closed book"><img src="../images/book1.gif" border="0"> User Interface</a><br>
+&nbsp;&nbsp;&nbsp;<a name="4"></a><a href="whlstt4.htm#4" target="_self" title="closed book"><img src="../images/book1.gif" border="0"> Scanning</a><br>
+&nbsp;&nbsp;&nbsp;<a name="22"></a><a href="whlstt1.htm#22" target="_self"><img src="../images/book2.gif" border="0"> Working with Data</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../Working_with_Data/Descriptions/entity_types.htm"><img src="../images/book3.gif" border="0"> Entity Types</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="23"></a><a href="whlstt23.htm#23" target="_self" title="closed book"><img src="../images/book1.gif" border="0"> Processing Data</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="24"></a><a href="whlstt24.htm#24" target="_self" title="closed book"><img src="../images/book1.gif" border="0"> Define Datums</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="25"></a><a href="whlstt22.htm#25" target="_self"><img src="../images/book2.gif" border="0"> Co-ordinate Systems</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../User_Interface/menu_transformations.htm"><img src="../images/book3.gif" border="0"> Create Transformations</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../User_Interface/Tree_Context_Menus.htm#Transformations1"><img src="../images/book3.gif" border="0"> Commands for current CS in Tree Context Menus</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../User_Interface/Tree_Context_Menus.htm#Transformations"><img src="../images/book3.gif" border="0"> Commands for Transformations in Tree Context Menus</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../User_Interface/registration_menu.htm"><img src="../images/book3.gif" border="0"> Register &amp; Align Entities</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../References/Rotate_and_Translate.htm"><img src="../images/book3.gif" border="0"> Rotate &amp; Translate</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="26"></a><a href="whlstt26.htm#26" target="_self" title="closed book"><img src="../images/book1.gif" border="0"> Measurements</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a name="29"></a><a href="whlstt29.htm#29" target="_self" title="closed book"><img src="../images/book1.gif" border="0"> Working in Inspection Mode</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../Working_with_Data/Descriptions/visualisation.htm"><img src="../images/book3.gif" border="0"> Visualisation</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../References/Export_Entities.htm"><img src="../images/book3.gif" border="0"> Export Entities</a><br>
+&nbsp;&nbsp;&nbsp;<a name="30"></a><a href="whlstt30.htm#30" target="_self" title="closed book"><img src="../images/book1.gif" border="0"> Inspection Mode</a><br>
+&nbsp;&nbsp;&nbsp;<a name="33"></a><a href="whlstt33.htm#33" target="_self" title="closed book"><img src="../images/book1.gif" border="0"> Corrosion Module</a><br>
+&nbsp;&nbsp;&nbsp;<a name="34"></a><a href="whlstt34.htm#34" target="_self" title="closed book"><img src="../images/book1.gif" border="0"> Macros Module</a><br>
+&nbsp;&nbsp;&nbsp;<a name="35"></a><a href="whlstt35.htm#35" target="_self" title="closed book"><img src="../images/book1.gif" border="0"> References</a><br>
+&nbsp;&nbsp;&nbsp;<a name="36"></a><a href="whlstt36.htm#36" target="_self" title="closed book"><img src="../images/book1.gif" border="0"> Troubleshooting</a><br>
 </p>
 
 </td></tr>

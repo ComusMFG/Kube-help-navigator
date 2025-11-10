@@ -4,7 +4,7 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
-<base target="bsscright">
+
 <style>
 <!--
 body {margin-left:1pt; margin-top:1pt; margin-right:1pt;font-family:Arial; font-size:9pt;}
@@ -34,8 +34,31 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 body {background-color:#9ea0a3; } 
 -->
 </style>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body marginheight="0"  marginwidth="0" bgproperties="fixed">
+<body>
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
+
 
 <p class="ftsheader"><a name="subkey_O"></a> <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a> <a href="whlstf39.htm#bm_O" target="ftslist" title="search letter O "><b>O </b></a> <a href="whlstf39.htm#bms_OB" target="ftslist" title="search letter OB"><b>OB</b></a> <a href="whlstf39.htm#bms_OC" target="ftslist" title="search letter OC"><b>OC</b></a> <a href="whlstf40.htm#bms_OF" target="ftslist" title="search letter OF"><b>OF</b></a> <a href="whlstf40.htm#bms_OK" target="ftslist" title="search letter OK"><b>OK</b></a> <a href="whlstf40.htm#bms_OL" target="ftslist" title="search letter OL"><b>OL</b></a> <a href="whlstf40.htm#bms_OM" target="ftslist" title="search letter OM"><b>OM</b></a> <a href="whlstf40.htm#bms_ON" target="ftslist" title="search letter ON"><b>ON</b></a> <a href="whlstf41.htm#bms_OP" target="ftslist" title="search letter OP"><b>OP</b></a> <a href="whlstf42.htm#bms_OR" target="ftslist" title="search letter OR"><b>OR</b></a> <a href="whlstf42.htm#bms_OS" target="ftslist" title="search letter OS"><b>OS</b></a> <a href="whlstf42.htm#bms_OT" target="ftslist" title="search letter OT"><b>OT</b></a> <a href="whlstf42.htm#bms_OU" target="ftslist" title="search letter OU"><b>OU</b></a> <a href="whlstf43.htm#bms_OV" target="ftslist" title="search letter OV"><b>OV</b></a> <a href="whlstf43.htm#bms_OW" target="ftslist" title="search letter OW"><b>OW</b></a> <a href="whlstf43.htm#bms_OX" target="ftslist" title="search letter OX"><b>OX</b></a> <a href="whlstf43.htm#bms_OY" target="ftslist" title="search letter OY"><b>OY</b></a> <a href="whlstf43.htm#bms_OZ" target="ftslist" title="search letter OZ"><b>OZ</b></a>  <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a></p>
 

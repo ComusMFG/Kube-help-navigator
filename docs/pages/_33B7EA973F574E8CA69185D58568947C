@@ -4,7 +4,7 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
-<base target="bsscright">
+
 <style>
 <!--
 body {margin-left:1pt; margin-top:1pt; margin-right:1pt;font-family:Arial; font-size:9pt;}
@@ -29,8 +29,31 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 
 -->
 </style>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body marginheight="0"  marginwidth="0" bgproperties="fixed">
+<body>
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
+
 <p class="ftsbody" align="center"><a href="whlstf46.htm" target="_self" title="previous search group"><b>&lt;&lt;</b></a><br><br></p>
 <p class="ftsbody" style="white-space:nowrap;">
 <a name="bms_PS"></a><a name="subkey_PS"></a><a href="../Macros/Commands/Export.htm"><b>pset</b></a> <br><a href="../Scanning/Hardware/MMZ/package_contents_mmz.htm"><b>psu</b></a> <br><a name="bms_PT"></a><a name="subkey_PT"></a><a href="../Macros/Special_Symbols_and_Abbreviations.htm"><b>pt</b></a> <br>ptcloud <a href="../Macros/Commands/HideEntitySel.htm"><b>1</b></a> <a href="../Macros/Commands/OpenInDoc.htm"><b>2</b></a> <a href="../Macros/Commands/Open.htm"><b>3</b></a> <a href="../Macros/type_conventions.htm"><b>4</b></a> <br><a href="../Macros/Commands/SelByEdge.htm"><b>ptmaxdist</b></a> <br><a href="../Macros/Commands/SelByEdge.htm"><b>ptmindist</b></a> <br>ptprobes <a href="../Macros/Commands/HideEntity.htm"><b>1</b></a> <a href="../Macros/type_conventions.htm"><b>2</b></a> <br>pts <a href="../Scanning/Hardware/MMD/Settings/Hardware_Settings_-_Scan_Mode_Tab.htm"><b>1</b></a> <a href="../References/Display_Settings_-_Grid.htm"><b>2</b></a> <a href="../Working_with_Data/Descriptions/define_sphere.htm"><b>3</b></a> <a href="../Working_with_Data/Descriptions/define_round_slot.htm"><b>4</b></a> <a href="../Working_with_Data/Descriptions/define_rectangular_slot.htm"><b>5</b></a> <a href="../Working_with_Data/Descriptions/define_plane.htm"><b>6</b></a> <a href="../Working_with_Data/Descriptions/define_cylinder.htm"><b>7</b></a> <a href="../Working_with_Data/Descriptions/define_cone.htm"><b>8</b></a> <a href="../Working_with_Data/Descriptions/define_circle.htm"><b>9</b></a> <a href="../Scanning/Hardware/MMC/Settings/Hardware_Settings_-_Scan_Mode_Tab_MMC.htm"><b>10</b></a> <br><a href="../Macros/Commands/Merge.htm"><b>ptscp</b></a> <br>ptspc <a href="../Macros/Commands/Merge.htm"><b>1</b></a> <a href="../Macros/Special_Symbols_and_Abbreviations.htm"><b>2</b></a> <a href="../Macros/Parameter_Types.htm"><b>3</b></a> <br>ptstripe <a href="../Macros/Commands/UnSelEntity.htm"><b>1</b></a> <a href="../Macros/type_conventions.htm"><b>2</b></a> <a href="../Macros/Script_Generation.htm"><b>3</b></a> <br>ptt <a href="../Corrosion/printing_Corrosion.htm"><b>1</b></a> <a href="../Corrosion/appendix_a_Corrosion.htm"><b>2</b></a> <br><a name="bms_PU"></a><a name="subkey_PU"></a><a href="../References/enhance_features.htm"><b>pulling</b></a> <br><a href="../Troubleshooting/Hardware/Trigger_Cable_Unplugged.htm"><b>pulses</b></a> <br>purchase <a href="../Scanning/Hardware/MMD/package_contents_mmd.htm"><b>1</b></a> <a href="../Scanning/Hardware/MMX/mm_hardware_assembly.htm"><b>2</b></a> <a href="../Scanning/Hardware/MMZ/mm_hardware_assembly.htm"><b>3</b></a> <a href="../Scanning/Hardware/MMZ/package_contents_mmz.htm"><b>4</b></a> <a href="../KUBE_help/About.htm"><b>5</b></a> <a href="../Scanning/Hardware/MMC/System_Contents_MMC.htm"><b>6</b></a> <br><a href="../KUBE_help/About.htm"><b>purchased</b></a> <br>purpose <a href="../References/Display_Settings-Colours.htm"><b>1</b></a> <a href="../References/Preferences_-_Power_Management_And_Screen_Saver.htm"><b>2</b></a> <a href="../Macros/Parameter_Types.htm"><b>3</b></a> <a href="../References/create_from_viewport.htm"><b>4</b></a> <br>push <a href="../Scanning/Hardware/MMZ/mm_hardware_assembly.htm"><b>1</b></a> <a href="../Scanning/Localiser/CimCore/cimcore_arm_set-up.htm"><b>2</b></a> <a href="../References/Lock_in_Space.htm"><b>3</b></a> <a href="../User_Interface/Tree.htm"><b>4</b></a> <a href="../References/Unlock.htm"><b>5</b></a> <br>put <a href="../Inspection_Mode/References/Move_Up_Pages.htm"><b>1</b></a> <a href="../Inspection_Mode/References/Move_Down_Pages.htm"><b>2</b></a> <a href="../References/index_of_commands.htm"><b>3</b></a> <a href="../References/labeling.htm"><b>4</b></a> <a href="../User_Interface/Measure_Context_Menus.htm"><b>5</b></a> <a href="../User_Interface/Tree_Context_Menus.htm"><b>6</b></a> <a href="../References/Put_Label.htm"><b>7</b></a> <a href="../References/align_entities.htm"><b>8</b></a> <br><a name="bms_PY"></a><a name="subkey_PY"></a><a href="../References/Pick_Feature_Points.htm"><b>pyramid</b></a> <br>

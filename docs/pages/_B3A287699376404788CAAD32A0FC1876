@@ -4,52 +4,42 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
 <style>
 <!--
 body {margin:0;}
 -->
 </style>
-<script language="javascript" src="whver.js"></script>
-<script language="javascript1.2" src="whutils.js"></script>
-<script language="javascript1.2" src="whmsg.js"></script>
-<script language="javascript1.2" src="whproxy.js"></script>
-<script language="javascript1.2" src="whmozemu.js"></script>
-<script language="javascript1.2" src="whtbar.js"></script>
-<body marginheight="0"  marginwidth="0"  bgcolor="#666666"    background="top_toolbar_background.gif"  scroll="no">
-<script language="javascript1.2">
-<!--
-if (window.gbWhTBar)
-{
-	setButtonFont("synctoc","Tahoma","8pt","Black","Normal","Normal","none");
-setButtonFont("hide2","Tahoma","8pt","Black","Normal","Normal","none");
 
-	gsIPrev = "wht_prev.gif";
-	gsIPrevD = "wht_prev_g.gif";
-	gsINext = "wht_next.gif";
-	gsINextD = "wht_next_g.gif";
-	gsISync = "wht_sync.gif";
-	gsIHide = "wht_hide.gif";
-	setBackgroundcolor("#666666");
-	setBackground("top_toolbar_background.gif");
-	
-	addButton("synctoc",BTN_TEXT|BTN_IMG,"","","","","",0,0,"","","","","","");
-addButton("hide2",BTN_TEXT|BTN_IMG,"","","","","",0,0,"button_close.gif","button_close_over.gif","","button_close.gif","","");
 
-	addButton("blankblock");
-	writeStyle(true);
-	ReSortMinibarButtons();
-	writeToolBar();
-}
-else
-	document.location.reload();
 
-if (window.gbNav6)
-{
-	var oMsg=new whMessage(WH_MSG_RELOADNS6,this, 1,null);
-	SendMessage(oMsg);
-}
-//-->
-</script>
+
+
+
+<body>
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
+
+
 </body>
 </html>

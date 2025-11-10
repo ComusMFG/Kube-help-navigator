@@ -4,7 +4,7 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
-<base target="bsscright">
+
 <style>
 <!--
 body {margin-left:1pt; margin-top:1pt; margin-right:1pt;font-family:Arial; font-size:9pt;}
@@ -34,8 +34,31 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 body {background-color:#9ea0a3; } 
 -->
 </style>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body marginheight="0"  marginwidth="0" bgproperties="fixed">
+<body>
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
+
 
 <p class="ftsheader"><a name="subkey_H"></a> <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a> <a href="whlstf25.htm#bm_H" target="ftslist" title="search letter H "><b>H </b></a> <a href="whlstf25.htm#bms_HA" target="ftslist" title="search letter HA"><b>HA</b></a> <a href="whlstf25.htm#bms_HE" target="ftslist" title="search letter HE"><b>HE</b></a> <a href="whlstf25.htm#bms_HF" target="ftslist" title="search letter HF"><b>HF</b></a> <a href="whlstf25.htm#bms_HI" target="ftslist" title="search letter HI"><b>HI</b></a> <a href="whlstf26.htm#bms_HK" target="ftslist" title="search letter HK"><b>HK</b></a> <a href="whlstf26.htm#bms_HO" target="ftslist" title="search letter HO"><b>HO</b></a> <a href="whlstf26.htm#bms_HT" target="ftslist" title="search letter HT"><b>HT</b></a> <a href="whlstf26.htm#bms_HU" target="ftslist" title="search letter HU"><b>HU</b></a> <a href="whlstf26.htm#bms_HW" target="ftslist" title="search letter HW"><b>HW</b></a> <a href="whlstf26.htm#bms_HZ" target="ftslist" title="search letter HZ"><b>HZ</b></a>  <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a></p>
 

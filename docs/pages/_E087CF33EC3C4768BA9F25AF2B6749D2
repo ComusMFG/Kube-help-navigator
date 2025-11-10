@@ -4,7 +4,7 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
-<base target="bsscright">
+
 <style>
 <!--
 body {margin-left:1pt; margin-top:1pt; margin-right:1pt;font-family:Arial; font-size:9pt;}
@@ -29,8 +29,31 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 
 -->
 </style>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body marginheight="0"  marginwidth="0" bgproperties="fixed">
+<body>
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
+
 <p class="ftsbody" align="center"><a href="whlstf17.htm" target="_self" title="previous search group"><b>&lt;&lt;</b></a><br><br></p>
 <p class="ftsbody" style="white-space:nowrap;">
 <a name="bms_DU"></a><a name="subkey_DU"></a>due <a href="../Corrosion/printing_Corrosion.htm"><b>1</b></a> <a href="../Scanning/Scanning/Basic_Scanning_Rules_and_Useful_Tips.htm"><b>2</b></a> <a href="../Troubleshooting/Hardware/Sensor_Video_Connection_Failed.htm"><b>3</b></a> <a href="../Troubleshooting/Hardware/Remote_Switches.htm"><b>4</b></a> <a href="../User_Interface/Interactive_datum_interface_description.htm"><b>5</b></a> <a href="../Scanning/Capture/capture_cylinder.htm"><b>6</b></a> <a href="../Scanning/Capture/capture_cone.htm"><b>7</b></a> <a href="../References/autoextract_circle.htm"><b>8</b></a> <br>dump <a href="../KUBE_help/What_s_New.htm"><b>1</b></a> <a href="../User_Interface/Shortcut_Keys.htm"><b>2</b></a> <a href="../Macros/Commands/Help.htm"><b>3</b></a> <br><a href="../Macros/Commands/Help.htm"><b>dumps</b></a> <br><a href="../Macros/Special_Symbols_and_Abbreviations.htm"><b>dupl</b></a> <br>duplicate <a href="../KUBE_help/What_s_New.htm"><b>1</b></a> <a href="../User_Interface/mesh_menu.htm"><b>2</b></a> <a href="../Working_with_Data/Descriptions/processing_meshes.htm"><b>3</b></a> <a href="../References/remove_duplicate_triangles.htm"><b>4</b></a> <a href="../Macros/Commands/RmDuplTri.htm"><b>5</b></a> <br>duplicated <a href="../References/index_of_commands.htm"><b>1</b></a> <a href="../References/import_transformation.htm"><b>2</b></a> <a href="../References/remove_duplicate_triangles.htm"><b>3</b></a> <a href="../Macros/macro_commands.htm"><b>4</b></a> <a href="../References/weld.htm"><b>5</b></a> <a href="../Macros/Special_Symbols_and_Abbreviations.htm"><b>6</b></a> <br><a href="../Scanning/Hardware/MMD/Settings/hardware_settings_-_localiser_(faro_platinum_advanced_settings).htm"><b>duplicates</b></a> <br><a name="bms_DX"></a><a name="subkey_DX"></a>dx <a href="../Inspection_Mode/References/3D_Comparison.htm"><b>1</b></a> <a href="../Inspection_Mode/References/Format_Labels.htm"><b>2</b></a> <a href="../Inspection_Mode/References/Edit_Mode_for_Labels.htm"><b>3</b></a> <a href="../References/Type_In_Transformation.htm"><b>4</b></a> <br>dxf <a href="../References/export.htm"><b>1</b></a> <a href="../KUBE_help/What_s_New.htm"><b>2</b></a> <a href="../References/Open.htm"><b>3</b></a> <a href="../Macros/Commands/Export.htm"><b>4</b></a> <br><a name="bms_DY"></a><a name="subkey_DY"></a>dy <a href="../Inspection_Mode/References/3D_Comparison.htm"><b>1</b></a> <a href="../Inspection_Mode/References/Format_Labels.htm"><b>2</b></a> <a href="../Inspection_Mode/References/Edit_Mode_for_Labels.htm"><b>3</b></a> <a href="../References/Type_In_Transformation.htm"><b>4</b></a> <br>dynamic <a href="../Scanning/Hardware/MMD/Settings/Hardware_Settings_-_Enhanced_Settings_MMD.htm"><b>1</b></a> <a href="../Scanning/Hardware/MMD/Settings/Hardware_Settings_-_Sensor_Tab_MMD.htm"><b>2</b></a> <a href="../Scanning/Localiser/localiser_performance_check.htm"><b>3</b></a> <a href="../Scanning/Probe_Points_Capture/capture_dynamic_points.htm"><b>4</b></a> <a href="../Scanning/Probe_Calibration/Localiser_Probe_Calibration_-_Metris_MCA.htm"><b>5</b></a> <a href="../KUBE_help/What_s_New.htm"><b>6</b></a> <a href="../User_Interface/Toolbar2.htm"><b>7</b></a> <a href="../User_Interface/system_menu.htm"><b>8</b></a> <a href="../Working_with_Data/Descriptions/Probe_Points.htm"><b>9</b></a> <a href="../References/Preferences_-_Display_-_Sensor_Models.htm"><b>10</b></a> <a href="../Scanning/Hardware/MMC/Settings/Hardware_Settings_-_Enhanced_Sensor_Performance_MMC.htm"><b>11</b></a> <br><a href="../User_Interface/Scan_Pane_(Arm_Menu).htm"><b>dynamically</b></a> <br><a name="bms_DZ"></a><a name="subkey_DZ"></a>dz <a href="../Inspection_Mode/References/3D_Comparison.htm"><b>1</b></a> <a href="../Inspection_Mode/References/Format_Labels.htm"><b>2</b></a> <a href="../Inspection_Mode/References/Edit_Mode_for_Labels.htm"><b>3</b></a> <a href="../References/Type_In_Transformation.htm"><b>4</b></a> <br>

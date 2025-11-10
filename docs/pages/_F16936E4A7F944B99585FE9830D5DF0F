@@ -5,13 +5,8 @@
 <title>Scan Data Description</title>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
-<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
-<script type="text/javascript" language="JavaScript">
-<!--
-if (navigator.appName !="Netscape")
-{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.whs1 { width:100%; }
@@ -22,73 +17,44 @@ img_whs5 { border:none; width:550px; height:400px; float:none; border-style:none
 -->
 </style>
 
-<script type="text/javascript" language="JavaScript">
-<!--
-function reDo() {
-  if (innerWidth != origWidth || innerHeight != origHeight)
-     location.reload();
-}
-if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
-        origWidth = innerWidth;
-        origHeight = innerHeight;
-        onresize = reDo;
-}
-onerror = null; 
-//-->
-</script>
+
 <style type="text/css">
 <!--
 div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
 -->
 </style>
 
-<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
-</script>
-<script type="text/javascript" language="javascript" src="../../whver.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
-</script>
+
+
+
+
+
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.gbWhTopic)
-{
-        if (window.addTocInfo)
-        {
-        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+    <a href="../index.html" class="back-to-index">â† Back to Index</a>
 
-        }
-        if (window.writeBtnStyle)
-                writeBtnStyle();
 
-        if (window.writeIntopicBar)
-                writeIntopicBar(1);
-
-        if (window.setRelStartPage)
-        {
-        setRelStartPage("../../KUBE_Help.htm");
-addSearchFormHref("javascript:document.ehelpform.submit()");
-
-                autoSync(1);
-                sendSyncInfo();
-                sendAveInfoOut();
-        }
-}
-else
-        if (window.gbIE4)
-                document.location.reload();
-//-->
-</script><script type="text/javascript" language="JavaScript1.2" src="../../ehlpdhtm.js">
-</script><script type="text/javascript" language="JavaScript1.2">
-<!-- 
-if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
- //-->
-</script>
 <div id="header" class="whs1">
 <p align="right" class="whs2">&#160;</p>
 </div>
@@ -98,45 +64,23 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p><span lang="EN-US">The stripe is a linear sequence of points. Every stripe has a 2D profile corresponding to the laser line on the surface at a given moment of time.</span></p>
 <p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a5" style="text-decoration:underline;">Example <span lang="EN-US" style="text-decoration:underline;"><u>for Patches painted in different colours</u></span></a></p>
 <div class="droptext" id="POPUP224634266" style="display:'none'; x-ss-type:dropdown;">
-<p class="Normal" style="text-align:justify;"><img src="../Images/Coloured_patches.jpg" width="576px" height="362px" border="0" class="img_whs4" alt=""></p>
+<p class="Normal" style="text-align:justify;"><img src="../images/Coloured_patches.jpg" width="576px" height="362px" border="0" class="img_whs4" alt=""></p>
 </div>
 <p><span lang="EN-US">You can divide a scan into entities each representing a single patch by applying</span> <span class="Command">Split Scan Data</span> <span lang="EN-US">command.</span> <span class="Command">Select Triangles Based on Order</span> <span lang="EN-US">command allows you to select single or multiple patches from a scan entity.</span></p>
 <p class="Example" style="text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Example for Scan in Smooth shading mode</a></span></p>
 <div class="droptext" id="POPUP291804872" style="display:'none'; x-ss-type:dropdown;">
-<p><img src="../Images/Scan_-_flat.bmp" width="550px" height="400px" border="0" class="img_whs5" alt=""></p>
+<p><img src="../images/Scan_-_flat.bmp" width="550px" height="400px" border="0" class="img_whs5" alt=""></p>
 </div>
 <p class="Example" style="text-decoration:underline;"><span lang="EN-US"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a2" style="text-decoration:underline;">Example for Scan in Large Points rendering mode</a></span></p>
 <div class="droptext" id="POPUP537205259" style="display:'none'; x-ss-type:dropdown;">
-<p><img src="../Images/Scan_-_points.bmp" width="550px" height="400px" border="0" class="img_whs5" alt=""></p>
+<p><img src="../images/Scan_-_points.bmp" width="550px" height="400px" border="0" class="img_whs5" alt=""></p>
 </div>
-<p><span lang="EN-US">All rendering modes are available for displaying scan data – see <u><a href="visualisation.htm">Visualisation</a></u> for details. In</span> <span class="Mode">Points</span> <span lang="EN-US">and</span> <span class="Mode">Large Points</span> <span lang="EN-US">render modes you can distinguish different patches, stripes and points. Back-facing surfaces are also coloured.</span></p>
+<p><span lang="EN-US">All rendering modes are available for displaying scan data  see <u><a href="visualisation.htm">Visualisation</a></u> for details. In</span> <span class="Mode">Points</span> <span lang="EN-US">and</span> <span class="Mode">Large Points</span> <span lang="EN-US">render modes you can distinguish different patches, stripes and points. Back-facing surfaces are also coloured.</span></p>
 <p><span lang="EN-US">We strongly recommend every scan to be converted to a mesh using function</span> <span class="Command">Merge</span> <span lang="EN-US">before exporting. This produces the best quality data.</span></p>
 <p><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">When scanning a 3D object several partially overlapping scans will normally be needed to capture the whole surface of the object. Therefore, raw data sets almost always overlap each other and are always bigger than the finished data set. Scans are normally post-processed by sampling before exporting to give the required number and layout of points.</font></span></p>
 <p><span lang="EN-US" style="font-size:10.0pt;"><font size="2" style="font-size:10pt;">Operations that may be carried out on scan data are:</font></span> <span class="Command">Merge</span><span lang="EN-US" style="font-size:10.0pt;"><font size="2" style="font-size:10pt;">,</font></span> <span class="Command">Sampling and Noise reduction</span><span lang="EN-US" style="font-size:10.0pt;"><font size="2" style="font-size:10pt;">.</font></span></p>
-<p class="Normal" style="text-align:justify; font-size:10.0pt; font-family:Arial;"><span lang="EN-US"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Hardware Settings','../../Scanning/Hardware/MMD/Settings/hardware_settings_mmd.htm','Hardware Settings','../../Scanning/Hardware/MMX/Settings/hardware_settings_mmx.htm','Hardware Settings','../../Scanning/Hardware/MMZ/Settings/hardware_settings_mmz.htm','Merge','../../References/merge.htm','Optimise Scan','../../References/Optimise_Scan.htm','Select Triangles Based on Order','../../References/Select_Triangles_Based_on_Order.htm','Split Scan Data','../../References/Split_Scan_Data.htm');return false;" title=""><img src="../../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></span></p>
-<script language="javascript1.2" type="text/javascript">
-<!--
-kadovTextPopupInit('a5','POPUP224634266');
-//-->
-</script><script language="javascript1.2" type="text/javascript">
-<!--
-kadovTextPopupInit('a1','POPUP291804872');
-//-->
-</script><script language="javascript1.2" type="text/javascript">
-<!--
-kadovTextPopupInit('a2','POPUP537205259');
-//-->
-</script><script type="text/javascript" language="JavaScript">
-<!--
-if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
-  WritePopupMenuLayer();
-//-->
-</script><script type="text/javascript" language="javascript1.2">
-<!--
-if (window.writeIntopicBar)
-        writeIntopicBar(0);
-//-->
-</script>
+<p class="Normal" style="text-align:justify; font-size:10.0pt; font-family:Arial;"><span lang="EN-US"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Hardware Settings','../../Scanning/Hardware/MMD/Settings/hardware_settings_mmd.htm','Hardware Settings','../../Scanning/Hardware/MMX/Settings/hardware_settings_mmx.htm','Hardware Settings','../../Scanning/Hardware/MMZ/Settings/hardware_settings_mmz.htm','Merge','../../References/merge.htm','Optimise Scan','../../References/Optimise_Scan.htm','Select Triangles Based on Order','../../References/Select_Triangles_Based_on_Order.htm','Split Scan Data','../../References/Split_Scan_Data.htm');return false;" title=""><img src="../images/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></span></p>
+
 <form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B02150000005363616E2044617461204465736372697074696F6E0C02F40000004170706C790A4170706C790953706C69740A417272616E67650A4261736564204F6E204F726465720A436170747572650A446973706C61790A456E7469746965730A4578706F72740A4C6172676520506F696E74730A4C617365720A4C696E650A4C696E6561720A4D657267650A4D6573680A4E6F6973650A50617463680A53616D706C696E670A5363616E0A5363616E20446174610A5363616E2044617461095363616E2044617461204465736372697074696F6E0A53656C6563740A53656C65637420547269616E676C6573204261736564206F6E204F726465720A53656E736F720A53706C6974205363616E20446174610D02150000005363616E2044617461204465736372697074696F6E1102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
 </body>
 </html>

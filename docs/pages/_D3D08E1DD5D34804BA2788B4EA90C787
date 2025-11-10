@@ -5,13 +5,8 @@
 <title>fill</title>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
-<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
-<script type="text/javascript" language="JavaScript">
-<!--
-if (navigator.appName !="Netscape")
-{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.whs1 { width:100%; }
@@ -35,73 +30,44 @@ p.whs18 { font-size:10.0pt; }
 -->
 </style>
 
-<script type="text/javascript" language="JavaScript">
-<!--
-function reDo() {
-  if (innerWidth != origWidth || innerHeight != origHeight)
-     location.reload();
-}
-if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
-        origWidth = innerWidth;
-        origHeight = innerHeight;
-        onresize = reDo;
-}
-onerror = null; 
-//-->
-</script>
+
 <style type="text/css">
 <!--
 div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
 -->
 </style>
 
-<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
-</script>
-<script type="text/javascript" language="javascript" src="../whver.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whutils.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
-</script>
+
+
+
+
+
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.gbWhTopic)
-{
-        if (window.addTocInfo)
-        {
-        addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
 
-        }
-        if (window.writeBtnStyle)
-                writeBtnStyle();
 
-        if (window.writeIntopicBar)
-                writeIntopicBar(1);
-
-        if (window.setRelStartPage)
-        {
-        setRelStartPage("../KUBE_Help.htm");
-addSearchFormHref("javascript:document.ehelpform.submit()");
-
-                autoSync(1);
-                sendSyncInfo();
-                sendAveInfoOut();
-        }
-}
-else
-        if (window.gbIE4)
-                document.location.reload();
-//-->
-</script><script type="text/javascript" language="JavaScript1.2" src="../ehlpdhtm.js">
-</script><script type="text/javascript" language="JavaScript1.2">
-<!-- 
-if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
- //-->
-</script>
 <div id="header" class="whs1">
 <p align="right" class="whs2">&#160;</p>
 </div>
@@ -111,7 +77,7 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p class="Description"><span lang="EN-US" style="font-size:10.0pt; font-family:Arial; font-weight:bold;"><font size="2" style="font-size:10pt;"><b>Description</b></font></span><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">:</font></span> <span class="Command">Fill</span> <span lang="EN-US">command reconstructs missing data (holes) in selected areas of the mesh.&#160;</span></p>
 <p><span lang="EN-US">This command is grayed if there is no selection or all selections are hidden. It works on wholly selected entities as well as on partial selections. It is recommended to use <u><a href="Stitch.htm">Stitch</a></u> command in case of long thin holes like cracks or splits.</span></p>
 <p class="Note" id="P1"><span lang="EN-US" style="font-weight:bold; font-style:normal;"><b>Note</b></span><span lang="EN-US">:</span> <span lang="EN-US" style="font-style:normal;">Filling holes on meshes with faulty areas will lead to visible defects on the result mesh surface. It is recommended to use functions</span> <span class="Command">Remove Faulty Areas</span> <span lang="EN-US" style="font-style:normal;">and</span> <span class="Command">Reduce Noise</span> <span lang="EN-US" style="font-style:normal;">before performing</span> <span class="Command">Fill</span> <span lang="EN-US" style="font-style:normal;">operations.</span></p>
-<p><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;"><img src="../mesh/Fill_holes_files/image002.gif" width="257px" height="165px" border="0" class="img_whs5" alt=""></font></span></p>
+<p><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;"><img src="../images/image002.gif" width="257px" height="165px" border="0" class="img_whs5" alt=""></font></span></p>
 <p class="parameterstitle"><b style="font-weight:bold;"><span lang="EN-US">Curvature based filling</span></b></p>
 <p class="parameterdescription"><span lang="EN-US" style="font-size:10.0pt; font-family:Arial;"><font size="2" style="font-size:10pt;">Works well on both flat and curved areas. Best results are obtained on curved surfaces. This option is switched on by default.</font></span></p>
 <p class="parameterstitle"><b style="font-weight:bold;"><span lang="EN-US">Flat filling</span></b></p>
@@ -127,10 +93,10 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <col class="whs7">
 <tr valign="top" class="whs8">
 <td width="50%" class="whs9">
-<p class="whs10"><span lang="EN-US"><font size="2" style="font-size:10pt;"><img src="../mesh/Fill_holes_files/image003.gif" width="231px" height="285px" border="0" class="img_whs11" alt=""></font></span></p>
+<p class="whs10"><span lang="EN-US"><font size="2" style="font-size:10pt;"><img src="../images/image003.gif" width="231px" height="285px" border="0" class="img_whs11" alt=""></font></span></p>
 </td>
 <td width="50%" class="whs12">
-<p class="whs10"><span lang="EN-US"><font size="2" style="font-size:10pt;"><img src="../mesh/Fill_holes_files/image004.gif" width="234px" height="284px" border="0" class="img_whs13" alt=""></font></span></p>
+<p class="whs10"><span lang="EN-US"><font size="2" style="font-size:10pt;"><img src="../images/image004.gif" width="234px" height="284px" border="0" class="img_whs13" alt=""></font></span></p>
 </td>
 </tr>
 <tr valign="top" class="whs8">
@@ -151,10 +117,10 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <col class="whs7">
 <tr valign="top" class="whs8">
 <td width="50%" class="whs9">
-<p class="whs10"><span lang="EN-US"><font size="2" style="font-size:10pt;"><img src="../mesh/Fill_holes_files/image005.gif" width="296px" height="225px" border="0" class="img_whs16" alt=""></font></span></p>
+<p class="whs10"><span lang="EN-US"><font size="2" style="font-size:10pt;"><img src="../images/image005.gif" width="296px" height="225px" border="0" class="img_whs16" alt=""></font></span></p>
 </td>
 <td width="50%" class="whs12">
-<p class="whs10"><span lang="EN-US"><font size="2" style="font-size:10pt;"><img src="../mesh/Fill_holes_files/image006.gif" width="294px" height="225px" border="0" class="img_whs17" alt=""></font></span></p>
+<p class="whs10"><span lang="EN-US"><font size="2" style="font-size:10pt;"><img src="../images/image006.gif" width="294px" height="225px" border="0" class="img_whs17" alt=""></font></span></p>
 </td>
 </tr>
 <tr valign="top" class="whs8">
@@ -169,26 +135,8 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <p>&#160;</p>
 </div>
 <p class="whs18"><span lang="EN-US"><font size="2" style="font-size:10pt;">Holes in meshes can come out because of missing data while scanning or decimating during merge. Use Fill command to cover with triangles such areas.</font></span></p>
-<p><span lang="EN-GB"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Cap','cap.htm','Instant Editing','instant_editing.htm','Stitch','Stitch.htm');return false;" title=""><img src="../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></span></p>
-<script language="javascript1.2" type="text/javascript">
-<!--
-kadovTextPopupInit('a1','POPUP162466984');
-//-->
-</script><script language="javascript1.2" type="text/javascript">
-<!--
-kadovTextPopupInit('a2','POPUP221646996');
-//-->
-</script><script type="text/javascript" language="JavaScript">
-<!--
-if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
-  WritePopupMenuLayer();
-//-->
-</script><script type="text/javascript" language="javascript1.2">
-<!--
-if (window.writeIntopicBar)
-        writeIntopicBar(0);
-//-->
-</script>
+<p><span lang="EN-GB"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Cap','cap.htm','Instant Editing','instant_editing.htm','Stitch','Stitch.htm');return false;" title=""><img src="../images/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></span></p>
+
 <form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B020F00000046696C6C0A46696C6C20486F6C65730C0282000000417265610A426F756E6461726965730A4375727661747572650A446563696D6174650A456E7469746965730A46696C6C0A46696C6C20486F6C65730A466C61740A4D657267650A4D6573680A526564756365204E6F6973650A52656D6F7665204661756C74792041726561730A5363616E0A53656C6563740A53656C656374696F6E0D020400000046696C6C1102000000001202000000001302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
 </body>
 </html>

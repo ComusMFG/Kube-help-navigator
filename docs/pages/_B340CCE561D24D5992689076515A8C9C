@@ -4,7 +4,7 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
-<base target="bsscright">
+
 <style>
 <!--
 body {margin-left:1pt; margin-top:1pt; margin-right:1pt;font-family:Arial; font-size:9pt;}
@@ -29,14 +29,37 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 
 -->
 </style>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body marginheight="0"  marginwidth="0" bgproperties="fixed">
+<body>
+    <a href="../index.html" class="back-to-index">‚Üê Back to Index</a>
+
 <p class="glsbody" style="white-space:nowrap;margin-bottom:1pt;"><a name="bm_{"></a><b>3-2-1 Transformation</b></p>
 <p class="glsbody" style="margin-top:1pt;">The command 3-2-1 allows the user to construct transformation from a plane, line,and point.<p>
 <p class="glsbody" style="white-space:nowrap;margin-bottom:1pt;"><a name="bm_A"></a><b>Activate for Scanning</b></p>
 <p class="glsbody" style="margin-top:1pt;">If Activate for Scanning command is enabled all new scans and captured data will pass&nbsp; through the activated transformation, their co-ordinates will not be in the global&nbsp; space.<p>
 <p class="glsbody" style="white-space:nowrap;margin-bottom:1pt;"><b>Align Entities</b></p>
-<p class="glsbody" style="margin-top:1pt;">Align Entities command uses best fit algorithm to move one entity in space†so toget maximum overlapping of the reference entity and entity moved.<p>
+<p class="glsbody" style="margin-top:1pt;">Align Entities command uses best fit algorithm to move one entity in spaceso toget maximum overlapping of the reference entity and entity moved.<p>
 <p class="glsbody" style="white-space:nowrap;margin-bottom:1pt;"><b>Align to Plane</b></p>
 <p class="glsbody" style="margin-top:1pt;">Align View command aligns view direction orthogonal to the selected datum plane orplane reducible datum entity (cylinder, circle, cone, slots).<p>
 <p class="glsbody" style="white-space:nowrap;margin-bottom:1pt;"><b>Align View</b></p>
@@ -134,7 +157,7 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 <p class="glsbody" style="white-space:nowrap;margin-bottom:1pt;"><b>Display Localiser Position</b></p>
 <p class="glsbody" style="margin-top:1pt;">Display Localiser Position hides/shows the Localiser Position window.<p>
 <p class="glsbody" style="white-space:nowrap;margin-bottom:1pt;"><b>Display Normals</b></p>
-<p class="glsbody" style="margin-top:1pt;">Call Display Normals to show objectsí point normals as short yellow lines.<p>
+<p class="glsbody" style="margin-top:1pt;">Call Display Normals to show objects point normals as short yellow lines.<p>
 <p class="glsbody" style="white-space:nowrap;margin-bottom:1pt;"><b>Display Sensor</b></p>
 <p class="glsbody" style="margin-top:1pt;">Display Sensor hides/shows the sensor view window, which is located in Scan Panebelow the localiser driven menu and localiser position window.<p>
 <p class="glsbody" style="white-space:nowrap;margin-bottom:1pt;"><b>Display Toolbar</b></p>
@@ -186,7 +209,7 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 <p class="glsbody" style="white-space:nowrap;margin-bottom:1pt;"><b>Fit Sphere</b></p>
 <p class="glsbody" style="margin-top:1pt;">Fit Sphere command fits a datum sphere to the visible selection, which may includescan data, meshes, point clouds, datum points and polylines.<p>
 <p class="glsbody" style="white-space:nowrap;margin-bottom:1pt;"><b>Flip Normals</b></p>
-<p class="glsbody" style="margin-top:1pt;">Flip Normals command inverts the normals of all selected and visible polygons. Thismeans that if an object is ëconvexí, after the operation it will be ëconcaveí, andvice versa.<p>
+<p class="glsbody" style="margin-top:1pt;">Flip Normals command inverts the normals of all selected and visible polygons. Thismeans that if an object is convex, after the operation it will be concave, andvice versa.<p>
 <p class="glsbody" style="white-space:nowrap;margin-bottom:1pt;"><b>Format (Label)</b></p>
 <p class="glsbody" style="margin-top:1pt;">This command formats individual label.<p>
 <p class="glsbody" style="white-space:nowrap;margin-bottom:1pt;"><b>From 3 Entities</b></p>
@@ -440,7 +463,7 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 <p class="glsbody" style="white-space:nowrap;margin-bottom:1pt;"><b>Unify Normals</b></p>
 <p class="glsbody" style="margin-top:1pt;">Unify Normals command unifies all the polygon normals in the visible selected mesh.<p>
 <p class="glsbody" style="white-space:nowrap;margin-bottom:1pt;"><b>Unify Normals Interactive</b></p>
-<p class="glsbody" style="margin-top:1pt;">Unify Normals Interactive command detects a ësubmeshí and inverts the normals whenclicking on a triangle with reverse normal .<p>
+<p class="glsbody" style="margin-top:1pt;">Unify Normals Interactive command detects a submesh and inverts the normals whenclicking on a triangle with reverse normal .<p>
 <p class="glsbody" style="white-space:nowrap;margin-bottom:1pt;"><b>Unlock</b></p>
 <p class="glsbody" style="margin-top:1pt;">Unlock command unlocks single or multiple entities or groups so that they will beaffected when updating the current CS.<p>
 <p class="glsbody" style="white-space:nowrap;margin-bottom:1pt;"><b>Unselect All</b></p>

@@ -3,16 +3,32 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-<script language="javascript" src="whidx.js"></script>
-<script language="javascript">
-<!--
-iFM("2D Line","Insert Standard Pages","whidata0.htm",345);
-iFM("Inspect","Select Triangles Based on Order","whidata1.htm",303);
-iFM("Selection","Zoom","whidata2.htm",110);
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
 
-//-->
-</script>
+
+
 </body>
 </html>

@@ -4,7 +4,7 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
-<base target="bsscright">
+
 <style>
 <!--
 body {margin-left:1pt; margin-top:1pt; margin-right:1pt;font-family:Arial; font-size:9pt;}
@@ -29,8 +29,31 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 
 -->
 </style>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body marginheight="0"  marginwidth="0" bgproperties="fixed">
+<body>
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
+
 <p class="ftsbody" align="center"><a href="whlstf13.htm" target="_self" title="previous search group"><b>&lt;&lt;</b></a><br><br></p>
 <p class="ftsbody" style="white-space:nowrap;">
 <a name="bms_CX"></a><a name="subkey_CX"></a><a href="../References/labeling.htm"><b>cx</b></a> <br><a name="bms_CY"></a><a name="subkey_CY"></a><a href="../References/labeling.htm"><b>cy</b></a> <br>cyan <a href="../References/Display_Settings-Colours.htm"><b>1</b></a> <a href="../Scanning/Scanning/profiles.htm"><b>2</b></a> <a href="../References/Material_Reset.htm"><b>3</b></a> <br><a href="../KUBE_help/What_s_New.htm"><b>cycle</b></a> <br>cylinder <a href="../References/cut_polygonal_area.htm"><b>1</b></a> <a href="../Corrosion/Merging_Corrosion.htm"><b>2</b></a> <a href="../References/Display_Settings-Colours.htm"><b>3</b></a> <a href="../Inspection_Mode/References/3D_Comparison.htm"><b>4</b></a> <a href="../References/fit_cylinder.htm"><b>5</b></a> <a href="../References/Export_Entities.htm"><b>6</b></a> <a href="../References/index_of_commands.htm"><b>7</b></a> <a href="../Macros/Commands/AutoCylinderExtract.htm"><b>8</b></a> <a href="../KUBE_help/What_s_New.htm"><b>9</b></a> <a href="../References/Material_Reset.htm"><b>10</b></a> <a href="../References/labeling.htm"><b>11</b></a> <a href="../Macros/Commands/Construct_Plane_PointsAndOffsets.htm"><b>12</b></a> <a href="../Macros/Commands/Construct_Plane_Entity.htm"><b>13</b></a> <a href="../Macros/Commands/Construct_Line_Entity.htm"><b>14</b></a> <a href="../Macros/Commands/Construct_Line_2Points.htm"><b>15</b></a> <a href="../User_Interface/measure_menu.htm"><b>16</b></a> <a href="../User_Interface/Interactive_datum_interface_description.htm"><b>17</b></a> <a href="../User_Interface/datuming_menu.htm"><b>18</b></a> <a href="../References/New_Point_-_Non-Interactive.htm"><b>19</b></a> <a href="../References/New_Point.htm"><b>20</b></a> <a href="../References/New_Plane_-_Non-Interactive.htm"><b>21</b></a> <a href="../References/New_Line_-_Non-Interactive.htm"><b>22</b></a> <a href="../References/New_Cylinder_-_Non-Interactive.htm"><b>23</b></a> <a href="../References/New_Cylinder.htm"><b>24</b></a> <a href="../References/New_Circle_-_Non-Interactive.htm"><b>25</b></a> <a href="../Macros/Commands/Construct_Transformation_321.htm"><b>26</b></a> <a href="../Macros/Commands/Construct_Point_Projection.htm"><b>27</b></a> <a href="../Macros/Commands/Construct_Point_PointOnLine.htm"><b>28</b></a> <a href="../Macros/Commands/Construct_Point_Entity.htm"><b>29</b></a> <a href="../Macros/Commands/Construct_Point_2Lines.htm"><b>30</b></a> <a href="../User_Interface/Tree_Context_Menus.htm"><b>31</b></a> <a href="../User_Interface/Shortcut_Keys.htm"><b>32</b></a> <a href="../User_Interface/Scan_Pane_(Arm_Menu).htm"><b>33</b></a> <a href="../Working_with_Data/Descriptions/define_round_slot.htm"><b>34</b></a> <a href="../Working_with_Data/Descriptions/define_rectangular_slot.htm"><b>35</b></a> <a href="../Working_with_Data/Descriptions/define_plane.htm"><b>36</b></a> <a href="../Working_with_Data/Descriptions/define_line.htm"><b>37</b></a> <a href="../Working_with_Data/Descriptions/define_cylinder.htm"><b>38</b></a> <a href="../Working_with_Data/Descriptions/define_cone.htm"><b>39</b></a> <a href="../Working_with_Data/Descriptions/define_circle.htm"><b>40</b></a> <a href="../Working_with_Data/Descriptions/datums_description.htm"><b>41</b></a> <a href="../User_Interface/view_menu.htm"><b>42</b></a> <a href="../Macros/Commands/Measure_Circle.htm"><b>43</b></a> <a href="../Macros/Commands/Measure_2DPoint.htm"><b>44</b></a> <a href="../Macros/Commands/Measure_2DLine.htm"><b>45</b></a> <a href="../References/Properties.htm"><b>46</b></a> <a href="../References/Preferences_-_Datums_-_Form_Tolerances.htm"><b>47</b></a> <a href="../References/Preferences_-_Datums_-_Detection_Tolerances.htm"><b>48</b></a> <a href="../References/Preferences_-_Datums_-_Capture_Method.htm"><b>49</b></a> <a href="../Macros/Commands/Reverse.htm"><b>50</b></a> <a href="../References/Reverse.htm"><b>51</b></a> <a href="../References/Sort_by_Type.htm"><b>52</b></a> <a href="../Macros/macro_commands.htm"><b>53</b></a> <a href="../References/auto_extract_cylinder.htm"><b>54</b></a> <a href="../References/align_to_plane.htm"><b>55</b></a> <a href="../Macros/type_conventions.htm"><b>56</b></a> <a href="../Scanning/Capture/capture_cylinder.htm"><b>57</b></a> <a href="../Scanning/Capture/offset_on_curved_surfaces.htm"><b>58</b></a> <a href="../References/create_from_3_entities.htm"><b>59</b></a> <br><a href="../References/Export_Entities.htm"><b>cylinder_name</b></a> <br>cylinders <a href="../References/cut_polygonal_area.htm"><b>1</b></a> <a href="../References/Display_Settings-Colours.htm"><b>2</b></a> <a href="../References/elliptic_selection.htm"><b>3</b></a> <a href="../References/freehand_(lasso)_selection.htm"><b>4</b></a> <a href="../Macros/Commands/AutoCylinderExtract.htm"><b>5</b></a> <a href="../KUBE_help/What_s_New.htm"><b>6</b></a> <a href="../User_Interface/datuming_menu.htm"><b>7</b></a> <a href="../References/New_Point_-_Non-Interactive.htm"><b>8</b></a> <a href="../References/New_Plane_-_Non-Interactive.htm"><b>9</b></a> <a href="../References/New_Line_-_Non-Interactive.htm"><b>10</b></a> <a href="../Macros/Commands/CutMesh.htm"><b>11</b></a> <a href="../User_Interface/Tree_Context_Menus.htm"><b>12</b></a> <a href="../Working_with_Data/Descriptions/define_cylinder.htm"><b>13</b></a> <a href="../References/Polygonal_Selection.htm"><b>14</b></a> <a href="../References/Rectangular_Selection.htm"><b>15</b></a> <a href="../Macros/macro_commands.htm"><b>16</b></a> <a href="../References/auto_extract_cylinder.htm"><b>17</b></a> <a href="../Macros/type_conventions.htm"><b>18</b></a> <a href="../Scanning/Capture/capture_round_slot.htm"><b>19</b></a> <a href="../Scanning/Capture/capture_rectangular_slot.htm"><b>20</b></a> <a href="../Scanning/Capture/capture_cylinder.htm"><b>21</b></a> <a href="../Scanning/Capture/capture_circle.htm"><b>22</b></a> <a href="../Scanning/Capture/capture_2d_line.htm"><b>23</b></a> <br>cylindrical <a href="../References/auto_extract_cylinder.htm"><b>1</b></a> <a href="../Scanning/Capture/capture_cylinder.htm"><b>2</b></a> <br><a name="bms_CZ"></a><a name="subkey_CZ"></a><a href="../References/labeling.htm"><b>cz</b></a> <br>

@@ -4,7 +4,7 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
-<base target="bsscright">
+
 <style>
 <!--
 body {margin-left:1pt; margin-top:1pt; margin-right:1pt;font-family:Arial; font-size:9pt;}
@@ -34,8 +34,31 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 body {background-color:#9ea0a3; } 
 -->
 </style>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body marginheight="0"  marginwidth="0" bgproperties="fixed">
+<body>
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
+
 
 <p class="ftsheader"><a name="subkey_F"></a> <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a> <a href="whlstf21.htm#bm_F" target="ftslist" title="search letter F "><b>F </b></a> <a href="whlstf21.htm#bms_FA" target="ftslist" title="search letter FA"><b>FA</b></a> <a href="whlstf21.htm#bms_FE" target="ftslist" title="search letter FE"><b>FE</b></a> <a href="whlstf21.htm#bms_FF" target="ftslist" title="search letter FF"><b>FF</b></a> <a href="whlstf21.htm#bms_FI" target="ftslist" title="search letter FI"><b>FI</b></a> <a href="whlstf22.htm#bms_FL" target="ftslist" title="search letter FL"><b>FL</b></a> <a href="whlstf22.htm#bms_FM" target="ftslist" title="search letter FM"><b>FM</b></a> <a href="whlstf22.htm#bms_FO" target="ftslist" title="search letter FO"><b>FO</b></a> <a href="whlstf23.htm#bms_FP" target="ftslist" title="search letter FP"><b>FP</b></a> <a href="whlstf23.htm#bms_FR" target="ftslist" title="search letter FR"><b>FR</b></a> <a href="whlstf23.htm#bms_FU" target="ftslist" title="search letter FU"><b>FU</b></a> <a href="whlstf23.htm#bms_FX" target="ftslist" title="search letter FX"><b>FX</b></a>  <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a></p>
 

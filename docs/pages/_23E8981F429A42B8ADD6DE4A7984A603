@@ -4,7 +4,7 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
-<base target="bsscright">
+
 <style>
 <!--
 body {margin-left:1pt; margin-top:1pt; margin-right:1pt;font-family:Arial; font-size:9pt;}
@@ -34,8 +34,31 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 body {background-color:#9ea0a3; } 
 -->
 </style>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body marginheight="0"  marginwidth="0" bgproperties="fixed">
+<body>
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
+
 
 <p class="ftsheader"><a name="subkey_{"></a> <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a> <a href="whlstf0.htm#bm_{" target="ftslist" title="search letter {I"><b>{I</b></a> <a href="whlstf0.htm#bms_{{" target="ftslist" title="search letter { "><b>{ </b></a> <a href="whlstf0.htm#bms_{M" target="ftslist" title="search letter {M"><b>{M</b></a> <a href="whlstf0.htm#bms_{X" target="ftslist" title="search letter {X"><b>{X</b></a> <a href="whlstf0.htm#bms_{{" target="ftslist" title="search letter { "><b>{ </b></a> <a href="whlstf0.htm#bms_{A" target="ftslist" title="search letter {A"><b>{A</b></a> <a href="whlstf0.htm#bms_{C" target="ftslist" title="search letter {C"><b>{C</b></a> <a href="whlstf0.htm#bms_{D" target="ftslist" title="search letter {D"><b>{D</b></a> <a href="whlstf0.htm#bms_{G" target="ftslist" title="search letter {G"><b>{G</b></a> <a href="whlstf0.htm#bms_{H" target="ftslist" title="search letter {H"><b>{H</b></a> <a href="whlstf0.htm#bms_{M" target="ftslist" title="search letter {M"><b>{M</b></a> <a href="whlstf0.htm#bms_{S" target="ftslist" title="search letter {S"><b>{S</b></a> <a href="whlstf0.htm#bms_{X" target="ftslist" title="search letter {X"><b>{X</b></a> <a href="whlstf0.htm#bms_{{" target="ftslist" title="search letter { "><b>{ </b></a> <a href="whlstf0.htm#bms_{D" target="ftslist" title="search letter {D"><b>{D</b></a> <a href="whlstf0.htm#bms_{G" target="ftslist" title="search letter {G"><b>{G</b></a> <a href="whlstf0.htm#bms_{M" target="ftslist" title="search letter {M"><b>{M</b></a> <a href="whlstf0.htm#bms_{N" target="ftslist" title="search letter {N"><b>{N</b></a> <a href="whlstf0.htm#bms_{X" target="ftslist" title="search letter {X"><b>{X</b></a> <a href="whlstf0.htm#bms_{{" target="ftslist" title="search letter { "><b>{ </b></a> <a href="whlstf0.htm#bms_{C" target="ftslist" title="search letter {C"><b>{C</b></a> <a href="whlstf0.htm#bms_{D" target="ftslist" title="search letter {D"><b>{D</b></a> <a href="whlstf0.htm#bms_{G" target="ftslist" title="search letter {G"><b>{G</b></a> <a href="whlstf0.htm#bms_{M" target="ftslist" title="search letter {M"><b>{M</b></a> <a href="whlstf0.htm#bms_{R" target="ftslist" title="search letter {R"><b>{R</b></a> <a href="whlstf0.htm#bms_{X" target="ftslist" title="search letter {X"><b>{X</b></a> <a href="whlstf0.htm#bms_{{" target="ftslist" title="search letter { "><b>{ </b></a> <a href="whlstf0.htm#bms_{G" target="ftslist" title="search letter {G"><b>{G</b></a> <a href="whlstf0.htm#bms_{M" target="ftslist" title="search letter {M"><b>{M</b></a> <a href="whlstf0.htm#bms_{T" target="ftslist" title="search letter {T"><b>{T</b></a> <a href="whlstf0.htm#bms_{X" target="ftslist" title="search letter {X"><b>{X</b></a> <a href="whlstf0.htm#bms_{{" target="ftslist" title="search letter { "><b>{ </b></a> <a href="whlstf0.htm#bms_{H" target="ftslist" title="search letter {H"><b>{H</b></a> <a href="whlstf0.htm#bms_{M" target="ftslist" title="search letter {M"><b>{M</b></a> <a href="whlstf0.htm#bms_{{" target="ftslist" title="search letter { "><b>{ </b></a> <a href="whlstf0.htm#bms_{M" target="ftslist" title="search letter {M"><b>{M</b></a> <a href="whlstf0.htm#bms_{{" target="ftslist" title="search letter { "><b>{ </b></a> <a href="whlstf0.htm#bms_{M" target="ftslist" title="search letter {M"><b>{M</b></a> <a href="whlstf0.htm#bms_{{" target="ftslist" title="search letter { "><b>{ </b></a> <a href="whlstf0.htm#bms_{F" target="ftslist" title="search letter {F"><b>{F</b></a> <a href="whlstf0.htm#bms_{K" target="ftslist" title="search letter {K"><b>{K</b></a> <a href="whlstf0.htm#bms_{M" target="ftslist" title="search letter {M"><b>{M</b></a> <a href="whlstf0.htm#bms_{X" target="ftslist" title="search letter {X"><b>{X</b></a>  <a href="whnvl32.htm#home" target="_self" title="back to top level"><b>^</b></a></p>
 

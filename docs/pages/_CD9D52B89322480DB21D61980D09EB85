@@ -5,13 +5,8 @@
 <title>Capture Static Points</title>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
-<link rel="stylesheet" href="../../metris-focus_ns.css" type="text/css">
-<script type="text/javascript" language="JavaScript">
-<!--
-if (navigator.appName !="Netscape")
-{   document.write("<link rel='stylesheet' href='../../metris-focus.css'>");}
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.whs1 { width:100%; }
@@ -22,74 +17,44 @@ img_whs5 { width:545px; height:366px; border-style:none; }
 -->
 </style>
 
-<script type="text/javascript" language="JavaScript">
-<!--
-function reDo() {
-  if (innerWidth != origWidth || innerHeight != origHeight)
-     location.reload();
-}
-if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
-        origWidth = innerWidth;
-        origHeight = innerHeight;
-        onresize = reDo;
-}
-onerror = null; 
-//-->
-</script>
+
 <style type="text/css">
 <!--
 div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
 -->
 </style>
 
-<script type="text/javascript" language="javascript1.2" src="../../whmsg.js">
-</script>
-<script type="text/javascript" language="javascript" src="../../whver.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whproxy.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whutils.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../../whtopic.js">
-</script>
+
+
+
+
+
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.gbWhTopic)
-{
-        if (window.addTocInfo)
-        {
-        addTocInfo("KUBE\nScanning\nProbe Points Capture\nCapture Static Points");
-addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+    <a href="../index.html" class="back-to-index">â† Back to Index</a>
 
-        }
-        if (window.writeBtnStyle)
-                writeBtnStyle();
 
-        if (window.writeIntopicBar)
-                writeIntopicBar(1);
-
-        if (window.setRelStartPage)
-        {
-        setRelStartPage("../../KUBE_Help.htm");
-addSearchFormHref("javascript:document.ehelpform.submit()");
-
-                autoSync(1);
-                sendSyncInfo();
-                sendAveInfoOut();
-        }
-}
-else
-        if (window.gbIE4)
-                document.location.reload();
-//-->
-</script><script type="text/javascript" language="JavaScript1.2" src="../../ehlpdhtm.js">
-</script><script type="text/javascript" language="JavaScript1.2">
-<!-- 
-if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
- //-->
-</script>
 <div id="header" class="whs1">
 <p align="right" class="whs2">&#160;</p>
 </div>
@@ -97,28 +62,14 @@ if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Functi
 <hr align="left" width="98.974%" size="6" class="whs3">
 <p class="description"><span lang="EN-GB" style="font-weight:bold;"><b>Description:</b></span> <span class="Command">Capture Static Points</span> <span lang="EN-GB">command captures a single point each time the switch '</span>B' <span lang="EN-GB">is depressed. Depressing switch '</span>A' <span lang="EN-GB">terminates single point capture.</span> This command is accessible from <span class="Path">System &gt; Performance Check Utilities &gt; Capture &gt; Static Points</span>. It is also accessible from <span style="font-weight:bold;"><b>'Capture single points'</b></span> button on the toolbar.</p>
 <p><span lang="EN-GB">If</span> <span lang="EN-GB" style="font-weight:bold; font-style:italic;"><i><b>'</b></i></span><span><i style="font-weight:bold; font-style:italic;">Capture single points'</i></span> <span lang="EN-GB">is not selected, hold down the left mouse button on the current selection for a second to show up the drop-down toolbar. Select</span> <i style="font-style:normal;">Capture single points</i> <span lang="EN-GB">button from there.</span></p>
-<p><span lang="EN-GB"><img src="Capture_files/capture_static_points.gif" width="766px" height="150px" border="0" class="img_whs4" alt=""></span></p>
-<p><span lang="EN-GB">This command is normally used to capture ball probe points on certain locations in order to establish local co-ordinate system – see Transformations</span><span lang="EN-GB">. The localiser should be still when the switch '</span>B' <span lang="EN-GB">is depressed. In this way the localiser can be used without the ModelMaker sensor to capture measurements.</span></p>
+<p><span lang="EN-GB"><img src="../images/capture_static_points.gif" width="766px" height="150px" border="0" class="img_whs4" alt=""></span></p>
+<p><span lang="EN-GB">This command is normally used to capture ball probe points on certain locations in order to establish local co-ordinate system  see Transformations</span><span lang="EN-GB">. The localiser should be still when the switch '</span>B' <span lang="EN-GB">is depressed. In this way the localiser can be used without the ModelMaker sensor to capture measurements.</span></p>
 <p class="Example" style="text-decoration:underline;"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a1" style="text-decoration:underline;">Example</a></p>
 <div class="droptext" id="POPUP171710965" style="display:'none'; x-ss-type:dropdown;">
-<p><span lang="EN-GB"><img src="Capture_files/image008.jpg" width="545px" height="366px" border="0" class="img_whs5" alt=""></span></p>
+<p><span lang="EN-GB"><img src="../images/image008.jpg" width="545px" height="366px" border="0" class="img_whs5" alt=""></span></p>
 </div>
-<p class="Normal" style="text-align:justify;"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Capture Dynamic Points','capture_dynamic_points.htm','Capture Static Stripes','capture_static_stripes.htm');return false;" title=""><img src="../../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></p>
-<script language="javascript1.2" type="text/javascript">
-<!--
-kadovTextPopupInit('a1','POPUP171710965');
-//-->
-</script><script type="text/javascript" language="JavaScript">
-<!--
-if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
-  WritePopupMenuLayer();
-//-->
-</script><script type="text/javascript" language="javascript1.2">
-<!--
-if (window.writeIntopicBar)
-        writeIntopicBar(0);
-//-->
-</script>
+<p class="Normal" style="text-align:justify;"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Capture Dynamic Points','capture_dynamic_points.htm','Capture Static Stripes','capture_static_stripes.htm');return false;" title=""><img src="../images/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></p>
+
 <form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B0215000000436170747572652053746174696320506F696E74730C02A3000000436170747572650A436170747572652053746174696320506F696E74730A446F776E0A4C6566740A6C6F63616C697365720A4D6F64656C4D616B65720A506572666F726D616E63650A506572666F726D616E636520436865636B0A50726F62650A53656C6563740A53656C656374696F6E0A53656E736F720A5374617469630A5374617469630953746174696320506F696E74730A53797374656D0A546F6F6C6261720D0215000000436170747572652053746174696320506F696E747311021400000050726F626520506F696E74732043617074757265120215000000436170747572652053746174696320506F696E74731302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
 </body>
 </html>

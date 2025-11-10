@@ -4,7 +4,7 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
-<base target="bsscright">
+
 <style>
 <!--
 body {margin-left:1pt; margin-top:1pt; margin-right:1pt;font-family:Arial; font-size:9pt;}
@@ -29,8 +29,31 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 
 -->
 </style>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body marginheight="0"  marginwidth="0" bgproperties="fixed">
+<body>
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
+
 <p class="ftsbody" align="center"><a href="whlstf48.htm" target="_self" title="previous search group"><b>&lt;&lt;</b></a><br><br></p>
 <p class="ftsbody" style="white-space:nowrap;">
 <a name="bms_RU"></a><a name="subkey_RU"></a>rule <a href="../Corrosion/Inspection_Corrosion.htm"><b>1</b></a> <a href="../References/from_n_constrained_points.htm"><b>2</b></a> <a href="../Scanning/Scanning/Basic_Scanning_Rules_and_Useful_Tips.htm"><b>3</b></a> <a href="../References/Interactive_Transformation.htm"><b>4</b></a> <a href="../Macros/Commands/Construct_Plane_PointsAndOffsets.htm"><b>5</b></a> <a href="../User_Interface/Interactive_datum_interface_description.htm"><b>6</b></a> <a href="../References/New_Plane_-_Non-Interactive.htm"><b>7</b></a> <a href="../References/New_Plane.htm"><b>8</b></a> <a href="../References/New_Line_-_Non-Interactive.htm"><b>9</b></a> <a href="../References/New_Line.htm"><b>10</b></a> <a href="../Working_with_Data/Descriptions/define_plane.htm"><b>11</b></a> <a href="../Working_with_Data/Descriptions/define_circle.htm"><b>12</b></a> <a href="../Macros/Parameter_Types.htm"><b>13</b></a> <a href="../References/create_from_single_plane.htm"><b>14</b></a> <a href="../References/create_from_3_entities.htm"><b>15</b></a> <br>rules <a href="../Corrosion/printing_Corrosion.htm"><b>1</b></a> <a href="../Corrosion/Inspection_Corrosion.htm"><b>2</b></a> <a href="../Corrosion/appendix_a_Corrosion.htm"><b>3</b></a> <a href="../Scanning/Scanning/Basic_Scanning_Rules_and_Useful_Tips.htm"><b>4</b></a> <a href="../Macros/Macro_Syntax.htm"><b>5</b></a> <a href="../Macros/type_conventions.htm"><b>6</b></a> <a href="../Macros/Special_Symbols_and_Abbreviations.htm"><b>7</b></a> <a href="../Macros/Script_Generation.htm"><b>8</b></a> <a href="../References/combine_selected_entities.htm"><b>9</b></a> <br>run <a href="../Scanning/Hardware/MMD/Settings/Hardware_Settings_-_Scan_Mode_Tab.htm"><b>1</b></a> <a href="../References/Display_Settings-Colours.htm"><b>2</b></a> <a href="../References/display_normals.htm"><b>3</b></a> <a href="../References/display_grid.htm"><b>4</b></a> <a href="../References/elliptic_selection.htm"><b>5</b></a> <a href="../Scanning/Localiser/Metris_MCA/Metris_MCA_Localiser_Set-Up.htm"><b>6</b></a> <a href="../Scanning/Localiser/localiser_performance_check.htm"><b>7</b></a> <a href="../Scanning/Localiser/FARO_USB/localiser_probe_calibration_faro_usb.htm"><b>8</b></a> <a href="../Scanning/Localiser/FARO_USB/faro_localiser_set_up.htm"><b>9</b></a> <a href="../Scanning/Localiser/FARO/localiser_probe_calibration_faro.htm"><b>10</b></a> <a href="../Scanning/Localiser/FARO/faro_arm_set-up.htm"><b>11</b></a> <a href="../Scanning/Localiser/CimCore/localiser_probe_calibration_cimcore.htm"><b>12</b></a> <a href="../Scanning/Localiser/CimCore/cimcore_arm_set-up.htm"><b>13</b></a> <a href="../References/freehand_(lasso)_selection.htm"><b>14</b></a> <a href="../Troubleshooting/Hardware/Localiser_Related_Problems.htm"><b>15</b></a> <a href="../Scanning/Scanning/Scanning_Strategy.htm"><b>16</b></a> <a href="../Scanning/Scanning/Multisite/multisite_scanning_procedure.htm"><b>17</b></a> <a href="../Scanning/Scanning/Basic_Scanning_Introduction.htm"><b>18</b></a> <a href="../Scanning/Probe_Calibration/Localiser_Probe_Calibration_-_Metris_MCA.htm"><b>19</b></a> <a href="../References/index_of_commands.htm"><b>20</b></a> <a href="../Macros/Call_Script_at_KUBE_start-up.htm"><b>21</b></a> <a href="../KUBE_help/What_s_New.htm"><b>22</b></a> <a href="../Troubleshooting/Software/Operating_System_Troubleshooting.htm"><b>23</b></a> <a href="../Troubleshooting/Software/Local_Administrative_Privileges.htm"><b>24</b></a> <a href="../Troubleshooting/pc_requirements.htm"><b>25</b></a> <a href="../References/Light_Adjust.htm"><b>26</b></a> <a href="../User_Interface/Modules_Menu.htm"><b>27</b></a> <a href="../References/On_Rotate_Pan_Draw_Shaded_Points.htm"><b>28</b></a> <a href="../References/On_Rotate_Pan_Draw_Scene.htm"><b>29</b></a> <a href="../References/On_Rotate_Pan_Draw_Points.htm"><b>30</b></a> <a href="../References/On_Rotate_Pan_Display_Normal.htm"><b>31</b></a> <a href="../References/On_Rotate_Pan_Display_More.htm"><b>32</b></a> <a href="../References/On_Rotate_Pan_Display_Less.htm"><b>33</b></a> <a href="../References/On_Rotate_Pan_Display_Custom.htm"><b>34</b></a> <a href="../User_Interface/viewport_context_menu.htm"><b>35</b></a> <a href="../User_Interface/view_menu.htm"><b>36</b></a> <a href="../References/Polygonal_Selection.htm"><b>37</b></a> <a href="../References/Pick_Selection.htm"><b>38</b></a> <a href="../References/Rectangular_Selection.htm"><b>39</b></a> <a href="../Macros/Commands/RunScript.htm"><b>40</b></a> <a href="../Macros/Macros_Menu/run_script_from_file.htm"><b>41</b></a> <a href="../Macros/macro_module.htm"><b>42</b></a> <a href="../Macros/macro_commands.htm"><b>43</b></a> <a href="../Scanning/Alignment/Alignment_Check.htm"><b>44</b></a> <a href="../Scanning/Alignment/sphere_alignment_procedure.htm"><b>45</b></a> <a href="../Scanning/Alignment/Alignment_Procedure.htm"><b>46</b></a> <a href="../References/Bind_Views_Relative.htm"><b>47</b></a> <a href="../References/bind_views.htm"><b>48</b></a> <a href="../Scanning/Hardware/MMC/Settings/Hardware_Settings_-_Scan_Mode_Tab_MMC.htm"><b>49</b></a> <br>runexternalsoftware <a href="../KUBE_help/What_s_New.htm"><b>1</b></a> <a href="../References/Preferences_-_External_Software.htm"><b>2</b></a> <a href="../Macros/Commands/RunExternalSoftware.htm"><b>3</b></a> <a href="../Macros/macro_commands.htm"><b>4</b></a> <br>running <a href="../Troubleshooting/Hardware/Localiser_Related_Problems.htm"><b>1</b></a> <a href="../KUBE_help/What_s_New.htm"><b>2</b></a> <a href="../User_Interface/Toolbar2.htm"><b>3</b></a> <a href="../References/Polygon_Reduction.htm"><b>4</b></a> <a href="../References/PC_Diagnostics.htm"><b>5</b></a> <a href="../References/Preferences_-_External_Software.htm"><b>6</b></a> <a href="../Macros/Macros_Menu/enable_logging.htm"><b>7</b></a> <a href="../References/batch.htm"><b>8</b></a> <br>runprocess <a href="../Macros/Commands/RunProcess.htm"><b>1</b></a> <a href="../Macros/macro_commands.htm"><b>2</b></a> <br>runs <a href="../KUBE_help/What_s_New.htm"><b>1</b></a> <a href="../Macros/Commands/Construct_NPoints_Interactive.htm"><b>2</b></a> <a href="../Macros/Commands/Get321Settings.htm"><b>3</b></a> <br>runscript <a href="../References/Macro_SpeedBar.htm"><b>1</b></a> <a href="../Macros/Commands/RunScript.htm"><b>2</b></a> <a href="../Macros/Commands/Start2Macros.htm"><b>3</b></a> <a href="../Macros/macro_commands.htm"><b>4</b></a> <br>

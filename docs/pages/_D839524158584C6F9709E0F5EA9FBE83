@@ -5,13 +5,8 @@
 <title>Interactive Datum Interface Description</title>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
-<link rel="stylesheet" href="../metris-focus_ns.css" type="text/css">
-<script type="text/javascript" language="JavaScript">
-<!--
-if (navigator.appName !="Netscape")
-{   document.write("<link rel='stylesheet' href='../metris-focus.css'>");}
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.whs1 { width:100%; }
@@ -43,71 +38,45 @@ p.whs26 { font-weight:normal; }
 -->
 </style>
 
-<script type="text/javascript" language="JavaScript" src="../ehlpdhtm.js">
-</script>
-<script type="text/javascript" language="JavaScript">
-<!--
-function reDo() {
-  if (innerWidth != origWidth || innerHeight != origHeight)
-     location.reload();
-}
-if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
-        origWidth = innerWidth;
-        origHeight = innerHeight;
-        onresize = reDo;
-}
-onerror = null; 
-//-->
-</script>
+
+
 <style type="text/css">
 <!--
 div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
 -->
 </style>
 
-<script type="text/javascript" language="javascript1.2" src="../whmsg.js">
-</script>
-<script type="text/javascript" language="javascript" src="../whver.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whproxy.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whutils.js">
-</script>
-<script type="text/javascript" language="javascript1.2" src="../whtopic.js">
-</script>
+
+
+
+
+
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body lang="BG">
-<script type="text/javascript" language="javascript1.2">
-<!--
-if (window.gbWhTopic)
-{
-        if (window.addTocInfo)
-        {
-        addTocInfo("KUBE\nWorking with Data\nDefine Datums\nInteractive Datum Interface Description");
-addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+<body>
+    <a href="../index.html" class="back-to-index">â† Back to Index</a>
 
-        }
-        if (window.writeBtnStyle)
-                writeBtnStyle();
 
-        if (window.writeIntopicBar)
-                writeIntopicBar(1);
-
-        if (window.setRelStartPage)
-        {
-        setRelStartPage("../KUBE_Help.htm");
-addSearchFormHref("javascript:document.ehelpform.submit()");
-
-                autoSync(1);
-                sendSyncInfo();
-                sendAveInfoOut();
-        }
-}
-else
-        if (window.gbIE4)
-                document.location.reload();
-//-->
-</script>
 <div id="header" class="whs1">
 <p align="right" class="whs2">&#160;</p>
 </div>
@@ -120,7 +89,7 @@ else
 <col class="whs5">
 <tr valign="middle" class="whs6">
 <td colspan="1" rowspan="4" valign="top" width="236px" class="whs7">
-<p class="normal-table"><img src="Images/Create_datum_tab.gif" width="218px" height="590px" border="0" class="img_whs8" alt=""></p>
+<p class="normal-table"><img src="../images/Create_datum_tab.gif" width="218px" height="590px" border="0" class="img_whs8" alt=""></p>
 </td>
 <td colspan="1" rowspan="1" valign="top" width="354px" class="whs9">
 <p class="normal-table"><span lang="EN-US">1.</span> <span lang="EN-US" style="font-weight:bold;"><b>Nine tabs</b></span> <span lang="EN-US">for switching between different datum types:</span></p>
@@ -134,7 +103,7 @@ else
 </tr>
 <tr valign="middle" class="whs12">
 <td valign="top" width="354px" class="whs13">
-<p class="normal-table"><span lang="EN-US">3. <a href="#Section_for_construction_entity_definition" style="font-weight:bold;">Section for construction entity definition</a> – used for interactive definition of each datum component for the current method.</span></p>
+<p class="normal-table"><span lang="EN-US">3. <a href="#Section_for_construction_entity_definition" style="font-weight:bold;">Section for construction entity definition</a>  used for interactive definition of each datum component for the current method.</span></p>
 </td>
 </tr>
 <tr valign="middle" class="whs14">
@@ -149,10 +118,10 @@ else
 <p><span lang="EN-US">If the creation method requires more than one component definition, then each definition is separated in a tab, as shown below. Each tab has a small icon showing the entity type, that will be defined. This icon is:</span></p>
 <ul>
 <li class="kadov-p-Cbullet">
-<p class="bullet"><span lang="EN-US">grayed if no value is set in the definition tab (example with plane icon: <img src="../references/descriptions/grayed_icon.gif" width="18px" height="12px" border="0" class="img_whs15" alt="">)</span></p>
+<p class="bullet"><span lang="EN-US">grayed if no value is set in the definition tab (example with plane icon: <img src="../images/grayed_icon.gif" width="18px" height="12px" border="0" class="img_whs15" alt="">)</span></p>
 </li>
 <li class="kadov-p-Cbullet">
-<p class="bullet"><span lang="EN-US">coloured if the component is completely defined (example with plane icon: <img src="../references/descriptions/coloured_icon.gif" width="18px" height="12px" border="0" class="img_whs15" alt="">).</span></p>
+<p class="bullet"><span lang="EN-US">coloured if the component is completely defined (example with plane icon: <img src="../images/coloured_icon.gif" width="18px" height="12px" border="0" class="img_whs15" alt="">).</span></p>
 </li>
 </ul>
 <p><span lang="EN-US">When the temporary construction entity is defined in the first tab (all values are filled in the fields), then the second definition tab will be automatically activated. This is valid for all definition methods, except manual coordinates input.</span></p>
@@ -161,7 +130,7 @@ else
 <col>
 <tr valign="top" class="whs17">
 <td class="whs18">
-<p class="normal-table"><img src="Images/method_description.gif" width="216px" height="245px" border="0" class="img_whs19" alt=""></p>
+<p class="normal-table"><img src="../images/method_description.gif" width="216px" height="245px" border="0" class="img_whs19" alt=""></p>
 </td>
 <td class="whs20">
 <p class="normal-table-func"><span style="font-weight:bold;"><b>Particularities</b></span>:</p>
@@ -182,7 +151,7 @@ else
 <col>
 <tr valign="top" class="whs22">
 <td class="whs23">
-<p class="normal-table"><span lang="EN-US"><img src="../transformation_menu/Transformations_files/Choose_datum_constrained.gif" width="138px" height="115px" border="0" class="img_whs24" alt=""></span></p>
+<p class="normal-table"><span lang="EN-US"><img src="../images/Choose_datum_constrained.gif" width="138px" height="115px" border="0" class="img_whs24" alt=""></span></p>
 </td>
 <td class="whs23">
 <p class="normal-table"><span lang="EN-US">The last option "Pick from screen" in this list allows the user to pick an entity from the viewport. If this option is enabled, then the user can simultaneously select entity type and define its values. It is used for quick definition by picking predefined datums from the viewport. By default this option is disabled and each primitive must be defined by any of the available methods.</span></p>
@@ -198,18 +167,18 @@ else
 <p><span lang="EN-US">The definition dialog shown in this section depends on the construction entity required by the current method. Each datum definition can be set by 4 main methods:</span></p>
 <ol>
 <li class="kadov-p-Csteps">
-<p class="steps"><span lang="EN-US"><b style="font-weight:bold;">Capture</b> – delayed operation. It will start when all construction datums (if the method requires more than1) are set and Create is initiated. The datums will be captured by their order in the method description. The capturing functionality is the same as in the arm menu.</span></p>
+<p class="steps"><span lang="EN-US"><b style="font-weight:bold;">Capture</b>  delayed operation. It will start when all construction datums (if the method requires more than1) are set and Create is initiated. The datums will be captured by their order in the method description. The capturing functionality is the same as in the arm menu.</span></p>
 </li>
 </ol>
 <ol start="2">
 <li class="kadov-p-Csteps">
-<p class="steps"><b style="font-weight:bold;">Fit selected / Detect</b> – interactive method for setting values. The user makes a selection, press the 'Fit selected' button (for point) or 'Detect' button for the other datum entities and the datum parameters will be instantly filled in the edit boxes. If necessary these values can be manually changed.</p>
+<p class="steps"><b style="font-weight:bold;">Fit selected / Detect</b>  interactive method for setting values. The user makes a selection, press the 'Fit selected' button (for point) or 'Detect' button for the other datum entities and the datum parameters will be instantly filled in the edit boxes. If necessary these values can be manually changed.</p>
 </li>
 <li class="kadov-p-Csteps">
-<p class="steps"><span lang="EN-US"><b style="font-weight:bold;">Choose from list or pick entity</b> – both options refer to the same functionality – selection of an existing primitive, co-ordinate axis or plane. The user can either choose a datum from the list or directly pick it on the viewport. The datum parameters will be instantly filled in the edit boxes. If necessary these values can be manually changed. The</span> <span lang="EN-US" style="font-weight:bold;"><b>Pick Entity</b></span> <span lang="EN-US">button is enabled by default.</span></p>
+<p class="steps"><span lang="EN-US"><b style="font-weight:bold;">Choose from list or pick entity</b>  both options refer to the same functionality  selection of an existing primitive, co-ordinate axis or plane. The user can either choose a datum from the list or directly pick it on the viewport. The datum parameters will be instantly filled in the edit boxes. If necessary these values can be manually changed. The</span> <span lang="EN-US" style="font-weight:bold;"><b>Pick Entity</b></span> <span lang="EN-US">button is enabled by default.</span></p>
 </li>
 <li class="kadov-p-Csteps">
-<p class="steps"><b style="font-weight:bold;"><span lang="EN-US">Manual co-ordinates input or pick points</span></b> <span lang="EN-US">– both options refer to the same functionality – simple co-ordinate input. The user can either type manually the datum parameters in the edit boxes or pick a minimal number of points on the viewport to define the datum. The minimal number of picked points depends on the entity type.</span></p>
+<p class="steps"><b style="font-weight:bold;"><span lang="EN-US">Manual co-ordinates input or pick points</span></b> <span lang="EN-US"> both options refer to the same functionality  simple co-ordinate input. The user can either type manually the datum parameters in the edit boxes or pick a minimal number of points on the viewport to define the datum. The minimal number of picked points depends on the entity type.</span></p>
 </li>
 </ol>
 <p class="Note" id="P3"><span style="font-weight:bold;"><b>Note:</b></span> If you want to use <span class="Command">Pick points</span> method for datum definition and at the same time you have an active selection mode, you should first exit the selection mode by using the key <span class="Button">Esc</span> and KUBE will pass automatically to the <span class="Mode">Pick points</span> mode</p>
@@ -254,28 +223,18 @@ else
 <p id="P10" class="bullet"><span lang="EN-US">In case of changing datum values, the user should go to the definition section and make the necessary corrections. The temporary visualised construction and result datums will be updated instantly to reflect the last changes.</span></p>
 </li>
 </ul>
-<p id="P4" class="Note"><span lang="EN-US" style="font-weight:bold;"><b>Note</b></span><span lang="EN-US">: For datums having normal or direction (as plane, circle, line, cylinder, cone, or slots) there is a small button <img src="Images/InvertNormal.gif" width="24px" height="21px" border="0" class="img_whs25" alt=""> in the result section allowing flipping the normal of the result entity.</span></p>
+<p id="P4" class="Note"><span lang="EN-US" style="font-weight:bold;"><b>Note</b></span><span lang="EN-US">: For datums having normal or direction (as plane, circle, line, cylinder, cone, or slots) there is a small button <img src="../images/InvertNormal.gif" width="24px" height="21px" border="0" class="img_whs25" alt=""> in the result section allowing flipping the normal of the result entity.</span></p>
 <ul>
 <li class="kadov-p-Cbullet-IP10">
 <p id="P10" class="bullet"><span lang="EN-US">In case of accepting the datum creation, it remains only to choose a name for the new datum.</span></p>
 </li>
 </ul>
-<p><span lang="EN-US" style="font-weight:bold;"><b>Name</b></span> <span lang="EN-US">– you have 3 choices for setting the datum name: leave the default one, type a new name or choose an existing one from the list.</span> <i style="font-style:normal;"><span lang="EN-US">The default name is ‘Datum N’, where Datum is the datum type (point, circle, etc.) and N is the number of the subsequent newly created datum. When a datum is created the number N in the name will automatically increase.</span></i></p>
+<p><span lang="EN-US" style="font-weight:bold;"><b>Name</b></span> <span lang="EN-US"> you have 3 choices for setting the datum name: leave the default one, type a new name or choose an existing one from the list.</span> <i style="font-style:normal;"><span lang="EN-US">The default name is Datum N, where Datum is the datum type (point, circle, etc.) and N is the number of the subsequent newly created datum. When a datum is created the number N in the name will automatically increase.</span></i></p>
 <p class="ExampleCode"><i style="font-style:normal;"><span lang="EN-US">For example: when the datum "Point 2" is created, the name will be automatically changed to "Point 3" to be ready for next point creation.</span></i></p>
 <p><span lang="EN-US">When ready press the</span> <span lang="EN-US" style="font-weight:bold;"><b>Create</b></span> <span lang="EN-US">button. The result construction datum becomes a real datum and appears in solid colour (as set in Display settings). If the datum can not be created due to incorrect input parameters, then the Create button will remain inactive.</span></p>
 <p><span lang="EN-US">If you want to exit the transformation mode, then press the</span> <span class="Button" style="font-weight:bold;"><b>Close</b></span> <span lang="EN-US">button.</span></p>
-<p id="P10" class="whs26"><b><span lang="EN-US" style="font-weight:normal;"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Datuming Menu','datuming_menu.htm','New Circle','../References/New_Circle.htm','New Cone','../References/New_Cone.htm','New Cylinder','../References/New_Cylinder.htm','New Line','../References/New_Line.htm','New Plane','../References/New_Plane.htm','New Point','../References/New_Point.htm','New Rectangular Slot','../References/New_Rectangular_Slot.htm','New Round Slot','../References/New_Round_Slot.htm','New Sphere','../References/New_Sphere.htm');return false;" title=""><img src="../add_on/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></span></b></p>
-<script type="text/javascript" language="JavaScript">
-<!--
-if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
-  WritePopupMenuLayer();
-//-->
-</script><script type="text/javascript" language="javascript1.2">
-<!--
-if (window.writeIntopicBar)
-        writeIntopicBar(0);
-//-->
-</script>
+<p id="P10" class="whs26"><b><span lang="EN-US" style="font-weight:normal;"><a href="javascript:void(0);" onclick="var e; if (parseInt(navigator.appVersion)&gt;=4){e=event;} if (parseInt(navigator.appVersion) &gt;=2 &amp;&amp; typeof(PopupMenu_Invoke) == 'function') PopupMenu_Invoke(e,'','Datuming Menu','datuming_menu.htm','New Circle','../References/New_Circle.htm','New Cone','../References/New_Cone.htm','New Cylinder','../References/New_Cylinder.htm','New Line','../References/New_Line.htm','New Plane','../References/New_Plane.htm','New Point','../References/New_Point.htm','New Rectangular Slot','../References/New_Rectangular_Slot.htm','New Round Slot','../References/New_Round_Slot.htm','New Sphere','../References/New_Sphere.htm');return false;" title=""><img src="../images/ss_btn_see_also.gif" border="0" height="17" width="60" alt=""></a></span></b></p>
+
 <form method="post" action="http://www.helpcommunity.com/ehelpapi.asp?cmd=WebSave" name="ehelpform" target="_top" style="display:'none';"><input type="hidden" name="data" value="2A0B021F0000004E657720446174756D20496E74657266616365204465736372697074696F6E0C0227000000496E74657261637469766520446174756D20496E74657266616365204465736372697074696F6E0D0227000000496E74657261637469766520446174756D20496E74657266616365204465736372697074696F6E11020D000000446566696E6520446174756D73120227000000496E74657261637469766520446174756D20496E74657266616365204465736372697074696F6E1302090000004B5542452048656C7015020D0000004B5542455F48656C702E68746D1703740100003C3F786D6C2076657273696F6E3D22312E30223F3E0D0A3C21444F43545950452053595354454D20226568656C706F70742E647464223E0D0A3C46494C452D4F5054494F4E532046494C452D56455253494F4E3D2232222046494C452D4B45593D2235623361333161395F613534335F343864305F626465355F376338343231633062386430223E0D0A3C2F46494C452D4F5054494F4E533E0D0A3C4548454C502D4F5054494F4E5320464F524D41542D56455253494F4E3D22312E30223E0D0A203C4F5054494F4E5320454E41424C45443D225945532220454D4245444445443D2259455322204D41494E2D57494E444F572D4F4E4C593D224E4F2220434F4D4D554E4954592D4E4F544946593D224E4F222046495253542D504147453D224E4F542D534554223E0D0A203C2F4F5054494F4E533E0D0A203C425554544F4E2D4C4142454C3E5765625365617263680D0A203C2F425554544F4E2D4C4142454C3E0D0A3C2F4548454C502D4F5054494F4E533E18010400000002000000702A"></form>
 </body>
 </html>

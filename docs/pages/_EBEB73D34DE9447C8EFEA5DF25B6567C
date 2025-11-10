@@ -4,7 +4,7 @@
 
 <meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
 <meta name="description" content="WebHelp 5.50">
-<base target="bsscright">
+
 <style>
 <!--
 body {margin-left:1pt; margin-top:1pt; margin-right:1pt;font-family:Arial; font-size:9pt;}
@@ -29,8 +29,31 @@ A:hover {color:Silver; } A:hover {font-family:Arial; } A:hover {font-size:8pt; }
 
 -->
 </style>
+
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <style>
+        .back-to-index {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 14px;
+        }
+        .back-to-index:hover {
+            background: #764ba2;
+            color: white;
+        }
+    </style>
 </head>
-<body marginheight="0"  marginwidth="0" bgproperties="fixed">
+<body>
+    <a href="../index.html" class="back-to-index">← Back to Index</a>
+
 <p class="ftsbody" align="center"><a href="whlstf63.htm" target="_self" title="previous search group"><b>&lt;&lt;</b></a><br><br></p>
 <p class="ftsbody" style="white-space:nowrap;">
 <a name="bms_UT"></a><a name="subkey_UT"></a>utf <a href="../Inspection_Mode/References/xml_template.htm"><b>1</b></a> <a href="../Inspection_Mode/References/Usage_of_PageVariable_Objects.htm"><b>2</b></a> <br>utilities <a href="../Scanning/Hardware/MMD/Settings/hardware_settings_-_localiser_(cimcore_advanced_settings).htm"><b>1</b></a> <a href="../Inspection_Mode/Menus/System_Menu_Inspection.htm"><b>2</b></a> <a href="../Scanning/Localiser/CimCore/localiser_probe_calibration_cimcore.htm"><b>3</b></a> <a href="../Scanning/Localiser/CimCore/cimcore_arm_set-up.htm"><b>4</b></a> <a href="../References/fit_parallel_planes_(manual).htm"><b>5</b></a> <a href="../References/fit_multiple_lines.htm"><b>6</b></a> <a href="../Scanning/Probe_Points_Capture/capture_static_stripes.htm"><b>7</b></a> <a href="../Scanning/Probe_Points_Capture/capture_static_points.htm"><b>8</b></a> <a href="../Scanning/Probe_Points_Capture/capture_dynamic_points.htm"><b>9</b></a> <a href="../User_Interface/system_menu.htm"><b>10</b></a> <a href="../User_Interface/Shortcut_Keys.htm"><b>11</b></a> <a href="../References/Preferences_-_Datums_-_Capture_Method.htm"><b>12</b></a> <a href="../Scanning/Alignment/Parallel_Plane_Check.htm"><b>13</b></a> <br>utility <a href="../Scanning/Localiser/FARO/faro_arm_set-up.htm"><b>1</b></a> <a href="../Scanning/Localiser/CimCore/cimcore_arm_set-up.htm"><b>2</b></a> <a href="../Troubleshooting/Hardware/ModelMaker_Y-Z_Installation_Troubleshooting.htm"><b>3</b></a> <a href="../Troubleshooting/Hardware/Localiser_Related_Problems.htm"><b>4</b></a> <a href="../Scanning/Localiser/system_setup.htm"><b>5</b></a> <a href="../KUBE_help/What_s_New.htm"><b>6</b></a> <br><a name="bms_UV"></a><a name="subkey_UV"></a>uv <a href="../Scanning/Scanning/profiles.htm"><b>1</b></a> <a href="../References/merge.htm"><b>2</b></a> <a href="../Macros/Commands/Merge.htm"><b>3</b></a> <a href="../References/area_2d_sampling.htm"><b>4</b></a> <a href="../Macros/Parameter_Types.htm"><b>5</b></a> <br>
